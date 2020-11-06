@@ -1,0 +1,11 @@
+Change log:
+------------------------------------
+
+1.0.1:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Eventco theme support external link.
+* NEW FEATURES: Eventco theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.

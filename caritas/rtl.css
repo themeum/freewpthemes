@@ -1,0 +1,542 @@
+
+@import url('css/bootstrap-rtl.min.css');
+
+body{
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+/* Menubar */
+/* Megamenu */
+.wp-megamenu-wrap .wpmm-nav-wrap > ul {
+    left: 0;
+    top: auto;
+    right: auto;
+    float: left;
+}
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu li.wpmm-type-widget,
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu, 
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu li.wpmm-type-widget .wp-megamenu-sub-menu li .wp-megamenu-sub-menu {
+    text-align: right;
+}
+.wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+    right: auto;
+    left: 0;
+}
+.wpmm-nav-wrap.wpmm-main-wrap-primary i.fa.fa-bars {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+span.wpmm-selected-icon {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li ul.wp-megamenu-sub-menu li.wpmm-submenu-right .wpmm-badge {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.wpmm-search-form {
+    left: 90px;
+    right: auto;
+}
+ul.wp-megamenu .product_list_widget li img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu {
+    width: 165%;
+}
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+    margin-left: 1px;
+    margin-right: 3.8%;
+}
+
+
+.elementor-icon-box-title {
+    margin: 0px 22px 0px 0px !important;
+}
+.client-info .person-text, .client-info .person-name, .client-info .person-designation {
+    text-align: right !important;
+}
+.client-img img {
+    margin: 0px 0px 0px 20px !important;
+    float: right !important;
+}
+.bottom-widget .caritas-widgets img {
+    margin-right: 0 !important;
+    margin-left: 20px;
+}
+.bottom-widget .mc4wp-form input[type="email"] {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.menu-footer-menu{
+    text-align: left;
+}
+.menu-footer-menu li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.caritas-widgets.media img {
+    margin-right: 0 !important;
+    margin-left: 15px;
+}
+
+.elementor-widget-tabs .themeum-nav-wrapper .elementor-tab-desktop-title {
+    margin-left: 18px !important;
+}
+.layout2 .pricing-table-price {
+    right: auto;
+    top: 20px;
+    float: left;
+    left: 20px;
+}
+.featured-wrap-quite h2 {
+    margin-right: 5px;
+}
+/* WooCommerce */
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 50px 0 0px;
+} 
+
+.woocommerce #respond label {
+    display: inline-block;
+    float: right;
+    padding-right: 0;
+    padding-left: 10px;
+}
+.product_meta .posted_in, .product_meta span.sku_wrapper {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.elementor-social-icon {
+    margin-right: 0 !important;
+    margin-left: 14px;
+}
+
+.elementor-widget-social-icons{
+    text-align: right !important;
+}
+.caritas-progress-bar .elementor-progress-percentage {
+    margin-top: 0px;
+}
+.elementor-element-lbuvjxi > .elementor-element-populated {
+    padding: 0px 49px 0px 0px !important;
+}
+.entry-summary .wrap-btn-style a.btn-style {
+    float: right;
+}
+
+
+
+
+
+.common-menu {
+    text-align: left;
+}
+.caritas-login-register:after {
+    right: 0;
+    left: auto;
+} 
+
+.common-menu-wrap .nav>li {
+    margin-left: 0;
+    margin-right: 32px;
+}
+.common-menu-wrap .nav>li.menu-item-has-children > a:after {
+    margin-left: 0;
+    left: -14px;
+    position: absolute;
+}
+.caritas-search-wrap {
+    padding-left: 0;
+    padding-right: 15px;
+}
+/* Classes */
+.filterable-class .classFilter {
+    width: 100%;
+    overflow: hidden;
+}
+.filterable-class .classFilter a {
+    display: inline-block;
+}
+.themeum-pagination .page-numbers>li:first-child a, .themeum-pagination .page-numbers>li:first-child {
+    border-radius: 0px 3px 3px 0px;
+}
+.themeum-pagination .page-numbers>li:last-child a, .themeum-pagination .page-numbers>li:last-child {
+    border-radius: 3px 0px 0px 3px;
+}
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu, #wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu li.wpmm-type-widget .wp-megamenu-sub-menu li .wp-megamenu-sub-menu {
+    left: auto;
+    right: 0;
+}
+.woocommerce input[type="text"], .woocommerce input[type="password"], .woocommerce input[type="email"] {
+    padding: 8px;
+}
+#wp-megamenu-primary .wpmm-search-form input {
+    background: #fafafa;
+}
+/* Footer */ 
+.mc4wp-form-fields button {
+    padding: 9px 16px;
+    margin-left: 0;
+    left: 0;
+    top: 0px;
+    border-radius: 3px 0px 0px 3px;
+    right: auto;
+}
+
+.mc4wp-form-fields i.fa.fa-chevron-right, .entry-summary .wrap-btn-style a.btn-style i{
+    transform: rotate(180deg);
+}
+
+/* Campaign */
+.data-author {
+    float: right;
+}
+.data-author img{
+    margin-left: 5px;
+}
+.data-author a {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.data-comments {
+    display: inline-block;
+    float: left;
+}
+.wpcf7-form .caritas-contact input[type=text], .wpcf7-form .caritas-contact input[type=email], .wpcf7-form .caritas-contact textarea {
+    text-align: right;
+}
+.elementor-element.elementor-element-zv6jd6g > .elementor-widget-container {
+    padding: 85px 0 0 !important;
+}
+
+/* Blog Page */
+.caritas-post .grid2 .blog-post-meta li {
+    float: right;
+    margin-right: 0;
+    margin-left: 12px;
+}
+.social-share-wrap {
+    text-align: left;
+    margin-top: 31px;
+} 
+.caritas-post .blog-post-meta li {
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    margin-left: 12px;
+}
+.caritas-single-post-author .avatar, .themeum-pagination .page-numbers>li  {
+    float: right;
+}
+.caritas-single-post-author .caritas-author-meta-data {
+    margin-left: 0;
+    margin-right: 90px;
+}
+.blog-date-wrapper i {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.social-container span {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.campaign-funding-info ul li {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.col-md-8.class-title-content-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+.elementor-inner {
+    margin: 0;
+    padding: 0;
+}
+.elementor-slick-slider .slick-prev {
+    right: 0 !important;
+    left: auto !important;
+}
+.elementor-slick-slider .slick-next {
+    left: 0 !important;
+    right: auto !important;
+}
+.caritas-content-flex li.flex-active-slide:before {
+    margin-left: 0;
+    margin-right: -42px;
+}
+
+.class-social-icons {
+    float: left;
+}
+.class-social-icons ul li {
+    margin: 0px 0px 0px 5px;
+}
+.class-info ul li {
+    float: right;
+}
+.class-content-wrapper {
+    float: right;
+    text-align: right;
+}
+.class-info .blog-post-meta.clearfix {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.class-info .meta-author {
+    margin-right: 0;
+    line-height: 31px;
+    float: right;
+    margin-left: 20px;
+}
+.class-info span {
+    margin-right: 0;
+    float: right;
+}
+.wpcf7-form input[type=text], .wpcf7-form input[type=email], .wpcf7-form textarea {
+    text-align: right;
+}
+.common-menu-wrap {
+    text-align: left;
+}
+.common-menu-wrap .nav>li.menu-item-has-children+.online-booking-button {
+    margin-right: 20px;
+    float: left;
+}
+.common-menu-wrap .nav>li ul {
+    text-align: right;
+    right: 0px;
+}
+.class-thumb-wrapper-layout1 .class-item-content .class-item-content-in, .class-thumb-wrapper-layout3 .class-item-content .class-item-content-in {
+    text-align: right;
+}
+.class-thumb-wrapper-layout1 .class-item-content .class-title:after {
+    right: 0;
+    text-align: right;
+    left: auto;
+}
+.caritas_team .team-content-title {
+    text-align: center;
+}
+.caritas_team .team-content-subtitle {
+    font-size: 14px;
+    text-align: center;
+}
+.latest-review-single-item span.latest-blog-date i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.bg-contact input[type=text], input[type="email"], textarea {
+    text-align: right;
+}
+.contact-submit input[type=submit] {
+    float: left;
+}
+.themeum-google-map-wrap .map-address strong::after {
+    right: 0;
+    left: auto;
+}
+.social-share {
+    text-align: right;
+}
+ .copy-wrapper {
+    text-align: left;
+}
+.single-post .blog-post-meta {
+    text-align: right;
+}
+.entry-blog .img-author, .blog-post-meta .meta-date .img-author {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.social-activities a {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+}
+.single-pre{
+    float: right;
+}
+.single-next{
+    float: left;
+}
+.post-navigation .single-next .next-post a {
+    padding-right: 0;
+    float: right;
+    padding-left: 8px;
+}
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+.fa-long-arrow-left:before {
+    content: "\f178";
+}
+.post-navigation .single-pre .previous-post a {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+.comingsoon .mc4wp-form-fields input[type="email"] {
+    float: right;
+    border-radius: 0 4px 4px 0px;
+}
+.post-navigation .blog-post-review-content .blog-post-review-next {
+    text-align: left;
+}
+
+.blog-post-review-content .blog-post-review-pre img {
+    float: right;
+}
+.comingsoon .mc4wp-form-fields input[type=submit] {
+    border-radius: 4px 0px 0px 4px;
+    margin-right: -9px;
+}
+.post-navigation .blog-post-review-content .blog-post-review-pre {
+    float: right;
+}
+.widget-blog-posts-section .media-left, .widget-blog-posts-section .media>.pull-left {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.pull-left {
+    float: right !important;
+}
+.comment-context .comment-head .comment-author {
+    padding-right: 0;
+    margin-left: 12px;
+}
+
+#sidebar #caritas_social_share_widget-2 ul>li {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.themeum-testimonial-wrap-2 .caritas_testimonial .media-body {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 24px;
+}
+.product-timeline ul li {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.modal .lost-pass {
+    text-align: right;
+}
+.modal label {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.modal .modal-title {
+    text-align: right;
+}
+.themeum-pagination .page-numbers li a.prev .fa-angle-left, .themeum-pagination .page-numbers li a.next .fa-angle-right {
+    font-size: 16px;
+    font-weight: 600;
+    transform: rotate(180deg);
+}
+.class-info span i.fa-share{
+    transform: rotate(180deg);
+}
+.class-info .meta-author a {
+    float: left;
+    padding-right: 6px;
+}
+.class-info .class-tag-cont li {
+    float: right;
+}
+.caritas-search {
+    margin-top: 7px;
+}
+.comment-body .comment-context {
+    margin-left: 0;
+    margin-right: 80px;
+}
+.comment-body .comment-context .comment-reply {
+    right: auto;
+    left: 0;
+}
+/*==================================
+* ======= Responsive Issue ===========
+=======================================*/
+@media only screen and (max-width: 992px){
+   .mobile-register {
+        text-align: left;
+    } 
+    .navbar-toggle {
+        float: left;
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 7px;
+    }
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    #mobile-menu .navbar-nav {
+        width: 100%;
+    }
+    .menu-toggler .fa-angle-right:before {
+        content: "\f104";
+    }
+}
+
+@media (min-width: 768) and (max-width: 990px) { 
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    .mobile-register .caritas-login-register {
+        float: left !important;
+    }
+    .caritas-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    .class-social-icons {
+         width: 35% !important; 
+        float: left;
+    }
+}
+@media (max-width: 767px) {
+    .class-social-icons {
+        float: right;
+    }
+    .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap ul.wp-megamenu {
+        text-align: right;
+    }
+    .wpmm-mobile-menu ul.wp-megamenu li > a b {
+        float: left;
+        padding: 5px;
+    }
+    #wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu {
+        width: 100%;
+    }
+        .woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+        width: 28.3%;
+    }
+    .woocommerce div.product div.images div.thumbnails {
+        margin-left: 0;
+        margin-right: -5px;
+    }
+    .elementor-element-lbuvjxi > .elementor-element-populated {
+        padding: 0px !important;
+    }
+}
+@media (max-width: 489px) {
+    .caritas-search-wrap {
+        padding-left: 0;
+    }
+    .caritas-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}
+

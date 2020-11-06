@@ -1,0 +1,12 @@
+Change log:
+----------------------------
+
+2.0.4:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Flat Pro theme support external link.
+* NEW FEATURES: Flat Pro theme documentation external link.
+
+* FIX: WooCommerce template bug fix.
+* FIX: Change readme text.
+* FIX: CSS bug fix.

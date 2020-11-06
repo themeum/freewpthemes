@@ -1,0 +1,669 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Calcio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-26 06:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: post-format/entry-content.php:51
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: footer.php:22
+msgid "&copy; 2018 Your Company. Designed By THEMEUM"
+msgstr ""
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: post-format/entry-content.php:51
+msgid "0"
+msgstr ""
+
+#: post-format/entry-content.php:51
+msgid "1"
+msgstr ""
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#. Name of the template
+msgid "404 Page Template"
+msgstr ""
+
+#: single.php:70
+msgid "Add"
+msgstr ""
+
+#: single.php:24
+msgid "add"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:45
+msgid "Awaiting product image"
+msgstr ""
+
+#: single-player.php:143
+msgid "Award"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:205
+msgid "Blog"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Fullwidth"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:34
+msgid "Bottom"
+msgstr ""
+
+#: post-format/themeum-loadmore.php:75 post-format/themeum-loadmore.php:96
+#: post-format/themeum-loadmore.php:132
+msgid "By "
+msgstr ""
+
+#. Name of the theme
+msgid "Calcio"
+msgstr ""
+
+#. Description of the theme
+msgid "Calcio Premium Sports Theme."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:277
+msgid "Cancel"
+msgstr ""
+
+#: single-player.php:142
+msgid "Career"
+msgstr ""
+
+#: single-club.php:201
+msgid "Champion"
+msgstr ""
+
+#: single-club.php:138
+msgid "Club History"
+msgstr ""
+
+#. Name of the template
+msgid "Coming Soon"
+msgstr ""
+
+#: comments.php:57
+msgid "Comment"
+msgstr ""
+
+#: comments.php:10
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: single-fixture-result.php:487
+msgid "Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:221
+msgid "Coulumn Number"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:170
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: coming-soon.php:37 single-fixture-result.php:35
+msgid "Days"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:184
+msgid "Description"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:253
+msgid "Down one"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:77 lib/main-function/themeum-core.php:108
+msgid "Edit"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:130
+#: lib/menu/admin-megamenu-walker.php:132
+msgid "Edit Menu Item"
+msgstr ""
+
+#: comments.php:48
+msgid "Email"
+msgstr ""
+
+#: post-format/content-none.php:8
+msgid "Error Search"
+msgstr ""
+
+#: post-format/content-none.php:17
+msgid "Find Course, Tutorials"
+msgstr ""
+
+#: taxonomy-tournament.php:405
+msgid "Fixtures"
+msgstr ""
+
+#: header.php:217 lib/topbar.php:117
+msgid "Forgot password?"
+msgstr ""
+
+#. Name of the template
+msgid "Full Page"
+msgstr ""
+
+#: 404.php:19
+msgid "Go Back Home"
+msgstr ""
+
+#: taxonomy-tournament.php:404
+msgid "Groups"
+msgstr ""
+
+#: index.php:36
+msgid "Highlight"
+msgstr ""
+
+#: category.php:135
+msgid "Highlights"
+msgstr ""
+
+#: 404.php:19
+msgid "HOME"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:143
+msgid "Home"
+msgstr ""
+
+#. Name of the template
+msgid "Homepage Default"
+msgstr ""
+
+#: single-club.php:141
+msgid "Honours"
+msgstr ""
+
+#: coming-soon.php:38 single-fixture-result.php:39
+msgid "Hours"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeum.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://themeum.com/wordpress/calcio"
+msgstr ""
+
+#: single-club.php:234 single-club.php:262 single-player.php:223
+#: lib/menu/admin-megamenu-walker.php:193
+msgid "Image"
+msgstr ""
+
+#: single-fixture-result.php:680 single-fixture-result.php:682
+#: single-fixture-result.php:697 single-fixture-result.php:699
+#: single-fixture-result.php:702 single-fixture-result.php:741
+#: single-fixture-result.php:743 single-fixture-result.php:774
+#: single-fixture-result.php:776 post-format/content-gallery.php:31
+msgid "image"
+msgstr ""
+
+#: post-format/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: single-club.php:143
+msgid "Jersey"
+msgstr ""
+
+#: header.php:218 lib/topbar.php:118
+msgid "Join today"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:13
+msgid "Left Sidebar"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: header.php:107 lib/topbar.php:29 lib/topbar.php:65
+msgid "Login"
+msgstr ""
+
+#: category.php:45 category.php:362 category.php:362 header.php:34
+#: header.php:34
+msgid "Logo"
+msgstr ""
+
+#: header.php:104 lib/topbar.php:26 lib/topbar.php:62
+msgid "Logout"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:176
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: functions.php:15
+msgid "Main Menu"
+msgstr ""
+
+#: single-fixture-result.php:483
+msgid "Match Stats"
+msgstr ""
+
+#: lib/sub-header.php:121
+msgid "Matches"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:206
+#: lib/menu/admin-megamenu-walker.php:233
+msgid "Megamenu Settings"
+msgstr ""
+
+#: single-fixture-result.php:595
+msgid "min"
+msgstr ""
+
+#: coming-soon.php:39 single-fixture-result.php:43
+msgid "Minutes"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:53
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:251
+msgid "Move"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:128
+msgid "Move down"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:115
+msgid "Move up"
+msgstr ""
+
+#: comments.php:47
+msgid "Name"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:149
+msgid "Navigation Label"
+msgstr ""
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: single-fixture-result.php:22
+msgid "Next Match"
+msgstr ""
+
+#: single-point_table.php:81
+msgid "No"
+msgstr ""
+
+#: comments.php:10
+msgid "No Comment"
+msgstr ""
+
+#: header.php:218 lib/topbar.php:118
+msgid "Not a member?"
+msgstr ""
+
+#: post-format/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:10
+msgid "One Comment"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:164
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:263
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: woocommerce/single-product/review.php:47
+msgid "out of 5"
+msgstr ""
+
+#: single-player.php:140
+msgid "Overview"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Right Sidebar"
+msgstr ""
+
+#: page.php:24 post-format/entry-content-blog.php:22
+msgid "Pages:"
+msgstr ""
+
+#: header.php:215 lib/topbar.php:115
+msgid "Password"
+msgstr ""
+
+#: single-player.php:190
+msgid "photo"
+msgstr ""
+
+#: single-club.php:142 single-player.php:144
+msgid "Photos"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:73
+msgid "Pingback:"
+msgstr ""
+
+#: lib/sub-header.php:123
+msgid "Players"
+msgstr ""
+
+#: lib/sub-header.php:125
+msgid "Point Table"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:201
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/themeum-core.php:159
+#: lib/main-function/themeum-core.php:161
+#: lib/main-function/themeum-core.php:163
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:157
+msgid "Posts Tagged "
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: lib/sub-header.php:127
+msgid "Product Details"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/single-product/review.php:46
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: post-format/content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: woocommerce/single-product/related.php:19
+msgid "Related Products"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:276
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:121
+msgid "Reply"
+msgstr ""
+
+#: taxonomy-tournament.php:406
+msgid "Results"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:22
+msgid "Right Sidebar"
+msgstr ""
+
+#: lib/sub-header.php:95
+msgid "Search"
+msgstr ""
+
+#: header.php:95
+msgid "Search . . . . ."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search ..."
+msgstr ""
+
+#: lib/main-function/themeum-core.php:165
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:16
+msgid "Secondary Menu"
+msgstr ""
+
+#: coming-soon.php:40 single-fixture-result.php:47
+msgid "Seconds"
+msgstr ""
+
+#: comments.php:58
+msgid "Send Comment"
+msgstr ""
+
+#: lib/sub-header.php:80
+msgid "Shop"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:154
+msgid "shop"
+msgstr ""
+
+#: header.php:108 lib/topbar.php:30 lib/topbar.php:66
+msgid "Sign Up"
+msgstr ""
+
+#: 404.php:17
+msgid "Something is wrong"
+msgstr ""
+
+#: post-format/content-none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: single-club.php:140
+msgid "Squad"
+msgstr ""
+
+#: taxonomy-tournament.php:407
+msgid "Standings"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: lib/menu/admin-megamenu-walker.php:100
+msgid "sub item"
+msgstr ""
+
+#: single-fixture-result.php:486
+msgid "Substitutes"
+msgstr ""
+
+#: single-point_table.php:81
+msgid "TEAM"
+msgstr ""
+
+#: single-fixture-result.php:485 lib/sub-header.php:119
+msgid "Team"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:186
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"The page you are looking for was moved, removed, renamed or might never "
+"existed.."
+msgstr ""
+
+#. Author of the theme
+msgid "Themeum"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:146
+msgid "Themeum Core"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:156
+msgid "Themeum Demo Importer"
+msgstr ""
+
+#: single-fixture-result.php:484
+msgid "Timeline"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:256
+msgid "To the top"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:119
+msgid "Total"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:252
+msgid "Up one"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:141
+msgid "URL"
+msgstr ""
+
+#: header.php:214 lib/topbar.php:114
+msgid "User Name"
+msgstr ""
+
+#: woocommerce/single-product/review.php:37
+msgid "verified owner"
+msgstr ""
+
+#: comments.php:49
+msgid "Website url"
+msgstr ""
+
+#: header.php:211 lib/topbar.php:111
+msgid "Welcome"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:191
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:36
+msgid "Widgets in this area will be shown before Bottom."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:15
+msgid "Widgets in this area will be shown on Left Sidebar."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:24
+msgid "Widgets in this area will be shown on Right Sidebar."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:181
+msgid "WP Mega Menu"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:166
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: woocommerce/single-product/review.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:113
+msgid "Your comment is awaiting moderation."
+msgstr ""

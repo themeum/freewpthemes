@@ -1,0 +1,512 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Caritas\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-07 06:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: post-format/content-gallery.php:99 post-format/content-gallery.php:162
+#: post-format/content.php:86 post-format/content.php:149
+#: post-format/content-audio.php:71 post-format/content-audio.php:134
+#: post-format/content-video.php:79 post-format/content-video.php:142
+#: post-format/content-quote.php:77 post-format/content-quote.php:140
+#: post-format/content-link.php:75 post-format/content-link.php:138
+#: post-format/content-image.php:86 post-format/content-image.php:149
+msgid " Comments"
+msgstr ""
+
+#: post-format/content-gallery.php:78 post-format/content-gallery.php:123
+#: post-format/content.php:65 post-format/content.php:110
+#: post-format/content-audio.php:50 post-format/content-audio.php:95
+#: post-format/content-video.php:58 post-format/content-video.php:103
+#: post-format/content-quote.php:56 post-format/content-quote.php:101
+#: post-format/content-link.php:54 post-format/content-link.php:99
+#: post-format/content-image.php:65 post-format/content-image.php:110
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: 404.php:11
+msgid "404"
+msgstr ""
+
+#. Name of the template
+msgid "404 Page Template"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:42
+msgid "<i class=\"fa fa-long-arrow-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:43
+msgid "<i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/sub-header.php:117
+msgid "Albums"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:226
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: 404.php:14
+msgid "Back To Home"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:159
+msgid "Blog"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Fullwidth"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:22
+msgid "Bottom 1"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:33
+msgid "Bottom 2"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:44
+msgid "Bottom 3"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:54
+msgid "Bottom 4"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:64
+msgid "Bottom 5"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:217
+msgid "Cancel"
+msgstr ""
+
+#. Name of the theme
+msgid "Caritas"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:181
+msgid "Caritas Core"
+msgstr ""
+
+#. Name of the template
+msgid "Cause"
+msgstr ""
+
+#: lib/sub-header.php:125
+msgid "Cause Details"
+msgstr ""
+
+#. Name of the template
+msgid "Coming Soon"
+msgstr ""
+
+#: comments.php:22
+msgid "Comment"
+msgstr ""
+
+#: comments.php:33
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:170
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: coming-soon.php:28
+msgid "Days"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:184
+msgid "Description"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:193
+msgid "Down one"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:79
+msgid "Edit"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:130
+#: lib/menu/admin-megamenu-walker.php:132
+msgid "Edit Menu Item"
+msgstr ""
+
+#: comments.php:13
+msgid "Email"
+msgstr ""
+
+#: post-format/content-none.php:7
+msgid "Error Search"
+msgstr ""
+
+#: lib/sub-header.php:115
+msgid "Event Details"
+msgstr ""
+
+#: post-format/social-buttons.php:14
+msgid "Facebook"
+msgstr ""
+
+#: post-format/content-none.php:16
+msgid "Find Course, Tutorials"
+msgstr ""
+
+#: functions.php:19
+msgid "Footer Menu"
+msgstr ""
+
+#: lib/sub-header.php:119
+msgid "Gallery"
+msgstr ""
+
+#: post-format/social-buttons.php:20
+msgid "Google Plus"
+msgstr ""
+
+#: 404.php:14
+msgid "HOME"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:109
+msgid "Home"
+msgstr ""
+
+#. Name of the template
+msgid "Homepage Default"
+msgstr ""
+
+#: coming-soon.php:29
+msgid "Hours"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.themeum.com/wordpress/caritas"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeum.com/"
+msgstr ""
+
+#: post-format/content-gallery.php:51
+msgid "image"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:221
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:220
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:222
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: post-format/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: post-format/social-buttons.php:26
+msgid "Linkedin"
+msgstr ""
+
+#: coming-soon.php:21 header.php:47 header.php:47
+msgid "Logo"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:162
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: coming-soon.php:30
+msgid "Minutes"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:191
+msgid "Move"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:128
+msgid "Move down"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:115
+msgid "Move up"
+msgstr ""
+
+#: comments.php:12
+msgid "Name"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:149
+msgid "Navigation Label"
+msgstr ""
+
+#: comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:33
+msgid "No Comment"
+msgstr ""
+
+#: post-format/content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:33
+msgid "One Comment"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:164
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:203
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#. Name of the template
+msgid "Page Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Right Sidebar"
+msgstr ""
+
+#: page.php:20 post-format/entry-content.php:9
+#: post-format/entry-content-cause.php:9
+msgid "Pages:"
+msgstr ""
+
+#: lib/sub-header.php:121
+msgid "Performer"
+msgstr ""
+
+#: post-format/social-buttons.php:23
+msgid "Pinterest"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:225
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/main-function/themeum-core.php:155
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/themeum-core.php:114
+#: lib/main-function/themeum-core.php:116
+#: lib/main-function/themeum-core.php:118
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:112
+msgid "Posts Tagged "
+msgstr ""
+
+#. Description of the theme
+msgid "Premium WordPress Charity Theme."
+msgstr ""
+
+#: functions.php:18
+msgid "Primary Menu"
+msgstr ""
+
+#: lib/sub-header.php:123
+msgid "Product Details"
+msgstr ""
+
+#: post-format/content-none.php:4
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:216
+msgid "Remove"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:85
+msgid "Reply"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:224
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/sub-header.php:89
+msgid "Search"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search . . . . ."
+msgstr ""
+
+#: lib/main-function/themeum-core.php:120
+msgid "Search results for"
+msgstr ""
+
+#: coming-soon.php:31
+msgid "Seconds"
+msgstr ""
+
+#: comments.php:23
+msgid "Send Comment"
+msgstr ""
+
+#: lib/sub-header.php:69
+msgid "Shop"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:223
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: post-format/content-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: lib/menu/admin-megamenu-walker.php:100
+msgid "sub item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:186
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#. Author of the theme
+msgid "Themeum"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:196
+msgid "To the top"
+msgstr ""
+
+#: post-format/social-buttons.php:17
+msgid "Twitter"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:192
+msgid "Up one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:141
+msgid "URL"
+msgstr ""
+
+#: comments.php:14
+msgid "Website url"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:200
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:24
+msgid "Widgets in this area will be shown before Bottom 1."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:35
+msgid "Widgets in this area will be shown before Bottom 2."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:46
+msgid "Widgets in this area will be shown before Bottom 3."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:56
+msgid "Widgets in this area will be shown before Bottom 4."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:66
+msgid "Widgets in this area will be shown before Bottom 5."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:13
+msgid "Widgets in this area will be shown on Sidebar."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:191
+msgid "WP Mega Menu"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:152
+msgid "WP Page Builder Pro"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:143
+msgid "Wp Pagebuilder"
+msgstr ""
+
+#: comments.php:19
+msgid "Write a comment"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:82
+msgid "Your comment is awaiting moderation."
+msgstr ""

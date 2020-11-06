@@ -1,0 +1,130 @@
+/* blog single page*/
+
+.featured-wrap .carousel-inner img {
+    margin-bottom: 60px;
+}
+
+.blog-content-wrapper{
+  background: #fff;
+}
+
+.meta-category {
+  margin: 15px 0 10px;
+  color: #999;
+}
+
+.meta-category a {
+  color: #999;
+  margin-right: 5px;
+}
+
+
+.blog-content-wrapper h2.entry-title.blog-entry-title{
+	font-size: 34px;
+  margin-bottom: 20px;
+  color: #000;
+  margin-top: 0;
+}
+
+.blog-content-wrapper h1,
+.blog-content-wrapper h2,
+.blog-content-wrapper h3,
+.blog-content-wrapper h4,
+.blog-content-wrapper h5{
+  line-height: 1;
+}
+
+.single-post .blog-post-meta{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+.single-post .blog-post-meta .entry-header .blog-entry-title{
+    font-size: 30px;
+    color: #000;
+    padding-top: 55px;
+    text-align: left;
+}
+
+.blog-content-wrapper .entry-headder li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.blog-content-wrapper .entry-headder li a{
+  color: #777;
+  padding-left: 8px;
+}
+
+.form-submit {
+  margin: 30px 0 0;
+  float: right;
+}
+
+.form-submit input[type=submit] {
+    background: #00aeef;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.comments-area .comment-form input[type=text]:nth-child(1){
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 31.28%;
+    margin-right: 25px;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 45px;
+}
+
+.comments-area .comment-form input[type=text]:nth-child(2){
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 31.28%;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 45px;
+
+}
+.comments-area .comment-form input[type=text]:last-child{
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 31.28%;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 45px;
+    float: right;
+}
+.comments-area textarea {
+    border: 1px solid rgba(0, 0, 0, .15);
+    padding: 11px;
+    width: 100%;
+    border-radius: 4px;
+    min-height: 130px;
+}
+.blog-details-img img{
+  padding-bottom: 60px;
+}
+
+.featured-wrap .entry-content-gallery a.left.carousel-left {
+    transform: translateY(-50%);
+    top: 43%;
+    position: absolute;
+    padding: 20px;
+    font-size: 70px;
+}
+
+.featured-wrap .entry-content-gallery a.right i{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 43%;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    padding: 20px;
+}

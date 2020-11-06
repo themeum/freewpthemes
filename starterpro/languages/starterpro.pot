@@ -1,0 +1,2877 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StarterPro\n"
+"POT-Creation-Date: 2017-01-10 13:39+0600\n"
+"PO-Revision-Date: 2017-01-10 13:39+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "Page not Found."
+msgstr ""
+
+#: 404.php:16 lib/customizer/customizer-config.php:1033
+msgid ""
+"The page you are looking for was moved, removed, renamed or might never "
+"existed.."
+msgstr ""
+
+#: 404.php:17
+msgid "HOME"
+msgstr ""
+
+#: 404.php:17 lib/customizer/customizer-config.php:1040
+msgid "Go Back Home"
+msgstr ""
+
+#: coming-soon.php:29
+msgid "Days"
+msgstr ""
+
+#: coming-soon.php:30
+msgid "Hours"
+msgstr ""
+
+#: coming-soon.php:31
+msgid "Minutes"
+msgstr ""
+
+#: coming-soon.php:32
+msgid "Seconds"
+msgstr ""
+
+#: comments.php:10
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:10
+msgid "One Comments"
+msgstr ""
+
+#: comments.php:10
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:47 lib/addons/themeum-team.php:40
+#: lib/addons/themeum-testimonial.php:49
+msgid "Name"
+msgstr ""
+
+#: comments.php:48
+msgid "Email"
+msgstr ""
+
+#: comments.php:49
+msgid "Website url"
+msgstr ""
+
+#: comments.php:56
+msgid "Comment"
+msgstr ""
+
+#: comments.php:57
+msgid "Send Comment"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:33
+msgid "Logo"
+msgstr ""
+
+#: lib/addons/client-carousel.php:12
+msgid "Client Carousel"
+msgstr ""
+
+#: lib/addons/client-carousel.php:20 lib/addons/team-carousel.php:20
+#: lib/addons/testimonal-carousel.php:20
+msgid "Show Column"
+msgstr ""
+
+#: lib/addons/client-carousel.php:24 lib/addons/team-carousel.php:23
+#: lib/addons/testimonal-carousel.php:24 lib/addons/themeum-latest-post.php:44
+#: lib/addons/themeum-project-addons.php:49
+msgid "Column 2"
+msgstr ""
+
+#: lib/addons/client-carousel.php:25 lib/addons/team-carousel.php:24
+#: lib/addons/testimonal-carousel.php:25 lib/addons/themeum-latest-post.php:42
+#: lib/addons/themeum-project-addons.php:50
+msgid "Column 3"
+msgstr ""
+
+#: lib/addons/client-carousel.php:26 lib/addons/team-carousel.php:25
+#: lib/addons/testimonal-carousel.php:26 lib/addons/themeum-latest-post.php:43
+#: lib/addons/themeum-project-addons.php:51
+msgid "Column 4"
+msgstr ""
+
+#: lib/addons/client-carousel.php:27 lib/addons/team-carousel.php:26
+#: lib/addons/testimonal-carousel.php:27
+msgid "Column 5"
+msgstr ""
+
+#: lib/addons/client-carousel.php:28 lib/addons/team-carousel.php:27
+#: lib/addons/themeum-latest-post.php:41
+#: lib/addons/themeum-project-addons.php:52
+msgid "Column 6"
+msgstr ""
+
+#: lib/addons/client-carousel.php:34 lib/addons/team-carousel.php:33
+#: lib/addons/testimonal-carousel.php:33 lib/addons/thm-classic-slider.php:206
+msgid "Show Pagination"
+msgstr ""
+
+#: lib/addons/client-carousel.php:37 lib/addons/client-carousel.php:48
+#: lib/addons/team-carousel.php:36 lib/addons/team-carousel.php:46
+#: lib/addons/testimonal-carousel.php:36 lib/addons/testimonal-carousel.php:47
+#: lib/addons/testimonal-carousel.php:57
+#: lib/addons/themeum-latest-post.php:121
+#: lib/addons/themeum-project-addons.php:73
+#: lib/addons/themeum-project-addons.php:84
+#: lib/addons/themeum-project-addons.php:99
+#: lib/addons/themeum-project-addons.php:119
+#: lib/addons/themeum-project-addons.php:130
+#: lib/addons/thm-classic-slider.php:54 lib/addons/thm-classic-slider.php:209
+#: lib/addons/thm-classic-slider.php:219
+#: lib/meta-box/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: lib/addons/client-carousel.php:38 lib/addons/client-carousel.php:49
+#: lib/addons/team-carousel.php:37 lib/addons/team-carousel.php:47
+#: lib/addons/testimonal-carousel.php:37 lib/addons/testimonal-carousel.php:48
+#: lib/addons/testimonal-carousel.php:58
+#: lib/addons/themeum-latest-post.php:122
+#: lib/addons/themeum-project-addons.php:74
+#: lib/addons/themeum-project-addons.php:85
+#: lib/addons/themeum-project-addons.php:100
+#: lib/addons/themeum-project-addons.php:120
+#: lib/addons/themeum-project-addons.php:131
+#: lib/addons/thm-classic-slider.php:55 lib/addons/thm-classic-slider.php:210
+#: lib/addons/thm-classic-slider.php:220
+#: lib/meta-box/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: lib/addons/client-carousel.php:45 lib/addons/team-carousel.php:43
+#: lib/addons/testimonal-carousel.php:54 lib/addons/thm-classic-slider.php:216
+msgid "Auto play"
+msgstr ""
+
+#: lib/addons/client-carousel.php:55 lib/addons/team-carousel.php:54
+#: lib/addons/testimonal-carousel.php:64
+#: lib/addons/themeum-latest-post.php:132
+#: lib/addons/themeum-project-addons.php:172 lib/addons/themeum-team.php:94
+#: lib/addons/themeum-testimonial.php:85 lib/addons/themeum-video-popup.php:43
+msgid "Custom class"
+msgstr ""
+
+#: lib/addons/client-carousel.php:57 lib/addons/team-carousel.php:56
+#: lib/addons/testimonal-carousel.php:66
+#: lib/addons/themeum-latest-post.php:134
+#: lib/addons/themeum-project-addons.php:174 lib/addons/themeum-team.php:96
+#: lib/addons/themeum-testimonial.php:87 lib/addons/themeum-video-popup.php:45
+msgid "Enter extra custom class"
+msgstr ""
+
+#: lib/addons/team-carousel.php:12
+msgid "Team Carousel"
+msgstr ""
+
+#: lib/addons/testimonal-carousel.php:12
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: lib/addons/testimonal-carousel.php:23
+msgid "Column 1"
+msgstr ""
+
+#: lib/addons/testimonal-carousel.php:44
+msgid "Show Navigation"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:13
+msgid "Add themeum latest post"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:20
+#: lib/addons/themeum-project-addons.php:21 lib/addons/themeum-team.php:21
+#: lib/addons/themeum-testimonial.php:21 lib/addons/themeum-title.php:20
+msgid "Select layout"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:32
+msgid "Content Type"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:34
+msgid "Choose supported content type such as post, custom post type, etc."
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:38
+#: lib/addons/themeum-latest-post.php:108
+msgid "Order By"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:50
+#: lib/addons/themeum-project-addons.php:34
+msgid "Number of posts displayed"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:52
+#: lib/addons/themeum-project-addons.php:36
+#: lib/addons/themeum-project-addons.php:60
+msgid "The number of posts you want to show."
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:62 lib/addons/themeum-team.php:46
+#: lib/addons/themeum-testimonial.php:55
+#: lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:80
+msgid "Order by"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:84
+msgid "Post ID"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:85
+msgid "Author"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:86
+#: lib/addons/themeum-project-addons.php:152
+#: lib/addons/thm-classic-slider.php:43
+msgid "Title"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:87
+msgid "Post name (post slug)"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:88
+msgid "Post type (available since Version 4.0)"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:89
+#: lib/addons/themeum-project-addons.php:153
+msgid "Date"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:90
+msgid "Last modified date"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:91
+msgid "Random order"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:92
+msgid "Number of comments"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:97
+msgid "Limit Words"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:100
+msgid "Limit words you want show as short description"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:111
+msgid "Descending"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:112
+msgid "Ascending"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:117
+msgid "Show Author"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:145
+#: lib/addons/themeum-latest-post.php:157
+#: lib/addons/themeum-latest-post.php:184
+#: lib/addons/themeum-latest-post.php:195
+#: lib/addons/themeum-project-addons.php:185
+#: lib/addons/themeum-project-addons.php:198
+#: lib/addons/themeum-project-addons.php:211
+#: lib/addons/themeum-project-addons.php:218 lib/addons/themeum-team.php:219
+#: lib/addons/themeum-team.php:231 lib/addons/themeum-team.php:249
+#: lib/addons/themeum-testimonial.php:98
+#: lib/addons/themeum-testimonial.php:110
+#: lib/addons/themeum-testimonial.php:131 lib/addons/themeum-title.php:234
+#: lib/addons/themeum-title.php:247 lib/addons/themeum-title.php:259
+#: lib/addons/themeum-title.php:271 lib/addons/themeum-video-popup.php:65
+#: lib/addons/thm-classic-slider.php:240 lib/addons/thm-classic-slider.php:251
+#: lib/addons/thm-classic-slider.php:262
+msgid "Color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:146
+#: lib/addons/themeum-latest-post.php:158
+#: lib/addons/themeum-latest-post.php:196 lib/addons/themeum-team.php:220
+#: lib/addons/themeum-video-popup.php:66 lib/addons/thm-classic-slider.php:263
+#: lib/customizer/customizer-config.php:662
+msgid "Hover Color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:147
+#: lib/addons/themeum-latest-post.php:159
+#: lib/addons/themeum-latest-post.php:185
+#: lib/addons/themeum-latest-post.php:199
+#: lib/addons/themeum-project-addons.php:187
+#: lib/addons/themeum-project-addons.php:200 lib/addons/themeum-team.php:221
+#: lib/addons/themeum-team.php:232 lib/addons/themeum-team.php:250
+#: lib/addons/themeum-testimonial.php:99
+#: lib/addons/themeum-testimonial.php:111
+#: lib/addons/themeum-testimonial.php:132 lib/addons/themeum-title.php:235
+#: lib/addons/themeum-title.php:248 lib/addons/themeum-title.php:260
+#: lib/addons/themeum-title.php:272 lib/addons/thm-classic-slider.php:241
+#: lib/addons/thm-classic-slider.php:252 lib/addons/thm-classic-slider.php:266
+msgid "Font Family"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:148
+#: lib/addons/themeum-latest-post.php:160
+#: lib/addons/themeum-latest-post.php:186
+#: lib/addons/themeum-latest-post.php:200
+#: lib/addons/themeum-project-addons.php:188
+#: lib/addons/themeum-project-addons.php:201
+#: lib/addons/themeum-project-addons.php:215 lib/addons/themeum-team.php:222
+#: lib/addons/themeum-team.php:233 lib/addons/themeum-team.php:251
+#: lib/addons/themeum-team.php:262 lib/addons/themeum-testimonial.php:100
+#: lib/addons/themeum-testimonial.php:112
+#: lib/addons/themeum-testimonial.php:133 lib/addons/themeum-title.php:236
+#: lib/addons/themeum-title.php:249 lib/addons/themeum-title.php:261
+#: lib/addons/themeum-title.php:273 lib/addons/themeum-video-popup.php:67
+#: lib/addons/thm-classic-slider.php:242 lib/addons/thm-classic-slider.php:253
+#: lib/addons/thm-classic-slider.php:268
+msgid "Font Size"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:149
+#: lib/addons/themeum-latest-post.php:161
+#: lib/addons/themeum-latest-post.php:187
+#: lib/addons/themeum-latest-post.php:201
+#: lib/addons/themeum-project-addons.php:216 lib/addons/themeum-team.php:223
+#: lib/addons/themeum-team.php:234 lib/addons/themeum-team.php:252
+#: lib/addons/themeum-team.php:263 lib/addons/themeum-testimonial.php:101
+#: lib/addons/themeum-testimonial.php:113
+#: lib/addons/themeum-testimonial.php:134
+#: lib/addons/thm-classic-slider.php:243 lib/addons/thm-classic-slider.php:254
+#: lib/addons/thm-classic-slider.php:269
+msgid "Line Height"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:150
+#: lib/addons/themeum-latest-post.php:162
+#: lib/addons/themeum-latest-post.php:188
+#: lib/addons/themeum-latest-post.php:202
+#: lib/addons/themeum-project-addons.php:217 lib/addons/themeum-team.php:224
+#: lib/addons/themeum-team.php:235 lib/addons/themeum-team.php:253
+#: lib/addons/themeum-testimonial.php:102
+#: lib/addons/themeum-testimonial.php:114
+#: lib/addons/themeum-testimonial.php:135
+#: lib/addons/thm-classic-slider.php:244 lib/addons/thm-classic-slider.php:255
+#: lib/addons/thm-classic-slider.php:270
+msgid "Font Weight"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:151
+#: lib/addons/themeum-latest-post.php:163
+#: lib/addons/themeum-latest-post.php:189
+#: lib/addons/themeum-latest-post.php:203
+#: lib/addons/themeum-project-addons.php:193
+#: lib/addons/themeum-project-addons.php:206 lib/addons/themeum-team.php:225
+#: lib/addons/themeum-team.php:236 lib/addons/themeum-team.php:254
+#: lib/addons/themeum-testimonial.php:104
+#: lib/addons/themeum-testimonial.php:116
+#: lib/addons/themeum-testimonial.php:136 lib/addons/themeum-title.php:241
+#: lib/addons/themeum-title.php:253 lib/addons/themeum-title.php:265
+#: lib/addons/themeum-title.php:276 lib/addons/thm-classic-slider.php:245
+#: lib/addons/thm-classic-slider.php:256 lib/addons/thm-classic-slider.php:271
+msgid "Text Transform"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:152
+#: lib/addons/themeum-latest-post.php:164
+#: lib/addons/themeum-latest-post.php:190 lib/addons/themeum-team.php:83
+#: lib/addons/themeum-team.php:255 lib/addons/themeum-testimonial.php:105
+#: lib/addons/themeum-testimonial.php:117
+#: lib/addons/themeum-testimonial.php:137
+#: lib/addons/themeum-testimonial.php:146
+#: lib/addons/themeum-video-popup.php:77
+msgid "Text Align"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:153
+#: lib/addons/themeum-latest-post.php:165
+#: lib/addons/themeum-latest-post.php:172
+#: lib/addons/themeum-latest-post.php:180
+#: lib/addons/themeum-latest-post.php:192
+#: lib/addons/themeum-latest-post.php:207
+#: lib/addons/themeum-project-addons.php:195
+#: lib/addons/themeum-project-addons.php:208
+#: lib/addons/themeum-project-addons.php:223
+#: lib/addons/themeum-project-addons.php:229 lib/addons/themeum-team.php:227
+#: lib/addons/themeum-team.php:238 lib/addons/themeum-team.php:245
+#: lib/addons/themeum-team.php:257 lib/addons/themeum-team.php:264
+#: lib/addons/themeum-team.php:271 lib/addons/themeum-testimonial.php:106
+#: lib/addons/themeum-testimonial.php:118
+#: lib/addons/themeum-testimonial.php:127
+#: lib/addons/themeum-testimonial.php:139
+#: lib/addons/themeum-testimonial.php:148 lib/addons/themeum-title.php:244
+#: lib/addons/themeum-title.php:255 lib/addons/themeum-title.php:267
+#: lib/addons/themeum-title.php:279 lib/addons/themeum-title.php:282
+#: lib/addons/themeum-video-popup.php:61 lib/addons/themeum-video-popup.php:75
+#: lib/addons/thm-classic-slider.php:247 lib/addons/thm-classic-slider.php:258
+#: lib/addons/thm-classic-slider.php:275
+msgid "Margin"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:154
+#: lib/addons/themeum-latest-post.php:166
+#: lib/addons/themeum-latest-post.php:173
+#: lib/addons/themeum-latest-post.php:181
+#: lib/addons/themeum-latest-post.php:191
+#: lib/addons/themeum-latest-post.php:208
+#: lib/addons/themeum-project-addons.php:194
+#: lib/addons/themeum-project-addons.php:207
+#: lib/addons/themeum-project-addons.php:224
+#: lib/addons/themeum-project-addons.php:230 lib/addons/themeum-team.php:228
+#: lib/addons/themeum-team.php:239 lib/addons/themeum-team.php:246
+#: lib/addons/themeum-team.php:256 lib/addons/themeum-team.php:265
+#: lib/addons/themeum-team.php:272 lib/addons/themeum-testimonial.php:107
+#: lib/addons/themeum-testimonial.php:119
+#: lib/addons/themeum-testimonial.php:128
+#: lib/addons/themeum-testimonial.php:138
+#: lib/addons/themeum-testimonial.php:149 lib/addons/themeum-title.php:243
+#: lib/addons/themeum-title.php:256 lib/addons/themeum-title.php:268
+#: lib/addons/themeum-title.php:278 lib/addons/themeum-title.php:283
+#: lib/addons/themeum-video-popup.php:62 lib/addons/themeum-video-popup.php:76
+#: lib/addons/thm-classic-slider.php:248 lib/addons/thm-classic-slider.php:259
+#: lib/addons/thm-classic-slider.php:276
+msgid "Padding"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:169
+#: lib/addons/themeum-latest-post.php:176 lib/addons/themeum-team.php:242
+#: lib/addons/themeum-team.php:268 lib/addons/themeum-testimonial.php:122
+#: lib/addons/themeum-testimonial.php:142
+#: lib/addons/thm-classic-slider.php:185 lib/addons/thm-google-map.php:57
+#: lib/customizer/customizer-config.php:695
+#: lib/customizer/customizer-config.php:768
+msgid "Background Color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:170
+#: lib/addons/themeum-latest-post.php:178
+#: lib/addons/themeum-latest-post.php:204
+#: lib/addons/themeum-project-addons.php:220 lib/addons/themeum-team.php:243
+#: lib/addons/themeum-testimonial.php:125
+#: lib/addons/themeum-video-popup.php:72 lib/addons/thm-classic-slider.php:272
+msgid "Border"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:171
+#: lib/addons/themeum-latest-post.php:179
+#: lib/addons/themeum-latest-post.php:206
+#: lib/addons/themeum-project-addons.php:222
+#: lib/addons/themeum-project-addons.php:228
+#: lib/addons/themeum-video-popup.php:60 lib/addons/themeum-video-popup.php:74
+#: lib/addons/thm-classic-slider.php:274
+#: lib/customizer/customizer-config.php:724
+msgid "Border Radius"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:177
+#: lib/addons/themeum-latest-post.php:198
+msgid "Hover BG Color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:197
+msgid "BG color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:205
+#: lib/addons/thm-classic-slider.php:273
+msgid "Border Hover Color"
+msgstr ""
+
+#: lib/addons/themeum-latest-post.php:321
+#: lib/addons/themeum-latest-post.php:350
+#: lib/addons/themeum-latest-post.php:373
+msgid "Read More"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:13
+msgid "Add themeum project"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:46
+msgid "Select Column"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:58
+msgid "Space between each item"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:71
+msgid "Show Title"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:82
+msgid "Show external link"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:97
+msgid "Show category"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:107
+msgid "Show category before title"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:117
+msgid "Show image Popup"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:128
+msgid "Show Filter"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:139
+msgid "Project order"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:141
+#: lib/addons/themeum-project-addons.php:163 lib/addons/themeum-title.php:210
+#: lib/addons/themeum-video-popup.php:35 lib/addons/thm-classic-slider.php:33
+msgid "Left"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:142
+#: lib/addons/themeum-project-addons.php:164 lib/addons/themeum-title.php:211
+#: lib/addons/themeum-video-popup.php:36 lib/addons/thm-classic-slider.php:34
+msgid "Center"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:149
+msgid "Project orderby"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:151
+msgid "Menu order"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:154
+msgid "Rand"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:161
+msgid "Project wrap align"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:165 lib/addons/themeum-title.php:212
+#: lib/addons/themeum-video-popup.php:37 lib/addons/thm-classic-slider.php:35
+msgid "Right"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:168
+msgid "Select the projet wrap align"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:186
+#: lib/addons/themeum-project-addons.php:199
+msgid "Hover color"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:189
+#: lib/addons/themeum-project-addons.php:202 lib/addons/themeum-title.php:237
+#: lib/addons/themeum-video-popup.php:58
+msgid "Display"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:190
+#: lib/addons/themeum-project-addons.php:203 lib/addons/themeum-title.php:238
+#: lib/addons/themeum-title.php:251 lib/addons/themeum-title.php:263
+#: lib/addons/themeum-title.php:275 lib/addons/themeum-video-popup.php:69
+msgid "Font weight"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:191
+#: lib/addons/themeum-project-addons.php:204 lib/addons/themeum-title.php:239
+#: lib/addons/themeum-title.php:250 lib/addons/themeum-title.php:262
+#: lib/addons/themeum-title.php:274 lib/addons/themeum-video-popup.php:68
+msgid "Line height"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:192
+#: lib/addons/themeum-project-addons.php:205 lib/addons/themeum-team.php:226
+#: lib/addons/themeum-team.php:237 lib/addons/themeum-testimonial.php:103
+#: lib/addons/themeum-testimonial.php:115 lib/addons/themeum-title.php:240
+#: lib/addons/themeum-title.php:252 lib/addons/themeum-title.php:264
+#: lib/addons/thm-classic-slider.php:246 lib/addons/thm-classic-slider.php:257
+#: lib/addons/thm-classic-slider.php:267
+msgid "Letter Spacing"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:212
+msgid "Hover"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:213
+#: lib/addons/themeum-project-addons.php:227
+msgid "Background"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:214
+msgid "Hover Background"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:219
+#: lib/addons/themeum-testimonial.php:124
+#: lib/addons/themeum-testimonial.php:145
+#: lib/addons/themeum-video-popup.php:57 lib/addons/themeum-video-popup.php:71
+msgid "Height"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:221
+msgid "Hover Border"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:314
+#: lib/meta-box/inc/fields/select.php:84
+msgid "All"
+msgstr ""
+
+#: lib/addons/themeum-project-addons.php:375
+#: lib/widgets/themeum_about_widget.php:34 post-format/content-gallery.php:15
+msgid "image"
+msgstr ""
+
+#: lib/addons/themeum-team.php:13
+msgid "Add themeum team"
+msgstr ""
+
+#: lib/addons/themeum-team.php:34
+msgid "Team Image"
+msgstr ""
+
+#: lib/addons/themeum-team.php:64
+msgid "Link Button"
+msgstr ""
+
+#: lib/addons/themeum-team.php:70 lib/addons/themeum-testimonial.php:73
+msgid "Subtitle"
+msgstr ""
+
+#: lib/addons/themeum-team.php:77 lib/addons/themeum-testimonial.php:80
+#: lib/menu/admin-megamenu-walker.php:184 project-portfolio.php:57
+msgid "Description"
+msgstr ""
+
+#: lib/addons/themeum-team.php:84
+msgid "Select the Text Align"
+msgstr ""
+
+#: lib/addons/themeum-team.php:102
+msgid "Facebook Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:105
+msgid "Insert link facebook. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:113
+msgid "Twitter Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:116
+msgid "Insert link twitter. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:124
+msgid "Google Plus Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:127
+msgid "Insert link google plus. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:135
+msgid "Linkedin Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:138
+msgid "Insert link linkedin. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:146
+msgid "Pinterest Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:149
+msgid "Insert link pinterest. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:157
+msgid "Flickr Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:160
+msgid "Insert link flickr. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:168
+msgid "Instagram Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:171
+msgid "Insert link instagram. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:179
+msgid "Dribbble Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:182
+msgid "Insert link dribbble. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:190
+msgid "Reddit Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:193
+msgid "Insert link reddit. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:201
+msgid "Email Link"
+msgstr ""
+
+#: lib/addons/themeum-team.php:204
+msgid "Insert link email. It hidden when field blank."
+msgstr ""
+
+#: lib/addons/themeum-team.php:260
+msgid "Icon Color"
+msgstr ""
+
+#: lib/addons/themeum-team.php:261
+msgid "Icon Hover Color"
+msgstr ""
+
+#: lib/addons/themeum-team.php:269 lib/addons/themeum-testimonial.php:143
+msgid "Background Hover Color"
+msgstr ""
+
+#: lib/addons/themeum-team.php:270
+msgid "Content Hover Color"
+msgstr ""
+
+#: lib/addons/themeum-testimonial.php:13
+msgid "Add themeum testimonial"
+msgstr ""
+
+#: lib/addons/themeum-testimonial.php:34 lib/addons/themeum-video-popup.php:27
+msgid "Person Image"
+msgstr ""
+
+#: lib/addons/themeum-testimonial.php:39
+msgid "Person Signature"
+msgstr ""
+
+#: lib/addons/themeum-testimonial.php:123
+#: lib/addons/themeum-testimonial.php:144
+#: lib/addons/themeum-video-popup.php:56 lib/addons/themeum-video-popup.php:70
+msgid "Width"
+msgstr ""
+
+#: lib/addons/themeum-testimonial.php:126
+#: lib/addons/themeum-testimonial.php:147
+msgid "Border radius"
+msgstr ""
+
+#: lib/addons/themeum-title.php:11
+msgid "Title shortcode of the theme"
+msgstr ""
+
+#: lib/addons/themeum-title.php:21
+msgid "Select title layout style."
+msgstr ""
+
+#: lib/addons/themeum-title.php:35 lib/addons/thm-classic-slider.php:62
+msgid "Border width"
+msgstr ""
+
+#: lib/addons/themeum-title.php:43 lib/addons/thm-classic-slider.php:70
+msgid "Choose border width for bottom of the title "
+msgstr ""
+
+#: lib/addons/themeum-title.php:52 lib/addons/thm-classic-slider.php:79
+msgid "Border height"
+msgstr ""
+
+#: lib/addons/themeum-title.php:60 lib/addons/thm-classic-slider.php:87
+msgid "Choose border height for bottom of the title "
+msgstr ""
+
+#: lib/addons/themeum-title.php:68 lib/addons/themeum-title.php:146
+#: lib/addons/thm-classic-slider.php:95
+msgid "Title Type"
+msgstr ""
+
+#: lib/addons/themeum-title.php:84 lib/addons/thm-classic-slider.php:111
+msgid "Border Background"
+msgstr ""
+
+#: lib/addons/themeum-title.php:94
+msgid "Number text"
+msgstr ""
+
+#: lib/addons/themeum-title.php:95
+msgid "Number of the heading."
+msgstr ""
+
+#: lib/addons/themeum-title.php:105
+msgid "Number position from left"
+msgstr ""
+
+#: lib/addons/themeum-title.php:113 lib/addons/themeum-title.php:130
+msgid "Choose Number position for the title "
+msgstr ""
+
+#: lib/addons/themeum-title.php:122
+msgid "Number position from top"
+msgstr ""
+
+#: lib/addons/themeum-title.php:140
+msgid "Title text"
+msgstr ""
+
+#: lib/addons/themeum-title.php:141
+msgid "Title of the heading."
+msgstr ""
+
+#: lib/addons/themeum-title.php:165
+msgid "Sub Title text"
+msgstr ""
+
+#: lib/addons/themeum-title.php:166
+msgid "Sub title of the heading."
+msgstr ""
+
+#: lib/addons/themeum-title.php:175
+msgid "Sub Title Type"
+msgstr ""
+
+#: lib/addons/themeum-title.php:198
+msgid "Description text"
+msgstr ""
+
+#: lib/addons/themeum-title.php:199
+msgid "Description of the heading."
+msgstr ""
+
+#: lib/addons/themeum-title.php:208 lib/addons/themeum-video-popup.php:33
+#: lib/addons/thm-contact-form7.php:31
+msgid "Title wrap align"
+msgstr ""
+
+#: lib/addons/themeum-title.php:215
+msgid "Select the title wrap align"
+msgstr ""
+
+#: lib/addons/themeum-title.php:220 lib/addons/thm-contact-form7.php:36
+msgid "Extra class"
+msgstr ""
+
+#: lib/addons/themeum-title.php:221 lib/addons/thm-classic-slider.php:229
+#: lib/addons/thm-contact-form7.php:37
+msgid "Custom class for wrapper of the shortcode"
+msgstr ""
+
+#: lib/addons/themeum-title.php:242 lib/addons/themeum-title.php:254
+#: lib/addons/themeum-title.php:266 lib/addons/themeum-title.php:277
+msgid "Alignment"
+msgstr ""
+
+#: lib/addons/themeum-title.php:432
+msgid "Select your desire title layout"
+msgstr ""
+
+#: lib/addons/themeum-video-popup.php:13
+msgid "Add Video Popup"
+msgstr ""
+
+#: lib/addons/themeum-video-popup.php:21
+msgid "Video URL:"
+msgstr ""
+
+#: lib/addons/themeum-video-popup.php:22
+msgid "Youtube/Vimo video URL"
+msgstr ""
+
+#: lib/addons/themeum-video-popup.php:59 lib/addons/themeum-video-popup.php:73
+msgid "Border Hover"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:13
+msgid "Add themeum classic slider"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:22
+msgid "Add slide"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:24
+msgid ""
+"Repeat this fields with each item created, Each item corresponding slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:25
+msgid "Add new slide"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:38
+msgid "Select the slide align"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:45
+msgid "Enter text used as title of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:50
+msgid "Show title border layout"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:120
+msgid "Title headline"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:138 lib/meta_box.php:294
+msgid "Sub Title"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:140
+msgid "Enter text used as sub title of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:145
+msgid "Sub title headline"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:163
+msgid "Button URL"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:165
+msgid "Enter text used as button url of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:170 lib/meta_box.php:429
+msgid "Button Text"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:172
+msgid "Enter text used as button text of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:177
+msgid "Background image"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:179
+msgid "Upload image used as background of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:187
+msgid "Enter color used as background of the slide."
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:192
+msgid "Slide Height"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:200
+msgid "Choose slide height"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:227
+msgid "Wrapper class name"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:264
+msgid "BG Color"
+msgstr ""
+
+#: lib/addons/thm-classic-slider.php:265
+msgid "BG Hover Color"
+msgstr ""
+
+#: lib/addons/thm-contact-form7.php:15
+msgid "No contact forms found"
+msgstr ""
+
+#: lib/addons/thm-google-map.php:19
+msgid "Latitude"
+msgstr ""
+
+#: lib/addons/thm-google-map.php:39
+msgid "Choose the height of the google Map."
+msgstr ""
+
+#: lib/addons/thm-google-map.php:45
+msgid "Address Line of Google Map."
+msgstr ""
+
+#: lib/addons/thm-google-map.php:58
+msgid "Address Label Color"
+msgstr ""
+
+#: lib/addons/thm-google-map.php:59
+msgid "Address Label Border Color"
+msgstr ""
+
+#: lib/addons/thm-google-map.php:60
+msgid "Address Text Color"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:334
+#: lib/main-function/themeum-register.php:199
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:335
+#: lib/main-function/themeum-register.php:200
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:337
+#: lib/main-function/themeum-register.php:201
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:340
+#: lib/main-function/themeum-register.php:202
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:392
+#: lib/main-function/themeum-register.php:203
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:393
+#: lib/class-tgm-plugin-activation.php:912
+#: lib/class-tgm-plugin-activation.php:2618
+#: lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3244
+#: lib/main-function/themeum-register.php:204
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+#: lib/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1206
+#: lib/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/customizer/controls/export.php:18
+msgid "Export"
+msgstr ""
+
+#: lib/customizer/controls/import.php:19
+msgid "Import"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:6
+msgid "Starter Pro Theme Options"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:12
+#: lib/customizer/customizer-config.php:13
+msgid "Header Settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:19
+#: lib/customizer/customizer-config.php:83
+msgid "Select Header Style"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:30
+msgid "Header background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:37
+msgid "Header border bottom color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:44
+msgid "Header Top Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:51
+msgid "Header Bottom Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:58
+msgid "Sticky Header"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:65
+msgid "Sticky background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:76
+#: lib/customizer/customizer-config.php:77
+msgid "All Logo & favicon"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:94
+msgid "Upload Logo"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:101
+msgid "Logo Width"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:107
+msgid "Logo Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:113
+msgid "Use your Custom logo text"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:123
+msgid "Sub Header Banner"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:124
+msgid "sub header banner"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:130
+msgid "Sub-Header Padding Top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:137
+msgid "Sub-Header Padding Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:144
+msgid "Sub-Header Margin Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:151
+msgid "Sub-Header Background Image"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:157
+msgid "Sub-Header Background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:164
+msgid "Title Settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:170
+msgid "Header Title Enable"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:177
+msgid "Header Title Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:184
+msgid "Header Title Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:195
+#: lib/customizer/customizer-config.php:196
+msgid "Typography Setting"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:204
+#: lib/customizer/customizer-config.php:254
+msgid "Select Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:214
+msgid "Body Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:220
+msgid "Body Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:226
+msgid "Body Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:245
+msgid "Body Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:264
+msgid "Menu Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:270
+msgid "Menu Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:276
+msgid "Menu Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:295
+msgid "Menu Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:305
+msgid "Heading1 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:315
+msgid "Heading1 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:321
+msgid "Heading1 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:327
+msgid "Heading1 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:346
+msgid "Heading1 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:355
+msgid "Heading2 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:365
+msgid "Heading2 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:371
+msgid "Heading2 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:377
+msgid "Heading2 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:396
+msgid "Heading2 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:405
+msgid "Heading3 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:415
+msgid "Heading3 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:421
+msgid "Heading3 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:427
+msgid "Heading3 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:446
+msgid "Heading3 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:455
+msgid "Heading4 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:465
+msgid "Heading4 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:471
+msgid "Heading4 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:477
+msgid "Heading4 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:496
+msgid "Heading4 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:505
+msgid "Heading5 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:515
+msgid "Heading5 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:521
+msgid "Heading5 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:527
+msgid "Heading5 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:546
+msgid "Heading5 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:558
+#: lib/customizer/customizer-config.php:559
+msgid "Layout & Styling"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:565
+msgid "Body Background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:572
+msgid "Body Background Image"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:578
+msgid "Body Background Attachment"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:583
+msgid "Scroll"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:584
+msgid "Fixed"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:585
+msgid "Inherit"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:590
+msgid "Body Background Repeat"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:595
+msgid "Repeat"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:596
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:597
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:598
+msgid "No Repeat"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:603
+msgid "Body Background Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:608
+msgid "Cover"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:609
+msgid "Contain"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:614
+msgid "Body Background Position"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:619
+msgid "left top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:620
+msgid "left center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:621
+msgid "left bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:622
+msgid "right top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:623
+msgid "right center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:624
+msgid "right bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:625
+msgid "center top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:626
+msgid "center center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:627
+msgid "center bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:632
+msgid "Preset Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:648
+msgid "Set Custom Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:655
+msgid "Major Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:670
+msgid "Footer background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:678
+msgid "Footer Text Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:688
+msgid "Button Color Settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:703
+#: lib/customizer/customizer-config.php:789
+msgid "Hover Background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:710
+#: lib/customizer/customizer-config.php:740
+#: lib/customizer/customizer-config.php:775
+msgid "Text Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:717
+#: lib/customizer/customizer-config.php:796
+msgid "Hover Text Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:734
+msgid "Menu Color Settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:755
+msgid "Bracket Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:762
+msgid "Sub-Menu Color Settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:782
+msgid "Border Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:809
+#: lib/customizer/customizer-config.php:810
+msgid "Social Media"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:816
+#: lib/customizer/customizer-config.php:946
+msgid "Add Facebook URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:823
+#: lib/customizer/customizer-config.php:953
+msgid "Add Twitter URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:830
+msgid "Add Goole Plus URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:837
+#: lib/customizer/customizer-config.php:967
+msgid "Add Pinterest URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:844
+#: lib/customizer/customizer-config.php:974
+msgid "Add Youtube URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:851
+#: lib/customizer/customizer-config.php:981
+msgid "Add Linkedin URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:858
+#: lib/customizer/customizer-config.php:995
+msgid "Add Instagram URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:865
+#: lib/customizer/customizer-config.php:988
+msgid "Add Dribbble URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:872
+msgid "Add Behance URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:879
+msgid "Add Flickr URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:886
+msgid "Add Vk URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:893
+msgid "Add Skype URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:903
+#: lib/customizer/customizer-config.php:904
+msgid "Coming Soon"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:911
+msgid "Enable Coming Soon"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:918
+msgid "Upload Coming Soon Page Background"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:925
+msgid "Upload Coming Soon Page logo"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:932
+msgid "Coming Soon date"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:939
+msgid "Add mailchimp Form Shortcode Here"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:960
+msgid "Add Google Plus URL"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1004
+msgid "404 Page"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1005
+msgid "404 page background and text settings"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1011
+msgid "Upload 404 Page Background Image"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1017
+msgid "Upload 404 Page logo Image"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1023
+msgid "404 Page Title"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1026
+msgid "Page Not Found - Lost Maybe?."
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1030
+msgid "404 Page Description"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1037
+msgid "404 Button Text"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1046
+#: lib/customizer/customizer-config.php:1047
+msgid "Blog Setting"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1053
+msgid "Select Blog Column"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1066
+msgid "Enable Blog Date"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1073
+msgid "Enable Blog Author"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1080
+msgid "Enable Blog Category"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1087
+msgid "Enable Blog Hit Count"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1094
+msgid "Enable Comment"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1101
+msgid "Enable Single post comment"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1108
+msgid "Enable single post tags"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1115
+msgid "Enable Post navigation"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1122
+msgid "Enable post content"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1129
+msgid "Post character Limit"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1136
+msgid "Enable Blog Readmore"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1143
+msgid "Continue Reading"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1153
+#: lib/customizer/customizer-config.php:1154
+msgid "Footer Setting"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1160
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1167
+msgid "Footer Top Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1174
+msgid "Footer Bottom Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1181
+msgid "Enable Footer Share"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1188
+msgid "Enable Copyright Text"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1195
+msgid "Copyright Text Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1202
+msgid "Copyright Top Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1209
+msgid "Copyright Bottom Padding"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1216
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1219
+msgid "© 2016 Starter Pro. All Rights Reserved."
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1225
+#: lib/customizer/customizer-config.php:1226
+msgid "Google Map"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1232
+msgid "Google Map Api Key"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:1233
+msgid ""
+"You will need to generate a Google API key to use this feature. Please "
+"visit: https://developers.google.com/fonts/docs/developer_api#Auth"
+msgstr ""
+
+#: lib/customizer/customizer.php:76
+msgid ""
+"Success! Your theme data successfully imported. Page will be reloaded within "
+"2 sec."
+msgstr ""
+
+#: lib/customizer/customizer.php:77
+msgid "Error! Your theme data importing failed."
+msgstr ""
+
+#: lib/customizer/customizer.php:78
+msgid "Error! Please upload a file."
+msgstr ""
+
+#: lib/customizer/customizer.php:238
+msgid "Import/Export"
+msgstr ""
+
+#: lib/customizer/customizer.php:239
+msgid "Import Export Option Data"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:35
+msgid "<i class=\"fa fa-long-arrow-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:36
+msgid "<i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:82
+msgid "Edit"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:87
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/main-function/themeum-core.php:95
+msgid "Reply"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:114
+msgid "Home"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:125
+msgid "shop"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:128
+msgid "Posts Tagged "
+msgstr ""
+
+#: lib/main-function/themeum-core.php:130
+#: lib/main-function/themeum-core.php:132
+#: lib/main-function/themeum-core.php:134
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:136
+msgid "Search results for"
+msgstr ""
+
+#: lib/main-function/themeum-core.php:166
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/themeum-core.php:170 lib/sub-header.php:82
+#: lib/sub-header.php:89
+msgid "Blog"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:15
+msgid "Widgets in this area will be shown on Sidebar."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:25
+msgid "Bottom"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:27
+msgid "Widgets in this area will be shown before Bottom."
+msgstr ""
+
+#: lib/main-function/themeum-register.php:45
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:151
+msgid "Themeum demo importer"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:161
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:171
+msgid "Widget Settings Importer/Exporter"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:180
+msgid "Contact Form 7"
+msgstr ""
+
+#: lib/main-function/themeum-register.php:205
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:100
+msgid "sub item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:115
+msgid "Move up"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:128
+msgid "Move down"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:130
+#: lib/menu/admin-megamenu-walker.php:132
+msgid "Edit Menu Item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:141
+msgid "URL"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:149
+msgid "Navigation Label"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:164
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:170
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:186
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:194
+msgid "Megamenu Settings"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:209
+msgid "Coulumn Number"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:223
+msgid "Move"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:224
+msgid "Up one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:225
+msgid "Down one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:228
+msgid "To the top"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:235
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:248
+#: lib/meta-box/inc/fields/file-input.php:41
+msgid "Remove"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:249
+msgid "Cancel"
+msgstr ""
+
+#: lib/meta-box/inc/clone.php:91
+msgid "+ Add more"
+msgstr ""
+
+#: lib/meta-box/inc/core.php:42
+msgid "Documentation"
+msgstr ""
+
+#: lib/meta-box/inc/core.php:43
+msgid "Extensions"
+msgstr ""
+
+#: lib/meta-box/inc/fields/autocomplete.php:15
+#: lib/meta-box/inc/fields/autocomplete.php:74
+#: lib/meta-box/inc/fields/autocomplete.php:89
+msgid "Delete"
+msgstr ""
+
+#: lib/meta-box/inc/fields/button.php:27
+msgid "Click me"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file-input.php:39
+#: lib/meta-box/inc/fields/select.php:84
+msgid "Select"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:17
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:73
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:85
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:86
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:150
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: lib/meta-box/inc/fields/file.php:151
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: lib/meta-box/inc/fields/map.php:57
+msgid "Find Address"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:17
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:18
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:19
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:20
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:21
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:22
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:23
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:26
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:27
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: lib/meta-box/inc/fields/media.php:28
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: lib/meta-box/inc/fields/oembed.php:60
+msgid "Embed HTML not available."
+msgstr ""
+
+#: lib/meta-box/inc/fields/oembed.php:75 project-portfolio.php:85
+msgid "Preview"
+msgstr ""
+
+#: lib/meta-box/inc/fields/post.php:33
+msgid "Select a post"
+msgstr ""
+
+#: lib/meta-box/inc/fields/post.php:36 lib/meta-box/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: lib/meta-box/inc/fields/select-advanced.php:41
+msgid "Select an item"
+msgstr ""
+
+#: lib/meta-box/inc/fields/select.php:84
+msgid "None"
+msgstr ""
+
+#: lib/meta-box/inc/fields/taxonomy.php:48
+msgid "Select a term"
+msgstr ""
+
+#: lib/meta-box/inc/fields/thickbox-image.php:51
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: lib/meta-box/inc/fields/user.php:33
+msgid "Select an user"
+msgstr ""
+
+#: lib/meta-box/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: lib/meta_box.php:58
+msgid "Post Quote Settings"
+msgstr ""
+
+#: lib/meta_box.php:76
+msgid "Quote Text"
+msgstr ""
+
+#: lib/meta_box.php:79
+msgid "Write Your Quote Here"
+msgstr ""
+
+#: lib/meta_box.php:86
+msgid "Quote Author"
+msgstr ""
+
+#: lib/meta_box.php:89
+msgid "Write Quote Author or Source"
+msgstr ""
+
+#: lib/meta_box.php:104
+msgid "Post Link Settings"
+msgstr ""
+
+#: lib/meta_box.php:122
+msgid "Link URL"
+msgstr ""
+
+#: lib/meta_box.php:125
+msgid "Write Your Link"
+msgstr ""
+
+#: lib/meta_box.php:139
+msgid "Post Audio Settings"
+msgstr ""
+
+#: lib/meta_box.php:157
+msgid "Audio Embed Code"
+msgstr ""
+
+#: lib/meta_box.php:160
+msgid "Write Your Audio Embed Code Here"
+msgstr ""
+
+#: lib/meta_box.php:173
+msgid "Post Video Settings"
+msgstr ""
+
+#: lib/meta_box.php:191
+msgid "Video Embed Code/ID"
+msgstr ""
+
+#: lib/meta_box.php:194
+msgid "Write Your Vedio Embed Code/ID Here"
+msgstr ""
+
+#: lib/meta_box.php:200
+msgid "Video Durations"
+msgstr ""
+
+#: lib/meta_box.php:206
+msgid "Select Vedio Type/Source"
+msgstr ""
+
+#: lib/meta_box.php:211
+msgid "Embed Code"
+msgstr ""
+
+#: lib/meta_box.php:212
+msgid "YouTube"
+msgstr ""
+
+#: lib/meta_box.php:213
+msgid "Vimeo"
+msgstr ""
+
+#: lib/meta_box.php:228
+msgid "Post Gallery Settings"
+msgstr ""
+
+#: lib/meta_box.php:245
+msgid "Gallery Image Upload"
+msgstr ""
+
+#: lib/meta_box.php:264 lib/meta_box.php:493
+msgid "Page Settings"
+msgstr ""
+
+#: lib/meta_box.php:278 lib/meta_box.php:501
+msgid "Upload Sub Title Banner Image"
+msgstr ""
+
+#: lib/meta_box.php:285 lib/meta_box.php:508
+msgid "Upload Sub Title BG Color"
+msgstr ""
+
+#: lib/meta_box.php:292
+msgid "Sub title"
+msgstr ""
+
+#: lib/meta_box.php:312 lib/meta_box.php:411
+msgid "Additional Infomation"
+msgstr ""
+
+#: lib/meta_box.php:330
+msgid "Designation"
+msgstr ""
+
+#: lib/meta_box.php:339
+msgid "Facebook Url"
+msgstr ""
+
+#: lib/meta_box.php:348
+msgid "Twitter Url"
+msgstr ""
+
+#: lib/meta_box.php:357
+msgid "Google Plus Url"
+msgstr ""
+
+#: lib/meta_box.php:366
+msgid "Pinterest Url"
+msgstr ""
+
+#: lib/meta_box.php:375
+msgid "Linkedin Url"
+msgstr ""
+
+#: lib/meta_box.php:384
+msgid "Dribbble Url"
+msgstr ""
+
+#: lib/meta_box.php:393
+msgid "Flickr Url"
+msgstr ""
+
+#: lib/meta_box.php:438
+msgid "Button Link"
+msgstr ""
+
+#: lib/meta_box.php:447
+msgid "Button Two Text"
+msgstr ""
+
+#: lib/meta_box.php:456
+msgid "Button Two Link"
+msgstr ""
+
+#: lib/meta_box.php:469
+msgid "Project Infomation"
+msgstr ""
+
+#: lib/meta_box.php:478
+msgid "External URL"
+msgstr ""
+
+#: lib/sub-header.php:77
+msgid "Search"
+msgstr ""
+
+#: lib/widgets/blog-posts.php:121
+msgid "Widget Title"
+msgstr ""
+
+#: lib/widgets/blog-posts.php:126
+msgid "Ordered By"
+msgstr ""
+
+#: lib/widgets/blog-posts.php:152
+msgid "Count"
+msgstr ""
+
+#: lib/widgets/image_widget.php:13
+msgid "themeum Image Ads"
+msgstr ""
+
+#: lib/widgets/image_widget.php:13
+msgid "This Image Ads Widgets"
+msgstr ""
+
+#: lib/widgets/image_widget.php:36
+msgid "Ads"
+msgstr ""
+
+#: lib/widgets/image_widget.php:76
+msgid "Title : "
+msgstr ""
+
+#: lib/widgets/image_widget.php:81
+msgid "Ads Link"
+msgstr ""
+
+#: lib/widgets/image_widget.php:85
+msgid "Ads Image URL"
+msgstr ""
+
+#: lib/widgets/image_widget.php:88 lib/widgets/themeum_about_widget.php:110
+msgid "Upload image"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:13
+msgid "Themeum About Us Widgets"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:13
+msgid "This About Us Widgets"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:44
+msgid "Email: "
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:48
+msgid "Fax: "
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:52
+msgid "Phone: "
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:102
+#: lib/widgets/themeum_social_share.php:128
+msgid "Title :"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:107
+msgid "About Image URL"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:115
+msgid "About Text :"
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:121
+msgid "Email ID: "
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:126
+msgid "Fax No: "
+msgstr ""
+
+#: lib/widgets/themeum_about_widget.php:131
+msgid "Phone No: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:13
+msgid "Themeum Social Share Widgets"
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:13
+msgid "This Social Share Widgets"
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:133
+msgid "Facebook URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:138
+msgid "Twitter URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:143
+msgid "Google Plus URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:148
+msgid "Linkedin URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:153
+msgid "RSS URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:158
+msgid "Pinterest URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:163
+msgid "Youtube URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:168
+msgid "Instagram URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:173
+msgid "Vimeo URL: "
+msgstr ""
+
+#: lib/widgets/themeum_social_share.php:178
+msgid "Dribble URL: "
+msgstr ""
+
+#: page.php:29 post-format/entry-content-blog.php:49
+msgid "Pages:"
+msgstr ""
+
+#: post-format/content-none.php:5
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: post-format/content-none.php:8
+msgid "Error Search"
+msgstr ""
+
+#: post-format/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: post-format/content-none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: post-format/content-none.php:17
+msgid "Find Course, Tutorials"
+msgstr ""
+
+#: post-format/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: post-format/entry-content-blog.php:26
+msgid "0"
+msgstr ""
+
+#: post-format/entry-content-blog.php:26
+msgid "1"
+msgstr ""
+
+#: post-format/entry-content-blog.php:26
+msgid "%"
+msgstr ""
+
+#: project-portfolio.php:66
+msgid "Project Details"
+msgstr ""
+
+#: project-portfolio.php:71
+msgid "Project Name : "
+msgstr ""
+
+#: project-portfolio.php:75
+msgid "Date : "
+msgstr ""
+
+#: project-portfolio.php:79
+msgid "Category : "
+msgstr ""
+
+#: searchform.php:2
+msgid "Search . . . . ."
+msgstr ""
+
+#: single.php:17
+msgid "Previous"
+msgstr ""
+
+#: single.php:21
+msgid "Next"
+msgstr ""

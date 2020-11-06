@@ -1,0 +1,335 @@
+/*
+Theme Name: Crowdfunding
+Theme URI: https://www.themeum.com/product/wp-crowdfunding-plugin/
+Author: Themeum
+Author URI: http://themeum.com/
+Description: WP Crowdfunding is a revolutionary WordPress plugin that helps you create a fundraising or backer site with WordPress. This plugin is powered by WooCommerce. It has a native wallet system for accepting local payments. WP Crowdfunding has the facility to split the money through PayPal adaptive or Stripe Connect.
+Version: 4.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, green, pink, purple, dark, right-sidebar, two-columns, responsive-layout
+Text Domain: crowdfunding
+*/
+
+.kc_column, .kc_column_inner {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#wpneofrontenddata, #wpneo-registration{
+    padding-top: 0px;
+}
+
+.donate-box h4 {
+	font-style: 300;
+}
+
+#fund_paymet_form .form-group label {
+	margin-bottom: 10px;
+    margin-top: 12px;
+    font-weight: 300;
+    display: block;
+}
+
+#fund_paymet_form .form-group .form-control {
+	height: 42px;
+	border-radius: 4px;
+}
+
+.donate-project-page .donate-box p {
+	display: inline-block;
+	font-weight: 500;
+	margin-right: 20px;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.donate-project-page .donate-box p input[type=checkbox],
+.donate-project-page .donate-box p input[type=radio] {
+	margin: 0 8px 0 1px;
+}
+
+.donate-now {
+	padding: 12px 25px;
+	margin-top: 25px;
+}
+
+.donate-project-page .donate-box p img {
+	margin-left: 15px;
+}
+
+.entry-content .vc_column_container>.vc_column-inner {
+  padding:0;
+}
+
+#account-navbar{
+	border: 1px solid #ccc;
+}
+.navbar-nav>li>a{
+	color: #6f797a;
+	font-weight: bold;
+}
+input#cc-image-upload-file-button,input.profile_image_url{
+    width: 35%;
+}
+
+.dashboard-content .input-form{
+	margin-bottom: 20px;
+}
+
+.ui-widget-content,
+.ui-widget-header,
+.ui-tabs .ui-tabs-nav li,
+.ui-state-active, .ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active{
+	border: none !important;
+	background: #f9f9f9;
+}
+.inline-block{
+	display:inline-block;
+	float: left;
+	width: 20%;
+}
+.inline-block img{
+	margin: 0 auto;
+}
+.top-title {
+    font-size: 125px;
+    line-height: 125px;
+}
+
+/* ----------------------------------- */
+/* ------------  Search Start -------- */
+/* ----------------------------------- */
+.search-title{
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 26px;
+}
+.moview-search-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+}
+.moview-search-submit{
+	color: #444;
+	font-size: 20px;
+    line-height: 46px;
+    background-color: transparent !important;
+}
+#moview_search {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.moview-search-wrap .search-panel {
+    position: absolute;
+    left: 0;
+    float: left;
+    height: 37px;
+}
+.moview-search-wrap .search-panel .select-menu {
+    position: relative;
+    float: left;
+    z-index: 10;
+    padding: 0 15px 0 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+.moview-search-wrap .search-panel .select-menu:after {
+    content: "\f107";
+    font-family: fontawesome;
+    pointer-events: none;
+}
+.search-panel .select-menu select {
+    width: 100px;
+    min-height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 16px;
+    text-align-last: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    color: #727272;
+    background: transparent;
+    position: relative;
+    z-index: 11;
+}
+.moview-search-wrap .input-box {
+    float: left;
+    border: none;
+    border-width: 1px 0px;
+    min-height: 37px;
+    width: 100%;
+    padding: 0 40px 0 120px;
+}
+.moview-search-wrap #searchword.moview-search-input {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    padding-left: 30px;
+    min-height: 50px;
+    background-color: #fff;
+    font-size: 18px;
+}
+.moview-search-wrap .search-icon {
+    height: 37px;
+    line-height: 33px;
+    border: none;
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.moview-search-wrap .search-icon button {
+    border: none;
+    color: #8cc641;
+    background-color: transparent;
+}
+.moview-search-wrap .search-icon button:focus,
+.moview-search-wrap .search-icon button:active{
+    outline: none;
+}
+.moview-search-results {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    text-align: left;
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+}
+.moview-search-results ul {
+    padding: 20px 0;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 0;
+    max-height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.moview-search-results ul li a {
+    padding: 6px 30px 6px 20px;
+    display: block;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
+.moview-search-results ul li a:hover,
+.moview-search-results ul li a:hover i{
+    color: #000;
+}
+.moview-search-results ul li a i {
+    color: #b5b5b5;
+    font-size: 20px;
+    margin-right: 20px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.search-content-list span{
+	background-color: #f5f101;
+}
+.search-content-list {
+    padding: 0px 0px 20px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+/* ------------  Shop Design -------- */
+/* ----------------------------------- */
+.woocommerce div.product {
+    margin-bottom: 30px;
+}
+.product-thumbnail-outer-inner > img{
+    width: 100%;
+}
+.woocommerce a.button.product_type_crowdfunding{
+    display: none;
+}
+.addtocart-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    border: 1px solid;
+}
+input[type="button"].removeCampaignRewards {
+    background-color: #f26522;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 27px;
+}
+#addreward {
+    background-color: #0072bc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 27px;
+    border: none;
+}
+.wpneo-fields input.wpneo-upload {
+    padding: 0 10px;
+    height: 38px;
+}
+#wpneofrontenddata input#cc-image-upload-file-button, input.profile_image_url {
+    width: 28%;
+    border: none;
+    padding: 7px 0px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #8cc641;
+}
+#wpneofrontenddata input[type="button"].wpneo-image-upload {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+}
+#wpneofrontenddata input[type="button"].wpneo-image-upload:hover{
+    background-color: #7cb039;
+}
+.wpneo_login_form_div form>p label {
+   min-width: 150px;
+}
+.wpneo_login_form_div form>p {
+   margin-bottom: 20px;
+}
+.wpneo_login_form_div form>p input#wp-submit {
+   box-shadow: none;
+   background: #8cc641 ;
+   border: none;
+   border-radius: 3px;
+   padding: 10px 22px;
+   color: #fff;
+   line-height: 1;
+}
+section#main {
+    overflow: hidden;
+    width: 100%;
+}

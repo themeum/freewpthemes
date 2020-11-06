@@ -1,0 +1,1419 @@
+/* ==========================================================================
+responsive
+========================================================================== */
+
+div.wpcf7 .ajax-loader{
+    display: block;
+}
+
+@media (min-width: 980px) and (max-width: 1400px) {
+    .eventco-review-cont .text-center{
+        transform: none;
+        margin-left: 5px;
+    }
+    .wpneocf-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .common-menu .common-menu-wrap .nav>li>a {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .common-menu-wrap .nav>li {
+        margin-left: 15px;
+    }
+    .themeum-product-slider .slick-next{
+        right: 0;
+    }
+    .themeum-product-slider .slick-prev{
+        left: 0;
+    }
+    .themeum-campaign-item .camp-title{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .wpneocf-container{
+        max-width:750px
+    }
+    .contact-form-map {
+        width: 660px !important;
+    }
+    .admin-bar .header-borderimage #mobile-menu,
+    .admin-bar .header-solid #mobile-menu {
+        top: 100%;
+    }
+    .themeum-product-slider .slick-next{
+        right: 0;
+    }
+    .themeum-product-slider .slick-prev{
+        left: 0;
+    }
+    .themeum-tab-category{
+        margin: 0 auto;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        overflow: hidden !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .visible-sm {
+        display: block!important;
+    }
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0
+    }
+    #mobile-menu ul {
+        padding: 0;
+    }
+    .header-borderimage #mobile-menu,
+    .header-solid #mobile-menu {
+        top: 100%;
+    }
+    .navbar-toggle {
+        display: inline-block;
+    }
+    /* MM */
+    .themeum-tab-navigation li a {
+        padding: 0 25px 0 0;
+    }
+    .themeum-tab-navigation li:last-child a {
+        padding: 0;
+    }
+    .tab-content .col-lg-8 {
+        margin-top: 30px;
+    }
+    .eventco-post-list h2.content-item-title {
+        font-size: 20px;
+    }
+    .eventco-title-content-wrapper {
+        margin-bottom: 35px;
+    }
+    .single-product-item h2.woocommerce-Price-amount.amount {
+        font-size: 38px;
+    }
+    .bottom-wrap {
+        padding: 10px 0;
+    }
+    .mailchimp-inner.bottom-wrap {
+        padding-top: 40px;
+    }
+    .person-layout-two .wppb-person-information-wrap {
+        padding: 15px 25px 25px 25px;
+    }    
+    .wppb-person-social {
+        margin: 10px 0 0;
+    }
+    .countdown-section {
+        padding: 25px 20px 25px 0;
+        margin: 0px;
+    }
+    .comingsoon-title {
+        margin-bottom: 20px;
+    }
+    .comingsoon-newslatter-descrip {
+        margin-bottom: 15px;
+    }
+    .comingsoon form#mc4wp-form-1 {
+        width: auto;
+    }
+    .comingsoon-newslatter-descrip {
+        font-size: 33px;
+    }
+    .error-message {
+        font-size: 30px;
+    }
+        .error-message-title {
+        font-size: 180px;
+    }
+        .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title {
+        font-size: 36px;
+            line-height: 44px;
+    }
+        .themeum-grid-post.single-post h2, .comment-content h2, .themeum-grid-post.single-post blockquote p {
+        font-size: 26px;
+    }
+        .wpneo-dashboard-summery ul li {
+        width: 200px;
+    }
+        .wpneo-dashboard-summery ul li {
+        margin-right: 15px;
+    }
+    .wpneo-dashboard-summery ul li:last-child {
+        margin: 0
+    }
+    .event-img-wrap img.img-responsive.wp-post-image {
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+    .themeum-title span {
+        padding-left: 25px;
+    }
+    /*min-width: 768px*/
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) { 
+    /*section.eventco-event-wrapper{
+        padding-top: 50px !important;
+    }*/
+    .eventco-login-register a.eventco-dashboard {
+        padding: 5px 6px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        -ms-flex: 0 0 36%;
+        flex: 0 0 36%;
+        max-width: 36%;
+    }
+    .clearfix.col-xs-6.col-sm-5.col-lg-5.col-lg-auto {
+        flex: 0 0 47%;
+        max-width: 47%;
+        padding: 0;
+        margin: 0;
+    }
+    .eventco-login-register ul li a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .eventco-upcoming-event .entry-summary {
+        margin-bottom: 10px;
+    }
+    .event_style2 .eventco-blog-wrap.col-sm-6 {
+        margin-top: 10px;
+    }
+    .upcoming_event_style2 .eventco-blog-wrap .date {
+        margin-right: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .get_ticket {
+        font-size: 16px;
+        width: 160px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #8dc63f;
+        color: #fff;
+        padding: 6px 12px;
+        margin-left: 18px;
+    }
+    .get_ticket a{
+        font-family: poppins;
+    }
+    .get_ticket.fa-ticket:before {
+        content: "\f145";
+        float: left;
+        line-height: 30px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .wp-megamenu .container {
+        max-width: 930px;
+    }
+    .wp-megamenu-wrap .wpmm-nav-wrap > ul > li > a {
+        padding: 15px 7px;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+        font-size: 14px;
+    }
+    .megamenu-main .d-none {
+        display: block !important;
+    }
+    .megamenu-main .get_ticket {
+        margin-left: 0px;
+    }
+    .col-sm-8.speaker-content {
+        padding-top: 14px;
+    }
+    .speaker-content .speaker-name-wrap a {
+        margin-top: 10px;
+    }
+    .row.event-container {
+        padding: 26px 30px 10px;
+    }
+    .mchimp-newsletter p {
+        margin-bottom: 10px;
+    }
+    .mchimp-newsletter h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .eventco-post .entry-headder h2{
+        font-size: 22px;
+    }
+    .subtitle-cover{
+        padding: 80px 0 60px !important;
+    }
+    .subtitle-cover h2.page-leading{
+        font-size: 50px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 36%;
+        max-width: 36%;
+        padding: 0;
+        margin: 0;
+    }
+    .eventco-search button.event-search-btn{
+        width: 100px;
+    }
+    .slider_content_wrapper br{
+        display: none;
+    }
+
+    .wpneo-list-details .eventco-bio{
+        width: 100%;
+    }
+    .wpneo-campaign-single-left-info{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .wpneo-campaign-summary{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .quantity_box .qwpneo_donate_button{
+        margin-left: 0;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .quantity_box{
+        padding: 20px;
+    }
+    input[type="number"].wpneo_donate_amount_field{
+        display: block;
+        widows: 100%;
+        margin-right: 0;
+        max-width: 100%;
+        margin-top: 5px;
+    }
+    span.eventco-rewards{
+        position: static;
+        margin-top: 0;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .wpneocf-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mailchimp-inner{
+        border-color: transparent;
+    }
+    .mchimp-newsletter{
+        position: relative;
+        z-index: 3;
+    }
+    .mc4wp-form-fields button{
+        position: absolute;
+        bottom: -4px;
+        right: -4px;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .themeum-author-dsc{
+        text-align: left;
+    }
+    .product-slide-img{
+        max-width: 300px;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.wpmm_mega_menu>ul.wp-megamenu-sub-menu {
+        width: 100%;
+    }
+    .themeum-campaign-item {
+        width: 25% !important;
+    }
+    .navbar-collapse.collapse.show {
+        display: block !important;
+    }
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-toggle {
+        display: inline-block;
+        margin-top: 0;
+        outline: none;
+        right: 0;
+        font-size: 24px;
+        padding-left: 15px;
+    }
+    .mobile-register {
+        text-align: right;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    /* Campaign */
+    .wpneo-listings-dashboard .wpneo-listing-img {
+        width: 35%;
+    }
+    .wpneo-listings-dashboard .wpneo-listing-content {
+        width: 65%;
+        padding: 20px 24px;
+    }
+    .eventco-tab-slider .elementor-tab-title {
+        line-height: 22px !important;
+    }
+    .main-menu-wrap .navbar-toggle {
+        color: #191919;
+        transition: 400ms;
+        -webkit-transition: 400ms;
+    }
+    .themeum-campaign-item a.themeum-campaign-icon {
+        font-size: 25px;
+    }
+    .themeum-campaign-item a.themeum-campaign-img img{
+        max-width: 30px;
+    }
+    .themeum-campaign-item .camp-title{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .sponsor-img.sponsor-col-3 {
+        padding: 30px;
+        height: auto;
+        margin-bottom: 35px;
+    }
+    .sponsor-img.sponsor-col-3 img {
+        height: 40px;
+    }
+    .sponsor-img.sponsor-col-4{
+        padding: 20px;
+    }
+    .sponsor-img.sponsor-col-5{
+        padding: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 800px) { 
+    .col-12.col-sm-6.thm-post-grid-col.col-lg-12 {
+        flex: 0 0 70%;
+        max-width: 70%;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    #masthead.sticky {
+        display: none;
+    }
+    .eventco-menu-wrap .col-7.col-sm-6.d-lg-none {
+        top: -45px;
+        right: -168px;
+        flex: 0 0 76%;
+        max-width: 76%;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        display: none !important;
+    }
+    form#mc4wp-form-1 {
+        width: 65%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .eventco-contact {
+        padding: 52px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .eventco-login-wrapper {
+        display: none;
+    }
+    .with-login #wp-megamenu-primary {
+        width: 100%;
+    }
+    .themeum-title span {
+        padding-left: 23px;
+        font-size: 16px;
+    }
+    .site-header-wrap.container {
+       max-width: 100%;
+       position: relative;
+    }
+    .sponsor-img.sponsor-col-5 img, .sponsor-img.sponsor-col-4 img{
+        width: 100% ;
+        height: auto;
+    }
+    .mchimp-newsletter h2{
+        font-size: 20px;
+    }
+    .content-wrap-section.col-sm-7{
+        padding-left: 20px;
+    }
+    .eventco-menu-wrap .d-lg-none {
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 7%;
+        display: block;
+    }
+    .eventco-menu-wrap .col-12.d-lg-none {
+        position: inherit;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu {
+        display: inline-block;
+        position: inherit;
+        display: none;
+        top: 0 !important;
+    }
+    .col-xs-6.col-sm-3.col-lg-2.col-lg-auto {
+        width: 40%;
+        float: left;
+    }
+    .col-7.col-sm-6.d-lg-none.AQW {
+        float: right !important;
+        position: absolute;
+        right: 0;
+        top: 18px;
+    }
+    .eventco-search-wrap a.eventco-search.search-open-icon {
+        margin-right: -6px;
+        color: #B2B2B2;
+        font-size: 17px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        display: none !important;
+    }
+    .megamenu-main .d-lg-block {
+        display: block !important;
+    }
+    .wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+        background: #ff025a;
+    }
+    .campaign-days-remain.col-sm-4 {
+        padding: 0 0 0 15px;
+        width: 33.33%;
+    }
+    .single-product-item .thm-Price-amount.pull-center.col-sm-4 {
+        text-align: left;
+        padding: 0 20px;
+        width: 33.33%;
+    }
+    .themeum-author-funded.pull-right.col-sm-4 {
+        padding: 0;
+        width: 33.33%;
+    }
+    .single-product-item h2.woocommerce-Price-amount.amount {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .single-product-item span.thm-raise-sp {
+        font-size: 16px;
+    }
+    .single-product-item .progressbar-content-wrapper .thm-progress-bar .lead {
+        font-size: 15px;
+    }
+    .single-product-item .progressbar-content-wrapper .thm-progress-bar .progress {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .col-lg-4.single-cam-img {
+        margin-bottom: 30px;
+    }
+    .themeum-tab-inner {
+        border-radius: 0;
+    }
+    .themeum-tab-inners .themeum-campaign-img .review-item-image img,
+    .blog-post-item-col .eventco-first-post img{
+        width: 100%;
+    }
+    .blog-post-item-col .eventco-first-post .col-sm-6 {
+        max-width: 100%;
+        flex: inherit;
+    }
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-8,
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-4 {
+        margin-bottom: 30px;
+        max-width: 50%;
+        flex: 50%;
+    }
+    .eventco-first-post img.img-fluid.wp-post-image {
+        height: 240px;
+    }
+    .eventco-first-post .col-sm-6.content-wrap {
+        padding: 30px 44px 15px !important;
+    }
+    .eventco-first-post p{
+        display: none;
+    }
+    .themeum-tab-navigation li a:before {
+        bottom: 15px;
+    }
+    .themeum-tab-navigation li a {
+        margin-bottom: 22px;
+    }
+    .container.bottom-footer-cont {
+        padding-bottom: 40px;
+    }
+    .bottom-widget {
+        text-align: center;
+    }
+
+
+    .themeum-campaign-tab-post .themeum-camp-author {
+        margin-bottom: 20px;
+    }
+    .thm-fullscreen-search form{
+        width: 70%;
+    }
+    .container-fluid.thm-wide-header{
+        padding: 0 15px;
+    }
+    .modal .modal-header{
+        padding: 35px 35px 0 35px;
+    }
+    .modal .modal-body{
+        padding: 0 35px 35px 35px;
+    }
+    .eventco-info-img, .eventco-share{
+        width: 100%;
+    }
+    .eventco-bio .eventco-follow-us.pull-right{
+        float: none;
+        padding-left: 10px;
+    }
+    .wpneo-list-details{
+        margin-bottom: 0;
+    }
+    .mailchimp-inner{
+        margin-bottom: 15px;
+    }
+    .bottom-wrap{
+        padding-bottom: 100px !important;
+        padding-top: 30px !important;
+    }
+    .mchimp-newsletter p{
+        font-size: 16px;
+    }
+    .thm-explore::after{
+        display: none;
+    }
+    .error-message-title{
+        font-size: 90px;
+    }
+    .thm-single-post-content-inner{
+        margin-bottom: 40px;
+    }
+
+    .jssocials-shares .jssocials-share a {
+        width: 90px;
+        line-height: 35px;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+    .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title{
+        font-size: 35px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .themeum-product-slider .slick-next,
+    .themeum-product-slider .slick-prev{
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0;
+        line-height: 35px;
+        border-radius: 5px;
+        height: 35px;
+        margin: 0;
+        padding: 0;
+        margin-left: -55px;
+        font-size: 15px;
+        background-color: #f4f4f4;
+    }
+
+    .themeum-product-slider .slick-next{
+        margin-left: 5px;
+    }
+    .themeum-product-slider{
+        padding-bottom: 65px;
+    }
+
+    .product-slide-title{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .product-slider-items .themeum-camp-author{
+        padding-bottom: 30px;
+    }
+    .product-slider-items .thm-progress-bar{
+        margin-right: 0;
+    }
+    .product-slider-items .themeum-camp-author{
+        padding-right: 0;
+    }
+    .col-8 .eventco-login-register ul::before{
+        content: none;
+    }
+    .eventco-login-register a.eventco-dashboard{
+        font-size: 11px;
+    }
+    .themeum-campaign-item {
+        width: 25% !important;
+    }
+    /*slider*/
+    .classic-slider.layout1 .classic-slider-subtitle {
+        line-height: 120px;
+    }
+    #mobile-menu ul {
+        padding: 0;
+    }
+    .eventco-post .post-featured-img {
+        width: 100%;
+    }
+    .themeum-campaign-post .review-item-image img {
+        width: 100%;
+    }
+    .entry-summary .wrap-btn-style a.btn-style {
+        float: none;
+    }
+    .social-share-wrap {
+        text-align: left;
+    }
+    .bottom-widget h3 {
+        margin-bottom: 25px;
+    }
+    .bottom-widget {
+        width: 100%;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .mc4wp-form-fields input[type=submit] {
+        display: inline-block;
+        margin-left: 0;
+        border-radius: 4px;
+    }
+    .top-search-input-wrap .search-wrap .search.eventco-top-search {
+        width: 70%;
+        min-width: 200px;
+    }
+    .themeum-google-map-wrap .map-address {
+        padding: 30px 35px;
+        top: 18%;
+        left: 8%;
+    }
+    .bottom-widget {
+        width: 100%;
+    }
+    .demo-four .mc4wp-form-fields input[type="email"] {
+        margin-right: 20px;
+    }
+    .comingsoon-footer .social-share {
+        text-align: left;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 47% !important;
+        margin-bottom: 25px;
+    }
+    /* Campaign Categories */
+    .elementor-widget-thm-campaign-dynamic .col-3 {
+        -ms-flex: 0 0 25%;
+        -webkit-box-flex: inherit;
+        flex: inherit;
+        max-width: 50%;
+        display: inline-block;
+        overflow: hidden;
+        width: 50%;
+    }
+    /* Popular Campaigns */
+    .elementor-widget-container .col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+        display: inline-block;
+    }
+    .comingsoon-newslatter-descrip {
+        margin-bottom: 35px;
+    }
+    .eventco-contact {
+        padding: 80px 14px;
+    }
+    .eventco-contact .col-md-4 {
+        padding-bottom: 14px;
+    }
+    .eventco-contact textarea {
+        margin-top: 0;
+    }
+    .countdown-section {
+        width: 165px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    section.comingsoonpage-footer {
+        padding: 85px 20px;
+    }
+    .comingsoonpage-footer .mc4wp-form-fields input[type="email"] {
+        display: inline-block;
+        width: 84%;
+        height: 40px;
+        float: none;
+    }
+    .comingsoonpage-footer .social-share ul {
+        text-align: center;
+    }
+    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+        margin-bottom: 5px !important;
+    }
+    #sidebar.col-3 {
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    /* Shop Page */
+    .wpneo-campaign-single-left-info,
+    .wpneo-campaign-summary,
+    .tab-campaign-story-left,
+    .tab-campaign-story-right {
+        width: 100%;
+        padding: 20px;
+    }
+    .wpneo-tabs {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .wpneo-tab .tab_col_9,
+    .wpneo-tab .tab_col_3 {
+        width: 100%;
+        float: left;
+    }
+    .wpneo-tabs-menu li {
+        padding: 12px 0;
+        margin-right: 0;
+        margin-bottom: 14px;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .wpneo-tabs-menu li a {
+        font-size: 14px;
+    }
+    .wpneo-listings-dashboard .wpneo-listing-img {
+        width: 100%;
+        float: left;
+    }
+    .wpneo-listings-dashboard .wpneo-listing-content {
+        width: 100%;
+    }
+    .wpneo-form {
+        overflow-x: scroll;
+    }
+    table.stripe-table {
+        table-layout: inherit;
+    }
+    .eventco-tab-slider .elementor-tab-mobile-title {
+        padding: 20px 11px !important;
+        line-height: 10px !important;
+    }
+    .eventco-tabslider-title {
+        display: none;
+    }
+    .eventco-tab-slider .elementor-tab-content {
+        padding-bottom: 40px !important;
+        padding-left: 35px !important;
+    }
+    .themeum-product-slider .slick-next,
+    .themeum-product-slider .slick-prev {
+        background: #dedede;
+        color: rgba(0, 0, 0, 0.34);
+    }
+    .slider-title {
+        font-size: 46px !important;
+        line-height: 48px !important;
+    }
+    .bottom-wrap.col-sm-6.col-lg-3 {
+        text-align: center;
+    }
+
+    .thm-explore ul {
+        top: 50px;
+        padding: 0;
+    }
+    .subtitle-cover h2 {
+        line-height: 20px !important;
+        font-size: 38px !important;
+    }
+    .eventco-bio {
+        margin-bottom: 20px;
+    }
+    .themeum-pagination {
+        margin-bottom: 40px;
+    }
+    .contact-form-map {
+        width: 174% !important;
+        height: 120px !important;
+    }
+    
+    .thm-content .progressbar-content-wrapper {
+        bottom: 10px !important;
+    }
+    .themeum-campaign-tab-post .progressbar-content-wrapper .thm-meta-desc {
+        width: 40%;
+        display: inline-block;
+    }
+    .eventco-title-content-wrapper {
+        margin-bottom: 30px;
+    }
+    .themeum-tab-navigation li a {
+        padding: 0 10px 0 0;
+    }
+    .themeum-tab-navigation li:last-child a {
+        padding: 0;
+    }
+    .footer-copyright .copy-wrapper{
+        margin-top: 10px;
+    }
+    .copy-wrapper .social-share, .footer-copyright .copy-wrapper{
+        text-align: center !important;
+    }
+    section.eventco-event-wrapper{
+        padding-top: 0 !important;
+    }
+    .upcoming_event_style2 .eventco-blog-wrap{
+        margin-bottom: 20px;
+    }
+    .countdown-section{
+        width: 120px;
+        margin-right: 10px;
+    }
+    .countdown-section span{
+        font-size: 44px !important;
+    }
+    span.countdown-period{
+        font-size: 16px !important;
+    }
+    .mc4wp-form-fields button {
+        width: 120px;
+        right: 0;
+    }
+    .footer-banner{
+        margin-top: -120px;
+    }
+    .subtitle-cover .breadcrumb ul li, .breadcrumb span.raquo{
+        font-size: 16px;
+    }
+    .eventco-event-wrapper .goback{
+        padding-top: 30px;
+    }
+    /*min-width: 767px*/
+    /*.event-schedule-tab-view li.col {
+        padding: 0;
+        flex-basis: 100%;
+    }*/
+    .event-schedule-tab-view ul li:first-child a {
+        border-radius: 10px 10px 0 0px;
+    }
+    .event-schedule-tab-view ul li:last-child a {
+        border-radius: 0px 0px 10px 10px;
+    }
+    .event-container .event-img-wrap {
+        text-align: left;
+    }
+    .row.event-container {
+        padding: 18px 12px 8px;
+        background: #fff;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+
+    /* Speaker Session */
+    .session-list span {
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: 300;
+        color: #212121;
+        padding-bottom: 0px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .intro-text p {
+        color: rgba(33, 33, 33, 0.7);
+        line-height: 22px;
+    }
+    .speaker-content .intro-text p {
+        opacity: 0.7;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.7;
+        color: #212121;
+    }
+    
+    /* Speaker Schedule */
+    .session-details-information .session-list {
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+        padding: 30px 25px;
+        position: relative;
+        display: inline-block;
+    }
+    .session-list:before {
+        content: "";
+        width: 10px;
+        height: 98%;
+        border-radius: 10px;
+        background-color: #ffc953;
+        position: absolute;
+        left: 0px;
+        margin-top: -27.6px;
+    }
+    .session-list h2 {
+        font-size: 15px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #212121;
+        text-transform: uppercase;
+    }
+    .session-nbr {
+        width: 55%;
+        display: inline-block;
+        position: relative;
+        margin-right: 25px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .session-nbr:after {
+        width: 2px;
+        height: 51px;
+        opacity: 0.1;
+        border: solid 1px #212121;
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .session-daytime {
+        width: 39%;
+        display: inline-block;
+        margin-right: 0;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .session-topic {
+        width: 55%;
+        display: inline-block;
+        position: relative;
+        margin-right: 25px;
+        float: left;
+        padding-right: 24px; 
+    }
+    .session-daytime:after, .session-topic:after {
+        content: "";
+        width: 2px;
+        height: 70px;
+        opacity: 0.1;
+        border: solid 1px #212121;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .session-daytime:after {
+        border: none;
+    }
+    .speaker-single-wrapper h2.session-title, .speaker-single-wrapper .speaker-title {
+        font-size: 30px;
+    }
+    .speaker-social-icons {
+        margin-bottom: 30px;
+    }
+
+    .sponsor-img.sponsor-col-3 img {
+        max-width: 100%;
+        height: auto;
+        width: 61%;
+        top: 50%;
+    }
+    .event-img-wrap img.img-responsive.wp-post-image {
+        height: auto;
+    }
+
+    .eventco-search .postform, .eventco-search select#post_status, .eventco-search input#search {
+        font-size: 12px;
+    }
+    .mchimp-newsletter {
+        text-align: left;
+    }
+    .upcoming-events {
+        width: 1140px;
+        overflow-x: scroll;
+        overflow: inherit;
+    }
+    div#calendar_area {
+        width: 100%;
+        overflow-x: auto;
+        position: relative;
+    }
+    .woocommerce div.product span.onsale {
+        z-index: 1;
+    }
+    .wp-megamenu .common-menu-wrap li.get_ticket {
+        font-size: 15px;
+        width: 160px !important;
+        padding: 10px 12px;
+        margin-left: 12px !important;
+    }
+    .wp-megamenu .common-menu-wrap li.get_ticket a {
+        line-height: inherit !important;
+    }
+
+    .common-menu-wrap li.get_ticket {
+        width: 150px !important;
+    }
+    .get_ticket.fa-ticket:before {
+        line-height: 26px;
+    }
+    .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap .wp-megamenu {
+        padding: 10px 10px 20px;
+    }
+    .wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+        padding: 10px 15px;
+        margin: 12px 0;
+    }
+
+
+}
+
+
+@media (max-width: 600px){
+    .eventco-review-cont span.thm-Price-amount:first-child{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .eventco-review-cont .text-center{
+        transform: none;
+    }
+    .bg-mobile-none{
+        background: none !important;
+    }
+    .themeum-campaign-item {
+        width: 50% !important;
+        height: auto !important;
+    }
+    .themeum-campaign-item .themeum-campaign-wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .themeum-campaign-time-exp .themeum-campaign-thumb{
+        position: static;
+        width: 100%;
+        height: 200px;
+    }
+    .themeum-campaign-time-exp{
+        padding-left: 0;
+    }
+    .comment-body .comment-context .comment-reply{
+        position: static;
+    }
+}
+
+@media (max-width: 400px){
+    .themeum-campaign-item {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+
+
+@media (max-width: 489px) {
+    .row.event-container {
+        padding: 18px 5px 24px;
+        background: #fff;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+    .speaker-content .speaker-name-wrap {
+        margin-bottom: 12px;
+    }
+    .themeum-tab-inners .themeum-campaign-img .review-item-image img {
+        width:inherit;
+    }
+    .themeum-tab-inner {
+        border: 0 !important;
+    }
+    .campain-list-wrap {
+        padding: 0 !important;
+        border-bottom: 0 !important;
+    }
+    .themeum-campaign-img .review-item-image.single img {
+        height: inherit !important;
+    }
+    .eventco-img-wrap, .eventco-content-wrap {
+        width: 100% !important;
+    }
+    .themeum-campaign-img .review-item-image img {
+        border-radius: 0 !important;
+    }
+    .themeum-campaign-img a {
+        border-radius: 0 !important;
+        border: 0 !important;
+    }
+    .themeum-tab-inners {
+        padding-top: 14px;
+    }
+    .thm-Price-amount.pull-center.col-sm-4, .themeum-author-funded.pull-right.col-sm-4 {
+        padding: 0;
+        width: 33%;
+    }
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-8,
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-4 {
+        margin-bottom: 30px;
+        max-width: 100%;
+        flex: 100%;
+    }
+    .eventco-first-post img.img-fluid.wp-post-image {
+        height: 300px;
+    }
+    .eventco-first-post .col-sm-6.content-wrap {
+        padding: 30px 44px 15px !important;
+    }
+    .eventco-first-post p{
+        display: none;
+    }
+    .thm-tab-content.text-left {
+        padding: 30px;
+    }
+    .eventco-love-sign {
+        display: none;
+    }
+    .contact-form-map {
+        width: 118% !important;
+    }
+
+    .bottom-wrap.col-sm-6.col-lg-3 {
+        text-align: center;
+    }
+    .thm-fullscreen-search form{
+        width: 85%;
+    }
+    .thm-fullscreen-search form input[type="text"]{
+        font-size: 20px;
+    }
+    .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title{
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .themeum-campaign-exp-counter .counter-item{
+        padding: 0 15px;
+    }
+    .themeum-campaign-item>div {
+        padding: 30px 0;
+    }
+    .title-number-wrap {
+        padding-left: 0;
+    }
+    .social-share,
+    .copy-wrapper {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .social-share,
+    .copy-wrapper {
+        text-align: center !important;
+    }
+    .copy-wrapper span{
+        display: block;
+        margin-top: 5px;
+        line-height: 26px;
+    }
+    .footer-copyright {
+        padding: 0px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .classic-slider.layout2 .classic-slider-subtitle {
+        font-size: 60px;
+    }
+    .woocommerce ul.products li.product .star-rating {
+        margin-top: 5px;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 100% !important;
+    }
+    /* Popular Campaigns */
+    .elementor-widget-container .col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .bottom-widget .textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+        display: inline-block;
+    }
+    .woocommerce .woocommerce-ordering,
+    .woocommerce .woocommerce-result-count {
+        float: none;
+    }
+    #wpneo-dashboard-form .wpneo-name {
+        width: 32%;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    #wpneo-dashboard-form .wpneo-fields {
+        width: 68%;
+    }
+    .single-product-item h2.woocommerce-Price-amount.amount {
+        font-size: 24px;
+    }
+    .single-product-item span.thm-raise-sp {
+        font-size: 14px;
+    }
+    /* Speaker Schedule */
+    .session-nbr, .session-daytime, .session-topic, .session-venue {
+        width: 100%;
+    }
+    .session-nbr:after, .session-daytime:after, .session-topic:after {
+        border: none;
+    }
+    .wppb-builder-addon .col.sp-col {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .sponsor-img.sponsor-col-3 {
+        padding: 30px;
+        height: auto;
+    }
+    .sponsor-img.sponsor-col-3, .sponsor-img.sponsor-col-4, .sponsor-img.sponsor-col-5 {
+        margin-bottom: 25px;
+    }
+    .sponsor-img.sponsor-col-5 img, .sponsor-img.sponsor-col-4 img {
+        width: inherit;
+        height: auto;
+    }
+    .wppb-builder-container > .wppb-row-parent.wppb-row-1542358937287{
+         padding: 50px 0px 120px 0px;
+    }
+    .mchimp-newsletter p {
+        line-height: 32px;
+    }
+
+    /*  */
+    .event-schedule-tab-view p.schedule-date-tab {
+        display: none;
+    }
+    .event-schedule-tab-view ul li a {
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+        min-height: 56px;
+    }
+    .event-schedule-tab-view ul li:first-child a {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .event-schedule-tab-view ul li:last-child a {
+        border-radius: 0px 10px 10px 0px;
+    }
+    .schedule-style-one .event-schedule-tab-view ul li.active a:after, 
+    .schedule-style-one .event-schedule-tab-view ul li a.active:after, 
+    .schedule-style-three .event-schedule-tab-view ul li.active a:after, 
+    .schedule-style-three .event-schedule-tab-view ul li a.active:after {
+        width: 25px;
+        height: 26px;
+        border-top: solid 22px rgb(255, 4, 100);
+        border-left: solid 22px transparent;
+        border-right: solid 22px transparent;
+        left: 15%;
+    }
+    .col-sm-8.speaker-content {
+        padding-top: 6px;
+    }
+    .schedule-style-two .event-schedule-tab-view ul li a {
+        padding: 22px 20px;
+        min-height: 60px;
+    }
+    .event-schedule-tab-view .nav-tabs {
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+    .schedule-style-two .event-schedule-tab-view ul li.active a:after, 
+    .schedule-style-two .event-schedule-tab-view ul li a.active:after{
+        display: none;
+    }
+    .schedule-style-two .event-schedule-tab-view ul li:first-child a {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .schedule-style-two .event-schedule-tab-view ul li:last-child a {
+        border-radius: 0px 10px 10px 0px;
+    }
+    .sponsor-img.sponsor-col-4 {
+        padding: 36px 82px;
+    }
+    .sponsor-img.sponsor-col-5 {
+        padding: 35px 120px;
+    } 
+    .mchimp-form-field {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .contact-form-map {
+        width: 106% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .themeum-campaign-post .entry-title a {
+        font-size: 32px !important;
+        line-height: 45px !important;
+    }
+    .contact-form-map {
+        width: 106% !important;
+    }
+}

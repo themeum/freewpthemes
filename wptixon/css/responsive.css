@@ -1,0 +1,146 @@
+/* ==========================================================================
+responsive
+========================================================================== */
+
+@media (min-width: 980px) and (max-width: 1200px) { 
+  .common-menu .common-menu-wrap .nav>li>a {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+  .admin-bar .header-borderimage #mobile-menu, 
+  .admin-bar .header-solid #mobile-menu {
+    top: 100%;
+  }
+  .main-menu-wrap .navbar-toggle {
+    padding: 20px 0;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+    overflow: hidden !important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .visible-sm {
+    display: block!important;
+  }
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+  }
+  #mobile-menu ul {
+    padding: 0;
+  }
+  .header-borderimage #mobile-menu, 
+  .header-solid #mobile-menu {
+    top: 100%;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  /*slider*/
+  .classic-slider.layout1 .classic-slider-subtitle {
+    line-height: 120px;
+  }
+  .site-header.header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #mobile-menu ul {
+    padding: 0;
+  }
+  .header-borderimage #mobile-menu, 
+  .header-solid #mobile-menu {
+      top: 100%;
+  }  
+  .wptixon-post .post-featured-img {
+    width: 100%;
+  }
+  .bottom-widget h3{
+    margin-bottom: 25px;
+  }
+  .bottom-widget{
+    width: 100%;
+  }
+  .main-menu-wrap .navbar-toggle {
+    padding: 20px 15px 20px 0;
+  }
+  .mc4wp-form-fields input[type="email"]{
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  .mc4wp-form-fields input[type=submit]{
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .themeum-google-map-wrap .map-address {
+    padding: 30px 35px;
+    top: 18%;
+    left: 8%;
+  }
+ .bottom-widget{
+    width: 100%;
+  }
+  .demo-four .mc4wp-form-fields input[type="email"] {
+    margin-right: 20px;
+  }
+  #tixon-comingsoon {
+    padding-left: 15px;
+    padding-top: 50px;
+  }
+  .comingsoon-content .comingsoon-title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .comingsoon-footer .social-share {
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+
+}
+
+@media (max-width: 489px) {
+  .title-number-wrap {
+      padding-left: 0;
+    }
+
+    .social-share, .copy-wrapper {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .social-share, .copy-wrapper {
+      padding-top: 8px;
+    }
+    .classic-slider.layout2 .classic-slider-subtitle {
+        font-size: 60px;
+    }
+
+    .woocommerce ul.products li.product .star-rating {
+        margin-top: 5px;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-page[class*=columns-] ul.products li.product, .woocommerce[class*=columns-] ul.products li.product {
+      width: 100%;
+  }
+}
+
+

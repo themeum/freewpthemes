@@ -1,0 +1,598 @@
+@font-face {
+  font-family: 'Winkel';
+  src:
+    url('../fonts/winkel.ttf?67zfbd') format('truetype'),
+    url('../fonts/winkel.woff?67zfbd') format('woff'),
+    url('../fonts/winkel.svg?67zfbd#Winkel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.winkel {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Winkel' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.winkel-prev:before {
+  content: "\e901";
+}
+.winkel-next-1:before {
+  content: "\e9b7";
+}
+.winkel-substract-1:before {
+  content: "\e9b8";
+}
+.winkel-add:before {
+  content: "\e9b9";
+}
+.winkel-login:before {
+  content: "\e9ba";
+}
+.winkel-logout:before {
+  content: "\e9bb";
+}
+.winkel-menu-options:before {
+  content: "\e9bc";
+}
+.winkel-multiply:before {
+  content: "\e9bd";
+}
+.winkel-shopping-cart:before {
+  content: "\e9be";
+}
+.winkel-user:before {
+  content: "\e9bf";
+}
+.winkel-ballet-flats:before {
+  content: "\e932";
+}
+.winkel-basketball-jersey:before {
+  content: "\e933";
+}
+.winkel-bathrobe:before {
+  content: "\e934";
+}
+.winkel-belt:before {
+  content: "\e935";
+}
+.winkel-blouse:before {
+  content: "\e936";
+}
+.winkel-boot-1:before {
+  content: "\e937";
+}
+.winkel-boot-2:before {
+  content: "\e938";
+}
+.winkel-boot:before {
+  content: "\e939";
+}
+.winkel-bow-tie:before {
+  content: "\e93a";
+}
+.winkel-brassiere:before {
+  content: "\e93b";
+}
+.winkel-cap:before {
+  content: "\e93c";
+}
+.winkel-coat:before {
+  content: "\e93d";
+}
+.winkel-dress-1:before {
+  content: "\e93e";
+}
+.winkel-dress-2:before {
+  content: "\e93f";
+}
+.winkel-dress-3:before {
+  content: "\e940";
+}
+.winkel-dress-4:before {
+  content: "\e941";
+}
+.winkel-dress:before {
+  content: "\e942";
+}
+.winkel-glasses:before {
+  content: "\e943";
+}
+.winkel-gloves:before {
+  content: "\e944";
+}
+.winkel-hand-bag-1:before {
+  content: "\e945";
+}
+.winkel-hand-bag:before {
+  content: "\e946";
+}
+.winkel-hat:before {
+  content: "\e947";
+}
+.winkel-high-heels:before {
+  content: "\e948";
+}
+.winkel-high-hells:before {
+  content: "\e949";
+}
+.winkel-hoodie:before {
+  content: "\e94a";
+}
+.winkel-jacket-1:before {
+  content: "\e94b";
+}
+.winkel-jacket-2:before {
+  content: "\e94c";
+}
+.winkel-jacket-3:before {
+  content: "\e94d";
+}
+.winkel-jacket-4:before {
+  content: "\e94e";
+}
+.winkel-jacket-5:before {
+  content: "\e94f";
+}
+.winkel-jacket-6:before {
+  content: "\e950";
+}
+.winkel-jacket:before {
+  content: "\e951";
+}
+.winkel-jeans:before {
+  content: "\e952";
+}
+.winkel-mittens:before {
+  content: "\e953";
+}
+.winkel-necklace:before {
+  content: "\e954";
+}
+.winkel-overall:before {
+  content: "\e955";
+}
+.winkel-pamela:before {
+  content: "\e956";
+}
+.winkel-panties:before {
+  content: "\e957";
+}
+.winkel-pants:before {
+  content: "\e958";
+}
+.winkel-pijama:before {
+  content: "\e959";
+}
+.winkel-polo:before {
+  content: "\e95a";
+}
+.winkel-pullover:before {
+  content: "\e95c";
+}
+.winkel-purse:before {
+  content: "\e95d";
+}
+.winkel-scarf:before {
+  content: "\e95e";
+}
+.winkel-shirt-1:before {
+  content: "\e95f";
+}
+.winkel-shirt-2:before {
+  content: "\e960";
+}
+.winkel-shirt-3:before {
+  content: "\e961";
+}
+.winkel-shirt:before {
+  content: "\e962";
+}
+.winkel-shoe-1:before {
+  content: "\e963";
+}
+.winkel-shoe:before {
+  content: "\e964";
+}
+.winkel-shopping-bag:before {
+  content: "\e965";
+}
+.winkel-shorts-1:before {
+  content: "\e966";
+}
+.winkel-shorts:before {
+  content: "\e967";
+}
+.winkel-skirt-1:before {
+  content: "\e969";
+}
+.winkel-skirt:before {
+  content: "\e96a";
+}
+.winkel-slipper:before {
+  content: "\e96b";
+}
+.winkel-sneaker:before {
+  content: "\e96c";
+}
+.winkel-socks:before {
+  content: "\e96d";
+}
+.winkel-suitcase:before {
+  content: "\e96e";
+}
+.winkel-tie:before {
+  content: "\e96f";
+}
+.winkel-trench-coat:before {
+  content: "\e970";
+}
+.winkel-umbrella:before {
+  content: "\e971";
+}
+.winkel-underwear-1:before {
+  content: "\e972";
+}
+.winkel-underwear:before {
+  content: "\e973";
+}
+.winkel-vest:before {
+  content: "\e974";
+}
+.winkel-wallet:before {
+  content: "\e975";
+}
+.winkel-winter-hat:before {
+  content: "\e976";
+}
+.winkel-wristwatch:before {
+  content: "\e977";
+}
+.winkel-bag-1:before {
+  content: "\e978";
+}
+.winkel-bag-2:before {
+  content: "\e979";
+}
+.winkel-bag-3:before {
+  content: "\e97a";
+}
+.winkel-bag:before {
+  content: "\e97b";
+}
+.winkel-body:before {
+  content: "\e97c";
+}
+.winkel-bra:before {
+  content: "\e97d";
+}
+.winkel-cardigan-1:before {
+  content: "\e97e";
+}
+.winkel-cardigan:before {
+  content: "\e97f";
+}
+.winkel-dress-12:before {
+  content: "\e980";
+}
+.winkel-dress-22:before {
+  content: "\e981";
+}
+.winkel-dress-32:before {
+  content: "\e982";
+}
+.winkel-dress2:before {
+  content: "\e983";
+}
+.winkel-hat2:before {
+  content: "\e984";
+}
+.winkel-high-heels-1:before {
+  content: "\e985";
+}
+.winkel-high-heels-2:before {
+  content: "\e986";
+}
+.winkel-high-heels-3:before {
+  content: "\e987";
+}
+.winkel-high-heels2:before {
+  content: "\e988";
+}
+.winkel-jeans-1:before {
+  content: "\e989";
+}
+.winkel-jeans2:before {
+  content: "\e98a";
+}
+.winkel-pamela2:before {
+  content: "\e98b";
+}
+.winkel-panties2:before {
+  content: "\e98c";
+}
+.winkel-poncho:before {
+  content: "\e98d";
+}
+.winkel-purse2:before {
+  content: "\e98e";
+}
+.winkel-sandal:before {
+  content: "\e98f";
+}
+.winkel-shirt-12:before {
+  content: "\e990";
+}
+.winkel-shirt-22:before {
+  content: "\e991";
+}
+.winkel-shirt-32:before {
+  content: "\e992";
+}
+.winkel-shirt-4:before {
+  content: "\e993";
+}
+.winkel-shirt-5:before {
+  content: "\e996";
+}
+.winkel-shirt-6:before {
+  content: "\e997";
+}
+.winkel-shirt-7:before {
+  content: "\e999";
+}
+.winkel-shirt-8:before {
+  content: "\e99a";
+}
+.winkel-shirt-9:before {
+  content: "\e99c";
+}
+.winkel-shirt-10:before {
+  content: "\e99d";
+}
+.winkel-shirt2:before {
+  content: "\e9a0";
+}
+.winkel-shoe-12:before {
+  content: "\e9a1";
+}
+.winkel-shoe-2:before {
+  content: "\e9a2";
+}
+.winkel-shoe-3:before {
+  content: "\e9a3";
+}
+.winkel-shoe-4:before {
+  content: "\e9a5";
+}
+.winkel-shoe2:before {
+  content: "\e9a6";
+}
+.winkel-skirt-12:before {
+  content: "\e9a7";
+}
+.winkel-skirt-2:before {
+  content: "\e9a8";
+}
+.winkel-skirt2:before {
+  content: "\e9a9";
+}
+.winkel-sweater:before {
+  content: "\e9ab";
+}
+.winkel-swimsuit-1:before {
+  content: "\e9ad";
+}
+.winkel-swimsuit:before {
+  content: "\e9af";
+}
+.winkel-top-1:before {
+  content: "\e9b0";
+}
+.winkel-top:before {
+  content: "\e9b3";
+}
+.winkel-vest2:before {
+  content: "\e9b5";
+}
+.winkel-watch:before {
+  content: "\e9b6";
+}
+.winkel-avatar-1:before {
+  content: "\e9b4";
+}
+.winkel-avatar-1:before {
+  content: "\e900";
+}
+.winkel-back:before {
+  content: "\e902";
+}
+.winkel-book:before {
+  content: "\e903";
+}
+.winkel-cancel:before {
+  content: "\e904";
+}
+.winkel-chat-1:before {
+  content: "\e905";
+}
+.winkel-chat-2:before {
+  content: "\e906";
+}
+.winkel-chat:before {
+  content: "\e907";
+}
+.winkel-copy:before {
+  content: "\e908";
+}
+.winkel-dislike:before {
+  content: "\e909";
+}
+.winkel-download-1:before {
+  content: "\e90a";
+}
+.winkel-download:before {
+  content: "\e90b";
+}
+.winkel-edit:before {
+  content: "\e90c";
+}
+.winkel-envelope:before {
+  content: "\e90d";
+}
+.winkel-folder:before {
+  content: "\e90e";
+}
+.winkel-garbage:before {
+  content: "\e90f";
+}
+.winkel-glasses2:before {
+  content: "\e910";
+}
+.winkel-hand:before {
+  content: "\e911";
+}
+.winkel-headphones:before {
+  content: "\e912";
+}
+.winkel-heart:before {
+  content: "\e913";
+}
+.winkel-house:before {
+  content: "\e914";
+}
+.winkel-like:before {
+  content: "\e915";
+}
+.winkel-link:before {
+  content: "\e916";
+}
+.winkel-logout2:before {
+  content: "\e917";
+}
+.winkel-magnifying-glass:before {
+  content: "\e918";
+}
+.winkel-monitor:before {
+  content: "\e919";
+}
+.winkel-musical-note:before {
+  content: "\e91a";
+}
+.winkel-next-1:before {
+  content: "\e91b";
+}
+.winkel-next:before {
+  content: "\e91c";
+}
+.winkel-padlock:before {
+  content: "\e91d";
+}
+.winkel-paper-plane:before {
+  content: "\e91e";
+}
+.winkel-phone-call:before {
+  content: "\e91f";
+}
+.winkel-photo-camera:before {
+  content: "\e920";
+}
+.winkel-pie-chart:before {
+  content: "\e921";
+}
+.winkel-piggy-bank:before {
+  content: "\e922";
+}
+.winkel-placeholder:before {
+  content: "\e923";
+}
+.winkel-printer:before {
+  content: "\e924";
+}
+.winkel-reload:before {
+  content: "\e925";
+}
+.winkel-settings-1:before {
+  content: "\e926";
+}
+.winkel-settings:before {
+  content: "\e927";
+}
+.winkel-share:before {
+  content: "\e928";
+}
+.winkel-shopping-bag2:before {
+  content: "\e929";
+}
+.winkel-shopping-cart2:before {
+  content: "\e92a";
+}
+.winkel-shuffle:before {
+  content: "\e92b";
+}
+.winkel-speaker:before {
+  content: "\e92c";
+}
+.winkel-star:before {
+  content: "\e92d";
+}
+.winkel-tag:before {
+  content: "\e92e";
+}
+.winkel-upload-1:before {
+  content: "\e92f";
+}
+.winkel-upload:before {
+  content: "\e930";
+}
+.winkel-vector:before {
+  content: "\e931";
+}
+.winkel-gamepad2:before {
+  content: "\e968";
+}
+.winkel-fast-delivery:before {
+  content: "\e994";
+}
+.winkel-medal:before {
+  content: "\e995";
+}
+.winkel-free-delivery:before {
+  content: "\e998";
+}
+.winkel-gift-1:before {
+  content: "\e99b";
+}
+.winkel-tag-1:before {
+  content: "\e99e";
+}
+.winkel-24-hours:before {
+  content: "\e99f";
+}
+.winkel-piggybank:before {
+  content: "\e9a4";
+}
+.winkel-gift:before {
+  content: "\e9aa";
+}
+.winkel-tag2:before {
+  content: "\e9ac";
+}
+.winkel-basket:before {
+  content: "\e9ae";
+}
+.winkel-mobile-store:before {
+  content: "\e9b1";
+}
+.winkel-wallet2:before {
+  content: "\e9b2";
+}

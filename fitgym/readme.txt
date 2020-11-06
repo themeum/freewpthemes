@@ -1,0 +1,2 @@
+Fitgym is built for gymnasium, sport club, fitness center, yoga athlete, trainer, coach, and all other relevant websites. Create, edit, and modify web pages with the powerful WP Page Builder that comes inside Fitgym.
+Have a flexible mega menu with in-packaged WP Mega Menu plugin. You can use it as a personal trainer WordPress theme to showcase your fitness classes with details and enlist trainers on the website.

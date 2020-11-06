@@ -1,0 +1,12 @@
+Change log:
+------------------------------------
+
+1.0.2:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Fitgym License feature added.
+* NEW FEATURES: Fitgym theme support external link.
+* NEW FEATURES: Fitgym theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.

@@ -1,0 +1,27 @@
+Change log:
+--------------------------------------------
+1.0.2:
+
+* NEW FEATURES: Melody theme Guttenberg support.
+* NEW FEATURES: Melody theme Options/Customizer link.
+* NEW FEATURES: Melody theme support external link.
+* NEW FEATURES: Melody theme documentation external link.
+
+* FIX: CSS bug fix.
+* FIX: License page bug fix.
+* FIX: Remove License function from core plugin.
+* FIX: Guttenberg post-meta.js bug fix.
+* FIX: Theme style.css "Description: Event Management Primium WordPress Theme" text bug fix.
+
+
+--------------------------------------------
+
+1.0.1:
+
+* CSS bug fix.
+
+--------------------------------------------
+
+1.0.0:
+
+* Initial release.

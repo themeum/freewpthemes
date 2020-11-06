@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'rhino-icon';
+  src:
+    url('../fonts/rhino-icon.ttf?7yj69h') format('truetype'),
+    url('../fonts/rhino-icon.woff?7yj69h') format('woff'),
+    url('../fonts/rhino-icon.svg?7yj69h#rhino-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rhino-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rhino-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rhino-balance:before {
+  content: "\e900";
+}
+.rhino-next:before {
+  content: "\e901";
+}
+.rhino-settings:before {
+  content: "\e902";
+}
+.rhino-technology:before {
+  content: "\e903";
+}
+.rhino-back:before {
+  content: "\e904";
+}
+.rhino-cogwheel:before {
+  content: "\e905";
+}
+.rhino-handshake:before {
+  content: "\e906";
+}
+.rhino-placeholder:before {
+  content: "\e907";
+}
+.rhino-analysis:before {
+  content: "\e908";
+}
+.rhino-email:before {
+  content: "\e909";
+}
+.rhino-like:before {
+  content: "\e90a";
+}
+.rhino-megaphone2:before {
+  content: "\e90b";
+}
+.rhino-interface:before {
+  content: "\e90c";
+}
+.rhino-meeting:before {
+  content: "\e90d";
+}
+.rhino-communication:before {
+  content: "\e90e";
+}
+.rhino-people:before {
+  content: "\e90f";
+}
+.rhino-square:before {
+  content: "\e910";
+}
+.rhino-glue:before {
+  content: "\e911";
+}
+.rhino-key:before {
+  content: "\e912";
+}
+.rhino-medal:before {
+  content: "\e913";
+}
+.rhino-megaphone:before {
+  content: "\e914";
+}
+.rhino-money:before {
+  content: "\e915";
+}
+.rhino-motivation:before {
+  content: "\e916";
+}
+.rhino-arrow-next:before {
+  content: "\e917";
+}
+.rhino-padlock:before {
+  content: "\e918";
+}
+.rhino-pencil-case:before {
+  content: "\e919";
+}
+.rhino-arrow-prev:before {
+  content: "\e91a";
+}
+.rhino-stopwatch:before {
+  content: "\e91b";
+}
+.rhino-support:before {
+  content: "\e91c";
+}
+.rhino-travel:before {
+  content: "\e91d";
+}

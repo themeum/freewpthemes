@@ -1,0 +1,849 @@
+/* ==========================================================================
+      responsive
+========================================================================== */
+@media (max-width: 1199px) {
+	.tp-caption.white_heavy_70, 
+	.tp-caption.medium_text, 
+	.tp-simpleresponsive .tp-caption{
+		margin-left: 95px !important;
+	}
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+    #main-menu .nav>li>a{
+		padding: 0 7px;
+	}	
+
+	#featured-ideas .details figure {
+		  margin-right: 20px;
+	}
+
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 0;
+	}	
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990px){
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+
+	#main-menu {
+		padding: 0;
+		text-align: center;
+	}
+
+	#main-menu .nav{
+		display: inline-block;
+	}
+
+	#main-menu .nav>li>a{
+		padding: 0 7px;
+	}
+
+	.navbar-brand>img {
+		  margin-top: 20px;
+	}
+
+	#main-menu .nav>li>ul li a{
+		font-size: 12px;
+	}
+
+	#main-menu .sub-menu li a{
+		text-align: left;
+	}
+
+	#featured-ideas .details figure {
+		  margin-right: 20px;
+	}
+
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 0;
+	}	
+	#project-form #progressbar .step-name{
+		float: none !important;
+	}
+
+}
+@media (max-width: 990px){
+	.res-mtb30{
+		margin-bottom: 30px;
+	}
+	.res-mtb40{
+		margin-bottom: 40px;
+	}
+	.res-mtb50{
+		margin-bottom: 50px;
+	}
+	.navbar-header {
+	    float: none;
+	}
+	.navbar-nav>li {
+	    float: left;
+	    width: 100%;
+	}
+	.navbar-toggle {
+	    display: block;
+	}
+	#navigation .navbar-nav{
+		float: none;
+		margin: 0;
+	}
+	.navbar-toggle{
+		padding: 10px 5px;
+		border-radius: 0;
+	}
+	#navigation.navbar {
+		padding: 0;
+	}
+
+	#navigation .navbar-brand{
+		padding-top: 3px;
+		padding-bottom: 0px;
+		margin-left: 0;
+	} 
+
+	.navbar-toggle .icon-bar{
+ 		background: #fff;
+ 	}
+
+	#navigation .navbar-nav > li > a {
+		padding: 10px 15px;
+	}
+	#header-container #navigation {
+		position: relative;
+	}
+	#about-project .project-status h2{
+		font-size: 50px;
+	}
+	#about-project .project-status h3{
+		font-size: 25px;
+	}
+	.reward-title{
+		margin-bottom: 0px;
+    	margin-top: 30px;
+	}
+	.wpb_tabs_nav{
+		overflow: hidden;
+	}
+	.wpb_tabs_nav li{
+		white-space: normal !important;
+	}
+	.wpneo-stats-img{
+		text-align: center;
+	}
+	.wpneo-stats-img img{
+		display: inline-block;
+	}
+	.wpneo-stats .feature-content:first-child {
+		margin-top: 50px;
+	}
+	.wpneo-stats .feature-content {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.wpneo-partners .inline-block{
+		width: 50%;
+		margin-bottom: 15px;
+		padding-right: 15px;
+	}
+	.ideas-item .image img{
+		width: 100%;
+	}
+	#comming-soon{
+		padding: 80px 0 50px;
+	}
+	.wpneo-listings{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+	.res-padding{
+        padding: 50px 0 !important;
+    }
+    .res-padding-top{
+        padding: 50px 0 0 !important;
+    }
+    .res-padding-bottom{
+        padding: 0 0 50px !important;
+    }
+    .res-padding-zero{
+        padding: 0 !important;
+    }
+
+	h1{
+		font-size: 30px !important;	
+		line-height: 35px !important;
+	}
+	h2{
+		font-size: 25px !important;	
+		line-height: 30px !important;
+	}
+	h3{
+		font-size: 20px !important;	
+		line-height: 25px !important;
+	}
+	h4{
+		font-size: 18px !important;	
+		line-height: 23px !important;
+	}
+	p{
+		font-size: 14px;
+	}
+	.section-title{
+		padding: 0 15px;
+	}
+	.section-title .subtitle{
+		font-size: 14px;
+	}
+	.section-title .subtitle br{
+		display: none;
+	}
+	.sub-title{
+		padding: 35px 0 !important;
+	}
+	.products-slider .product {
+		padding: 80px 0;
+	}
+	.wpneo-listings .wpneo-listing-content h4 a{
+		font-size: 20px;
+		line-height: 1.3;
+	}
+	.box-feature-content h4 {
+		margin-bottom: 10px;
+	}
+	.box-feature-content p {
+		line-height: 1.3;
+	}
+	.feature-content .top-title {
+		font-size: 50px;
+		line-height: 1.3;
+	}
+	.ideas-item .image i.fa{
+		font-size: 22px;
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+	}
+	.ideas-item .details .grid-post-meta {
+		font-size: 14px;
+	}
+	.ideas-item .details {
+		padding: 20px;
+	}
+	.single-post-title{
+		font-size: 24px !important;
+		line-height: 1.3 !important;
+	}
+	.person img{
+		width: 100%;
+	}
+	.vc_empty_space{
+		height: 20px !important;
+	}
+	.entry-title.blog-entry-title{
+		font-size: 25px;
+	}
+	.reward-item{
+		margin-right: 0px;
+	}
+	.page-template-homepage-transparent-php .header{
+		top: 0;
+	}
+	
+	.handpick .wave{
+		-webkit-background-size: 70px 70px !important;
+		background-size: 70px 70px !important;
+	}
+	.handpick .loading h2{
+		font-size: 80px;
+	}
+	
+	.handpick h3{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.section-header{
+		margin-top: -50px;
+	}
+	.section-header h2{
+		font-size: 25px;
+	}
+	.section-header h2:after{
+		margin-left: -74px;
+		width: 150px;
+		-webkit-background-size: 150px;
+		background-size: 150px;
+	}
+	.tp-simpleresponsive .slotholder .tp-bgimg{
+		background-image: none !important;
+		background-color: #f7f9f8 !important;
+	}
+	.tp-simpleresponsive .tp-caption{
+		white-space: normal !important;
+		overflow: hidden;
+	}
+	.popup-video-stype{
+		position: relative;
+		width: 100% !important;
+		height: 300px;
+	}
+	.feedback h4{
+		font-size: 25px !important;
+		margin-bottom: 20px !important;
+	}
+	.feedback .feature-text{
+		font-size: 60px !important;
+		line-height: 60px !important;
+	}
+	.feedback p{
+		font-size: 16px !important;
+		line-height: 25px !important;
+	}
+	.feedback+a{
+		margin-bottom: 30px !important; 
+	}
+	.partners img{
+		width: auto;
+	}
+	.themeum-feature-item{
+		margin-bottom: 30px !important;
+	}
+	.themeum-feature-item .icon,
+	.themeum-feature-item h4{
+		margin-bottom: 10px;
+	}
+	.themeum-image-caption figure img{
+		width: 100%;
+	}
+	.entry-link, .entry-chat, .entry-status, .entry-qoute{
+		padding: 20px !important;
+		overflow: hidden;
+	}
+	.entry-link h4{
+		font-size: 25px !important;
+		text-align: center;
+	}
+	.tab-style .wpb_tabs_nav li{
+		font-size: 20px;
+	}
+	.tab-style.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a, 
+	.tab-style.wpb_content_element .wpb_accordion_header a {
+		padding: 5px 0;
+	}
+	#popular-ideas .item:hover{
+		cursor: ew-resize;
+	}
+	.sub-title{
+		margin-bottom: 40px;
+	}
+	.boxwidth,
+	.boxwidth #masthead.sticky{
+		max-width: 100%;
+	}
+
+	.tp-caption.white_heavy_70, 
+	.tp-caption.medium_text, 
+	.tp-simpleresponsive .tp-caption{
+		margin-left: 40px !important;
+	}
+	#featured-ideas .navigation{
+		margin-bottom: 20px;
+	}
+	#featured-ideas .navigation li {
+		padding-left: 0;
+		padding-right: 0;
+		display: block;
+		border: none;
+	}	
+	#featured-ideas .details img{
+		width: 100%;
+	}
+	#featured-ideas .details .media-body h4{
+		font-size: 20px;
+	}
+	#featured-ideas .details figure {
+		  margin-right: 0px;
+	}
+	#featured-ideas .details .pull-left{
+		padding-right: 0;
+		float: none !important;
+	}
+	#featured-ideas .details .media-body p.team-name {
+		margin-top: 20px;
+	}
+	.partners {
+		text-align: center;
+		margin-bottom: 30px !important;
+	}
+
+	.latest-posts-inner > div {
+		padding: 100px 20px;
+	}
+
+	.latest-posts-inner h3 {
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.contact-info{
+		margin-bottom: 30px;
+	}
+	.contact-info .section-title,
+	.contact-box .section-title{
+		padding: 0;
+	}
+	.about-info .feature-content{
+		margin-top: 0;
+	}
+	.tp-caption.black, .black {
+		font-size:30px !important;
+		line-height: 30px !important;
+	}
+
+	.tp-caption.thintextdark, .thintextdark {
+		font-size: 16px !important;
+		line-height: 24px !important;
+		margin-top: 30px !important;
+	}
+	.tp-caption a,
+	.tp-caption a i{
+		font-size: 16px !important;
+		line-height: 24px !important;
+		margin-top: 50px !important;
+		display: block;
+		overflow: hidden;
+	}
+
+	.wpb_content_element .wpb_tour_tabs_wrapper h2 {
+		margin-top: 20px;
+		display: inline-block;
+		font-size: 25px;
+	}
+
+	.wpb_single_image .vc_single_image-wrapper{
+		margin-top: 20px;
+		text-align: center;
+		display: block !important;
+	}
+	.themeum-action-center .themeum-action-title{
+		font-size: 30px !important;
+		line-height: 30px !important;
+	}
+	.themeum-action-center .themeum-action-subtitle{
+		font-size: 16px !important;
+		line-height: 25px !important;
+	}
+	#project-form #progressbar .step-01, 
+	#project-form #progressbar .step-02, 
+	#project-form #progressbar .step-03, 
+	#project-form #progressbar .step-04	 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#project-form #popular-ideas {
+		  padding-top: 110px;
+		    z-index: -1;
+	}
+	.project-breadcrumbs h2,
+	.project-updates h2.main-title{
+		font-size: 30px !important;
+	}
+	#sign-form .modal-body form {
+		width: 100%;
+	}
+
+	#content article.post figure .social-button {
+		  bottom: 25px;
+	}
+	.video-popup-title{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.our-story{
+		margin-top: 40px;
+	}
+	.our-story>div{
+		margin-left: -70px;
+	}
+	.sub-title-inner h2{
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.themeum-person,
+	.themeum-address {
+		margin-bottom: 30px !important;
+	}
+	div.pp_default .pp_social{
+		display: none;
+	}
+	div.pp_default .pp_content_container .pp_details{
+		width: 100% !important;
+	}
+	.pp_pic_holder.pp_default{
+		width: 92% !important;
+		left: 15px !important;
+	}
+	div.pp_default .pp_content_container .pp_left{
+		padding-left: 13px;
+	}
+	.pp_content{
+		width: 97% !important;
+		min-height: 160px !important;
+	}
+	.pp_content iframe{
+		width: 100% !important;
+		min-height: 120px !important;
+	}
+	.comment-respond .col6{
+		width: 100%;
+	}
+	.comment-respond .col6-input{
+		padding: 0;
+	}
+	.table-responsive{
+		border: none !important;
+	}
+	.account-history{
+		margin-top: 30px;
+	}
+	#footer{
+		padding-top: 30px;
+	    margin-top: 30px;
+	}
+	#footer .widget{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#error-page img,
+	#comming-soon img{
+		width: 50%;
+	}
+	#comming-soon h1{
+		margin-top: 30px;
+	}
+	#comming-soon h1 + p {
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	#comming-soon #comingsoon-countdown {
+		margin-bottom: 50px;
+	}
+	#comming-soon  .countdown-section .countdown-amount{
+		font-size: 35px;
+	}
+	#error-page{
+		padding: 80px 0 50px;
+	}
+	#error-page .copy-right {
+		margin-top: 30px;
+	}
+	#moview_search{
+		padding-bottom: 30px;
+	}
+	.moview-search .search-panel .select-menu select{
+		width: 60px;
+		font-size: 14px;
+	}
+	.moview-search .moview-search-wrap .search-panel .select-menu{
+		width: 60px;
+		margin-left: 0;
+	}
+	.moview-search .moview-search-wrap .input-box{
+		padding: 0 40px 0 50px;
+		font-size: 14px;
+	}
+	.moview-search .moview-search-wrap #searchword.moview-search-input{
+		font-size: 14px;
+	}
+	.moview-search .moview-search-results ul li a{
+		padding: 10px;
+		font-size: 14px;
+	}
+	.moview-search .moview-search-results ul li a i{
+		margin-right: 15px;
+	}
+	.wpneo-list-details .wpneo-tabs{
+		margin-top: 0;
+	}
+	.wpneo-list-details .wpneo-tabs-menu{
+		padding: 0 15px;
+	}
+	.wpneo-list-details .wpneo-single-short-description{
+		margin-top: 30px;
+	}
+	.wpneo-list-details .wpneo-project-single-left-info{
+		margin-bottom: 0;
+	}
+	.wpneo-list-details .wpneo-project-single-left-info h2{
+		margin-bottom: 10px;
+	}
+	.wpneo-list-details .wpneo-tab-content{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.wpneo-list-details .wpneo-tab{
+		padding: 0  15px;
+	}
+	.wpneo-list-details .wpneo-tab h2 {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.wpneo-list-details h2.wpneo-project-title{
+		font-weight: 500;
+	}
+	input[type="number"].wpneo_donate_amount_field{
+		max-width: 60px;
+	}
+	.wpneo_donate_button{
+		margin: 0px 0px 0px 15px;
+	}
+	.woocommerce div.product form.cart, .woocommerce div.product p.cart{
+		margin-bottom: 15px;
+	}
+	.wpneo-list-details  .wpneo-location-wrapper {
+		display: block;
+		margin-top: 0;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.wpneo-list-details  .wpneo-tabs-menu li{
+		padding: 15px 15px 15px 0;
+		margin-right: 15px;
+	}
+	.wpneo-list-details .tab-project-story-left,
+	.wpneo-list-details .tab-project-story-right{
+		padding: 15px 0;
+	}
+	.wpneo-modal-content{
+		margin: 5% 15px 0;
+	}
+	div.wpneo-modal-wrapper-head h4{
+		padding: 20px 40px 20px 20px;
+	}
+	.wpneo-modal-content-inner {
+		padding: 20px;
+	}
+	.wpneo-modal-close{
+		font-size: 30px;
+		top: 10px;
+		right: 10px;
+	}
+	.crowdFunding-dashboard{
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.product-timeline ul li {
+		margin-right: 20px;
+	}
+	.tp-caption.black, .black {
+		top: 120px !important;
+	}
+
+	.tp-caption.thintextdark, .thintextdark {
+		top: 180px !important;
+		margin-right: 30px !important;
+	}
+	.tp-caption a,
+	.tp-caption a i{
+		margin-top: 30px !important;
+	}
+	#featured-ideas .details .media-body .entry-meta span,
+	#popular-ideas .details .entry-meta span{
+		display: block;
+	}
+	#featured-ideas .details .media-body .btn-default{
+		width: 100%;
+	}
+	.project-breadcrumbs .entry-meta span.entry-food{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.project-updates .each-update h3{
+		font-size: 25px;
+	}
+	.video-popup-inner{
+		padding: 50px 15px;
+	}
+	.video-popup-btn1{
+		margin-right: 0;
+	}
+	.video-popup-btn1,
+	.video-popup-btn2{
+		display: block;
+		text-align: center;
+	}
+	.moview-search-results ul{
+		max-height: 200px;
+	}
+	.project-breadcrumbs .btn-primary{
+		display: block;
+	}
+	.project-breadcrumbs .btn-primary.btn-profile{
+		margin-left: 0;
+	}
+	.project-updates .each-update .media-left{
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.project-updates .update-number{
+		margin-right: 0;
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.project-updates .each-update p{
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#about-project .project-status h2{
+		font-size: 50px;
+	}
+	#about-project .project-status h3{
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.reward-title{
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.user-profile h2{
+		font-size: 25px;
+	}
+	.user-profile h3{
+		font-size: 20px;
+	}
+	.themeum-action-center a{
+		display: block !important;
+	}
+	.themeum_button_shortcode.large,
+	.themeum_button_shortcode.medium{
+		display: block;
+		text-align: center;
+	}
+	input[type="submit"]{
+		display: block;
+		width: 100%;
+	}
+	.wpb_tour_next_prev_nav span{
+		width: 100% !important;
+		display: block;
+	}
+	.wpb_tour_next_prev_nav a{
+		display: block;
+  		text-align: center;
+	}
+	#comming-soon .countdown-section{
+		margin-left: 0px;
+	    margin-right: 20px;
+	    margin-bottom: 20px;
+	}
+	#comming-soon  .countdown-section .countdown-amount{
+		font-size: 25px;
+		line-height: 1;
+	}
+	#comming-soon  .countdown-section  .countdown-period{
+		font-size: 16px;
+	}
+	.quote{
+		padding: 80px 20px;
+	}
+	.entry-link, .entry-chat, .entry-status, .entry-qoute{
+		padding: 20px 10px !important;
+	}
+	.entry-link h4{
+		font-size: 20px !important;
+	}
+	.wpb_tab{
+		padding: 0 !important;
+	}
+	.input-form button.btn-primary{
+		width: 100% !important;
+	}
+	.themeum-pagination .pagination{
+		margin: 40px 0;
+	}
+	.themeum-pagination .pagination>li >a{
+		font-size: 20px;
+    	line-height: 20px;
+    	padding: 10px 15px;
+	}
+	.account-item-title+div{
+		float: left !important;
+		margin-top: 10px;
+	}
+	.single-post-meta-content{
+		font-size: 14px;
+	}
+	.single-post-meta-content ul{
+		margin-left: 0;
+	}
+	#error-page form {
+		width: 100%;
+	}
+	#wpneo-dashboard-form .wpneo-fields {
+		width: 60%;
+	}
+	.wpneo-form{
+		padding: 30px 20px;
+	}
+	.wpneo-cancel-btn{
+		margin: 0 15px;
+	}
+	.wpneo-listings-dashboard .wpneo-listing-img{
+		width: 100%;
+	}
+	.wpneo-listings-dashboard .wpneo-listing-content{
+		width: 100%;
+		padding: 20px;
+	}
+	.wpneo-listings-dashboard .wpneo-funding-data>div{
+		width: 100%;
+		padding-bottom: 0;
+	}
+	.wpneo-project-form .section-title{
+		margin-bottom: 0;
+	}
+	.wpneo-project-form input[type="button"].wpneo-image-upload{
+		width: 100% !important;
+		margin-top: 10px;
+	}
+	.wpneo-project-form .wpneo-fields input.wpneo-upload,
+	.wpneo-single.wpneo-first-half,
+	.wpneo-single.wpneo-second-half{
+		width: 100%;
+	}
+	.wpneo-project-form .wpneo-reward-option{
+		padding-bottom: 15px;
+	}
+	.wpneo-project-form input[type="submit"].wpneo-submit-project{
+		margin-bottom: 10px;
+	}
+	#wpneo-registration a.wpneo-cancel-project,
+	.wpneo-project-form a.wpneo-cancel-project{
+		display: block;
+		text-align: center;
+		float: none;
+		margin-bottom: 10px;
+	}
+	#wpneo-registration{
+		padding-top: 20px;
+	}
+	.wpneo-project-form  .wpneo-requirement-title{
+		padding: 0;
+	}
+	.wpneo-project-form form#loginform input[type="password"],
+	.wpneo-project-form form#loginform input[type="text"]{
+		width: 100%;
+	}
+}

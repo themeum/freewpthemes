@@ -1,0 +1,837 @@
+/*
+Theme Name: wpestate
+Theme URI: http://demo.themeum.com/wordpress/estate
+Author: Themeum
+Author URI: http://themeum.com/
+Description: Premium WordPress Business Agency Theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: right-sidebar, two-columns
+Text Domain: wpestate
+*/
+
+/* -------------------------------------- *
+*           Default WP CSS                *
+* --------------------------------------- */
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none !important;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+a:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+.gallery-caption {
+    font-size: 12px;
+}
+.bypostauthor {
+    font-size: 12px;
+}
+
+/* -------------------------------------- *
+*           WordPress Core                *
+* --------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-links{
+    clear: both;
+}
+.wp-caption {
+    background: #fff;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; 
+}
+#loginform{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 30px 20px;
+    border: 1px solid #e7e7e7;
+}
+.post-meta-info-list-in a {
+    color: #5a5a5a;
+    border-radius: 4px;
+    padding: 0;
+    margin-right: 14px;
+    transition: 400ms;
+}
+.post-meta-info-list-in a:hover{
+    color: #fff;
+}
+.post-meta-info-list-in{
+    margin: 40px 0 20px;  
+}
+.novisible{
+    visibility: hidden;
+}
+.wpestate-navbar-brand h1{
+    font-size: 26px;
+    line-height: 32px;
+    transition: all .5s;
+}
+.comingsoon-content .mc4wp-alert {
+    display: inline-block;
+    color: #00bf9a;
+}
+.generic-padding > .container{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.single-product .generic-padding > .container {
+    padding-bottom: 60px;
+}
+
+/***********/
+.head-hide,
+.footer-hide {
+    display: none;
+}
+.wp-color-result-text{
+    padding: 1px 6px !important;
+}
+.wp-picker-holder{
+    z-index: 999999 !important;
+}
+ul.wppb-tab-nav .wppb-tab-nav-list .wppb-tab-nav-list-wrap{
+    transition: all .3s !important;
+}
+.wppb-tab-content{
+    transition: all .3s ease-in !important;
+}
+
+/*****WPPB TAB****/
+span.wpmm-selected-icon{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.wppb-icon-inner i{
+    transition: all .5s;
+}
+.wppb-tab-content-wrap h4{
+    font-weight: 400;
+    margin-top: 15px;
+    color: #43484d;
+}
+.single-input-field select{
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url(images/caret-down.png);
+   background-repeat: no-repeat;
+   background-position: 96% center;
+}
+.testimonial-slide-prev.slick-arrow, .testimonial-slide-next.slick-arrow{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.testimonial-slide-prev.slick-arrow{
+    background-image: url(images/prev.png);
+}
+.testimonial-slide-next.slick-arrow{
+    background-image: url(images/next.png);
+}
+.testimonial-slide-prev.slick-arrow{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.testimonial-slide-prev.slick-arrow img, 
+.testimonial-slide-next.slick-arrow img{
+    display: none;
+}
+.arrow-white .testimonial-slide-prev.slick-arrow{
+    background-image: url(images/prev-arrow-white.png);
+}
+.arrow-white .testimonial-slide-next.slick-arrow{
+    background-image: url(images/next-arrow-white.png);
+}
+
+/****PRELOADER CSS*****/
+/*PRELOADING------------ */
+#overlayer {
+    width:100%;
+    height:100%;  
+    position:fixed;
+    z-index:9999999;
+    background:#fff;
+    text-align: center;
+  }
+  .loader {
+    position: fixed;
+    z-index:99999999;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    border: 6px solid #040509;
+    border-radius: 50%;
+    border-top: 6px solid #fff;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    25% {
+      transform: rotate(180deg);
+    }
+    
+    50% {
+      transform: rotate(180deg);
+    }
+    
+    75% {
+      transform: rotate(360deg);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes loader-inner {
+    0% {
+      height: 0%;
+    }
+    
+    25% {
+      height: 0%;
+    }
+    
+    50% {
+      height: 100%;
+    }
+    
+    75% {
+      height: 100%;
+    }
+    
+    100% {
+      height: 0%;
+    }
+  }
+
+.testimonial-quote .wppb-container::after{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f10d";
+    color: #fff;
+    font-size: 50px;
+    opacity: .2;
+}
+.testimonial-quote .wppb-container::before{
+    position: absolute;
+    right: 10%;
+    top: 75%;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f10e";
+    color: #fff;
+    font-size: 50px;
+    opacity: .2;
+}
+.common-padding{
+    padding: 50px 0;
+}
+
+
+/* Wp Estate Agent */
+.agent-single-col .agent-info {
+    text-align: center;
+}
+.agent-single-col .agent-info .agent-name {
+    color: #000;
+    line-height: 22px;
+    transition: all .5s;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.agent-social-link a {
+    display: inline-block;
+    padding: 12px 12px;
+    border-right: none;
+    transition: all .5s;
+    color: #909090;
+    font-size: 20px;
+}
+.agent-social-link {
+    border-top: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.agent-info .agent-phone, 
+.agent-info .agent-email {
+    font-weight: 500;
+    color: #909090;
+    line-height: 22px;
+    margin-bottom: 0;
+    word-break: break-word;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+.agent-info .agent-phone .fa-phone-square {
+    margin-right: 3px;
+}
+.agent-single-col .agent-info {
+    padding: 20px 20px 8px;
+}
+
+.agent-single-col {
+    padding: 0;
+    color: #909090;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.agent-single-col:hover {
+    -webkit-box-shadow: 0 2px 6px 0 rgba(139, 139, 139, 0.50);
+    box-shadow: 0 2px 6px 0 rgba(139, 139, 139, 0.50);
+}
+.agent-single-col .agent-info .agent-name:hover {
+    color: #007b76;
+}
+
+
+/* --------------------------------------------------------
+* ---------- Gallery Post Type and Single Gallery ---------
+----------------------------------------------------------- */
+.property-gallery-item > div {
+    position: relative;
+    overflow: hidden;
+}
+.estate-property .property-gallery-item:hover img {
+    transform: scale(1.2);
+}
+.property-gallery-item > div img,
+.property-gallery-item > div .property-gallery-album-info{
+    transition: .4s;
+}
+.property-gallery-item img {
+    width: 100%;
+}
+.property-gallery-album-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    z-index: 1;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+}
+.property-gallery-item > div:hover .property-gallery-album-info {
+    padding-bottom: 20px;
+}
+.property-gallery-item .property-gallery-album-title, 
+.property-gallery-item .property-gallery-album-meta > span {
+    letter-spacing: 0;
+}
+.property-gallery-album-title {
+    display: block;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 0 5px;
+    outline: 0;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+}
+.property-gallery-album-meta {
+    display: block;
+    margin: -5px;
+}
+.property-gallery-album-meta > span {
+    display: block;
+    float: left;
+    margin: 5px;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, .6);
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+}
+.property-row > div > .property-gallery-item {
+    padding-bottom: 25px;
+}
+.property .estate-property {
+    padding-bottom: 30px;
+}
+.wpestate-single-gallery a {
+    display: block;
+    cursor: zoom-in;
+}
+.wpestate-single-gallery {
+    margin-bottom: 30px;
+}
+.gallery-single a.back-btn {
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #007b76;
+    text-transform: uppercase;
+}
+.gallery-single a.back-btn:hover {
+    background-color: #005c59;
+    border-color: #007b76;
+}
+.gallery-single {
+    margin: 20px;
+}
+
+.wppb-builder-container .wppb-row-parent.gallery-list{
+    z-index: 99999 !important;
+}
+.property-view-galleries .modal-dialog {
+    max-width: 1140px !important;
+}
+.property-view-galleries .modal {
+    top: 62px;
+}
+
+.property-view-galleries span.gallery-title {
+    font-size: 22px;
+    color: #000;
+    padding: 5px 0 0 20px;
+    line-height: 24px;
+}
+.property-view-galleries .close {
+    color: #fff;
+    opacity: .9;
+}
+.property-view-galleries .modal-header .close {
+    padding: 0 15px;
+    margin: -.7rem -.7rem -1rem auto;
+    height: 50px;
+    width: 50px;
+    line-height: 1px;
+    background: transparent;
+    color: #007b76;
+}
+.property-view-galleries .modal-header .close:hover span {
+    color: #cf0000;
+}
+.property-view-galleries button.btn.btn-primary.btn-sm.back-btn {
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #007b76;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------
+* ------------ Estate Area -------------
+---------------------------------------- */
+.properties-city .properties-content {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+.properties-city .properties-content a{
+    display: block;
+    height: 100%;
+}
+.properties-city .properties-cities-info {
+    position: absolute;
+    bottom: 0;
+    padding: 45px;
+    width: 100%;
+    color: #fff;
+}
+.properties-city .properties-content .properties-cities-info .properties-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.properties-city .properties-content .properties-cities-info .sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.properties-cities {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.properties-city .properties-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.3;
+}
+.properties-cities {
+    float: left;
+    width: 50%;
+    display: grid;
+    overflow: hidden;
+    padding: 0 15px;
+}
+.property-area .properties-cities:nth-child(4) {
+    float: right;
+}
+.property-inner-wrap {
+    margin: 0 -15px;
+}
+.property-area .properties-cities:nth-child(2) img, 
+.property-area .properties-cities:nth-child(3) img, 
+.property-area .properties-cities:nth-child(5) img, 
+.property-area .properties-cities:nth-child(6) img {
+    height: 326px;
+}
+
+.properties-city .properties-content {
+	overflow: hidden;
+}
+.properties-city .properties-content img,
+.properties-cities-info{
+	transition: 400ms;
+}
+.properties-city .properties-content:hover img{
+	transform: scale(1.15);
+}
+.properties-city .properties-content:before {
+	z-index:1;
+	transition: 400ms;
+}
+.properties-city .properties-cities-info {
+	z-index: 2;
+}
+.properties-city .properties-content:hover:before{
+	opacity: .6;
+}
+.properties-city .properties-content:hover .properties-cities-info {
+	transform: translate(-10px, 10px);
+}
+
+/* ---------------------------------
+* -------- Esate about -------------
+------------------------------------ */
+.estate-blockquote .wppb-text-block-content {
+    border-left: 11px solid;
+    padding: 15px 60px;
+    margin: 24px 0;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.estate-contact-from:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -150%;
+    height: 100%;
+    width: 250%;
+    background-repeat: repeat-x;
+    background-position: 100% 0;
+    background-color: #F2F2F2;
+}
+.wppb-form-field-item-wrap input, .wppb-form-field-item-wrap textarea{
+    transition: .3s
+}
+.wppb-form-field-item-wrap input:hover, .wppb-form-field-item-wrap textarea:hover {
+    border-color: #007b76 !important;
+}
+.estate-contact-from textarea {
+    height: 122px;
+}
+.estate-contact-from .wppb-feature-box-title strong {
+    font-weight: 600 !important;
+}
+
+/*------------------------------------------------
+*-------------- Property Widgets -----------------
+-------------------------------------------------- */
+
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu .widget-estate-property-section a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: inherit;
+    padding: 0;
+}
+.widget-estate-property-section .widget-post-date {
+    color: #007b76;
+    font-weight: 700;
+    font-size: 14px;
+}
+.widget-estate-property-section h4 {
+    margin-top: 3px;
+    line-height: 1.3;
+    font-size: 13px;
+    white-space: normal;
+    font-weight: 700 !important;
+    color: #000;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 3px;
+}
+.widget-estate-property-section .media-body {
+    padding: 4px 0;
+}
+.widget-estate-property-section .wpestate-widgets.media {
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu li.wpmm-type-widget .wpmm-item-title {
+    text-transform: none;
+    font-size: 14px;
+    margin: 0 0 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu .widget-estate-property-section a:hover {
+    color: #007b76;
+}
+.wpestate-widgets img {
+    width: 95px;
+    height: 65px;
+}
+.widget-estate-property-section .wpestate-widgets.media.agent .media-body {
+    padding: 12px 0 8px;
+}
+.widget-estate-property-section .agent-info .agent-name {
+    font-size: 16px;
+}
+.widget-estate-property-section .agent-info .agent-email {
+    font-size: 13px;
+}
+
+.about-desc.property {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.property-info .property-btn {
+    border: 1px solid #007b76;
+    background: transparent !important;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: capitalize !important;
+    border-radius: 0;
+    font-weight: 700;
+    color: #007b76;
+    width: 160px !important;
+    transition: .3s;
+}
+.property-info .property-btn:hover { 
+    color: #fff !important;
+    background: #007b76 !important;
+}
+
+ul.wp-megamenu-sub-menu .wpmm-col-3:before {
+    border-right: 1px solid #d8d8d8;
+    height: 82%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+ul.wp-megamenu-sub-menu .wpmm-col-3:last-child:before {
+    border-right: none;
+}
+.widget-estate-property-section .agent:last-child {
+    margin: 0;
+}
+
+
+
+.agent .agent-info .agent-name:hover {
+    color: #007b76;
+}
+
+.single-search-field .form-control.nice-select:after {
+    display: none;
+}
+.single-search-field .form-control {
+    padding: 3px;
+    outline: 0;
+    box-shadow: none;
+}
+.city-search-wrap .search-select-box {
+    padding: 12px 25px 15px 50px;
+}
+
+.single-search-field .form-control {
+    border: none;
+}
+
+.city-search-wrap .search-select-box::before {
+    top: 21px;
+}
+.city-search-wrap .search-select-box::after {
+    top: 17px;
+}
+
+#load-more-property .fa-spinner {
+    margin-left: 10px;
+}
+
+
+
+
+

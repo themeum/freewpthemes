@@ -1,0 +1,11 @@
+Change log:
+------------------------------------
+
+1.0.2:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Zephyr theme support external link.
+* NEW FEATURES: Zephyr theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="214px" height="90px" viewBox="0 0 214 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7">
+            <rect id="Rectangle-3" fill="#000000" x="0" y="0" width="214" height="90"></rect>
+            <g id="Group-3" transform="translate(43.000000, 29.000000)" fill="#FFFFFF">
+                <text id="Estate" font-family="Futura-Medium, Futura" font-size="24" font-weight="400">
+                    <tspan x="55" y="25">Es</tspan>
+                    <tspan x="78.3085938" y="25" letter-spacing="0.21737576">t</tspan>
+                    <tspan x="85.299407" y="25">a</tspan>
+                    <tspan x="99.690032" y="25" letter-spacing="0.21737576">t</tspan>
+                    <tspan x="106.680845" y="25">e</tspan>
+                </text>
+                <path d="M0,6.35284626 L0,27.006871 C0,27.2334632 0.367785714,27.3642989 0.629714286,27.231567 L7.46157143,23.7710579 C7.52264286,23.7397712 7.55928571,23.6904708 7.55928571,23.637378 L7.55928571,14.3006401 C7.55928571,14.2475474 7.59592857,14.1972989 7.657,14.1669602 L11.2547857,12.3437933 C11.4108571,12.2641542 11.6307143,12.3428452 11.6307143,12.4774733 L11.6307143,21.3354284 C11.6307143,21.4700564 11.8492143,21.5477994 12.0066429,21.4691084 L26.3638571,14.1963508 C26.5212857,14.1157636 26.7397857,14.1280887 26.8782143,14.2247933 L37.3214286,21.521253 C37.5725,21.6957006 38,21.5715015 38,21.3249995 L38,6.35284626 C38,6.19925654 37.8222143,6.07600553 37.6037143,6.07600553 L0.396285714,6.07600553 C0.177785714,6.07600553 0,6.19925654 0,6.35284626" id="Fill-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

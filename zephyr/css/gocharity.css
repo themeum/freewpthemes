@@ -1,0 +1,512 @@
+@font-face {
+  font-family: 'Go-charity';
+  src:  url('../fonts/Go-charity.eot?bc4bug');
+  src:  url('../fonts/Go-charity.eot?bc4bug#iefix') format('embedded-opentype'),
+    url('../fonts/Go-charity.ttf?bc4bug') format('truetype'),
+    url('../fonts/Go-charity.woff?bc4bug') format('woff'),
+    url('../fonts/Go-charity.svg?bc4bug#Go-charity') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="gocharity-"], [class*=" gocharity-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Go-charity' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gocharity-square2:before {
+  content: "\e900";
+}
+.gocharity-arrows-3:before {
+  content: "\e901";
+}
+.gocharity-arrows-2:before {
+  content: "\e902";
+}
+.gocharity-arrows-1:before {
+  content: "\e903";
+}
+.gocharity-arrows:before {
+  content: "\e904";
+}
+.gocharity-down-arrow:before {
+  content: "\e905";
+}
+.gocharity-right-arrow-angle:before {
+  content: "\e906";
+}
+.gocharity-square:before {
+  content: "\e907";
+}
+.gocharity-technology:before {
+  content: "\e908";
+}
+.gocharity-paper-plane:before {
+  content: "\e909";
+}
+.gocharity-travel:before {
+  content: "\e90a";
+}
+.gocharity-note:before {
+  content: "\e90b";
+}
+.gocharity-world:before {
+  content: "\e90c";
+}
+.gocharity-home:before {
+  content: "\e90d";
+}
+.gocharity-sign:before {
+  content: "\e90e";
+}
+.gocharity-book:before {
+  content: "\e90f";
+}
+.gocharity-play-button:before {
+  content: "\e910";
+}
+.gocharity-add-user:before {
+  content: "\e911";
+}
+.gocharity-add:before {
+  content: "\e912";
+}
+.gocharity-aeroplane:before {
+  content: "\e913";
+}
+.gocharity-alarm-clock:before {
+  content: "\e914";
+}
+.gocharity-alarm:before {
+  content: "\e915";
+}
+.gocharity-attachment:before {
+  content: "\e916";
+}
+.gocharity-backup:before {
+  content: "\e917";
+}
+.gocharity-backward:before {
+  content: "\e918";
+}
+.gocharity-battery-1:before {
+  content: "\e919";
+}
+.gocharity-battery:before {
+  content: "\e91a";
+}
+.gocharity-bell:before {
+  content: "\e91b";
+}
+.gocharity-bluetooth:before {
+  content: "\e91c";
+}
+.gocharity-bookmark:before {
+  content: "\e91d";
+}
+.gocharity-broken-heart:before {
+  content: "\e91e";
+}
+.gocharity-broken-link:before {
+  content: "\e91f";
+}
+.gocharity-browser:before {
+  content: "\e920";
+}
+.gocharity-bus:before {
+  content: "\e921";
+}
+.gocharity-calculator:before {
+  content: "\e922";
+}
+.gocharity-calendar:before {
+  content: "\e923";
+}
+.gocharity-car:before {
+  content: "\e924";
+}
+.gocharity-chat-1:before {
+  content: "\e925";
+}
+.gocharity-chat:before {
+  content: "\e926";
+}
+.gocharity-chemistry:before {
+  content: "\e927";
+}
+.gocharity-clock:before {
+  content: "\e928";
+}
+.gocharity-cloud:before {
+  content: "\e929";
+}
+.gocharity-cloudy:before {
+  content: "\e92a";
+}
+.gocharity-coffee-cup:before {
+  content: "\e92b";
+}
+.gocharity-download:before {
+  content: "\e92c";
+}
+.gocharity-edit-1:before {
+  content: "\e92d";
+}
+.gocharity-edit:before {
+  content: "\e92e";
+}
+.gocharity-email:before {
+  content: "\e92f";
+}
+.gocharity-export:before {
+  content: "\e930";
+}
+.gocharity-file:before {
+  content: "\e931";
+}
+.gocharity-filter:before {
+  content: "\e932";
+}
+.gocharity-flag:before {
+  content: "\e933";
+}
+.gocharity-flame:before {
+  content: "\e934";
+}
+.gocharity-folder:before {
+  content: "\e935";
+}
+.gocharity-forward:before {
+  content: "\e936";
+}
+.gocharity-full-battery:before {
+  content: "\e937";
+}
+.gocharity-gamepad:before {
+  content: "\e938";
+}
+.gocharity-garbage:before {
+  content: "\e939";
+}
+.gocharity-group:before {
+  content: "\e93a";
+}
+.gocharity-heart:before {
+  content: "\e93b";
+}
+.gocharity-hourglass:before {
+  content: "\e93c";
+}
+.gocharity-house:before {
+  content: "\e93d";
+}
+.gocharity-id-card:before {
+  content: "\e93e";
+}
+.gocharity-imac:before {
+  content: "\e93f";
+}
+.gocharity-import:before {
+  content: "\e940";
+}
+.gocharity-inbox:before {
+  content: "\e941";
+}
+.gocharity-key:before {
+  content: "\e942";
+}
+.gocharity-laptop:before {
+  content: "\e943";
+}
+.gocharity-levels:before {
+  content: "\e944";
+}
+.gocharity-light-bulb-1:before {
+  content: "\e945";
+}
+.gocharity-light-bulb:before {
+  content: "\e946";
+}
+.gocharity-lightning:before {
+  content: "\e947";
+}
+.gocharity-link:before {
+  content: "\e948";
+}
+.gocharity-map:before {
+  content: "\e949";
+}
+.gocharity-medal:before {
+  content: "\e94a";
+}
+.gocharity-megaphone-1:before {
+  content: "\e94b";
+}
+.gocharity-megaphone:before {
+  content: "\e94c";
+}
+.gocharity-microphone-1:before {
+  content: "\e94d";
+}
+.gocharity-microphone:before {
+  content: "\e94e";
+}
+.gocharity-moon:before {
+  content: "\e94f";
+}
+.gocharity-mouse:before {
+  content: "\e950";
+}
+.gocharity-museum:before {
+  content: "\e951";
+}
+.gocharity-navigation:before {
+  content: "\e952";
+}
+.gocharity-next:before {
+  content: "\e953";
+}
+.gocharity-open-book:before {
+  content: "\e954";
+}
+.gocharity-padlock:before {
+  content: "\e955";
+}
+.gocharity-paint-brush:before {
+  content: "\e956";
+}
+.gocharity-paint-roller:before {
+  content: "\e957";
+}
+.gocharity-panel:before {
+  content: "\e958";
+}
+.gocharity-pen:before {
+  content: "\e959";
+}
+.gocharity-pencil:before {
+  content: "\e95a";
+}
+.gocharity-photo-camera:before {
+  content: "\e95b";
+}
+.gocharity-picture-1:before {
+  content: "\e95c";
+}
+.gocharity-picture:before {
+  content: "\e95d";
+}
+.gocharity-pie-chart:before {
+  content: "\e95e";
+}
+.gocharity-placeholder:before {
+  content: "\e95f";
+}
+.gocharity-playlist:before {
+  content: "\e960";
+}
+.gocharity-pointer:before {
+  content: "\e961";
+}
+.gocharity-power-button:before {
+  content: "\e962";
+}
+.gocharity-present:before {
+  content: "\e963";
+}
+.gocharity-presentation:before {
+  content: "\e964";
+}
+.gocharity-prev:before {
+  content: "\e965";
+}
+.gocharity-profits:before {
+  content: "\e966";
+}
+.gocharity-prohibition:before {
+  content: "\e967";
+}
+.gocharity-push-pin:before {
+  content: "\e968";
+}
+.gocharity-puzzle:before {
+  content: "\e969";
+}
+.gocharity-quaver:before {
+  content: "\e96a";
+}
+.gocharity-raindrop:before {
+  content: "\e96b";
+}
+.gocharity-refresh:before {
+  content: "\e96c";
+}
+.gocharity-reply:before {
+  content: "\e96d";
+}
+.gocharity-safari:before {
+  content: "\e96e";
+}
+.gocharity-schedule:before {
+  content: "\e96f";
+}
+.gocharity-search:before {
+  content: "\e970";
+}
+.gocharity-send:before {
+  content: "\e971";
+}
+.gocharity-settings:before {
+  content: "\e972";
+}
+.gocharity-shop:before {
+  content: "\e973";
+}
+.gocharity-shopping-bag:before {
+  content: "\e974";
+}
+.gocharity-shopping-cart:before {
+  content: "\e975";
+}
+.gocharity-sidebar:before {
+  content: "\e976";
+}
+.gocharity-smartphone:before {
+  content: "\e977";
+}
+.gocharity-speaker-1:before {
+  content: "\e978";
+}
+.gocharity-speaker-2:before {
+  content: "\e979";
+}
+.gocharity-speaker:before {
+  content: "\e97a";
+}
+.gocharity-speedometer:before {
+  content: "\e97b";
+}
+.gocharity-star:before {
+  content: "\e97c";
+}
+.gocharity-startup:before {
+  content: "\e97d";
+}
+.gocharity-stats:before {
+  content: "\e97e";
+}
+.gocharity-structure:before {
+  content: "\e97f";
+}
+.gocharity-suitcase:before {
+  content: "\e980";
+}
+.gocharity-sun:before {
+  content: "\e981";
+}
+.gocharity-support:before {
+  content: "\e982";
+}
+.gocharity-tablet:before {
+  content: "\e983";
+}
+.gocharity-tag:before {
+  content: "\e984";
+}
+.gocharity-television:before {
+  content: "\e985";
+}
+.gocharity-timer:before {
+  content: "\e986";
+}
+.gocharity-tram:before {
+  content: "\e987";
+}
+.gocharity-umbrella:before {
+  content: "\e988";
+}
+.gocharity-unlocked:before {
+  content: "\e989";
+}
+.gocharity-user-1:before {
+  content: "\e98a";
+}
+.gocharity-user:before {
+  content: "\e98b";
+}
+.gocharity-users:before {
+  content: "\e98c";
+}
+.gocharity-video-camera-1:before {
+  content: "\e98d";
+}
+.gocharity-video-camera:before {
+  content: "\e98e";
+}
+.gocharity-visibility-1:before {
+  content: "\e98f";
+}
+.gocharity-visibility:before {
+  content: "\e990";
+}
+.gocharity-wallet:before {
+  content: "\e991";
+}
+.gocharity-wifi-1:before {
+  content: "\e992";
+}
+.gocharity-wifi:before {
+  content: "\e993";
+}
+.gocharity-worldwide:before {
+  content: "\e994";
+}
+.gocharity-wrench:before {
+  content: "\e995";
+}
+.gocharity-zoom-in:before {
+  content: "\e996";
+}
+.gocharity-zoom-out:before {
+  content: "\e997";
+}
+.gocharity-facebook:before {
+  content: "\e635";
+}
+.gocharity-twitter:before {
+  content: "\e636";
+}
+.gocharity-behance:before {
+  content: "\e637";
+}
+.gocharity-pinterest:before {
+  content: "\e638";
+}
+.gocharity-googleplus:before {
+  content: "\e639";
+}
+.gocharity-vimeo:before {
+  content: "\e63a";
+}
+.gocharity-instagram:before {
+  content: "\e63b";
+}
+.gocharity-linkedin:before {
+  content: "\e63c";
+}
+.gocharity-dribbble:before {
+  content: "\e63d";
+}
+.gocharity-youtube:before {
+  content: "\e63e";
+}

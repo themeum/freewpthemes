@@ -1,0 +1,11 @@
+Change log:
+------------------------------------
+
+1.0.3:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Rhino theme support external link.
+* NEW FEATURES: Rhino theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.

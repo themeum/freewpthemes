@@ -1,0 +1,24 @@
+Change log:
+--------------------------------------------------------------------------------------------
+
+1.0.2:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Added license page.
+* NEW FEATURES: Calypso theme Option.
+* NEW FEATURES: Calypso theme support external link.
+* NEW FEATURES: Calypso theme documentation external link.
+
+* FIX: CSS bug fix.
+
+--------------------------------------------------------------------------------------------
+
+1.0.1:
+
+* CSS bug fix.
+
+--------------------------------------------------------------------------------------------
+
+1.0.0:
+
+* Initial release.

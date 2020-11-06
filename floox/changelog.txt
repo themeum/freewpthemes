@@ -1,0 +1,35 @@
+Change log:
+------------------------------------
+
+1.0.3:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Floox theme support external link.
+* NEW FEATURES: Floox theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.
+
+------------------------------------
+
+
+------------------------------------
+
+1.0.2:
+
+* NEW FEATURES: Floox theme Option.
+* NEW FEATURES: Floox License Key.
+
+* FIX: CSS bug fix.
+
+------------------------------------
+
+1.0.1:
+
+* CSS bug fix.
+
+------------------------------------
+
+1.0.0:
+
+* Initial release.

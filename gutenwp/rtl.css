@@ -1,0 +1,456 @@
+body{
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.gutenwp-search {
+    margin-left: 10px;
+}
+.thm-iconic-category li {
+    text-align: right;
+}
+.progressbar-content-wrapper .thm-progress-bar .lead {
+    text-align: right;
+}
+.thm-meta-desc span.thm-raise-sp {
+    float: left;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.gutenwp-info-img a {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.gutenwp-bio .gutenwp-info-img{
+    float: right;
+}
+.gutenwp-location {
+    display: inline-block;
+    float: inherit;
+    padding-right: 0px;
+    text-align: right;
+    padding-left: 20px;
+}
+.gutenwp-share {
+     text-align: right;
+    float: right;
+    margin-right: 30px;
+}
+.jssocials-shares .jssocials-share {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.gutenwp-follow-us.pull-right {
+    text-align: left;
+    float: left;
+}
+.bottom-widget .widget h3.widget-title {
+    text-align: right;
+}
+.mailchimp-inner {
+    border-left: none;
+    text-align: center;
+    padding: 0 40px;
+    border-right: 1px solid rgb(67, 67, 77);
+}
+.mc4wp-form-fields input[type="email"] {
+    min-width: 240px !important;
+    float: right !important;
+      margin-left: -20px;
+}
+.widget_nav_menu ul {
+    text-align: right;
+}
+.themeum-campaign-post span.entry-category {
+    text-align: right;
+    display: inherit;
+}
+.thm-grid-list a.thm-love-btn, .themeum-campaign-post a.thm-love-btn {
+    right: auto;
+    left: 25px;
+}
+
+.dashboard-head-right {
+    float: left;
+}
+/* Widgets Cat */
+.widget.widget_categories>ul {
+    text-align: right;
+}
+#sidebar h3.widget_title {
+    text-align: right;
+}
+#sidebar .widget {
+    text-align: right;
+}
+.comment-respond {
+    text-align: right;
+}
+.comments-area .comments-title {
+    text-align: right;
+}
+.comment-body .comment-context {
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+/* Product Single Page */
+.themeum-campaign-time-exp {
+    padding-left: 0;
+    padding-right: 215px;
+}
+.themeum-campaign-time-exp .themeum-campaign-thumb {
+    left: auto;
+    right: 0;
+}
+.themeum-campaign-exp-content h3, .themeum-campaign-post h3 {
+    text-align: right;
+}
+.themeum-campaign-exp-content span.entry-category {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+.themeum-campaign-exp-content .entry-category a, .themeum-campaign-post .entry-category a {
+    margin-right: 0;
+    margin-left: auto;
+}
+.thm-grid-list a.thm-love-btn {
+    right: 15px;
+    left: auto;
+}
+.comment-body .comment-context .comment-reply {
+    right: auto;
+    left: 0;
+}
+.comment-context .comment-head {
+    text-align: right;
+}
+
+/* Menubar */
+.common-menu {
+    text-align: left;
+}
+.gutenwp-login-register:after {
+    right: 0;
+    left: auto;
+} 
+
+.common-menu-wrap .nav>li {
+    margin-left: 0;
+    margin-right: 28px;
+}
+.common-menu-wrap .nav>li.menu-item-has-children > a:after {
+    margin-left: 0;
+    left: -14px;
+    position: absolute;
+    right: auto;
+    top: 14px;
+}
+.gutenwp-login-register {
+    position: relative;
+    float: left;
+    padding: 10px 0;
+}
+/* Footer */ 
+.mc4wp-form-fields button {
+    padding: 11px 16px;
+    margin-left: 0;
+    left: 0;
+    top: 0px;
+    border-radius: 3px 0px 0px 3px;
+    right: auto;
+}
+
+.mc4wp-form-fields i.fa.fa-chevron-right, .entry-summary .wrap-btn-style a.btn-style i{
+    transform: rotate(180deg);
+}
+
+/* Campaign */
+.progressbar-content-wrapper .pull-right{
+    float: left;
+}   
+
+.wpcf7-form .gutenwp-contact input[type=text], .wpcf7-form .gutenwp-contact input[type=email], .wpcf7-form .gutenwp-contact textarea {
+    text-align: right;
+}
+
+/* Blog Page */
+.wrap-btn-style {
+    float: right;
+    text-align: right;
+    position: absolute;
+    margin-top: 8px;
+}
+.social-share-wrap {
+    text-align: left;
+    margin-top: 31px;
+} 
+.gutenwp-post .blog-post-meta li {
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    color: #191919;
+    margin-left: 10px;
+}
+.gutenwp-single-post-author .avatar, .themeum-pagination .page-numbers>li  {
+    float: right;
+}
+.gutenwp-single-post-author .gutenwp-author-meta-data {
+    margin-left: 0;
+    margin-right: 90px;
+}
+
+
+/*==================================
+* ========== HomePage  ============
+=======================================*/
+
+.common-menu-wrap {
+    text-align: left;
+}
+.common-menu-wrap .nav>li.menu-item-has-children+.online-booking-button {
+    margin-right: 20px;
+    float: left;
+}
+.common-menu-wrap .nav>li ul {
+    text-align: right;
+    right: 0px;
+}
+.portfolio-thumb-wrapper-layout1 .portfolio-item-content .portfolio-item-content-in, .portfolio-thumb-wrapper-layout3 .portfolio-item-content .portfolio-item-content-in {
+    text-align: right;
+}
+.portfolio-thumb-wrapper-layout1 .portfolio-item-content .portfolio-title:after {
+    right: 0;
+    text-align: right;
+    left: auto;
+}
+.themeum_team .team-content-title {
+    text-align: right;
+}
+.themeum_team .team-content-subtitle {
+    font-size: 14px;
+    text-align: right;
+}
+.latest-review-single-item span.latest-blog-date i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.bg-contact input[type=text], input[type="email"], textarea {
+    text-align: right;
+}
+.contact-submit input[type=submit] {
+    float: left;
+}
+.themeum-google-map-wrap .map-address strong::after {
+    right: 0;
+    left: auto;
+}
+
+.social-share {
+    text-align: right;
+}
+ .copy-wrapper {
+    text-align: left;
+}
+.single-post .blog-post-meta {
+    text-align: right;
+}
+.entry-blog .img-author, .blog-post-meta .meta-date .img-author {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.social-activities a {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.single-pre{
+    float: right;
+}
+.single-next{
+    float: left;
+}
+
+.post-navigation .single-next .next-post a {
+    padding-right: 0;
+    float: right;
+    padding-left: 8px;
+}
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+.fa-long-arrow-left:before {
+    content: "\f178";
+}
+.post-navigation .single-pre .previous-post a {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+.post-navigation .blog-post-review-content .blog-post-review-next {
+    text-align: left;
+}
+
+.blog-post-review-content .blog-post-review-pre img {
+    float: right;
+}
+
+.post-navigation .blog-post-review-content .blog-post-review-pre {
+    float: right;
+}
+.widget-blog-posts-section .media-left, .widget-blog-posts-section .media>.pull-left {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.pull-left {
+    float: right !important;
+    text-align: right;
+}
+.themeum-tab-inner .themeum-campaign-post-content{
+    text-align: right;
+}
+.widget .tagcloud a {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.themeum-author-img {
+    float: right !important;
+    margin-left: 10px;
+}
+.themeum-author-funded {
+    text-align: left;
+    float: left !important;
+}
+#sidebar #themeum_social_share_widget-2 ul>li {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.thm-meta-desc.text-right {
+    text-align: left!important;
+}
+.themeum-post-grid-title {
+    text-align: right;
+}
+.themeum-grid-post-avater {
+    right: auto;
+    left: 20px;
+}
+.themeum-pagination .page-numbers li a.prev .fa-angle-left, .themeum-pagination .page-numbers li a.next .fa-angle-right {
+    font-size: 16px;
+    font-weight: 600;
+    transform: rotate(180deg);
+}
+.comment-content {
+    text-align: right;
+}
+.themeum-campaign-exp-counter {
+    margin-bottom: 20px;
+    text-align: right;
+    float: right;
+}
+.site.fullwidth{
+    overflow: hidden;
+}
+/*==================================
+* ======= Responsive Issue ===========
+=======================================*/
+@media only screen and (max-width: 992px){
+
+   .mobile-register {
+        text-align: left;
+    } 
+    .navbar-toggle {
+        float: left;
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 7px;
+    }
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    #mobile-menu .navbar-nav {
+        width: 100%;
+    }
+    .menu-toggler .fa-angle-right:before {
+        content: "\f104";
+    }
+}
+
+@media (min-width: 768) and (max-width: 990px) { 
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    .mobile-register .gutenwp-login-register {
+        float: left !important;
+    }
+    .gutenwp-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 767px) { 
+    .mailchimp-inner {
+        border-left: none;
+        text-align: center;
+        padding: 0 40px;
+        border-right: none;
+    }
+    .thm-progress-bar {
+        display: block;
+        width: 100%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .mc4wp-form-fields button {
+        padding: 11px 16px;
+        margin-left: 0;
+        left: 0;
+        top: -46px;
+        border-radius: 3px 0px 0px 3px;
+        right: auto;
+        position: inherit;
+        bottom: inherit;
+        float: left;
+    }
+    .copy-wrapper .social-share {
+        text-align: center;
+    }
+    .text-left.copy-wrapper {
+        text-align: center !important;
+    }
+    .navbar-toggle {
+         margin-top: 0px; 
+    }
+    .themeum-navbar-header {
+        text-align: right; 
+        float: right;
+    }
+    #mobile-menu ul li {
+        text-align: right;
+    }
+    #mobile-menu ul li span.menu-toggler {
+        transform: rotate(180deg);
+            margin-top: 6px;
+    }
+
+    .gutenwp-review-cont .text-center {
+        transform: translate(-39%, 0%);
+    }
+}
+
+
+@media (max-width: 489px) {
+    .gutenwp-search-wrap {
+        padding-left: 0;
+    }
+    .gutenwp-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}

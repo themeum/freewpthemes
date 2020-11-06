@@ -1,0 +1,201 @@
+/*
+Theme Name:   Fitgym
+Theme URI:    http://demo.themeum.com/wordpress/fitgym
+Author:       Themeum
+Author URI:   http://themeum.com/
+Description:  A yoga, athlete, and gym WordPress theme to present your fitness offerings stylishly.
+Version:      1.0.2
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         right-sidebar, two-columns
+Text Domain:  fitgym
+*/
+
+/* -------------------------------------- *
+*           Default WP CSS                *
+* --------------------------------------- */
+a{
+    text-decoration: none !important;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+a:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+.gallery-caption {
+    font-size: 12px;
+}
+.bypostauthor {
+    font-size: 12px;
+}
+
+/* -------------------------------------- *
+*           Wordpress Core                *
+* --------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 0;
+    padding: 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+#loginform{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 30px 20px;
+    border: 1px solid #e7e7e7;
+}
+.post-meta-info-list-in a {
+    color: #5a5a5a;
+    border-radius: 4px;
+    padding: 0;
+    margin-right: 14px;
+    transition: 400ms;
+}
+.post-meta-info-list-in a:hover{
+    color: #fff;
+}
+.post-meta-info-list-in{
+    margin: 40px 0 20px;
+}
+.novisible{
+    visibility: hidden;
+}
+.themeum-navbar-brand h1{
+    color: #ffffff;
+}
+.comingsoon-content .mc4wp-alert {
+    display: inline-block;
+    color: #00bf9a;
+}
+.generic-padding > .container{
+    /*padding-top: 40px;*/
+    padding-bottom: 100px;
+}
+.single-product .generic-padding > .container {
+    padding-bottom: 60px;
+}
+
+/***********/
+.head-hide,
+.footer-hide {
+    display: none;
+}
+.wp-color-result-text{
+    padding: 1px 6px !important;
+}
+.wp-picker-holder{
+    z-index: 999999 !important;
+}

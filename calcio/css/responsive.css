@@ -1,0 +1,872 @@
+/* ==========================================================================
+responsive
+========================================================================== */
+
+@media (max-width: 768px){
+    .row-order-wrap{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .row-order-1{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .row-order-2{
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .row-order-3{
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+}
+
+@media (max-width: 1240px) {
+    .footer-wrap .bottom>.container {
+        width: auto;
+    }
+    #comingsoon-countdown .countdown-amount {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1199px) {
+    .navbar-header {
+        width: 75%;
+        padding-left: 15px;
+    }
+    .logo-wrapper h1 {
+        margin-top: 16px;
+    }
+    /*Footer Widget*/
+    .bottom .widget_text {
+        min-height: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .common-menu-wrap .nav>li>a {
+        padding: 0;
+        margin: 0px 6px;
+    }
+    .common-menu .common-menu-wrap .nav>li>a {
+        font-size: 12px;
+    }
+    .vc_column-inner {
+        width: 100%;
+    }
+    .cuisine-modul {
+        margin-top: 8px;
+    }
+    .social-share ul li {
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .all_video_addon .video-post-block{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .single-feature-slide{
+        margin-bottom: 15px;
+    }
+    .popular-news-wrapper .popular-news-intro{
+        width: 100%;
+        margin-left: 0;
+    }
+    .popular-news-wrapper .popular-image{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .goal-count.media{
+        padding-left: 0;
+    }
+    .match-team-right .goal-count2.media{
+        padding-right: 0;
+    }
+    .goal-count2.media .team-two-img img{
+        right: 8px;
+    }
+    .match-details-tab .match-details-tab-content{
+        padding: 10px;
+    }
+    .slider-style3 .post-slider-wrap{
+        margin-top: 0;
+        font-size: 36px;
+    }
+    #wp-megamenu-mainmenu .login-logout{
+        margin-top: 7px;
+    }
+    .secondary_menu .header-social{
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .themeum-navbar-brand h1 {
+        padding: 5px 0;
+    }
+    .post-slider-in .slider-title a{
+        font-size: 40px;
+    }
+    .slider-style1.owl-carousel.owl-loaded{
+        width: auto;
+        margin-left: 0;
+    }
+    .slider-style1 .owl-item.active .item{
+        width: auto !important;
+    }
+    .secondary_menu .header-social{
+        
+        top: -10px;
+    }
+    .secondary_menu .header-social ul li{
+        display: inline-block;
+        padding: 5px;
+    }
+    .secondary_menu .common-menu-wrap ul li a{
+        padding: 5px 10px;
+    }
+    .secondary_menu{
+        padding: 10px 0;
+    }
+    .wp-megamenu-wrap.wpmm-mobile-menu ul.wp-megamenu {
+        width: 105%;
+    }
+
+    .wp-megamenu-wrap.wpmm-mobile-menu ul.wp-megamenu li ul.wp-megamenu-sub-menu .wpmm-vertical-tabs-nav ul li {
+        width: 100%;
+    }
+    .common-menu-responsive .themeum-navbar-header {
+        margin-top: 0;
+    }
+    .common-menu-wrap {
+        margin-right: 35px;
+    }
+    .common-menu-responsive-wrap .header-search-wrap {
+        top: 17px;
+    }
+    .header.header-borderimage .navbar-toggle,
+    .header.header-solid .navbar-toggle {
+        color: #000;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        overflow: hidden !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-toggle {
+        display: block;
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .photo-gallery-item .photo-gallery-items.single-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .photo-gallery-item .photo-gallery-items.single-col img {
+        width: 100%;
+    }
+    .photo-gallery-item .photo-gallery-items.column {
+        width: 50%;
+        float: left;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        width: 76%;
+    }
+    .mc4wp-form-fields input[type=submit] {
+        width: 24%;
+    }
+    .col6.col6-input input {
+        width: 47%;
+    }
+    /* bottom-widget */
+    .bottom-widget:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .logo-wrapper {
+        padding: 14px 0;
+    }
+    .logo-wrapper img {
+        max-width: 200px;
+    }
+    /* wp mega menu */
+    .themeum-navbar-header {
+        z-index: 9999;
+        position: relative;
+    }
+    .common-menu-responsive .common-menu-wrap {
+        display: block;
+    }
+    .common-menu.common-menu-responsive {
+        display: block;
+    }
+    
+    .shortcode-upcoming-event .entry-date{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .shortcode-upcoming-event .entry-date-time{
+        display: block;
+    }
+    .counter-content .counter-number-icon{
+        position: static !important;
+        
+    }
+    .single-post .blog-content-wrapper h2.entry-title.blog-entry-title{
+        font-size: 30px;
+    }
+    .single-post .blog-details-img.post-style-top{
+        width: auto;
+        margin: 0;
+    }
+    .single-post .blog-content-wrapper .entry-blog .entry-summary{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .entry-title.blog-entry-title .cat-list{
+        display: block;
+    }
+    .row.content-wrap {
+        margin-top: 10px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .themeum-navbar-brand h1 {
+        margin: 0;
+        padding: 0;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 47.5% !important;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 47% !important;
+    }
+    .product-thumbnail-outer:hover .product-thumbnail-outer-inner .addtocart-btn a.added_to_cart {
+        visibility: visible;
+        opacity: 1;
+        top: 62%;
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation {
+        width: 100% !important;
+    }
+    
+    .shortcode-upcoming-event .entry-date{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .shortcode-upcoming-event .entry-date-time{
+        display: block;
+    }
+    .newsletter-left{
+        margin-bottom: 50px;
+    }
+    .mc4wp-form-fields input[type="email"]{
+        width: 100%;
+        border-radius: 4px;
+    }
+    .login-logout{
+        right: 160px;
+        margin-top: 7px;
+    }
+
+    .wpmm_mobile_menu_btn{
+        background: linear-gradient(to right, #EC0048, #F15A29)!important;
+        position: relative;
+        right: -40px;
+    }
+    .goal-timeline .goal-timeline1, .goal-timeline .goal-timeline2{
+        width: 100%;
+    }
+    .match-banner-result-wrap{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-ancestor>a, 
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li.current-menu-item a{
+        color: #EC0048;
+    }
+    .match-details-tab .match-details-tab-content{
+        padding: 10px;
+    }
+    .wpmm_mobile_menu_btn{
+        background: linear-gradient(to right, #EC0048, #F15A29);
+    }
+    .wpmm_mobile_menu_btn i{
+        color: #fff;
+    }
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li>a{
+        padding: 10px 0;
+        color: #000;
+    }
+    .main-menu-wrap-responsive ul#menu-main-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul#menu-main-menu{
+        text-align: left;
+        padding: 20px;
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    }
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li>a:hover{
+        color: #EC0048;
+    }
+    .subtitle-cover h2{
+        font-size: 30px !important;
+    }
+    .club-club-list{
+        padding: 10px;
+    }
+    .player-profile-banner{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .club-section-wrap .col-sm-3{
+        width: 100%;
+    }
+    .club-info{
+        margin-top: 0;
+    }
+    .slider-style3 .post-slider-wrap{
+        margin-top: 0;
+    }
+    .secondary_menu .common-menu-responsive-wrap{
+        z-index: 0;
+    }
+    .fixture-team-recent-result h2{
+        font-size: 50px;
+    }
+    .fixture-team-recent-result img{
+        max-width: 60px;
+        height: auto;
+        margin-right: 0;
+    }
+    .team-two-player ul{
+        display: block;
+        text-align: right;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+
+    .team-two-player ul {
+        text-align: left;
+        padding-left: 72px;
+    }
+    .team-two-emmet a h4 {
+        padding-left: 72px;
+    }
+
+
+    .themeum-core-latest-match{
+        width:100%;
+        text-align:center;
+        padding:15px;
+      }
+      #home-countdown-timer span.countdown-amount{
+        font-size:45px;
+      }
+      .themeum-core-latest-match h2{
+        text-align:center;
+      }
+      .themeum-core-latest-match .countdown-section{
+      padding:20px;
+        margin:0;
+      }
+      .themeum-core-latest-match:after{
+      display:none;
+      }
+    .themeum-navbar-brand h1 {
+        margin: 0;
+        padding: 0;
+    }
+  .row.thm-topheadline{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .subtitle-cover{
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+  .subtitle-cover .text-left.col-md-8{
+    margin-left: 0;
+  }
+  .blog-top-slide-wrap{
+    margin: 0 !important;
+  }
+  #wp-megamenu-mainmenu.wpmm-mobile-menu a.wpmm_mobile_menu_btn{
+  	margin-right:0 !important;
+  }
+ 
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-ancestor>a, 
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li.current-menu-item a{
+        color: #EC0048;
+    }
+    .match-details-tab .match-details-tab-content{
+        padding: 10px;
+    }
+    .wpmm_mobile_menu_btn{
+        background: linear-gradient(to right, #EC0048, #F15A29);
+    }
+    .wpmm_mobile_menu_btn i{
+        color: #fff;
+    }
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li>a{
+        padding: 10px 0;
+        color: #000;
+    }
+    .main-menu-wrap-responsive ul#menu-main-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul#menu-main-menu{
+        text-align: left;
+        padding: 20px;
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    }
+    #wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li>a:hover{
+        color: #EC0048;
+    }
+
+    .fixture-teams-list {
+        padding: 4px;
+        margin: 0;
+    }
+
+    /* Megamenu Section */ 
+    .wp-megamenu-wrap.wpmm-mobile-menu ul.wp-megamenu {
+        margin-top: 0;
+        width: 110%;
+    }
+    .main-menu-wrap{
+        padding-bottom: 0;
+    }
+    /* Secondary Menu */
+    .secondary_menu{
+        padding-top: 15px;
+      }
+      .secondary_menu .common-menu-wrap ul li a{
+        padding: 5px;
+      }
+    
+
+    .latest-post-margin .vc_column-inner {
+        margin-top: 0 !important;
+    }
+    .padding15.vc_column_container,
+    .padding-right15.vc_column_container,
+    .padding-left15.vc_column_container {
+        padding: 0;
+    }
+    /* slider */
+    .home-two-crousel .item .container .slider-content .vertical-middle {
+        max-width: 80%;
+    }
+    .slider-content h2 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    /* feature */
+    .home-feature.vc_column_container>.vc_column-inner {
+        margin-top: 0 !important;
+    }
+    .home-feature {
+        margin-top: 30px;
+    }
+    .themeum-feature-wrapper {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .themeum-photo-gallery-item .no-padding {
+        width: 50%;
+    }
+    .themeum-person {
+        margin-bottom: 30px;
+    }
+    .themeum-person-image img {
+        width: 100%;
+    }
+    #comingsoon-countdown .countdown-amount {
+        font-size: 60px;
+        line-height: 1;
+    }
+    #comingsoon-countdown .countdown-period {
+        font-size: 16px;
+    }
+    .comingsoon .social-share li {
+        margin: 0 8px;
+    }
+    .comingsoon .social-share li a {
+        font-size: 16px;
+    }
+    .countdown-section:not(:last-child):after {
+        display: none;
+    }
+    .countdown-section {
+        margin: 0 30px;
+    }
+    .topbar .col-sm-5,
+    .topbar .col-sm-7 {
+        text-align: center !important;
+    }
+    .full-width-events .entry-date .entry-date-day {
+        font-size: 60px;
+    }
+    .full-width-events .entry-date .entry-date-month {
+        font-size: 14px;
+    }
+    .themeum-action .btnright {
+        text-align: center;
+    }
+    .single-event-contents,
+    .single-course-contents {
+        padding: 0 30px;
+    }
+    .event-register-form .text-right {
+        margin-top: 30px;
+    }
+    .themeum-notice-list {
+        display: block;
+    }
+    .themeum-notice-list .thm-notice-data {
+        display: block;
+        padding: 20px 0;
+    }
+    .themeum-notice-list .readmore-wrap {
+        width: auto;
+    }
+    article.hentry.thm-single-notice {
+        padding: 30px;
+    }
+    .thm-single-notice .educon-blog-date {
+        position: relative;
+        left: auto;
+        top: 0;
+        margin-bottom: 20px;
+    }
+    body:not(.single-post) article>.blog-details-img {
+        overflow: visible;
+    }
+    .comments-area.comments ul li ul.children {
+        padding-left: 3%;
+    }
+    .comment-avartar.pull-left {
+        padding-right: 15px;
+    }
+    .all_video_addon .video-post-block{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .single-feature-slide{
+        margin-bottom: 20px;
+    }
+     .slider-style1 .owl-item.active .item.active{
+         min-height: 400px;
+     }
+    .slider-style1 .owl-item.active .item {
+        position: static;
+    }
+    .club-image-wrapper img{
+        max-width: 80px;
+    }
+    .post-slider-wrap.style3 .post-slider-innner{
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    .fixture-team-inner .status.text-center{
+        padding: 0;
+    }
+    .recent-result-match-list{
+        padding: 20px 0;
+    }
+  .single-post .social-button ul>li{
+  	margin-bottom: 20px;
+  }
+
+  .media-body.club-jersey-text p{
+    margin: 25px 0;
+    font-size:30px;
+    line-height:34px;
+  }
+  .club-squed > .row, .club-honour > .row, .club-jersey > .row{
+    padding:0;
+    margin-bottom:25px;
+  }
+  .honours-intro .media-body{
+    padding-top:0;
+    padding-bottom:30px;
+  }
+  .club-details-tab .nav-tabs>li>a{
+    padding:20px 1px 0px 40px;
+  }
+  .club-details-tab .nav-tabs{
+    padding-bottom:20px;
+  }
+
+}
+
+@media(max-width: 580px){
+
+    .fixture-team-recent-result .team-one-emmet {
+        float: inherit;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .fixture-team-recent-result ul {
+        padding: 0;
+        text-align: center;
+    }
+    .team-one-title .pull-right {
+        float: inherit !important;
+    }
+    .team-two-emmet a h4 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .team-two-player {
+        text-align: center;
+    }
+    .fixture-team-recent-result .pull-left {
+        float: inherit !important;
+    }
+
+
+    .club-profile-leftside{
+        text-align:left;
+      }
+    .secondary_menu .header-social{
+        position: static;
+        width: 100%;
+    }
+    .login-logout{
+        right: 115px;
+    }
+    .slider-style3 .post-slider-in .slider-title a{
+        font-size: 30px;
+    }
+    .match-team-right .goal-count2.media{
+        margin-top: 60px;
+    }
+    .leagure-result-cont .score span{
+        margin: 60px 0;
+        display: block;
+        text-align: left;
+        padding: 0;
+    }
+    .match-team.text-center{
+        text-align: left;
+        margin-top: 60px;
+    }
+    .secondary_menu .header-social{
+
+        text-align: center;
+    }
+    .post-slider-in .slider-title a{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .post-slider-in .entry-category a{
+        font-size: 18px;
+    }
+    #wp-megamenu-mainmenu.wpmm-mobile-menu a.wpmm_mobile_menu_btn{
+        margin-right: 0;
+    }
+    .main-menu-wrap-responsive{
+        padding-bottom: 0;
+    }
+   .header-search-wrap .search-open-icon{
+    margin-right: 0;
+   }
+   .topbar-login {
+    padding: 6px 10px;
+    margin-left: 10px
+   }
+   .themeum-navbar-brand h1 {
+       margin: 0;
+       padding: 0;
+   }
+
+}
+@media (min-width: 490px) and (max-width: 580px){
+    
+    #wp-megamenu-mainmenu.wpmm-mobile-menu a.wpmm_mobile_menu_btn{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 489px) {
+  .slider-style1.owl-carousel .owl-dots{
+  	bottom:10%;
+  }
+   #wp-megamenu-mainmenu.wpmm-mobile-menu a.wpmm_mobile_menu_btn{
+  	margin-right:20px !important;
+  }
+    .adons-themeum-feature-course p{
+        line-height: 1.5em;
+    }
+    .adons-themeum-feature-course .owl-controls{
+        top: 0;
+    }
+    .adons-themeum-feature-course .owl-prev,
+    .adons-themeum-feature-course .owl-next{
+        border-color: #fff;
+        color: #ffffff;
+    }
+    .subtitle-cover h2 {
+        font-size: 40px !important;
+    }
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last,
+    .woocommerce-page table.cart td.actions .coupon input {
+        width: 100% !important;
+    }
+    .woocommerce .woocommerce-error .button,
+    .woocommerce .woocommerce-info .button,
+    .woocommerce .woocommerce-message .button,
+    .woocommerce-page .woocommerce-error .button,
+    .woocommerce-page .woocommerce-info .button,
+    .woocommerce-page .woocommerce-message .button {
+        float: none !important;
+        display: block;
+        text-align: center;
+    }
+    .form-submit input[type=submit] {
+        padding: 0px 12px;
+        font-size: 14px;
+    }
+    .comment-notes {
+        padding: 0 15px;
+    }
+    .entry-content-list-blog .entry-header {
+        padding: 10px;
+    }
+    .entry-blog-meta .blog-entry-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .entry-link-post-format,
+    .entry-quote-post-format {
+        padding: 40px 40px 150px;
+    }
+    .entry-link-post-format h4 {
+        font-size: 26px;
+    }
+    .format-video .entry-content-list-blog .entry-header {
+        bottom: 0;
+    }
+    /*Coming Soon*/
+    #comingsoon-countdown {
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+    #comingsoon-countdown .countdown-section {
+        margin-right: 0;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #comingsoon-countdown .countdown-section .countdown-amount {
+        font-size: 30px;
+    }
+    #comingsoon-countdown .countdown-section .countdown-period {
+        font-size: 12px;
+    }
+    .countdown-section {
+        margin: 0 15px;
+    }
+    .coming-soon-newslatter {
+        padding: 20px;
+    }
+    .comingsoon-footer {
+        margin-top: 20px;
+    }
+    .coming-soon-newslatter {
+        width: 100%;
+    }
+    .col6.col6-input input {
+        width: 100%;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        width: 70%;
+    }
+    .mc4wp-form-fields input[type=submit] {
+        width: 30%;
+        padding: 13px;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 100% !important;
+    }
+    .product-thumbnail-outer:hover .product-thumbnail-outer-inner .addtocart-btn a.added_to_cart {
+        top: 55%;
+    }
+    .common-menu-wrap{
+        margin-right: 0;
+        text-align: center;
+    }
+    .login-logout{
+        position: absolute;
+        
+    }
+    .main-menu-wrap{
+        padding-bottom: 0;
+    }
+    .row.fixture-team-recent-result.clearfix .col-xs-5,
+     .row.fixture-team-recent-result.clearfix .col-xs-5,
+     .row.fixture-team-recent-result.clearfix .col-xs-2{
+        width: 100%;
+    }
+    .team-two-player ul{
+        padding-left: 0;
+        text-align: center;
+    }
+    .logo-wrapper {
+        padding: 16px 10px;
+    }
+    .logo-wrapper img{
+        max-width: 135px;
+    }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+    .group-fixture-teams-lists .team-name1{
+        width: 50%;
+    }
+    .login-logout{
+        right: 95px;
+    }
+    .wpmm_mobile_menu_btn{
+        right: -50px;
+    }
+    .logo-wrapper img{
+        max-width: 120px;
+    }
+    .logo-wrapper {
+        padding: 18px 10px;
+    }
+}
+
+
+

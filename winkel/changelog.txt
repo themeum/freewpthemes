@@ -1,0 +1,39 @@
+Change log:
+----------------------------
+
+1.0.4:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Winkel theme support external link.
+* NEW FEATURES: Winkel theme documentation external link.
+
+* FIX: CSS bug fix.
+* FIX: License page bug fix.
+
+----------------------------
+
+1.0.3:
+
+* CSS bug fix.
+
+----------------------------
+
+----------------------------
+
+1.0.2:
+
+* CSS bug fix.
+
+----------------------------
+
+----------------------------
+
+1.0.1:
+
+* CSS bug fix.
+
+----------------------------
+
+1.0.0:
+
+* Initial release.

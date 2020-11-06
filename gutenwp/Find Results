@@ -1,0 +1,25 @@
+Searching 76 files for "wpneo"
+
+/Applications/MAMP/htdocs/WordPress/gutenwp/wp-content/themes/gutenwp/rtl.css:
+   17      margin-right: 5px;
+   18  }
+   19: .quantity_box .qwpneo_donate_button {
+   20      border-radius: 3px 0px 0px 3px;
+   21  }
+   ..
+  442              margin-top: 6px;
+  443      }
+  444:     input[type="number"].wpneo_donate_amount_field {
+  445          width: 100%;
+  446          max-width: 89%;
+  ...
+  454  
+  455  @media (max-width: 489px) {
+  456:     .modal .modal-dialog, .wpneo-modal-content {
+  457          max-width: 378px;
+  458      }
+  459:     input[type="number"].wpneo_donate_amount_field {
+  460          max-width: 87%;
+  461      }
+
+4 matches in 1 file

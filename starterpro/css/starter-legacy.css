@@ -1,0 +1,519 @@
+/* starter old slider */
+
+#carousel-main .carousel-caption{
+  left: auto;
+  right: auto;
+  width: 100%;
+  text-align: left;
+  bottom: 30%;
+  z-index: 5;
+}
+
+#carousel-main .carousel-inner>.item>img{
+    margin: 0 auto;
+  }
+
+#carousel-main .carousel-caption h2{
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 72px;
+  text-shadow:none;
+  color:#fff;
+}
+
+#carousel-main .carousel-caption .lead{
+  margin-bottom: 50px;
+}
+
+#carousel-main .carousel-control{
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background:rgba(0,0,0,.6);
+  opacity: .9;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,.2);
+  border-radius: 3px;
+  z-index: 6;
+}
+
+#carousel-main .carousel-control i {
+  line-height: 40px;
+}
+
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#carousel-main .active .bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  -moz-animation-name: bounceInUp;
+  -o-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -ms-animation-duration:1s;
+  -o-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-delay:.4s;
+  -moz-animation-delay:.4s;
+  -ms-animation-delay:.4s;
+  -o-animation-delay:.4s;
+  animation-delay:.4s;
+}
+
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(30px);
+  }
+
+  80% {
+    -moz-transform: translateY(-10px);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -o-transform: translateY(30px);
+  }
+
+  80% {
+    -o-transform: translateY(-10px);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#carousel-main .active .bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  -moz-animation-name: bounceInDown;
+  -o-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -ms-animation-duration:1s;
+  -o-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-delay:.4s;
+  -moz-animation-delay:.4s;
+  -ms-animation-delay:.4s;
+  -o-animation-delay:.4s;
+  animation-delay:.4s;
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    } 100% {
+      -webkit-transform: translateX(0);
+    }
+  }
+
+  @-moz-keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      -moz-transform: translateX(-2000px);
+    }
+
+    100% {
+      -moz-transform: translateX(0);
+    }
+  }
+
+  @-o-keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      -o-transform: translateX(-2000px);
+    }
+
+    100% {
+      -o-transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-2000px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  #carousel-main .active .slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    -moz-animation-name: slideInLeft;
+    -o-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    -ms-animation-duration:1s;
+    -o-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-delay:.3s;
+    -moz-animation-delay:.3s;
+    -ms-animation-delay:.3s;
+    -o-animation-delay:.3s;
+    animation-delay:.3s;
+  }
+
+  @-webkit-keyframes slideInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(2000px);
+    }
+
+    100% {
+      -webkit-transform: translateX(0);
+    }
+  }
+
+  @-moz-keyframes slideInRight {
+    0% {
+      opacity: 0;
+      -moz-transform: translateX(2000px);
+    }
+
+    100% {
+      -moz-transform: translateX(0);
+    }
+  }
+
+  @-o-keyframes slideInRight {
+    0% {
+      opacity: 0;
+      -o-transform: translateX(2000px);
+    }
+
+    100% {
+      -o-transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #carousel-main .active .slideInRight {
+    -webkit-animation-name: slideInRight;
+    -moz-animation-name: slideInRight;
+    -o-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    -ms-animation-duration:1s;
+    -o-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-delay:.4s;
+    -moz-animation-delay:.4s;
+    -ms-animation-delay:.4s;
+    -o-animation-delay:.4s;
+    animation-delay:.4s;
+  }
+
+
+
+
+  #carousel-main .carousel-control.left{
+    left: 30px;
+  }
+
+  #carousel-main .carousel-control.right{
+    right: 30px;
+  }
+
+  #carousel-main .carousel-control .icon-prev,
+  #carousel-main .carousel-control .icon-next{
+    font-size: 36px;
+    margin-top: -14px;
+  }
+
+  #carousel-main .carousel-control .icon-next{
+    margin-right: -14px;
+  }
+
+
+
+/* team old */
+
+#team-carousel{
+  margin-top: 50px;
+}
+
+
+#team-carousel .carousel-control{
+  background: transparent;
+  width: 20px;
+  height: 60px;
+  opacity: .6;
+}
+
+#team-carousel .carousel-control i{
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: rgba(148, 148, 148, 0.61);
+  
+  opacity: .9;
+}
+
+#team-carousel .carousel-control.left i{
+  border-radius: 3px 0 0 3px;
+}
+
+#team-carousel .carousel-control.right i{
+  border-radius: 0 3px 3px 0;
+}
+
+#team-carousel .carousel-control.left{
+  background: transparent;
+  left: -30px;
+  top: 40%;
+}
+
+#team-carousel .carousel-control.right{
+  background: transparent;
+  right: -20px;
+  top: 40%;
+}
+
+#team-carousel .carousel-control .icon-angle-left,
+#team-carousel .carousel-control .icon-angle-right{
+  font-size: 60px;
+  line-height: 60px;
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: -3px;
+  left: auto;
+  color: #8a8a8a;
+  text-shadow:none;
+}
+
+
+.team-box{
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+  -webkit-transition: 800ms;
+}
+
+.team-image img{
+  width: 100% !important;
+}
+
+.team-box:hover {
+  color:#fff;
+  background: #34495E;
+}
+
+.team-box:hover ul.social li a {
+  color:#fff;
+}
+
+.team-box:hover .team-image img {
+  opacity: .6;
+}
+
+
+.team-desc{
+  padding: 15px;
+}
+
+.team-box ul.social{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-box ul.social li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.team-box ul.social li a {
+
+}
+
+/* features */
+
+/*=================================
+*======= COMPANY =================
+*===============================*/
+
+.feature-box{
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.feature-box-1{
+  margin-right: 20px;
+}
+
+.feature-box-1 span{
+  background: #82a12d;
+  color: #fff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  border: 0 none;
+  border-radius: 50%;
+}
+
+.feature-box-1 .icon-custom-style{
+  font-size: 23px;
+  line-height: 55px;
+}
+
+.feature-box-2{
+  overflow: hidden;
+}
+
+.feature-box-2 h3{
+  margin-top: 0;
+}
+
+
+.feature-box-1.color-2 span{
+  background: #f06028;
+}
+
+.feature-box-1.color-3 span{
+  background: #37c9e8;
+}
+
+.feature-box-1.color-4 span{
+  background: #5d7289;
+}
+
+.feature-box-1.color-5 span{
+  background: #b955d6;
+}
+
+.feature-box-1.color-6 span{
+  background: #74b8e7;
+}
+
+.feature-box-1.color-7 span{
+  background: #899bde;
+}
+
+.feature-box-1.color-8 span{
+  background: #5dbc61;
+}
+
+
+
+
+
+
+

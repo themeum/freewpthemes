@@ -1,0 +1,1301 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: wpestate\n"
+"POT-Creation-Date: 2019-05-03 14:32+0600\n"
+"PO-Revision-Date: 2019-05-03 14:32+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:10
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+msgid "Sorry but the page you are looking for cannot be found"
+msgstr ""
+
+#: 404.php:14
+msgid "HOME"
+msgstr ""
+
+#: 404.php:14
+msgid "Go Home"
+msgstr ""
+
+#: archive.php:27 author.php:27 category.php:27 index.php:27 search.php:478
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: archive.php:28 author.php:28 category.php:28 index.php:28 search.php:479
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: author-agent.php:47
+msgid "City/State"
+msgstr ""
+
+#: author-agent.php:72 search.php:207 taxonomy-property-location.php:85
+msgid "Property Type"
+msgstr ""
+
+#: author-agent.php:88
+msgid "Search Now"
+msgstr ""
+
+#: author-agent.php:149
+msgid "About The Agent"
+msgstr ""
+
+#: author-agent.php:181
+msgid "Contact Agent"
+msgstr ""
+
+#: author-agent.php:204
+msgid " "
+msgstr ""
+
+#: author-agent.php:204
+msgid "Projects"
+msgstr ""
+
+#: author-agent.php:277 search.php:385 single-property.php:46
+#: single-property.php:69 taxonomy-property-location.php:248
+msgid "gallery_photo : "
+msgstr ""
+
+#: author-agent.php:302 search.php:410 single-property.php:125
+#: taxonomy-property-location.php:273
+msgid "Featured"
+msgstr ""
+
+#: author-agent.php:314 search.php:268 search.php:422 single-property.php:138
+#: taxonomy-property-location.php:146 taxonomy-property-location.php:282
+msgid "Bed"
+msgstr ""
+
+#: author-agent.php:317 search.php:264 search.php:425 single-property.php:140
+#: taxonomy-property-location.php:142 taxonomy-property-location.php:285
+msgid "Beds"
+msgstr ""
+
+#: author-agent.php:321 search.php:286 search.php:429 single-property.php:144
+#: taxonomy-property-location.php:164 taxonomy-property-location.php:289
+msgid "Bath"
+msgstr ""
+
+#: author-agent.php:323 search.php:282 search.php:431 single-property.php:146
+#: taxonomy-property-location.php:160 taxonomy-property-location.php:291
+msgid "Baths"
+msgstr ""
+
+#: author-agent.php:328 search.php:436 single-property.php:150
+#: taxonomy-property-location.php:296
+msgid "sqft"
+msgstr ""
+
+#: coming-soon.php:22
+msgid "Coming Soon"
+msgstr ""
+
+#: coming-soon.php:27
+msgid "We are come back soon"
+msgstr ""
+
+#: coming-soon.php:32
+msgid "Days"
+msgstr ""
+
+#: coming-soon.php:33
+msgid "Hours"
+msgstr ""
+
+#: coming-soon.php:34
+msgid "Min"
+msgstr ""
+
+#: coming-soon.php:35
+msgid "Sec"
+msgstr ""
+
+#: coming-soon.php:43
+msgid "Follow Us"
+msgstr ""
+
+#: comments.php:12
+msgid "Name"
+msgstr ""
+
+#: comments.php:13 header.php:261
+msgid "Email"
+msgstr ""
+
+#: comments.php:14
+msgid "Website url"
+msgstr ""
+
+#: comments.php:19
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:22
+msgid "Comment"
+msgstr ""
+
+#: comments.php:23
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:33
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:33
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:45
+msgid "Copyright 2019. All Right Reserved"
+msgstr ""
+
+#: functions.php:23
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:24
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:58
+msgid "Logo"
+msgstr ""
+
+#: header.php:149 header.php:208
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:156
+msgid "Hello, "
+msgstr ""
+
+#: header.php:168
+msgid "Submit Property"
+msgstr ""
+
+#: header.php:174
+msgid "Profile"
+msgstr ""
+
+#: header.php:176
+msgid "Favourite Properties"
+msgstr ""
+
+#: header.php:178
+msgid "My Properties"
+msgstr ""
+
+#: header.php:182
+msgid "Log Out"
+msgstr ""
+
+#: header.php:218
+msgid "Remember Me"
+msgstr ""
+
+#: header.php:222
+msgid "Forgot your password?"
+msgstr ""
+
+#: header.php:232
+msgid "Create an account"
+msgstr ""
+
+#: header.php:238
+msgid "Active wpestate Core Plugin First"
+msgstr ""
+
+#: header.php:257
+msgid "Register Account"
+msgstr ""
+
+#: header.php:260
+msgid "Username"
+msgstr ""
+
+#: header.php:262
+msgid "Password"
+msgstr ""
+
+#: header.php:265
+msgid "Or, Already have a account?"
+msgstr ""
+
+#: header.php:267
+msgid "Login"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:334
+#: lib/main-function/wpestate-register.php:201
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:335
+#: lib/main-function/wpestate-register.php:202
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:337
+#: lib/main-function/wpestate-register.php:203
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:340
+#: lib/main-function/wpestate-register.php:204
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:392
+#: lib/main-function/wpestate-register.php:205
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:393
+#: lib/class-tgm-plugin-activation.php:912
+#: lib/class-tgm-plugin-activation.php:2618
+#: lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3244
+#: lib/main-function/wpestate-register.php:206
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+#: lib/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1206
+#: lib/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2639 search.php:170
+#: taxonomy-property-location.php:48
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/login-register.php:16 lib/login-register.php:64
+msgid "Wrong username or password."
+msgstr ""
+
+#: lib/login-register.php:18
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: lib/login-register.php:31
+msgid "Wrong!!! Username field is empty."
+msgstr ""
+
+#: lib/login-register.php:34
+msgid "Wrong!!! Email field is empty."
+msgstr ""
+
+#: lib/login-register.php:37
+msgid "Wrong!!! Password field is empty."
+msgstr ""
+
+#: lib/login-register.php:41
+msgid "Wrong!!! Username already exits."
+msgstr ""
+
+#: lib/login-register.php:44
+msgid "Wrong!!! Password must 6 charecter or more."
+msgstr ""
+
+#: lib/login-register.php:47
+msgid "Wrong!!! Email address is not correct."
+msgstr ""
+
+#: lib/login-register.php:50
+msgid "Wrong!!! Email user already exits in this site."
+msgstr ""
+
+#: lib/login-register.php:61
+msgid "Registration successful you can login now."
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:41
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:42
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:65
+msgid "Pingback:"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:69
+#: lib/main-function/wpestate-core.php:90
+msgid "Edit"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:100
+msgid "Reply"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:119
+msgid "Home"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:130
+msgid "shop"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:133
+msgid "Posts Tagged "
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:135
+#: lib/main-function/wpestate-core.php:137
+#: lib/main-function/wpestate-core.php:139
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:141
+msgid "Search results for"
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:173
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/wpestate-core.php:177
+msgid "Blog"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:13
+msgid "Widgets in this area will be shown on Sidebar."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:22
+msgid "Bottom 1"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:24
+msgid "Widgets in this area will be shown before Bottom 1."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:33
+msgid "Bottom 2"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:35
+msgid "Widgets in this area will be shown before Bottom 2."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:44
+msgid "Bottom 3"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:46
+msgid "Widgets in this area will be shown before Bottom 3."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:54
+msgid "Bottom 4"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:56
+msgid "Widgets in this area will be shown before Bottom 4."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:107
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:143
+msgid "Wp Pagebuilder"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:152
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:171
+msgid "wpestate Core"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:181
+msgid "WP Mega Menu"
+msgstr ""
+
+#: lib/main-function/wpestate-register.php:207
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:100
+msgid "sub item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:115
+msgid "Move up"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:128
+msgid "Move down"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:130
+#: lib/menu/admin-megamenu-walker.php:132
+msgid "Edit Menu Item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:141
+msgid "URL"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:149
+msgid "Navigation Label"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:164
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:170
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:184
+msgid "Description"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:186
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:191
+msgid "Move"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:192
+msgid "Up one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:193
+msgid "Down one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:196
+msgid "To the top"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:203
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:216
+msgid "Remove"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:217
+msgid "Cancel"
+msgstr ""
+
+#: lib/sub-header.php:69
+msgid "Shop"
+msgstr ""
+
+#: lib/sub-header.php:89
+msgid "Search"
+msgstr ""
+
+#: lib/sub-header.php:115
+msgid "Event Details"
+msgstr ""
+
+#: lib/sub-header.php:117
+msgid "Albums"
+msgstr ""
+
+#: lib/sub-header.php:119
+msgid "Gallery"
+msgstr ""
+
+#: lib/sub-header.php:121
+msgid "Performer"
+msgstr ""
+
+#: lib/sub-header.php:123
+msgid "Product Details"
+msgstr ""
+
+#: lib/sub-header.php:125
+msgid "Different Types of Laser"
+msgstr ""
+
+#: page-without-subhead.php:22 page.php:22 post-format/entry-content-blog.php:8
+msgid "Pages:"
+msgstr ""
+
+#: post-format/content-audio.php:42 post-format/content-audio.php:90
+#: post-format/content-gallery.php:68 post-format/content-gallery.php:119
+#: post-format/content-image.php:57 post-format/content-image.php:108
+#: post-format/content-link.php:42 post-format/content-video.php:47
+#: post-format/content-video.php:98 post-format/content.php:35
+#: post-format/content.php:92
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: post-format/content-audio.php:67 post-format/content-gallery.php:93
+#: post-format/content-image.php:82 post-format/content-link.php:67
+#: post-format/content-video.php:72 post-format/content.php:59
+#: post-format/content.php:134
+msgid " Comments"
+msgstr ""
+
+#: post-format/content-audio.php:96 post-format/content-gallery.php:125
+#: post-format/content-image.php:114 post-format/content-video.php:104
+#: post-format/content.php:123
+msgid "By"
+msgstr ""
+
+#: post-format/content-gallery.php:30
+msgid "image"
+msgstr ""
+
+#: post-format/content-link.php:93
+msgid "by"
+msgstr ""
+
+#: post-format/content-none.php:4
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: post-format/content-none.php:7
+msgid "Error Search"
+msgstr ""
+
+#: post-format/content-none.php:8 search.php:445
+msgid "Nothing Found"
+msgstr ""
+
+#: post-format/content-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: post-format/content-none.php:16
+msgid "Find Course, Tutorials"
+msgstr ""
+
+#: post-format/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: post-format/entry-content-blog.php:18
+msgid "Tags:"
+msgstr ""
+
+#: search.php:125
+msgid "Properties"
+msgstr ""
+
+#: search.php:126
+msgid "All Properties"
+msgstr ""
+
+#: search.php:132
+msgid "listing"
+msgstr ""
+
+#: search.php:186 taxonomy-property-location.php:64
+msgid "City / State"
+msgstr ""
+
+#: search.php:228 taxonomy-property-location.php:106
+msgid "Advance"
+msgstr ""
+
+#: search.php:233 taxonomy-property-location.php:111
+msgid "Search Property"
+msgstr ""
+
+#: search.php:244 taxonomy-property-location.php:122
+msgid "Price Range"
+msgstr ""
+
+#: search.php:251 taxonomy-property-location.php:129
+msgid "Size Range"
+msgstr ""
+
+#: search.php:300 search.php:304 taxonomy-property-location.php:178
+#: taxonomy-property-location.php:182
+msgid "Parking"
+msgstr ""
+
+#: search.php:447
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different type."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search Here. . ."
+msgstr ""
+
+#: single-property.php:154 single-property.php:231 single-property.php:257
+msgid "Garage"
+msgstr ""
+
+#: single-property.php:156
+msgid "Garages"
+msgstr ""
+
+#: single-property.php:170
+msgid "Features"
+msgstr ""
+
+#: single-property.php:179
+msgid "Property Size"
+msgstr ""
+
+#: single-property.php:192
+msgid "Total Rooms"
+msgstr ""
+
+#: single-property.php:205
+msgid "Bedrooms"
+msgstr ""
+
+#: single-property.php:218
+msgid "Bathrooms"
+msgstr ""
+
+#: single-property.php:244
+msgid "Property Lot Size"
+msgstr ""
+
+#: single-property.php:270
+msgid "Garage Size"
+msgstr ""
+
+#: single-property.php:283
+msgid "Year Built"
+msgstr ""
+
+#: single-property.php:296
+msgid "Available From"
+msgstr ""
+
+#: single-property.php:309
+msgid "Basement"
+msgstr ""
+
+#: single-property.php:351
+msgid "Amenities"
+msgstr ""
+
+#: single-property.php:358
+msgid "attic"
+msgstr ""
+
+#: single-property.php:362
+msgid "poll"
+msgstr ""
+
+#: single-property.php:366
+msgid "concierge"
+msgstr ""
+
+#: single-property.php:370
+msgid "basketball cout"
+msgstr ""
+
+#: single-property.php:374
+msgid "sprinklers"
+msgstr ""
+
+#: single-property.php:378
+msgid "recreation"
+msgstr ""
+
+#: single-property.php:382
+msgid "front yard"
+msgstr ""
+
+#: single-property.php:386
+msgid "wine cellar"
+msgstr ""
+
+#: single-property.php:390
+msgid "storage"
+msgstr ""
+
+#: single-property.php:394
+msgid "fireplace"
+msgstr ""
+
+#: single-property.php:398
+msgid "balcony"
+msgstr ""
+
+#: single-property.php:402
+msgid "pound"
+msgstr ""
+
+#: single-property.php:406
+msgid "deck"
+msgstr ""
+
+#: single-property.php:410
+msgid "gas"
+msgstr ""
+
+#: single-property.php:414
+msgid "back yard"
+msgstr ""
+
+#: single-property.php:418
+msgid "doorman"
+msgstr ""
+
+#: single-property.php:422
+msgid "lake view"
+msgstr ""
+
+#: single-property.php:426
+msgid "private space"
+msgstr ""
+
+#: single-property.php:440
+msgid "Map"
+msgstr ""
+
+#: single-property.php:456
+msgid "Video"
+msgstr ""
+
+#: single-property.php:465
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: single-property.php:486
+msgid "Floor Plan"
+msgstr ""
+
+#: single-property.php:492
+msgid "floor-plan-img"
+msgstr ""
+
+#: single-property.php:506
+msgid "EMI Calculator"
+msgstr ""
+
+#: single-property.php:519
+msgid "Total Interest"
+msgstr ""
+
+#: single-property.php:520
+msgid "Principle + Interest Payable"
+msgstr ""
+
+#: single-property.php:527
+msgid "Principal loan amount"
+msgstr ""
+
+#: single-property.php:533
+msgid "Interest Rate"
+msgstr ""
+
+#: single-property.php:539
+msgid "Loan Tenure(Year + Month)"
+msgstr ""
+
+#: single-property.php:568
+msgid "Share Now"
+msgstr ""
+
+#: single-property.php:603
+msgid "Property Price"
+msgstr ""
+
+#: single-property.php:609
+msgid "Call Us For"
+msgstr ""
+
+#: single-property.php:611
+msgid "Booking"
+msgstr ""
+
+#: single-property.php:613
+msgid "Details"
+msgstr ""
+
+#: single-property.php:625
+msgid "Property Agent"
+msgstr ""
+
+#: single-property.php:654
+msgid "Contact for Enquiry"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "wpestate"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.themeum.com/wordpress/estate"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Premium WordPress Business Agency Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themeum"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeum.com/"
+msgstr ""

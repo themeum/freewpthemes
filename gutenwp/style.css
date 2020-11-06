@@ -1,0 +1,258 @@
+/*
+Theme Name: Gutenwp
+Theme URI: http://themeum.com/wordpress/gutenwp
+Author: Themeum
+Author URI: http://themeum.com/
+Description: Gutenwp WordPress Personal blog theme
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: right-sidebar, two-columns
+Text Domain: gutenwp
+*/
+
+/* -------------------------------------- *
+*           Default WP CSS                *
+* --------------------------------------- */
+
+*{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none !important;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.page-links{
+  margin-bottom: 30px;
+  clear: both;
+}
+.page-content,
+.blog-content-wrapper{
+  margin-bottom: 30px;
+}
+.page-content{
+    margin-top: 60px;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+a:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+.gallery-caption {
+    font-size: 12px;
+}
+.bypostauthor {
+    font-size: 12px;
+}
+h1.search-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.common-menu-wrap .nav>li>ul li a, .common-menu-wrap .nav > li > ul li.mega-child > a {
+    text-transform: capitalize;
+}
+/* -------------------------------------- *
+*           Wordpress Core                *
+* --------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+        white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; 
+}
+
+h2.bordered {
+    position: relative;
+    z-index: 1;
+}
+h2.bordered span { 
+    background: #fff; 
+    padding: 0 25px; 
+}
+h2.bordered:before {
+    border-top: 1px solid #dfdfdf;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 0%;
+    z-index: -1;
+}
+#loginform{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 30px 20px;
+    border: 1px solid #e7e7e7;
+}
+.post-meta-info-list-in a {
+    color: #5a5a5a;
+    border-radius: 4px;
+    padding: 4px 15px;
+    margin-right: 5px;
+    border: 2px solid #e7e7e7;
+    transition: 400ms;
+}
+.post-meta-info-list-in a:hover{
+  color: #fff;
+}
+.post-meta-info-list-in{
+  margin: 40px 0 20px;  
+}
+.calendar_wrap #wp-calendar {
+    width: 100%;
+}
+table tr th,
+table tr td{
+    padding:  8px;
+    border: 1px solid #ddd;
+}
+table{
+  margin-bottom: 10px;
+}
+table tr th,
+table tr td {
+    padding:  8px;
+    border: 1px solid #ddd;
+}
+ul li,
+ol li {
+    padding: 5px 0;
+}
+
+/* 404 Page */
+.gutenwp-error-page {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    top: 42%;
+    text-align: center;
+}
+.gutenwp-error-page .error-message-title {
+    font-size: 85px;
+    line-height: 90px;
+    font-weight: 700;
+}
+
+.gutenwp-error-page .error-message {
+    font-size: 24px;
+    line-height: 40px;
+}
+.gutenwp-error-page .btn {
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+}

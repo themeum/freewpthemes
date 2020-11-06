@@ -1,0 +1,10 @@
+Change log:
+----------------------------
+
+2.0.2:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: WP Tixon theme support external link.
+* NEW FEATURES: WP Tixon theme documentation external link.
+
+* FIX: CSS bug fix.

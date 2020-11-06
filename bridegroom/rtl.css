@@ -1,0 +1,811 @@
+body{
+  direction: rtl;
+  unicode-bidi: embed;
+}
+/* Main Menu */
+.thm-explore {
+    padding-right: 0;
+    float: right !important;
+    padding-left: 10px;
+}
+.thm-explore>a i:last-child {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.thm-explore::after {
+    right: auto;
+    left: -10px;
+}
+.bridegroom-login-register ul::before {
+    right: 0;
+    left: auto;
+}
+.bridegroom-login-register ul li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.bridegroom-search {
+    margin-left: 10px;
+}
+.bridegroom-login-register ul li a i {
+    margin-right: 0;
+    color: #B2B2B2;
+    float: right;
+    margin-left: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.thm-explore ul {
+    right: 0;
+    left: auto;
+}
+.thm-explore ul li a i {
+    margin-right: auto;
+    margin-left: 10px;
+    float: right;
+}
+.thm-iconic-category li {
+    text-align: right;
+}
+.progressbar-content-wrapper .thm-progress-bar .lead {
+    text-align: right;
+}
+.thm-meta-desc span.thm-raise-sp {
+    float: left;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.bridegroom-review-cont .text-center {
+    display: inline-block;
+    transform: translate(-133%, 0%);
+}
+.bridegroom-review-cont i {
+    display: inline-block;
+}
+.wpneo-single-sidebar button.wpneo_donate_button{
+    float: right;
+    margin-right: 0;
+}
+input[type="number"].wpneo_donate_amount_field {
+    padding: 10px 10px;
+    float: right;
+}
+.tab-rewards-wrapper h3, .quantity_box span {
+    text-align: right;
+}
+.quantity_box .qwpneo_donate_button {
+    border-radius: 3px 0px 0px 3px;
+}
+.bridegroom-info-img a {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.bridegroom-bio .bridegroom-info-img{
+    float: right;
+}
+.bridegroom-location {
+    display: inline-block;
+    float: inherit;
+    padding-right: 0px;
+    text-align: right;
+    padding-left: 20px;
+}
+.bridegroom-share {
+     text-align: right;
+    float: right;
+    margin-right: 30px;
+}
+.jssocials-shares .jssocials-share {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.bridegroom-follow-us.pull-right {
+    text-align: left;
+    float: left;
+}
+.bottom-widget .widget h3.widget-title {
+    text-align: right;
+}
+.mailchimp-inner {
+    border-left: none;
+    text-align: center;
+    padding: 0 40px;
+    border-right: 1px solid rgb(67, 67, 77);
+}
+.mc4wp-form-fields input[type="email"] {
+    min-width: 240px !important;
+    float: right !important;
+      margin-left: -20px;
+}
+.widget_nav_menu ul {
+    text-align: right;
+}
+.themeum-campaign-post span.entry-category {
+    text-align: right;
+    display: inherit;
+}
+.thm-grid-list a.thm-love-btn, .themeum-campaign-post a.thm-love-btn {
+    right: auto;
+    left: 25px;
+}
+/* Dashboard */
+.wpcrowd-arrow-down {
+    left: auto;
+    right: 5px;
+}
+.wpneo-links .wpneo-links-list a {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.wpneo-links .wpneo-links-list {
+    display: inline-block;
+    float: right;
+}
+.wp-crowd-new-campaign {
+    float: left;
+}
+.wpneo-dashboard-head-left {
+    float: right;
+    text-align: right;
+}
+.wpneo-dashboard-head-left {
+    float: right;
+    text-align: right;
+}
+.dashboard-head-right {
+    float: left;
+}
+
+
+/* Profile */
+.wpneo-profile-left, .wpneo-profile-right {
+    float: right;
+    text-align: right;
+}
+.wpneo-modal-content-inner img.profile-avatar {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.wpneo-profile-about .wpneo-profile-button {
+    float: right;
+}
+#wpneo-tab-baker_list table {
+    text-align: right;
+}
+ul.wpneo-crowdfunding-update span.round-circle {
+    position: absolute;
+    left: auto;
+    top: 20px;
+    right: 2px;
+}
+
+/* Slider */
+.product-slider-items .thm-progress-bar {
+    margin-right: 0;
+    margin-left: auto;
+}
+.product-slider-items .themeum-camp-author {
+    padding: 22px 0 45px 30px;
+}
+.product-slider-items .thm-progress-bar .lead {
+    display: inherit;
+    text-align: left !important;
+}
+/* Widgets Cat */
+.widget.widget_categories>ul {
+    text-align: right;
+}
+#sidebar h3.widget_title {
+    text-align: right;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: right;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.woocommerce ul.cart_list, .woocommerce ul.product_list_widget {
+    text-align: right;
+}
+#sidebar .widget {
+    text-align: right;
+}
+.comment-respond {
+    text-align: right;
+}
+.comments-area .comments-title {
+    text-align: right;
+}
+.comment-body .comment-context {
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+/* Product Single Page */
+.wpneo-wrapper ul {
+    float: right;
+    text-align: right;
+}
+.wpneo-campaign-summary-inner h2.wpneo-campaign-title {
+    text-align: right;
+}
+.themeum-campaign-time-exp {
+    padding-left: 0;
+    padding-right: 215px;
+}
+.themeum-campaign-time-exp .themeum-campaign-thumb {
+    left: auto;
+    right: 0;
+}
+.themeum-campaign-exp-content h3, .themeum-campaign-post h3 {
+    text-align: right;
+}
+.themeum-campaign-exp-content span.entry-category {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+.themeum-campaign-exp-content .entry-category a, .themeum-campaign-post .entry-category a {
+    margin-right: 0;
+    margin-left: auto;
+}
+.thm-grid-list a.thm-love-btn {
+    right: 15px;
+    left: auto;
+}
+.comment-body .comment-context .comment-reply {
+    right: auto;
+    left: 0;
+}
+.comment-context .comment-head {
+    text-align: right;
+}
+
+/* Menubar */
+.common-menu {
+    text-align: left;
+}
+.bridegroom-login-register:after {
+    right: 0;
+    left: auto;
+} 
+
+.common-menu-wrap .nav>li {
+    margin-left: 0;
+    margin-right: 28px;
+}
+.common-menu-wrap .nav>li.menu-item-has-children > a:after {
+    margin-left: 0;
+    left: -14px;
+    position: absolute;
+    right: auto;
+    top: 14px;
+}
+.bridegroom-login-register {
+    position: relative;
+    float: left;
+    padding: 10px 0;
+}
+/* Footer */ 
+.mc4wp-form-fields button {
+    padding: 11px 16px;
+    margin-left: 0;
+    left: 0;
+    top: 0px;
+    border-radius: 3px 0px 0px 3px;
+    right: auto;
+}
+
+.mc4wp-form-fields i.fa.fa-chevron-right, .entry-summary .wrap-btn-style a.btn-style i{
+    transform: rotate(180deg);
+}
+
+/* Campaign */
+.progressbar-content-wrapper .pull-right{
+    float: left;
+}   
+
+.wpcf7-form .bridegroom-contact input[type=text], .wpcf7-form .bridegroom-contact input[type=email], .wpcf7-form .bridegroom-contact textarea {
+    text-align: right;
+}
+
+/* Blog Page */
+.wrap-btn-style {
+    float: right;
+    text-align: right;
+    position: absolute;
+    margin-top: 8px;
+}
+.social-share-wrap {
+    text-align: left;
+    margin-top: 31px;
+} 
+.bridegroom-post .blog-post-meta li {
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    color: #191919;
+    margin-left: 10px;
+}
+.bridegroom-single-post-author .avatar, .themeum-pagination .page-numbers>li  {
+    float: right;
+}
+.bridegroom-single-post-author .bridegroom-author-meta-data {
+    margin-left: 0;
+    margin-right: 90px;
+}
+
+
+.wpneo-name, .wpneo-fields small, .wpneo-reward-option, #wpneofrontenddata .wpneo-title, .wpneo-text, .wpneo-requirement-title{
+    text-align: right;
+}
+.woocommerce #respond label {
+    float: right;
+}
+.wpneo-fields input[type="checkbox"] {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.wpneo_donate_button {
+    margin: 0px 25px 0px 0px;
+}
+.wpneo-campaign-summary-inner .wpneo-author-info {
+    margin-right: 0;
+    margin-left: 60px;
+}
+.wpneo-campaign-creator-avatar {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.wpneo-campaign-creator-avatar {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.social-container span {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.campaign-funding-info ul li {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.wpneo-tabs-menu li {
+    float: right;
+}
+.wpneo-tabs-menu li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.tab_col_9 {
+    width: 70%;
+    float: right;
+}
+.tab_col_3 {
+    width: 28%;
+    float: left;
+}
+.wpneo-crowdfunding-update {
+    padding-left: 0;
+    padding-right: 35px !important;
+}
+.wpneo-crowdfunding-update {
+    border-left: 0 !important;
+    border-right: 3px solid #e7e7e7;
+}
+span.round-circle {
+    margin-left: 0;
+    margin-right: -50px;
+}
+.woocommerce #respond label {
+    padding-right: 0;
+    padding-left: 10px;
+}
+#wpneo-dashboard-form .wpneo-name {
+    float: right !important;
+}
+#wpneo-image-show {
+    text-align: right;
+}
+.wpneo-fields-action.float-right {
+    float: right !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wpneo-listings-dashboard .wpneo-listing-img {
+    float: right;
+}
+
+.wpneo-campaign-single-left-info {
+    float: right;
+    width: 48%;
+}
+.wpneo-campaign-summary {
+    width: 48%;
+    float: left;
+}
+.elementor-inner {
+    margin: 0;
+    padding: 0;
+}
+.backer-contact .single-input textarea, .backer-contact .single-input input {
+    padding: 10px 14px;
+    text-align: right;
+}
+.backer-contact .textarea-submit.text-right {
+    text-align: right;
+    float: right;
+}
+
+
+/*==================================
+* ========== HomePage  ============
+=======================================*/
+
+.common-menu-wrap {
+    text-align: left;
+}
+.common-menu-wrap .nav>li.menu-item-has-children+.online-booking-button {
+    margin-right: 20px;
+    float: left;
+}
+.common-menu-wrap .nav>li ul {
+    text-align: right;
+    right: 0px;
+}
+.portfolio-thumb-wrapper-layout1 .portfolio-item-content .portfolio-item-content-in, .portfolio-thumb-wrapper-layout3 .portfolio-item-content .portfolio-item-content-in {
+    text-align: right;
+}
+.portfolio-thumb-wrapper-layout1 .portfolio-item-content .portfolio-title:after {
+    right: 0;
+    text-align: right;
+    left: auto;
+}
+.themeum_team .team-content-title {
+    text-align: right;
+}
+.themeum_team .team-content-subtitle {
+    font-size: 14px;
+    text-align: right;
+}
+.latest-review-single-item span.latest-blog-date i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.bg-contact input[type=text], input[type="email"], textarea {
+    text-align: right;
+}
+.contact-submit input[type=submit] {
+    float: left;
+}
+.themeum-google-map-wrap .map-address strong::after {
+    right: 0;
+    left: auto;
+}
+
+.social-share {
+    text-align: right;
+}
+ .copy-wrapper {
+    text-align: left;
+}
+.single-post .blog-post-meta {
+    text-align: right;
+}
+.entry-blog .img-author, .blog-post-meta .meta-date .img-author {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.social-activities a {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.single-pre{
+    float: right;
+}
+.single-next{
+    float: left;
+}
+
+.post-navigation .single-next .next-post a {
+    padding-right: 0;
+    float: right;
+    padding-left: 8px;
+}
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+.fa-long-arrow-left:before {
+    content: "\f178";
+}
+.post-navigation .single-pre .previous-post a {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+
+
+.post-navigation .blog-post-review-content .blog-post-review-next {
+    text-align: left;
+}
+
+.blog-post-review-content .blog-post-review-pre img {
+    float: right;
+}
+
+.post-navigation .blog-post-review-content .blog-post-review-pre {
+    float: right;
+}
+.widget-blog-posts-section .media-left, .widget-blog-posts-section .media>.pull-left {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.pull-left {
+    float: right !important;
+    text-align: right;
+}
+.themeum-tab-inner .themeum-campaign-post-content{
+    text-align: right;
+}
+.widget .tagcloud a {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.themeum-author-img {
+    float: right !important;
+    margin-left: 10px;
+}
+.themeum-author-funded {
+    text-align: left;
+    float: left !important;
+}
+#sidebar #themeum_social_share_widget-2 ul>li {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.thm-meta-desc.text-right {
+    text-align: left!important;
+}
+.themeum-post-grid-title {
+    text-align: right;
+}
+.themeum-grid-post-avater {
+    right: auto;
+    left: 20px;
+}
+
+
+.themeum-testimonial-wrap-2 .themeum_testimonial .media-body {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 24px;
+}
+.product-timeline ul li {
+    margin-right: 0;
+    margin-left: 50px;
+}
+.modal .lost-pass {
+    text-align: right;
+}
+.modal label {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.modal .modal-title {
+    text-align: center;
+}
+.woocommerce-page #payment #place_order, .woocommerce input.button {
+    float: right;
+}
+.themeum-pagination .page-numbers li a.prev .fa-angle-left, .themeum-pagination .page-numbers li a.next .fa-angle-right {
+    font-size: 16px;
+    font-weight: 600;
+    transform: rotate(180deg);
+}
+.wp-crowd-submenu {
+    right: -5px;
+    left: auto;
+}
+.comment-content {
+    text-align: right;
+}
+.themeum-campaign-exp-counter {
+    margin-bottom: 20px;
+    text-align: right;
+    float: right;
+}
+.site.fullwidth{
+    overflow: hidden;
+}
+/*==================================
+* ======= Responsive Issue ===========
+=======================================*/
+@media only screen and (max-width: 992px){
+
+   .mobile-register {
+        text-align: left;
+    } 
+    .navbar-toggle {
+        float: left;
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 7px;
+    }
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    #mobile-menu .navbar-nav {
+        width: 100%;
+    }
+    .menu-toggler .fa-angle-right:before {
+        content: "\f104";
+    }
+}
+
+@media (min-width: 768) and (max-width: 990px) { 
+    #mobile-menu ul li span.menu-toggler {
+        left: 0;
+        right: auto;
+    }
+    .mobile-register .bridegroom-login-register {
+        float: left !important;
+    }
+    .bridegroom-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 767px) { 
+    .mailchimp-inner {
+        border-left: none;
+        text-align: center;
+        padding: 0 40px;
+        border-right: none;
+    }
+    .thm-progress-bar {
+        display: block;
+        width: 100%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .mc4wp-form-fields button {
+        padding: 11px 16px;
+        margin-left: 0;
+        left: 0;
+        top: -46px;
+        border-radius: 3px 0px 0px 3px;
+        right: auto;
+        position: inherit;
+        bottom: inherit;
+        float: left;
+    }
+    .copy-wrapper .social-share {
+        text-align: center;
+    }
+    .text-left.copy-wrapper {
+        text-align: center !important;
+    }
+    .navbar-toggle {
+         margin-top: 0px; 
+    }
+    .themeum-navbar-header {
+        text-align: right; 
+        float: right;
+    }
+    .themeum-campaign-tab-post .themeum-camp-author {
+        padding-bottom: 30px;
+    }
+    #mobile-menu ul li {
+        text-align: right;
+    }
+    #mobile-menu ul li span.menu-toggler {
+        transform: rotate(180deg);
+            margin-top: 6px;
+    }
+    .bridegroom-review-cont span.thm-Price-amount:first-child {
+        display: inline-block;
+        width: inherit;
+        margin-bottom: 0;
+    }
+    .wpneo-tabs-menu li {
+        margin-left: 20px;
+    }
+    input[type="number"].wpneo_donate_amount_field {
+        width: 100%;
+        max-width: 89%;
+    }
+    /*.thm-meta-desc.text-right {
+         text-align: right!important;
+    }*/
+    .thm-meta-desc span.thm-raise-sp {
+        float: inherit; 
+        margin-left: 5px;
+        text-align: right;
+    }
+    .dashboard-head-date input[type="text"] {
+        width: 106px !important;
+    }
+    .wpneo-row {
+        margin-left: 0px; 
+    }
+    .wpneo-listings-dashboard .wpneo-listing-content {
+        width: 100%;
+        padding: 0 0px 1px 10px;
+    }
+    .crowdfound-fund-raised, .crowdfound-funding-goal, .crowdfound-time-remaining {
+        margin-right: 15px;
+    }
+    .wpneo-admin-location {
+        top: 30px;
+    }
+    .bridegroom-review-cont .text-center {
+        transform: translate(-39%, 0%);
+    }
+    h2.woocommerce-Reviews-title {
+        text-align: right;
+    }
+    .woocommerce #reviews #comments ol.commentlist li .comment-text {
+        margin: 0 40px 0 0px;
+    }
+    .bridegroom-bio .bridegroom-info-img, .jssocials-shares{
+        text-align: right;
+    }
+    span.bridegroom-rewards {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .modal-open .modal {
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 489px) {
+    .modal .modal-dialog, .wpneo-modal-content {
+        max-width: 378px;
+    }
+    input[type="number"].wpneo_donate_amount_field {
+        max-width: 87%;
+    }
+    .bridegroom-search-wrap {
+        padding-left: 0;
+    }
+    .bridegroom-login-register ul li {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    .wpneo-campaign-single-left-info {
+        float: right;
+        width: 100%;
+    }
+    .wpneo-campaign-summary {
+        width: 100%;
+        float: left;
+    }
+    input[type="button"].wpneo-image-upload, input[type="button"].wpneo-image-upload-btn {
+        padding: 14px 7px;
+        font-size: 12px;
+    }
+    .woocommerce-MyAccount-content {
+        margin-bottom: 60px;
+    }
+    .themeum-campaign-time-exp {
+        padding-left: 0;
+        padding-right: 0;
+        height: auto !important;
+    }
+    .themeum-campaign-time-exp .themeum-campaign-thumb {
+        position: static;
+        width: 100%;
+        min-height: 310px;
+        height: 310px;
+    }
+}

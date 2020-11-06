@@ -1,0 +1,372 @@
+/*
+Theme Name:     Winkel
+Theme URI:      http://demo.themeum.com/wordpress/winkel
+Author:         Themeum
+Author URI:     http://themeum.com/
+Description:    Winkel Responsive WooCommerce Theme.
+Version:        1.0.5
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           right-sidebar, two-columns
+Text Domain:    winkel
+*/
+
+/* -------------------------------------- *
+*           Default WP CSS                *
+* --------------------------------------- */
+a{
+    text-decoration: none !important;
+}
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+a:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+.gallery-caption {
+    font-size: 12px;
+}
+.bypostauthor {
+    font-size: 12px;
+}
+.portfolio-items .portfolio-layout2 {
+    transition: all 0.4s;
+}
+
+
+/* -------------------------------------- *
+*           Wordpress Core                *
+* --------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 0;
+    padding: 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; 
+}
+#loginform{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 30px 20px;
+    border: 1px solid #e7e7e7;
+}
+.post-meta-info-list-in a {
+    color: #5a5a5a;
+    border-radius: 4px;
+    padding: 0;
+    margin-right: 14px;
+    transition: 400ms;
+}
+.post-meta-info-list-in a:hover{
+    color: #fff;
+}
+.post-meta-info-list-in{
+    margin: 40px 0 20px;  
+}
+.novisible{
+    visibility: hidden;
+}
+.thm-heading-title > span{
+    padding: 8px 17px;
+    background-color: #50A2FF;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+.faq-index h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.faq-index ol{
+    padding-left: 14px;
+}
+.faq-index ol li{
+    padding-bottom: 6px;
+}
+.pricing-table-price{
+    width: 87px;
+    height: 80px;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 18px;
+}
+.layout2 .pricing-table-price{
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    top: 20px;
+}
+.themeum-navbar-brand h1{
+    color: #ffffff;
+}
+.comingsoon-content .mc4wp-alert {
+    display: inline-block;
+    color: #00bf9a;
+}
+.generic-padding > .container{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.single-product .generic-padding > .container {
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+.product-item .inner .hover-content a.added_to_cart.wc-forward {
+    display: none;
+}
+.product-item .inner .hover-content a.show-cart-btn,
+.product-item .inner .hover-content a.add_to_cart_button.ajax_add_to_cart.added {
+    display: none;
+}
+a.add_to_cart_button.ajax_add_to_cart.added ~ a.show-cart-btn   {
+    display: inline-block !important;
+}
+.slider-content .slider-discount {
+    animation-duration: 1.25s;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    left: auto;
+    letter-spacing: 3.2px;
+    margin: 0 !important;
+    position: absolute;
+    left: 100%;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: inline-block;
+    padding-right: 18px !important;
+    margin-top: -32px !important;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    top: 0;
+    white-space: nowrap;
+}
+.slider-content {
+    display: inline-block;
+    position: relative;
+}
+
+.single-product-btns + .add-to-wishlist {
+    display: none;
+}
+.woocommerce-cart-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.woocommerce-cart-form .product-quantity .title-quantity{
+    display: none;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation,
+.woocommerce-account .woocommerce-MyAccount-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.product-ads {
+    margin-bottom: 30px;
+}
+.single-product-size ul {
+    list-style: none;
+    padding: 0;
+}
+.thm-single-desc .single-product-size p {
+    margin-bottom: 0;
+}
+.single_variation_wrap + .add-to-wishlist {
+    display: none;
+}
+.thm-single-desc .product-quantity input {
+    padding-left: 12px;
+}
+.woocommerce div.product form.cart .variations .main-label > label {
+    padding: 0;
+    background: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.woocommerce div.product form.cart .variations .main-label > label:hover {
+    background: none;
+    color: #000000;
+}
+.woocommerce div.product form.cart .variations label {
+    margin-right: 10px;
+}.woocommerce div.product form.cart .variations {
+    margin-bottom: 0;
+}
+.woocommerce-variation-price {
+    margin-top: 0;
+}
+.single-product-btns {
+    margin-bottom: 0;
+}
+.woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    margin-top: 20px;
+}
+.woocommerce div.product form.cart .variations label {
+    font-weight: 400;
+}
+.thm-single-desc .single-product-size label {
+    width: auto;
+    padding: 1px 10px;
+}
+.woocommerce ul.products li.product .onsale {
+    display: none;
+}
+.breadcrumb {
+    margin-bottom: 20px;
+}
+.breadcrumb li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.breadcrumb li.active {
+    color: #fff;
+    margin-left: 20px;
+    position: relative;
+}
+.thm-single-desc .breadcrumb li {
+    margin-left: 5px;
+}
+.breadcrumb>.active:after {
+    content: '/';
+    color: #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+    margin-left: -15px;
+}
+.woocommerce div.product span.onsale {
+    display: none;
+}
+.bottom-widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.single-product .woocommerce-message {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.woocommerce a.button {
+    padding: 12px 30px;
+}
+.price_slider_amount input#min_price,
+.price_slider_amount input#max_price {
+    display: none;
+}
+

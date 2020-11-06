@@ -1,0 +1,1068 @@
+/*
+Theme Name:     Calcio
+Theme URI:      http://themeum.com/wordpress/calcio
+Author:         Themeum
+Author URI:     http://themeum.com/
+Description:    Football news, magazine, team and tournament management WordPress theme.
+Version:        1.0.2
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    calcio
+Tags:           one-column, two-columns, right-sidebar
+*/
+
+
+/* recent result */
+.calcio-themeum-recent-result{
+    overflow: hidden;
+    margin: 0;
+    background: #fff;
+    padding: 10px 14px 16px;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.04);
+    border: none;
+}
+.calcio-themeum-recent-result #recent-result .themeum-title h2, #club-ranking .themeum-title h2 {
+    margin-top: 10px;
+}
+.themeum-recent-result-inner {
+  padding: 5px 10px;
+}
+.themeum-recent-result-inner .clubnames {
+    color: #333;
+    font-size: 14px;
+    padding: 12px 20px;
+    background: #f2f2f2;
+}
+.themeum-recent-result-item .themeum-recent-result-list{
+  width: 33%;
+  display: inline-block;
+  color:#333;
+  font-size: 12px;
+  height: 30px;
+  overflow: hidden;
+  word-break: break-all;
+  line-height: 30px;
+  margin-top: 7px;
+  padding-right: 12px;
+}
+.calcio-themeum-recent-result  .themeum-recent-result-list .goal {
+  background: #fff;
+  padding: 10px 12px;
+  line-height: 32px;
+}
+.themeum-recent-result-item-inner {
+  margin: 0;
+}
+.themeum-recent-result-list img {
+  width: 15px;
+  display: inline-block;
+  margin: -2px 10px 0;
+}
+#recent-result .themeum-title,
+#club-ranking .themeum-title {
+  position: relative;
+}
+#recent-result .themeum-title h2,
+#club-ranking .themeum-title h2{
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 12px;
+  padding: 12px 0px 12px 0px;
+  font-weight: 700;
+}
+.recent-result-control,
+.club-ranking-control {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 16px;
+}
+.recent-result-control a,
+.club-ranking-control a {
+  color: #333;
+}
+.recent-result-control a.left,
+.club-ranking-control a.left {
+    margin-right: 10px;
+}
+.themeum-recent-result-item {
+    text-align: center;
+}
+.themeum-recent-result-item {
+    text-align: center;
+    padding: 4px 0;
+    background: #f7f7f7;
+}
+.calcio-themeum-recent-result .recent-result-control{
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    font-size: 16px;
+}
+
+/* club ranking */
+#recent-result .themeum-title,
+#club-ranking .themeum-title {
+  position: relative;
+}
+
+#recent-result .themeum-title h2,
+#club-ranking .themeum-title h2{
+    color: #2E2E2E;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.recent-result-control,
+.club-ranking-control {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 16px;
+}
+
+.recent-result-control a,
+.club-ranking-control a {
+  color: #2E2E2E;
+}
+.recent-result-control a.left,
+.club-ranking-control a.left {
+    margin-right: 10px;
+}
+.club-ranking-inner {
+  color: #2E2E2E;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.club-ranking-inner img {
+  width: 15px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.club-ranking-inner li {
+  background: #f4f4f4;
+  padding: 10px 12px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  margin-right:0;
+}
+.themeum-club-ranking {
+    background: #fff;
+    padding: 10px 14px;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.04);
+    border: none;
+}
+.club-ranking-control {
+    top: 7px !important;
+}
+/* Club Ranking */
+
+
+
+
+.event-register-form .text-right {
+  text-align: left;
+}
+.educon-blog-date {
+  margin-left: 0px;
+}
+.educon-pastevent .single-event-content:hover .event-content-wrapper {
+  height: 122px;
+}
+.thm-register-form textarea,
+.thm-register-form input {
+  color: #333;
+  font-weight: 400;
+  font-size: 14px;
+}
+.thm-register-form textarea::-webkit-input-placeholder,
+.thm-register-form input::-webkit-input-placeholder,
+.thm-register-form input::-moz-placeholder,
+.thm-register-form textarea::-moz-placeholder,
+.thm-register-form input:-moz-placeholder,
+.thm-register-form textarea:-moz-placeholder {
+  color: #333;
+  opacity: .3;
+}
+ul.wp-megamenu li ul.wp-megamenu-sub-menu .wpmm-vertical-tabs-nav ul li {
+  padding: 6px 12px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children:hover > ul.wp-megamenu-sub-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu > li.wpmm-row .wp-megamenu-sub-menu li.menu-item-has-children:hover > ul.wp-megamenu-sub-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm-type-widget .wp-megamenu-sub-menu li:hover .wp-megamenu-sub-menu {
+  right: 210px;
+  left: auto;
+}
+ul.wp-megamenu .product_list_widget li img {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children:hover > ul.wp-megamenu-sub-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu > li.wpmm-row .wp-megamenu-sub-menu li.menu-item-has-children:hover > ul.wp-megamenu-sub-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm-type-widget .wp-megamenu-sub-menu li:hover .wp-megamenu-sub-menu {
+  right: -215px;
+  left: auto;
+  top: -12px;
+}
+/*=========================================
+*==========     wp mega menu override       ============
+*=======================================*/
+.wpmm-featurebox-btn.wpmmbtnsize_s,
+.wpmm-featurebox-btn.wpmmbtnsize_m {
+padding: 0 !important;
+}
+.wpmm-featurebox-btn {
+margin-top: 8px;
+font-weight: 600 !important;
+font-size: 12px !important;
+}
+
+.wpmm-vertical-tabs,
+ul.wp-megamenu li ul.wp-megamenu-sub-menu .wpmm-vertical-tabs-nav ul li.active {
+background: #f9f9f9;
+}
+
+
+/*=========================================
+*==========     Io Test       ============
+*=======================================*/
+.subtitle-cover {
+  padding: 54px 0 54px;
+  margin-bottom: 0px;
+}
+.entry-summary img {
+display: block;
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+.page-links{
+  clear: both;
+  margin-bottom: 20px;
+}
+.alignleft{
+  margin: 5px 20px 20px 0;
+}
+img,
+.action-image{
+  max-width: 100%;
+}
+.alignnone {
+margin: 5px 20px 20px 0;
+}
+
+img.alignnone {
+max-width: 100%;
+height: auto;
+}
+
+.aligncenter,
+div.aligncenter {
+display: block;
+margin: 5px auto 5px auto;
+clear: both;
+}
+
+.alignright {
+float:right;
+margin: 10px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+}
+
+.aligncenter {
+display: block;
+margin: 10px auto 15px auto;
+}
+
+a img.alignright {
+float: right;
+margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+float: left;
+margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+.wp-caption {
+max-width: 100%; /* Image does not overflow the content area */
+padding: 5px 3px 10px;
+text-align: center;
+}
+
+.wp-caption.alignnone {
+margin: 5px 20px 20px 0;
+clear: both;
+}
+
+.wp-caption.alignleft {
+margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+border: 0 none;
+height: auto;
+margin: 0;
+max-width: 98.5%;
+padding: 0;
+width: auto;
+}
+.wp-caption p.wp-caption-text {
+font-size: 12px;
+line-height: 17px;
+margin: 0;
+padding: 10px 5px 0;
+}
+.default-page .entry-title{
+margin-bottom: 20px;
+}
+.entry-content ul li,
+.entry-content ol li,
+.entry-summary ul li,
+.entry-summary ol li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+table {
+border-bottom: 1px solid #f1f1f1;
+border-collapse: collapse;
+border-spacing: 0;
+font-size: 14px;
+line-height: 1;
+margin: 15px 0 25px;
+width: 100%;
+}
+caption,
+th,
+td {
+font-weight: normal;
+text-align: left;
+}
+caption {
+font-size: 16px;
+margin: 20px 0;
+}
+.calendar_wrap caption {
+  margin: 0;
+  font-size: 14px;
+}
+th {
+font-weight: bold;
+text-transform: uppercase;
+}
+th,
+td,
+.table>tbody>tr>td{
+border-top: 1px solid #E9E9E9;
+padding: 12px 10px !important;
+}
+dl {
+margin: 0 20px;
+}
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0 0 20px;
+}
+blockquote p{
+font-size: 12px;
+font-weight: 300;
+line-height: 1.5em;
+}
+table{
+border: 1px solid #f1f1f1;
+}
+.gallery-item{
+  margin: 0;
+}
+.entry-content pre{
+font-size: 12px;
+padding: 20px;
+}
+.gallery-format {
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 0;
+line-height: 0;
+}
+
+.blog-content-wrapper .attachment h2.entry-title.blog-entry-title{
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.attachment .blog-post-meta {
+  margin-left: 15px;
+}
+.single article.hentry.attachment {
+  margin-bottom: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* features addons */
+.themeum-feature-wrapper {
+background: #fff;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: 0.4s;
+transition: 0.4s;
+overflow: hidden;
+}
+.themeum-feature-wrapper:hover {
+  -webkit-box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.1);
+}
+.feature-content-area {
+padding: 20px;
+}
+.feature-img-area {
+position: relative;
+text-align: center;
+overflow: hidden;
+}
+.feature-img-area img {
+position: relative;
+z-index: 3;
+padding: 50px 40px;
+display: inline-block;
+margin: 0 auto;
+}
+.themeum-feature-wrapper:hover .feature-img-area:before {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.feature-btn i {
+margin-left: 5px;
+}
+.feature-img-area-default {
+overflow: hidden;
+}
+
+.feature-img-area-default img {
+-webkit-transition: .4s;
+transition: .4s;
+}
+.feature-img-area-default:hover img {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+/* core VC */
+.row-overflow.vc_row[data-vc-full-width] {
+overflow: visible;
+}
+
+/* popur addons */
+.themeum-popup-video {
+max-width: 450px;
+margin: 0 auto;
+}
+.themeum-popup-video .width.left,
+.themeum-popup-video .width.right,
+.themeum-popup-video .width .middle {
+float: left;
+width: 33.33333%;
+}
+.themeum-popup-video .width {
+margin: 0;
+}
+.themeum-popup-video .video-width{
+display: inline-block;
+margin: 0;
+}
+
+
+.popup-video.middle {
+margin-top: -10px;
+}
+
+/* Animated counter */
+.counter-content {
+background: #fff none repeat scroll 0 0;
+border-radius: 3px;
+padding: 44px 30px 20px;
+}
+.counter-content-in {
+display: block;
+position: relative;
+}
+
+.counter-content .counter-number-icon{
+font-size: 36px;
+left: auto;
+line-height: 1;
+position: absolute;
+top: 0;
+}
+.counter-content .counter-number-title {
+color: #252525;
+margin-top: 0;
+margin-bottom: 39px;
+}
+.counter-content .themeum-counter-number {
+font-weight: 300;
+}
+.counter-content .counter-symbol {
+font-weight: 300;
+font-size: 36px;
+line-height: 1;
+color: #252525;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: transparent !important;
+  background-image: none;
+  color: rgb(0, 0, 0);
+}
+/*=========================================
+*=======     Login       ============
+*=======================================*/
+.modal-dialog {
+display: inline-block;
+text-align: left;
+vertical-align: middle;
+}
+.modal {
+  text-align: center;
+}
+.modal-content {
+  border-radius: 0;
+  padding: 30px 30px 0;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.modal-content .modal-header {
+  border: none;
+}
+.modal-content .modal-header .title {
+margin-top: 0;
+font-weight: 600;
+}
+.modal-header .close {
+position: absolute;
+right: 2px;
+top: 4px;
+color: #777;
+text-align: center;
+-webkit-transition: .3s;
+transition: .3s;
+width: 35px;
+height: 35px;
+line-height: 33px;
+font-size: 24px;
+}
+
+.modal-header .close:hover{
+color: red;
+}
+
+.modal-content input[type="text"] {
+margin-bottom: 20px;
+}
+
+.modal-content input[type="password"] {
+margin-bottom: 30px;
+}
+
+.modal-content .lost-pass strong{
+margin-left: 20px;
+}
+
+.modal-content .lost-pass {
+color: #000;
+transition: 300ms;
+-webkit-transition: 300ms;
+}
+
+.modal-content .modal-footer {
+padding: 20px 0 5px;
+border-top: 1px solid #e5e5e5;
+margin-top: 40px;
+margin-bottom: 0;
+text-align: center;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+a:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+.gallery-caption {
+  font-size: 12px;
+}
+.bypostauthor {
+  font-size: 12px;
+}
+
+
+.single article.hentry{
+margin-bottom: 100px;
+}
+
+.conference-img .plus-icon::before {
+  background: url(images/arrow.png) no-repeat scroll center center / cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 400ms ease 0s;
+  transition: all 400ms ease 0s;
+  visibility: hidden;
+  height: 110px;
+  width: 110px;
+}
+
+.conference-img:hover .plus-icon:before {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+
+.gallery-icon a img{
+margin: 0 auto;
+}
+#sidebar-left .widget ul.children li a,
+#sidebar-right .widget ul.children li a  {
+  text-align: left;
+  display: inline-block;
+}
+
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+clip: rect(1px, 1px, 1px, 1px);
+position: absolute !important;
+height: 1px;
+width: 1px;
+overflow: hidden;
+word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+background-color: #f1f1f1;
+border-radius: 3px;
+-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+clip: auto !important;
+color: #21759b;
+display: block;
+font-size: 14px;
+font-size: 0.875rem;
+font-weight: bold;
+height: auto;
+left: 5px;
+line-height: normal;
+padding: 15px 23px 14px;
+text-decoration: none;
+top: 5px;
+width: auto;
+z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+outline: 0;
+}
+.woocommerce #respond input#submit.loading::after,
+.woocommerce a.button.loading::after,
+.woocommerce button.button.loading::after,
+.woocommerce input.button.loading::after{
+  top: 13px;
+}
+
+.soccer-shop, form.woocommerce-cart-form{
+margin-top: 45px;
+margin-bottom: 45px;
+}
+.woocommerce-info {
+margin-top: 34px;
+}
+
+.product_meta a {
+color: #ef3f48;
+}
+.group-total-wrap .team-name1 img {
+  float: left;
+  margin-right: 14px;
+}
+.group-fixture-teams-lists .group-total-wrap {
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.rwmb-input .select2-container {
+  z-index: inherit !important;
+}
+.select2-container {
+  width: 100% !important;
+  z-index: 999 !important;
+}
+.player-image-wrapper:after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 70%;
+  content: "";
+  background: linear-gradient(to top, #000, transparent);
+  opacity: .8;
+}
+.player-image-wrapper.player-overlay:after {
+  position: absolute;
+  left: 0px;
+  bottom: 96px;
+  width: 100%;
+  height: 70%;
+  content: "";
+  background: linear-gradient(to top, #000, transparent);
+  opacity: .8;
+}
+.point-table.table-responsive.border-none {
+  box-shadow: none !important;
+}
+.row.content-wrap {
+  margin-top: 30px;
+}
+.widget select {
+  width: 100%;
+  margin: 0;
+  color: #6E6E6E;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 19px;
+}
+.calendar_wrap tbody tr td a {
+  color: #6E6E6E;
+}
+.comingsoon .social-share li a:hover {
+color: #fafafa;
+}
+
+
+/* Search Page */
+.single-search-result span.post-icon {
+  display: none;
+}
+.single-search-result .blog-details-img img {
+  width: 100%;
+}
+.single-search-result .blog-details-img.col-xs-3 {
+  padding-right: 15px;
+}
+.single-search-result .blog-details-img a {
+  overflow: hidden;
+}
+.search-page-content .single-search-result .entry-video.embed-responsive {
+  padding-right: 60px;
+  width: 148px;
+  margin-left: 15px;
+}
+
+.cal-alignment h3 {
+  line-height: 18px;
+}
+#wp-megamenu-mainmenu a.wpmm_mobile_menu_btn {
+  margin-right: 40px;
+  margin-top: 12px;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+}
+
+/* Fixtures Color */
+.match-details-tab-content .match-comments {
+  padding: 20px 0;
+}
+
+.match-details-tab-content .comments-area.comments {
+  margin-top: 10px;
+}
+
+.match-details-tab-content .match-comment-inner #comments .comment {
+  padding: 30px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+
+.match-details-tab-content .comments-area.comments ul.comment-list > li {
+  margin-bottom: 10px;
+}
+.match-details-tab-content .comment-respond a{
+  color: #3a3f49;
+}
+.match-details-tab-content .comment-list a {
+color: #3a3f49;
+}
+
+
+
+
+.hover-share .on-hover{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #EC0048, #F15A29);
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  margin: 0 4px;
+}
+.hover-share{
+position: relative;
+display: inline-block;
+}
+.hover-share .on-hover:hover {
+cursor: pointer;
+}
+.hover-share .social-button{
+display: none;
+}
+.hover-share .social-button{
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  width: 300px;
+  top: 0;
+}
+.hover-share:hover .social-button{
+display: block;
+}
+.single.single-post article.post.hentry {
+  margin-top: -54px;
+}
+
+.single-post .single-bottom-share .social-button ul>li a {
+height: 40px;
+width: 100px;
+border-radius: 34px;
+color: #fff;
+font-size: 14px;
+line-height: 41px;
+display: block;
+text-align: center;
+margin-right: 10px;
+}
+.single-post .single-bottom-share .social-button ul>li a.facebook{ background: #3b5999; }
+.single-post .single-bottom-share .social-button ul>li a.twitter{ background: #1ea1f3; }
+.single-post .single-bottom-share .social-button ul>li a.g-puls{ background: #dd4c3c; }
+.single-post .single-bottom-share .social-button ul>li a.linkedin{ background: #0076b5; }
+.single-post .single-bottom-share .social-button ul>li a.pinterest{ background: #bd081b; }
+
+.single-post .single-bottom-share .social-button ul>li a.facebook:hover{ background: #395ca7; }
+.single-post .single-bottom-share .social-button ul>li a.twitter:hover{ background: #159ff5; }
+.single-post .single-bottom-share .social-button ul>li a.g-puls:hover{ background: #e44a39; }
+.single-post .single-bottom-share .social-button ul>li a.linkedin:hover{ background: #027dc0; }
+.single-post .single-bottom-share .social-button ul>li a.pinterest:hover{ background: #c7071a; }
+
+
+.thm-sponsor .post-icon a:hover{
+color: #ffffff;
+}
+.blog-details-blockquote i{
+display: block;
+color: #E2E2E2;
+margin-bottom: 10px;
+}
+.blog-details-blockquote {
+font-size: 30px;
+color: #353535;
+}
+.entry-summary h2{
+color: #353535;
+}
+.entry-summary h3{
+color: #353535;
+}
+
+.point_table-template-default .point-table{
+margin-bottom: 100px;
+}
+#career ul li:last-child,
+#award ul li:last-child{
+border-bottom: none;
+}
+
+
+.taxonomy-players, .taxonomy-team-group {
+  margin-top: 36px;
+  margin-bottom: 22px;
+}
+.player-intro .player-club a {
+  color: #fff;
+}
+
+.page-template-blog-right-sidebar .blog-post-item-big .entry-post-icon .post-icon,
+.page-template-blog-left-sidebar .blog-post-item-big .entry-post-icon .post-icon,
+.page-template-blog-fullwidth .blog-post-item-big .entry-post-icon .post-icon{
+font-size: 60px;
+}
+
+.post-icon a:hover{
+color: #ffffff;
+}
+.team-group-taxonomy {
+  background: #fff;
+  padding: 46px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 13px 0 rgba(0,0,0,0.04);
+  transition: .3s;
+}
+.team-group-taxonomy:hover {
+box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+.team-group-taxonomy .team-club a {
+  margin: 0;
+  padding: 0;
+}
+.team-group-taxonomy .team-club a {
+  color: #676767;
+}
+
+.team-group-taxonomy .team-title{
+  padding: 0;
+  line-height: 12px;
+}
+
+.common-menu-wrap .wpmm-grid-post-content .grid-post-title a:hover, .common-menu-wrap .product_list_widget li a {
+  background: #ffffff !important;
+}
+.common-menu-wrap .product_list_widget li > ins,
+.common-menu-wrap .product_list_widget li > span,
+.common-menu-wrap .product_list_widget li > del{
+padding-left: 10px;
+}
+.common-menu-wrap .product_list_widget li a:hover {
+color: #282828 !important;
+}
+
+.right-sidebar,
+.left-sidebar {
+  margin-bottom: 40px;
+}
+
+.post-slider-innner{
+margin-left:0;
+}
+.subtitle-cover{
+margin-left:-30px;
+  margin-right:-30px;
+}
+body.single .subtitle-cover{
+  margin-left:0px;
+  margin-right:0px;
+  padding-left: 20px;
+}
+
+
+/*****WOOCOMMERCE*******/
+table.variations tbody .label{
+  float: left;
+}
+.woocommerce select, .comment-respond textarea, .woocommerce-billing-fields__field-wrapper input,
+ input.select2-search__field{
+  color: #707070 !important;
+}
+div.woocommerce-order{
+  margin: 50px 0;
+}
+/***********************/
+
+body.post-template-default .blog-post-meta, body.post-template-default .entry-header{
+  padding-left: 30px;
+}
+.subtitle-cover .text-left.col-md-8{
+margin-left:-16px;
+}
+.slider-style1 .post-slider-in{
+  margin-top:-20px;
+}
+
+.login-logout.search-top{
+  margin-top: 25px;
+}
+
+.row.blog-single-area{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media(min-width:1350px){
+  .themeum-recent-result-wrap{
+  width:1214px;
+  margin-left:-35px;
+}
+  .blog-top-slide-wrap.category-top-slide .owl-stage-outer{
+	width:1320px;
+  margin-left:-45px;
+}
+}
+@media(max-width: 767px){
+  .login-logout.search-top{
+    margin-top: 18px;
+  }
+}
+@media(max-width: 580px){
+  .login-logout.search-top{
+    right: 125px;
+  }
+}

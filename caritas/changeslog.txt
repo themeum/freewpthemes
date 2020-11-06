@@ -1,0 +1,11 @@
+Change log:
+------------------------------------
+
+1.0.1:
+
+* NEW FEATURES: Guttenberg support.
+* NEW FEATURES: Caritas theme support external link.
+* NEW FEATURES: Caritas theme documentation external link.
+
+* FIX: Post Meta JS bug fix.
+* FIX: CSS bug fix.

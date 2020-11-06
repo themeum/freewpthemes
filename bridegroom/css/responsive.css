@@ -1,0 +1,1382 @@
+/* ==========================================================================
+responsive
+========================================================================== */
+
+div.wpcf7 .ajax-loader{
+    display: block;
+}
+
+@media (min-width: 980px) and (max-width: 1400px) {
+    .bridegroom-review-cont .text-center{
+        transform: none;
+        margin-left: 5px;
+    }
+    .wpneocf-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .common-menu .common-menu-wrap .nav>li>a {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .common-menu-wrap .nav>li {
+        margin-left: 15px;
+    }
+    .themeum-product-slider .slick-next{
+        right: 0;
+    }
+    .themeum-product-slider .slick-prev{
+        left: 0;
+    }
+    .themeum-campaign-item .camp-title{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .contact-form-map {
+        width: 660px !important;
+    }
+    .admin-bar .header-borderimage #mobile-menu,
+    .admin-bar .header-solid #mobile-menu {
+        top: 100%;
+    }
+    .themeum-product-slider .slick-next{
+        right: 0;
+    }
+    .themeum-product-slider .slick-prev{
+        left: 0;
+    }
+    .themeum-tab-category{
+        margin: 0 auto;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        overflow: hidden !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .visible-sm {
+        display: block!important;
+    }
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0
+    }
+    #mobile-menu ul {
+        padding: 0;
+    }
+    .header-borderimage #mobile-menu,
+    .header-solid #mobile-menu {
+        top: 100%;
+    }
+    .navbar-toggle {
+        display: inline-block;
+    }
+    /* MM */
+    .themeum-tab-navigation li a {
+        padding: 0 25px 0 0;
+    }
+    .themeum-tab-navigation li:last-child a {
+        padding: 0;
+    }
+    .tab-content .col-lg-8 {
+        margin-top: 30px;
+    }
+    .bridegroom-post-list h2.content-item-title {
+        font-size: 20px;
+    }
+    .bridegroom-title-content-wrapper {
+        margin-bottom: 35px;
+    }
+    .single-product-item h2.woocommerce-Price-amount.amount {
+        font-size: 38px;
+    }
+    .bottom-wrap {
+        padding: 10px 0;
+    }
+    .mailchimp-inner.bottom-wrap {
+        padding-top: 40px;
+    }
+    .person-layout-two .wppb-person-information-wrap {
+        padding: 15px 25px 25px 25px;
+    }    
+    .wppb-person-social {
+        margin: 10px 0 0;
+    }
+    .countdown-section {
+        padding: 25px 20px 25px 0;
+        margin: 0px;
+    }
+    .comingsoon-title {
+        margin-bottom: 20px;
+    }
+    .comingsoon-newslatter-descrip {
+        margin-bottom: 15px;
+    }
+    .comingsoon form#mc4wp-form-1 {
+        width: auto;
+    }
+    .comingsoon-newslatter-descrip {
+        font-size: 33px;
+    }
+    .error-message {
+        font-size: 16px;
+    }
+    .error-message-title {
+        font-size: 145px;
+        line-height: 135px;
+    }
+    .error-message {
+        margin-bottom: 46px;
+    }
+    .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title {
+        font-size: 36px;
+            line-height: 44px;
+    }
+    .themeum-grid-post.single-post h2, .comment-content h2, .themeum-grid-post.single-post blockquote p {
+        font-size: 26px;
+    }
+        .wpneo-dashboard-summery ul li {
+        width: 200px;
+    }
+        .wpneo-dashboard-summery ul li {
+        margin-right: 15px;
+    }
+    .wpneo-dashboard-summery ul li:last-child {
+        margin: 0
+    }
+    .event-img-wrap img.img-responsive.wp-post-image {
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+    .themeum-title span {
+        padding-left: 25px;
+    }
+    /*min-width: 768px*/
+    .wppb-image-hover-content {
+        padding: 24px 15px 24px !important;
+    }
+    .countdown-section span {
+        font-size: 60px;
+    }
+    .countdown-section span {
+        font-size: 60px;
+        text-align: center;
+    }
+    .countdown-section {
+        padding: 25px 22px 25px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) { 
+    .bridegroom-login-register a.bridegroom-dashboard {
+        padding: 5px 6px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        -ms-flex: 0 0 36%;
+        flex: 0 0 36%;
+        max-width: 36%;
+    }
+    .clearfix.col-xs-6.col-sm-5.col-lg-5.col-lg-auto {
+        flex: 0 0 47%;
+        max-width: 47%;
+        padding: 0;
+        margin: 0;
+    }
+    .bridegroom-login-register ul li a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .bridegroom-upcoming-event .entry-summary {
+        margin-bottom: 10px;
+    }
+    .event_style2 .bridegroom-blog-wrap.col-sm-6 {
+        margin-top: 10px;
+    }
+    .bridegroom_event_style2 .bridegroom-blog-wrap .date {
+        margin-right: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .wp-megamenu .container {
+        max-width: 930px;
+    }
+    .wp-megamenu-wrap .wpmm-nav-wrap > ul > li > a {
+        padding: 15px 7px;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+        font-size: 14px;
+    }
+    .megamenu-main .d-none {
+        display: block !important;
+    }
+    .megamenu-main .get_ticket {
+        margin-left: 0px;
+    }
+    .row.event-container {
+        padding: 26px 30px 10px;
+    }
+    .mchimp-newsletter p {
+        margin-bottom: 10px;
+    }
+    .mchimp-newsletter h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .bridegroom-post .entry-headder h2{
+        font-size: 40px;;
+    }
+    .subtitle-cover{
+        padding: 80px 0 60px !important;
+    }
+    .subtitle-cover h2.page-leading{
+        font-size: 50px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 36%;
+        max-width: 36%;
+        padding: 0;
+        margin: 0;
+    }
+    .bridegroom-search button.event-search-btn{
+        width: 100px;
+    }
+    .slider_content_wrapper br{
+        display: none;
+    }
+
+    .wpneo-list-details .bridegroom-bio{
+        width: 100%;
+    }
+    .wpneo-campaign-single-left-info{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .wpneo-campaign-summary{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .quantity_box .qwpneo_donate_button{
+        margin-left: 0;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .quantity_box{
+        padding: 20px;
+    }
+    input[type="number"].wpneo_donate_amount_field{
+        display: block;
+        widows: 100%;
+        margin-right: 0;
+        max-width: 100%;
+        margin-top: 5px;
+    }
+    span.bridegroom-rewards{
+        position: static;
+        margin-top: 0;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .wpneocf-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mailchimp-inner{
+        border-color: transparent;
+    }
+    .mchimp-newsletter{
+        position: relative;
+        z-index: 3;
+    }
+    .mc4wp-form-fields button{
+        position: absolute;
+        bottom: -4px;
+        right: -4px;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .themeum-author-dsc{
+        text-align: left;
+    }
+    .product-slide-img{
+        max-width: 300px;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.wpmm_mega_menu>ul.wp-megamenu-sub-menu {
+        width: 100%;
+    }
+    .themeum-campaign-item {
+        width: 25% !important;
+    }
+    .navbar-collapse.collapse.show {
+        display: block !important;
+    }
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-toggle {
+        display: inline-block;
+        margin-top: 30px;
+        outline: none;
+        right: 0;
+        font-size: 24px;
+        padding-left: 15px;
+    }
+    .mobile-register {
+        text-align: right;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    /* Campaign */
+    .wpneo-listings-dashboard .wpneo-listing-img {
+        width: 35%;
+    }
+    .wpneo-listings-dashboard .wpneo-listing-content {
+        width: 65%;
+        padding: 20px 24px;
+    }
+    .bridegroom-tab-slider .elementor-tab-title {
+        line-height: 22px !important;
+    }
+    .main-menu-wrap .navbar-toggle {
+        color: #191919;
+        transition: 400ms;
+        -webkit-transition: 400ms;
+    }
+    .themeum-campaign-item a.themeum-campaign-icon {
+        font-size: 25px;
+    }
+    .themeum-campaign-item a.themeum-campaign-img img{
+        max-width: 30px;
+    }
+    .themeum-campaign-item .camp-title{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .sponsor-img.sponsor-col-3 {
+        padding: 30px;
+        height: auto;
+        margin-bottom: 35px;
+    }
+    .sponsor-img.sponsor-col-3 img {
+        height: 40px;
+    }
+    .sponsor-img.sponsor-col-4{
+        padding: 20px;
+    }
+    .sponsor-img.sponsor-col-5{
+        padding: 15px;
+    }
+}
+@media (min-width: 820px) and (max-width: 992px) { 
+    .common-menu-wrap.d-none {
+        display: block!important;
+    }
+    .col-6.col-sm-6.d-lg-none.mobile-menu-wrap {
+        display: none;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 820px) { 
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+        font-size: 12px;
+    }
+    .col-12.col-sm-6.thm-post-grid-col.col-lg-12 {
+        flex: 0 0 70%;
+        max-width: 70%;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    #masthead.sticky {
+        display: none;
+    }
+    .bridegroom-menu-wrap .col-7.col-sm-6.d-lg-none {
+        top: -45px;
+        right: -168px;
+        flex: 0 0 76%;
+        max-width: 76%;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        display: none !important;
+    }
+    form#mc4wp-form-1 {
+        width: 65%;
+    }
+    .logo-wrapper {
+        text-align: left;
+    }
+    .megamenu-main .logo-wrapper {
+        text-align: center;
+    }
+    .col-6.col-sm-6.d-lg-none.mobile-menu-wrap {
+        float: right;
+        width: 100%;
+        flex: 100%;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+    }
+    .bridegroom-service-event .content-wrap-section.col-sm-6 {
+        padding: 0px 15px 10px;
+    }
+    .event-contact-from .bg-contact select, .event-contact-from input.wpcf7-form-control {
+        width: 100%;
+        font-size: 14px;
+    }
+    .event-contact-from input[type=submit] {
+        width: 263px !important;
+    }
+    .woocommerce .product .product-thumbnail-outer .product-content-wrapper a h2 {
+        font-size: 30px;
+    }
+    .product-content-wrapper {
+        padding: 12px 0px 12px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .bridegroom-contact {
+        padding: 52px;
+    }
+    .product-content {
+        padding: 22px 0px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .logo-wrapper {
+        text-align: left;
+        position: relative;
+        width: 300px;
+        z-index: 99999;
+    }
+    #masthead.sticky {
+        position: inherit;
+    }
+
+    .wp-megamenu-wrap .wpmm-nav-wrap > ul > li.current-menu-item > a:before, 
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li:hover>a:before,
+    .wp-megamenu-wrap .wpmm-nav-wrap > ul > li:after {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .megamenu-main .common-menu.common-main-menu {
+        position: absolute;
+        top: 44px;
+    }
+    .megamenu-main .common-menu-wrap {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        top: 0px;
+    }
+
+    .wp-megamenu .site-header {
+        padding-top: 0;
+    }
+
+    .bridegroom-menu-wrap .logo-wrapper img {
+        width: 160px;
+    }
+    .themeum-navbar-header {
+        padding: 0;
+        text-align: left;
+        padding-bottom: 20px !important;
+    }
+    .with-login #wp-megamenu-primary {
+        width: 100%;
+    }
+    .site-header-wrap.container {
+       max-width: 100%;
+       position: relative;
+    }
+    .sponsor-img.sponsor-col-5 img, .sponsor-img.sponsor-col-4 img{
+        width: 100% ;
+        height: auto;
+    }
+    .mchimp-newsletter h2{
+        font-size: 20px;
+    }
+    .content-wrap-section.col-sm-7{
+        padding-left: 20px;
+    }
+    .bridegroom-menu-wrap .d-lg-none {
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 7%;
+        display: block;
+    }
+    .bridegroom-menu-wrap .col-12.d-lg-none {
+        position: inherit;
+    }
+    #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu {
+        display: inline-block;
+        position: inherit;
+        display: none;
+        top: 35px;
+    }
+    .col-xs-6.col-sm-3.col-lg-2.col-lg-auto {
+        width: 40%;
+        float: left;
+    }
+    .col-7.col-sm-6.d-lg-none.AQW {
+        float: right !important;
+        position: absolute;
+        right: 0;
+        top: 18px;
+    }
+    .bridegroom-search-wrap a.bridegroom-search.search-open-icon {
+        margin-right: -6px;
+        color: #B2B2B2;
+        font-size: 17px;
+    }
+    .d-block.col-xs-6.col-sm-2.col-lg-5.register {
+        display: none !important;
+    }
+    .megamenu-main .d-lg-block {
+        display: block !important;
+    }
+    .wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+        background: #ff025a;
+    }
+    .campaign-days-remain.col-sm-4 {
+        padding: 0 0 0 15px;
+        width: 33.33%;
+    }
+    .single-product-item .thm-Price-amount.pull-center.col-sm-4 {
+        text-align: left;
+        padding: 0 20px;
+        width: 33.33%;
+    }
+    .themeum-author-funded.pull-right.col-sm-4 {
+        padding: 0;
+        width: 33.33%;
+    }
+    .single-product-item h2.woocommerce-Price-amount.amount {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .single-product-item span.thm-raise-sp {
+        font-size: 16px;
+    }
+    .single-product-item .progressbar-content-wrapper .thm-progress-bar .lead {
+        font-size: 15px;
+    }
+    .single-product-item .progressbar-content-wrapper .thm-progress-bar .progress {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .col-lg-4.single-cam-img {
+        margin-bottom: 30px;
+    }
+    .themeum-tab-inner {
+        border-radius: 0;
+    }
+    .themeum-tab-inners .themeum-campaign-img .review-item-image img,
+    .blog-post-item-col .bridegroom-first-post img{
+        width: 100%;
+    }
+    .blog-post-item-col .bridegroom-first-post .col-sm-6 {
+        max-width: 100%;
+        flex: inherit;
+    }
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-8,
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-4 {
+        margin-bottom: 30px;
+        max-width: 50%;
+        flex: 50%;
+    }
+    .bridegroom-first-post img.img-fluid.wp-post-image {
+        height: 240px;
+    }
+    .bridegroom-first-post .col-sm-6.content-wrap {
+        padding: 30px 44px 15px !important;
+    }
+    .bridegroom-first-post p{
+        display: none;
+    }
+    .themeum-tab-navigation li a:before {
+        bottom: 15px;
+    }
+    .themeum-tab-navigation li a {
+        margin-bottom: 22px;
+    }
+    .container.bottom-footer-cont {
+        padding-bottom: 40px;
+    }
+    .bottom-widget {
+        text-align: center;
+    }
+
+
+    .themeum-campaign-tab-post .themeum-camp-author {
+        margin-bottom: 20px;
+    }
+    .thm-fullscreen-search form{
+        width: 70%;
+    }
+    .container-fluid.thm-wide-header{
+        padding: 0 15px;
+    }
+    .modal .modal-header{
+        padding: 35px 35px 0 35px;
+    }
+    .modal .modal-body{
+        padding: 0 35px 35px 35px;
+    }
+    .bridegroom-info-img, .bridegroom-share{
+        width: 100%;
+    }
+    .bridegroom-bio .bridegroom-follow-us.pull-right{
+        float: none;
+        padding-left: 10px;
+    }
+    .wpneo-list-details{
+        margin-bottom: 0;
+    }
+    .mailchimp-inner{
+        margin-bottom: 15px;
+    }
+    .bottom-wrap{
+        padding-bottom: 100px !important;
+        padding-top: 30px !important;
+    }
+    .mchimp-newsletter p{
+        font-size: 16px;
+    }
+    .thm-explore::after{
+        display: none;
+    }
+    .error-message-title{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .error-message {
+        margin: 0;
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .thm-single-post-content-inner{
+        margin-bottom: 40px;
+    }
+
+    .jssocials-shares .jssocials-share a {
+        width: 90px;
+        line-height: 35px;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+    .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title{
+        font-size: 35px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .themeum-product-slider .slick-next,
+    .themeum-product-slider .slick-prev{
+        top: auto;
+        right: auto;
+        left: 50%;
+        bottom: 0;
+        line-height: 35px;
+        border-radius: 5px;
+        height: 35px;
+        margin: 0;
+        padding: 0;
+        margin-left: -55px;
+        font-size: 15px;
+        background-color: #f4f4f4;
+    }
+
+    .themeum-product-slider .slick-next{
+        margin-left: 5px;
+    }
+    .themeum-product-slider{
+        padding-bottom: 65px;
+    }
+
+    .product-slide-title{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .product-slider-items .themeum-camp-author{
+        padding-bottom: 30px;
+    }
+    .product-slider-items .thm-progress-bar{
+        margin-right: 0;
+    }
+    .product-slider-items .themeum-camp-author{
+        padding-right: 0;
+    }
+    .col-8 .bridegroom-login-register ul::before{
+        content: none;
+    }
+    .bridegroom-login-register a.bridegroom-dashboard{
+        font-size: 11px;
+    }
+    .themeum-campaign-item {
+        width: 25% !important;
+    }
+    /*slider*/
+    .classic-slider.layout1 .classic-slider-subtitle {
+        line-height: 120px;
+    }
+    #mobile-menu ul {
+        padding: 0;
+    }
+    .bridegroom-post .post-featured-img {
+        width: 100%;
+    }
+    .themeum-campaign-post .review-item-image img {
+        width: 100%;
+    }
+    .entry-summary .wrap-btn-style a.btn-style {
+        float: none;
+    }
+    .social-share-wrap {
+        text-align: left;
+    }
+    .bottom-widget h3 {
+        margin-bottom: 25px;
+    }
+    .bottom-widget {
+        width: 100%;
+    }
+    .mc4wp-form-fields input[type="email"] {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .mc4wp-form-fields input[type=submit] {
+        display: inline-block;
+        margin-left: 0;
+        border-radius: 4px;
+    }
+    .top-search-input-wrap .search-wrap .search.bridegroom-top-search {
+        width: 70%;
+        min-width: 200px;
+    }
+    .themeum-google-map-wrap .map-address {
+        padding: 30px 35px;
+        top: 18%;
+        left: 8%;
+    }
+    .bottom-widget {
+        width: 100%;
+    }
+    .demo-four .mc4wp-form-fields input[type="email"] {
+        margin-right: 20px;
+    }
+    .comingsoon-footer .social-share {
+        text-align: left;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 47% !important;
+        margin-bottom: 25px;
+    }
+    /* Campaign Categories */
+    .elementor-widget-thm-campaign-dynamic .col-3 {
+        -ms-flex: 0 0 25%;
+        -webkit-box-flex: inherit;
+        flex: inherit;
+        max-width: 50%;
+        display: inline-block;
+        overflow: hidden;
+        width: 50%;
+    }
+    /* Popular Campaigns */
+    .elementor-widget-container .col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+        display: inline-block;
+    }
+    .comingsoon-newslatter-descrip {
+        margin-bottom: 35px;
+    }
+    .bridegroom-contact {
+        padding: 80px 14px;
+    }
+    .bridegroom-contact .col-md-4 {
+        padding-bottom: 14px;
+    }
+    .bridegroom-contact textarea {
+        margin-top: 0;
+    }
+    .countdown-section {
+        width: 165px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    section.comingsoonpage-footer {
+        padding: 85px 20px;
+    }
+    .comingsoonpage-footer .mc4wp-form-fields input[type="email"] {
+        display: inline-block;
+        width: 84%;
+        height: 40px;
+        float: none;
+    }
+    .comingsoonpage-footer .social-share ul {
+        text-align: center;
+    }
+    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+        margin-bottom: 5px !important;
+    }
+    #sidebar.col-3 {
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    /* Shop Page */
+    table.stripe-table {
+        table-layout: inherit;
+    }
+    .bridegroom-tab-slider .elementor-tab-mobile-title {
+        padding: 20px 11px !important;
+        line-height: 10px !important;
+    }
+    .bridegroom-tabslider-title {
+        display: none;
+    }
+    .bridegroom-tab-slider .elementor-tab-content {
+        padding-bottom: 40px !important;
+        padding-left: 35px !important;
+    }
+    .themeum-product-slider .slick-next,
+    .themeum-product-slider .slick-prev {
+        background: #dedede;
+        color: rgba(0, 0, 0, 0.34);
+    }
+    .slider-title {
+        font-size: 46px !important;
+        line-height: 48px !important;
+    }
+    .bottom-wrap.col-sm-6.col-lg-3 {
+        text-align: center;
+    }
+
+    .thm-explore ul {
+        top: 50px;
+        padding: 0;
+    }
+    .subtitle-cover h2 {
+        line-height: 20px;
+        font-size: 38px;
+    }
+    .bridegroom-bio {
+        margin-bottom: 20px;
+    }
+    .themeum-pagination {
+        margin-bottom: 40px;
+    }
+    .contact-form-map {
+        width: 174% !important;
+        height: 120px !important;
+    }
+    
+    .thm-content .progressbar-content-wrapper {
+        bottom: 10px !important;
+    }
+    .themeum-campaign-tab-post .progressbar-content-wrapper .thm-meta-desc {
+        width: 40%;
+        display: inline-block;
+    }
+    .bridegroom-title-content-wrapper {
+        margin-bottom: 30px;
+    }
+    .themeum-tab-navigation li a {
+        padding: 0 10px 0 0;
+    }
+    .themeum-tab-navigation li:last-child a {
+        padding: 0;
+    }
+    .footer-copyright .copy-wrapper{
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+    .copy-wrapper .social-share, .footer-copyright .copy-wrapper{
+        text-align: center !important;
+    }
+    section.bridegroom-event-wrapper{
+        padding-top: 0 !important;
+    }
+    .bridegroom_event_style2 .bridegroom-blog-wrap{
+        margin-bottom: 20px;
+    }
+    .countdown-section{
+        width: 120px;
+        margin-right: 10px;
+    }
+    .countdown-section span{
+        font-size: 44px !important;
+    }
+    span.countdown-period{
+        font-size: 16px !important;
+    }
+    .mc4wp-form-fields button {
+        width: 120px;
+        right: 0;
+    }
+    .subtitle-cover .breadcrumb ul li, .breadcrumb span.raquo{
+        font-size: 16px;
+    }
+    .bridegroom-event-wrapper .goback{
+        padding-top: 30px;
+    }
+    .event-img-wrap img.img-responsive.wp-post-image {
+        height: auto;
+    }
+
+    .bridegroom-search .postform, .bridegroom-search select#post_status, .bridegroom-search input#search {
+        font-size: 12px;
+    }
+    .mchimp-newsletter {
+        text-align: left;
+    }
+    .woocommerce div.product span.onsale {
+        z-index: 1;
+    }
+    .wp-megamenu .common-menu-wrap li.get_ticket {
+        font-size: 15px;
+        width: 160px !important;
+        padding: 10px 12px;
+        margin-left: 12px !important;
+    }
+    .wp-megamenu .common-menu-wrap li.get_ticket a {
+        line-height: inherit !important;
+    }
+
+    .common-menu-wrap li.get_ticket {
+        width: 150px !important;
+    }
+    .get_ticket.fa-ticket:before {
+        line-height: 26px;
+    }
+    .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap .wp-megamenu {
+        padding: 10px 10px 20px;
+    }
+    .wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+        padding: 10px 15px;
+        margin: 12px 0;
+    }
+
+    .tab-content {
+        margin-top: 15px;
+    }
+    /* Event Single Page */
+    .contact-from-wrap span {
+        font-size: 16px;
+    }
+    .contact-from-wrap h2 {
+        font-size: 50px;
+        margin-top: 22px;
+        margin-bottom: 45px;
+    }
+
+    .event-contact-from input.wpcf7-form-control, 
+    .event-contact-from .bg-contact select {
+        width: 155px;
+        margin-bottom: 12px;
+    }
+    .event-contact-from input[type="submit"] {
+        width: 305px
+    }
+    .event-contact-from .contact-submit input.wpcf7-form-control {
+        margin-top: 20px;
+    }
+
+
+    /* Testimonial */
+    .wppb-testimonial-content-in {
+        padding: 80px 54px;
+    }
+    .countdown-section {
+        padding: 0;
+    }
+    .countdown-section span {
+        text-align: center;
+    }
+    .subtitle-cover {
+        padding: 180px 0px 180px !important;
+        margin: 0px;
+    }
+    .subheader-title-wrap {
+        width: 100%;
+    }
+    .bridegroom-upcoming-event .content-wrap-section.col-sm-6 {
+        padding: 0px 15px;
+    }
+    .bridegroom-upcoming-event .content-wrap-section a.event-btn {
+        padding: 15px 15px;
+        color: #fff;
+        display: inline-block;
+        width: 150px;
+        height: 44px;
+        border-radius: 30px;
+        background-color: #ec355a;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #fceeef;
+        text-transform: uppercase;
+    }
+    .bridegroom-event-wrapper .map-btn {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a121d;
+        background: transparent;
+        border: none;
+        padding: 0 15px;
+    }
+    .content-wrap-section.col-sm-6 {
+        margin-bottom: 30px;
+    }
+    .footer-copyright .copy-wrapper.style2 {
+        margin-top: 40px;
+    }
+    .footer-copyright .style2 span {
+        margin-top: 5px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+    }
+    .footer-nav ul li:first-child a:before {
+        display: none;
+    }
+    .col-md-4.text-right.copy-wrapper.style2.social-share {
+        margin-top: 0px;
+    }
+    .footer-copyright .social-share a {
+        font-size: 14px;
+    }
+    .social-share ul li {
+        padding: 0 10px;
+    }
+    .footer-nav ul li {
+        margin: 0 12px;
+    }
+    .tab-content.shop {
+        margin-top: 20px;
+    }
+    .blog-post-item .content-wrap {
+        padding: 10px 0 0px;
+    }
+    .bridegroom-post-content h2.content-item-title,
+    .bridegroom-post-content.second-grid h2.content-item-title {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .bridegroom-service-event .content-wrap-section.col-sm-6 {
+        padding: 30px 10px 0px;
+    }
+    /* 404 page */
+    .info-wrapper:before {
+        background-position: 48%;
+        height: 365px;
+        width: 550px;
+        background-size: contain;
+    }
+    .comingsoon-wrap .comingsoon-bg:before {
+        height: 355px;
+        background-size: contain;
+    }
+    .comingsoon-wrap h2.bridegroom-name {
+        font-size: 50px;
+    }
+    .comingsoon-title {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .bridegroom-post .entry-headder h2 {
+        font-size: 50px;
+    }
+    .bridegroom-pagination {
+        margin-left: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .product-content-wrapper {
+        padding: 12px 0px 0px;
+        transition: .4s;
+        position: relative;
+        height: 154px;
+    }
+    .woocommerce table.cart td.actions .input-text, 
+    .woocommerce-page #content table.cart td.actions .input-text, 
+    .woocommerce-page table.cart td.actions .input-text {
+        margin-right: 0;
+    }
+    .gallery-items-img {
+        margin: 0 !important;
+    }
+
+    /* pagebuilder custom class. */
+    .img-hide {
+        display: none !important;
+    }
+    .subtitle-cover {
+        margin-bottom: 50px !important;
+    }
+    .comments-area .comment-form input {
+        width: 100%;
+    }
+    .social-share-wrap {
+        margin-top: -28px;
+    }
+
+    .bridegroom-upcoming-event .content-wrap-section a.event-btn {
+        margin-bottom: 20px;
+    }
+        
+
+
+}
+
+
+@media (max-width: 600px){
+    .bridegroom-review-cont span.thm-Price-amount:first-child{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .bridegroom-review-cont .text-center{
+        transform: none;
+    }
+    .bg-mobile-none{
+        background: none !important;
+    }
+    .themeum-campaign-item {
+        width: 50% !important;
+        height: auto !important;
+    }
+    .themeum-campaign-item .themeum-campaign-wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .themeum-campaign-time-exp .themeum-campaign-thumb{
+        position: static;
+        width: 100%;
+        height: 200px;
+    }
+    .themeum-campaign-time-exp{
+        padding-left: 0;
+    }
+    .comment-body .comment-context .comment-reply{
+        position: static;
+    }
+}
+
+@media (max-width: 400px){
+    .themeum-campaign-item {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+
+
+@media (max-width: 489px) {
+    .countdown-section:nth-child(2):after {
+        display: none;
+    }
+    .row.event-container {
+        padding: 18px 5px 24px;
+        background: #fff;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+    .themeum-tab-inners .themeum-campaign-img .review-item-image img {
+        width:inherit;
+    }
+    .themeum-tab-inner {
+        border: 0 !important;
+    }
+    .campain-list-wrap {
+        padding: 0 !important;
+        border-bottom: 0 !important;
+    }
+    .themeum-campaign-img .review-item-image.single img {
+        height: inherit !important;
+    }
+    .bridegroom-img-wrap, .bridegroom-content-wrap {
+        width: 100% !important;
+    }
+    .themeum-campaign-img .review-item-image img {
+        border-radius: 0 !important;
+    }
+    .themeum-campaign-img a {
+        border-radius: 0 !important;
+        border: 0 !important;
+    }
+    .themeum-tab-inners {
+        padding-top: 14px;
+    }
+    .thm-Price-amount.pull-center.col-sm-4, .themeum-author-funded.pull-right.col-sm-4 {
+        padding: 0;
+        width: 33%;
+    }
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-8,
+    .thm-post-grid-shortcode .blog-post-item-col.col-sm-4 {
+        margin-bottom: 30px;
+        max-width: 100%;
+        flex: 100%;
+    }
+    .bridegroom-first-post img.img-fluid.wp-post-image {
+        height: 300px;
+    }
+    .bridegroom-first-post .col-sm-6.content-wrap {
+        padding: 30px 44px 15px !important;
+    }
+    .bridegroom-first-post p{
+        display: none;
+    }
+    .thm-tab-content.text-left {
+        padding: 30px;
+    }
+    .bridegroom-love-sign {
+        display: none;
+    }
+    .contact-form-map {
+        width: 118% !important;
+    }
+
+    .bottom-wrap.col-sm-6.col-lg-3 {
+        text-align: center;
+    }
+    .thm-fullscreen-search form{
+        width: 85%;
+    }
+    .thm-fullscreen-search form input[type="text"]{
+        font-size: 20px;
+    }
+    .themeum-grid-post.single-post .themeum-post-grid-title .content-item-title{
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .themeum-campaign-exp-counter .counter-item{
+        padding: 0 15px;
+    }
+    .themeum-campaign-item>div {
+        padding: 30px 0;
+    }
+    .title-number-wrap {
+        padding-left: 0;
+    }
+    .social-share,
+    .copy-wrapper {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .social-share,
+    .copy-wrapper {
+        text-align: center !important;
+    }
+    .copy-wrapper span{
+        display: block;
+        margin-top: 5px;
+        line-height: 26px;
+    }
+    .footer-copyright {
+        padding: 0px;
+    }
+    .classic-slider.layout2 .classic-slider-subtitle {
+        font-size: 60px;
+    }
+    .woocommerce ul.products li.product .star-rating {
+        margin-top: 5px;
+    }
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 100% !important;
+    }
+    
+    .mchimp-newsletter p {
+        line-height: 32px;
+    }
+    .mchimp-form-field {
+        width: 100%;
+    }
+    .event-contact-from input.wpcf7-form-control, .event-contact-from .bg-contact select {
+        width: 305px;
+        margin-bottom: 12px;
+    }
+    .product-content-wrapper {
+        height: 125px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .contact-form-map {
+        width: 106% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .themeum-campaign-post .entry-title a {
+        font-size: 32px !important;
+        line-height: 45px !important;
+    }
+    .contact-form-map {
+        width: 106% !important;
+    }
+}

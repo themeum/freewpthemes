@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'newskit';
+    src:
+        url('../fonts/newskit.ttf?9ymzo3') format('truetype'),
+        url('../fonts/newskit.woff?9ymzo3') format('woff'),
+        url('../fonts/newskit.svg?9ymzo3#newskit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.newskit {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'newskit' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.newskit-bookmark:before {
+    content: "\e900";
+}
+.newskit-compass:before {
+    content: "\e901";
+}
+.newskit-home:before {
+    content: "\e902";
+}
+.newskit-new-file:before {
+    content: "\e903";
+}
+.newskit-open-book:before {
+    content: "\e904";
+}
+.newskit-settings:before {
+    content: "\e905";
+}
+.newskit-tracker:before {
+    content: "\e906";
+}
+.newskit-laptop-1:before {
+    content: "\e907";
+}
+.newskit-building-1:before {
+    content: "\e908";
+}
+.newskit-building-2:before {
+    content: "\e909";
+}
+.newskit-building-3:before {
+    content: "\e90a";
+}
+.newskit-building:before {
+    content: "\e90b";
+}
+.newskit-id-card-1:before {
+    content: "\e90c";
+}
+.newskit-laptop:before {
+    content: "\e90d";
+}
+.newskit-megaphone:before {
+    content: "\e90e";
+}
+.newskit-microphone-3:before {
+    content: "\e90f";
+}
+.newskit-microphone-4:before {
+    content: "\e910";
+}
+.newskit-news-reporter-2:before {
+    content: "\e911";
+}
+.newskit-photo-camera-1:before {
+    content: "\e912";
+}
+.newskit-photo-camera-2:before {
+    content: "\e913";
+}
+.newskit-photo-camera-6:before {
+    content: "\e914";
+}
+.newskit-photo-camera:before {
+    content: "\e915";
+}
+.newskit-radio:before {
+    content: "\e916";
+}
+.newskit-satellite-1:before {
+    content: "\e917";
+}
+.newskit-satellite-dish:before {
+    content: "\e918";
+}
+.newskit-satellite:before {
+    content: "\e919";
+}
+.newskit-television-1:before {
+    content: "\e91a";
+}
+.newskit-television-2:before {
+    content: "\e91b";
+}
+.newskit-television-7:before {
+    content: "\e91c";
+}
+.newskit-television:before {
+    content: "\e91d";
+}
+.newskit-van-1:before {
+    content: "\e91e";
+}
+.newskit-van:before {
+    content: "\e91f";
+}
+.newskit-video-camera-1:before {
+    content: "\e920";
+}
+.newskit-video-camera:before {
+    content: "\e921";
+}
+.newskit-worldwide:before {
+    content: "\e922";
+}
+.newskit-user:before {
+    content: "\e923";
+}
+.newskit-search:before {
+    content: "\e924";
+}
+.newskit-menu:before {
+    content: "\e925";
+}
+.newskit-user-bold:before {
+    content: "\e926";
+}
+.newskit-angle-right:before {
+    content: "\e927";
+}
+.newskit-angle-left:before {
+    content: "\e928";
+}
+.newskit-comments:before {
+    content: "\e929";
+}
+.newskit-play:before {
+    content: "\e92a";
+}
+.newskit-eye:before {
+    content: "\e92b";
+}
+.newskit-social:before {
+    content: "\e92c";
+}
+.newskit-envelope:before {
+    content: "\e92d";
+}
+.newskit-prev:before {
+    content: "\e92e";
+}
+.newskit-next:before {
+    content: "\e92f";
+}
+.newskit-down:before {
+    content: "\e930";
+}
+.newskit-up:before {
+    content: "\e931";
+}

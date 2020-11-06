@@ -1,0 +1,5662 @@
+    /*
+_____ _
+|_   _| |__   ___ _ __ ___   ___ _   _ _ __ ___
+| | | '_ \ / _ \ '_ ` _ \ / _ \ | | | '_ ` _ \
+| | | | | |  __/ | | | | |  __/ |_| | | | | | |
+|_| |_| |_|\___|_| |_| |_|\___|\__,_|_| |_| |_|
+
+*  --------------------------------------
+*         Table of Content
+*  --------------------------------------
+*  01. Woo Product tab
+*  02. Contact Page
+*  03. Woo Product Shortcode
+*  04. Coming Soon
+*  05. 404 page
+*  06. Blog Post
+*  07. Blog Sidebar & Widget
+*  08. Blog Pagination
+*  09. Menu
+*  10. Mobile Menu
+*  11. Footer
+*  12. Contact Form
+*  --------------------------------------
+*  -------------------------------------- */
+/* -------------------------------------- *
+*          Button
+* --------------------------------------- */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.thm-btn,
+.btn {
+    line-height: 43px;
+    padding: 0 25px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid;
+}
+button.bridegroom-remind-me {
+    padding: 10px 26px;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    font-family: Poppins, sans-serif;
+    background: #5E74B4;
+    color: #fff;
+    margin-left: 16px;
+}
+.thm-btn,
+.btn.btn-bridegroom,
+input[type=submit],
+.woocommerce-page #payment #place_order,
+.woocommerce input.button {
+    color: #fff;
+    cursor: pointer;
+}
+.thm-btn.btn-bordered,
+.thm-btn:hover,
+.btn.btn-bridegroom:hover,
+input[type=submit]:hover,
+.woocommerce-page #payment #place_order:hover,
+.woocommerce input.button:hover,
+{
+    background: #fff;
+}
+.comments-area .comment-form input[type="submit"] {
+    border: 1px solid;
+}
+.thm-btn.btn-bordered:hover {
+    color: #fff;
+}
+.btn.btn-white {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.80);
+}
+.btn.btn-white:hover {
+    color: #fff;
+}
+.btn.btn-dark {
+    background: #fff;
+    color: #393939;
+}
+.btn.btn-dark:hover {
+    background: #1F1F1F;
+    color: #fff;
+}
+.btn.btn-border-bridegroom {
+    background: transparent;
+}
+.btn.btn-border-bridegroom:hover {
+    color: #fff;
+}
+.btn.btn-border-white {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn.btn-border-white:hover {
+    color: #fff;
+}
+.btn.btn-border-dark {
+    background: transparent;
+    border: 2px solid #393939;
+    color: #393939;
+}
+.btn.btn-border-dark:hover {
+    background: #393939;
+    color: #fff;
+}
+.btn.focus,
+.btn:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline-offset: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.bridegroom-error-wrapper {
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+}
+.thm-category-featured {
+    margin-bottom: 80px;
+}
+h2.thm-heading-title {
+    font-weight: 300;
+}
+.sub-title-content {
+    font-size: 20px;
+    font-weight: 300;
+    color: #222;
+    margin-bottom: 0;
+}
+/* -------------------------------------- *
+*           Box Width
+* --------------------------------------- */
+.boxwidth {
+    position: relative;
+    max-width: 1240px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+.boxwidth #masthead.sticky {
+    max-width: 1240px;
+    top: 0;
+}
+.admin-bar #masthead.sticky {
+    top: 32px
+}
+/* classic slider */
+.slider_content_wrapper {
+    position: relative;
+}
+.thm-slide-control {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    margin: 0 auto;
+    left: 50%;
+    right: auto;
+    top: auto;
+    transform: translateX(-50%)
+}
+.thm-slide-control li {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+.thm-slide-control li {
+    margin: 0 3px;
+}
+.thm-slide-control li button {
+    width: 30px;
+    height: 8px;
+    box-shadow: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    transition: 400ms;
+}
+.thm-slide-control li button:hover {
+    width: 50px;
+    background: #fff;
+}
+.thm-slide-control li.slick-active button {
+    background: #fff;
+}
+.slider-button .slider-button-1,
+.slider-button .slider-button-2 {
+    transition: 400ms;
+}
+.slide-video-right {
+    margin-top: 0;
+}
+.slider-single-wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* -------------------------------------- *
+*          4. Contact Page                *
+* --------------------------------------- */
+.bridegroom-contact {
+    background: #fff;
+    padding: 80px 100px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+.wpcf7-form .bridegroom-contact input[type=text],
+.wpcf7-form .bridegroom-contact input[type=email],
+.wpcf7-form .bridegroom-contact textarea {
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+.wpcf7-form .bridegroom-contact input[type=submit] {
+    padding: 12px 35px;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 16px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.map-info-content {
+    text-align: center;
+}
+@-webkit-keyframes hideAfter {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    10% {
+        visibility: visible;
+        opacity: .9;
+    }
+    80% {
+        opacity: .9;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes hideAfter {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    10% {
+        visibility: visible;
+        opacity: .9;
+    }
+    80% {
+        opacity: .9;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes hideHvr {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    10% {
+        visibility: visible;
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes hideHvr {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    10% {
+        visibility: visible;
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+/* -------------------------------------- *
+*    11. Coming Soon                      *
+* --------------------------------------- */
+.comingsoon-wrap {
+    background-size: cover;
+    background-position: center bottom;
+}
+.page-template-coming-soon {
+    width: 100%;
+    height: 100%;
+}
+.subnewslatter {
+    margin-left: -95px !important;
+    height: 50px !important;
+    width: 100px;
+    background: #009dd6 !important;
+    margin: 0;
+    padding: 0;
+}
+.coming-soon-logo {
+    margin-top: 0px;
+    margin-bottom: 85px;
+}
+.comingsoon-newslatter-descrip {
+    width: 40%;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d2d1d1;
+}
+.comingsoon .social-share ul li {
+    display: inline-block;
+    text-align: right;
+    padding: 0 30px 0px 0px;
+}
+.inputnewslatter {
+    width: 405px !important;
+    float: left;
+}
+.subnewslatter {
+    margin-top: inherit !important;
+}
+.comingsoon {
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.comingsoon-title {
+    margin-bottom: 28px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #4a121d;
+    font-family: Raleway;
+}
+.comingsoon-wrap h2.bridegroom-name {
+    font-size: 75px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+    margin-bottom: 20px;
+}
+span.comingsoon-descrip {
+    font-family: Tangerine;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+}
+.comingsoon-wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#comingsoon-countdown .countdown-period {
+    display: inline-block;
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff4f5;
+    width: 100%;
+}
+.comingsoon .sub-page-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+.comingsoon .soon-page-header {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 0;
+}
+.countdown-section {
+    display: inline-block;
+    color: #fff;
+    border: none;
+    line-height: 50px;
+    position: relative;
+    padding: 0 75px 0 60px;
+}
+.countdown-section span {
+    display: block;
+    font-family: "Tangerine";
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 0.7;
+    text-align: left;
+    color: #ec355a;
+}
+.countdown-section:after {
+    content: ":";
+    position: absolute;
+    top: 38%;
+    right: 5px;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    font-size: 75px;
+    font-style: italic;
+}
+.countdown-section:last-child:after {
+    display: none;
+}
+.countdown-section:first-child {
+    padding-left: 0;
+}
+.countdown-section:last-child {
+    padding-right: 0
+}
+.comingsoon .days,
+.comingsoon .hours,
+.comingsoon .minutes,
+.comingsoon .seconds {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+p.comingsoon-message-desc {
+    font-size: 24px;
+    font-weight: 700;
+}
+.comingsoon>div {
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    background: transparent;
+}
+.social-share ul {
+    margin: 0;
+    padding: 0;
+}
+.comingsoon .social-share ul li {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d2d1d1;
+}
+.comingsoon-footer {
+    margin-top: 24px;
+}
+.comingsoon .social-share {
+    margin-top: 28px;
+}
+.comingsoon .social-share li a {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.comingsoon-footer .copyright-text {
+    font-size: 14px;
+    color: #999999;
+    margin: 35px 0 0;
+}
+.comingsoon .mchimp-newsletter {
+    max-width: 976px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.comingsoon .mc4wp-form-fields button {
+    right: 0;
+    top: 0;
+    width: 262px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ec355a;
+}
+.comingsoon .mchimp-newsletter h4 {
+    display: none;
+}
+.comingsoon .mc4wp-form-fields input[type="email"] {
+    border: none;
+    padding: 13px 25px;
+    float: left;
+    color: #222;
+    font-weight: 300;
+    width: 653px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.comingsoon .social-share li a:hover {
+    color: #ff025a;
+}
+.comingsoon .mc4wp-form-fields {
+    margin-top: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+section.comingsoonpage-footer {
+    background: #202020;
+    text-align: center;
+    padding: 85px;
+}
+.comingsoonpage-footer li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.comingsoon-footer-copyright,
+.comingsoonpage-footer li a {
+    color: #fff;
+    font-weight: 300;
+}
+.coming-soon-newslatter p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.coming-soon-newslatter button {
+    padding: 9px 40px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 8px;
+    background: #2176F7;
+    color: #fff !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* -------------------------------------- *
+*           12. 404 page                  *
+* --------------------------------------- */
+.error-page-inner {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: rgba(0, 0, 0, 0) url("images/404-bg.png") no-repeat scroll center top/cover;
+}
+.starter-logo {
+    margin-top: 55px;
+}
+.starter-logo img {
+    width: 63%;
+}
+.error-code {
+    background: rgba(0, 0, 0, 0) url(../images/404.png) no-repeat scroll center top;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    font-size: 102px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    height: 158px;
+    width: 365px;
+}
+.error-message-title {
+    font-size: 300px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 220px;
+    text-align: center;
+    color: #ec355a;
+    z-index: 999999;
+}
+.error-page-inner>div {
+    vertical-align: middle;
+    display: table-cell;
+}
+.error-msg {
+    text-align: right;
+}
+.error-page-inner .error-msg .logo-top img {
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.error-message {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #4a121d;
+    margin-bottom: 65px;
+}
+.error-page-inner .btn-primary {
+    font-size: 18px;
+    background: #00aeef none repeat scroll 0 0;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 10px 20px;
+}
+.error-page-inner a.btn.btn-primary.btn-lg {
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 30px;
+    -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.15);
+}
+.error-page-inner a.btn.btn-primary.btn-lg:hover {
+    -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+.error-page-inner .error-msg a {
+    letter-spacing: 2px;
+    padding: 14px 18px;
+    -webkit-transition: color 400ms ease 0s, background-color 400ms ease 0s, border-color 400ms ease 0s;
+    transition: color 400ms ease 0s, background-color 400ms ease 0s, border-color 400ms ease 0s;
+    font-weight: normal;
+    font-size: 16px;
+}
+.blog-listing {
+    float: left;
+}
+.info-wrapper .btn {
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fceeef;
+    border-radius: 30px;
+}
+/* -------------------------------------- *
+*           13. Blog Post                 *
+* --------------------------------------- */
+.bridegroom-post .blog-post-meta {
+    list-style: none;
+    margin: 0 0 12px;
+    padding: 0;
+}
+.single .bridegroom-post .blog-post-meta {
+    margin-bottom: 20px;
+}
+.bridegroom-blog-wrap {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.bridegroom-post.bridegroom-single-post-item .blog-post-meta {
+    margin-bottom: 30px;
+}
+.bridegroom-post .blog-post-meta li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    color: #191919;
+}
+.single-post blockquote {
+    position: relative;
+}
+.single-post blockquote:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #ec355a;
+    left: 0;
+    top: 0;
+}
+.bridegroom-post .blog-post-meta li a {
+    color: #191919;
+    font-weight: 600;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+.bridegroom-post .content-item-title {
+    margin-bottom: 12px;
+    margin-top: 5px;
+    line-height: 25px;
+    color: #333;
+    font-size: 18px;
+}
+.single .bridegroom-post .content-item-title {
+    font-size: 36px;
+    margin-top: 0;
+}
+.bridegroom-post .content-item-title a {
+    color: #333;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+.bridegroom-single-post .bridegroom-blog-title {
+    padding: 20px 20px 25px;
+}
+.single .bridegroom-single-post .bridegroom-blog-title {
+    padding: 20px 0 25px;
+    width: 100%;
+    overflow: hidden;
+}
+.blog-date-wrapper i {
+    margin-right: 4px;
+}
+.entry-summary .wrap-btn-style a.btn-style {
+    margin-top: 20px;
+    padding: 0;
+    font-weight: 600;
+    float: left;
+}
+.entry-summary {
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.entry-summary .wrap-btn-style a.btn-style:hover {
+    color: #000;
+}
+.entry-summary .wrap-btn-style a.btn-style i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.bridegroom-latest-post {
+    background-color: #fff;
+}
+.bridegroom-latest-post .bridegroom-blog-title {
+    padding: 30px;
+}
+.post-navigation .single-next a,
+.post-navigation .single-pre a {
+    font-size: 12px;
+    font-weight: bold;
+}
+.post-navigation .single-pre .previous-post a {
+    padding-left: 8px;
+    color: #000;
+}
+.post-navigation .single-next .next-post a {
+    padding-right: 8px;
+    color: #000;
+    float: left;
+}
+.post-navigation .single-pre .previous-post,
+.post-navigation .single-next .next-post {
+    color: #ff5300;
+}
+.post-navigation .blog-post-review-content {
+    margin-top: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(32, 32, 32, .051);
+    padding-bottom: 40px;
+}
+.post-navigation .blog-post-review-content .blog-post-review-pre {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.post-navigation .blog-post-review-content .blog-post-review-next {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+.blog-post-review-content .blog-post-review-pre img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 3px;
+}
+.post-navigation .blog-post-review-content .blog-post-review-pre a {
+    display: inline-block;
+    padding: 6px 17px;
+    color: #000;
+    font-weight: bold;
+}
+.blog-post-review-content .blog-post-review-next img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 3px;
+    float: right;
+}
+.blog-post-review-content .previous-post,
+.blog-post-review-content .next-post {
+    font-weight: 400;
+}
+.post-navigation .blog-post-review-content .blog-post-review-next a {
+    display: inline-block;
+    padding: 6px 17px;
+    font-weight: bold;
+    color: #000
+}
+.comments-area {
+    color: #000;
+}
+.blog-content-wrapper .comments-area {
+    margin-bottom: 0;
+}
+.comments-area .comments-title {
+    color: #4c4c4c;
+    font-weight: 600;
+    font-size: 20px;
+}
+.comments-area .comment-list>li {
+    list-style: none;
+}
+.comments-area .comment-list .comment-body {
+    padding-bottom: 0;
+    border-bottom: 1px solid rgba(74, 18, 29, 0.1);
+    padding-bottom: 20px;
+    position: relative;
+}
+.comment-body .reply {
+    top: 32px;
+    position: absolute;
+    right: 0;
+}
+.comments-area .comment-list>li img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+.comments-area .comments-title {
+    margin: 0;
+    padding: 35px 15px 0px 0;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.comment-author b.fn {
+    font-family: Tangerine;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+    text-transform: capitalize;
+}
+.comment-context {
+    font-size: 15px;
+}
+.comment-context .comment-head span.comment-author {
+    font-weight: 600;
+    line-height: 22px;
+    width: 100%;
+    float: none;
+    padding-right: 12px;
+    font-size: 16px;
+}
+.comment-context .comment-head span {
+    margin-right: 8px;
+}
+.comment-context .comment-head span.comment-author a {
+    color: #2e2e2e;
+}
+.comment-context .comment-content {
+    padding-top: 15px;
+    color: #000;
+}
+div#respond h3 {
+    color: #4a4a4a;
+}
+.comment-list .comment-top {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+.comment-list {
+    margin: 0;
+    list-style: none;
+    border-radius: 4px;
+    padding: 0;
+    font-weight: 300;
+    line-height: 30px;
+}
+.comment-list li {
+    font-size: 15px;
+    color: #606060
+}
+.comment-list li.pingback,
+.comment-list li.comment {
+    padding: 15px 0;
+}
+.comment-list li.comment:last-child {
+    padding-bottom: 0;
+}
+.comment-reply-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.comment-body .comment-head .comment-date {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.comment-body .comment-context {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-top: 5px;
+}
+.comment-list ul.children {
+    list-style: none;
+    padding-left: 60px;
+    margin-top: 25px;
+}
+.comment-body .comment-context .comment-reply {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.comment-body .comment-context .comment-reply a {
+    color: #2e2e2e;
+}
+.comment-content p {
+    margin: 0;
+}
+article.comment-body .comment-meta {
+    overflow: hidden;
+}
+article.comment-body .comment-meta {
+    overflow: hidden;
+}
+article.comment-body .comment-content {
+    margin-top: 20px;
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+article.comment-body .comment-meta a {
+    color: #434343;
+    font-family: raleway;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+article.comment-body .comment-meta .comment-author img {
+    margin-right: 20px;
+}
+article.comment-body .comment-meta .comment-author {
+    display: inline-block;
+}
+article.comment-body .comment-meta .comment-metadata {
+    display: inline-block;
+    margin-left: 10px;
+}
+.cancel-comment-reply-link {
+    color: red;
+}
+/* -------------------------------------- *
+*       14. Blog Sidebar & Widget         *
+* --------------------------------------- */
+.widget-blog-posts-section .media-left,
+.widget-blog-posts-section .media>.pull-left {
+    padding-right: 15px;
+}
+.widget-blog-posts-section .entry-title {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #212121;
+}
+.widget-blog-posts-section .entry-title a {
+    color: #000;
+}
+.widget-blog-posts-section .media .pull-left img {
+    height: 68px;
+    width: 68px;
+    border-radius: 4px;
+}
+.widget-blog-posts-section .media:last-child {
+    margin-bottom: 0;
+}
+.media {
+    margin-bottom: 20px;
+}
+.widget-blog-posts-section .entry-date {
+    font-size: 14px;
+}
+.widget-popular-news-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.widget.widget_themeum_popular_posts_widget {
+    padding: 0;
+    margin: 0;
+}
+.widget {
+    word-break: break-word;
+}
+.widget_recent_comments a {
+    word-break: break-word;
+}
+.search-no-results #searchform {
+    position: relative;
+}
+.search-no-results #searchform .btn-search {
+    position: absolute;
+    right: 0;
+    padding: 14px 20px;
+    top: 0;
+}
+.widget select {
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 0;
+    color: #333;
+    font-weight: 400;
+}
+.textwidget img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.form-control {
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+}
+#sidebar .widget {
+    margin-bottom: 40px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px 25px;
+}
+.widget-area .widget:last-child {
+    margin-bottom: 0px;
+}
+.widget ul li a:hover {
+    color: #ff025a;
+    border-bottom: solid 1px #ff025a;
+}
+.widget ul li {
+    padding: 0;
+}
+#sidebar h3.widget_title {
+    margin: 0 0 25px;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #212121;
+}
+#sidebar .themeum-title .icon-bar {
+    background: #000;
+}
+.widget.widget_archive label {
+    font-weight: 400;
+}
+aside.widget-area .themeum-title {
+    margin-bottom: 30px;
+}
+.widget-popular-news a {
+    color: #555;
+}
+.widget-popular-news a:hover {
+    color: #000;
+}
+.widget-popular-news .media>.pull-left {
+    padding-right: 15px;
+}
+.widget_title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #212121;
+}
+.woocommerce .widget_title {
+    margin-bottom: 22px;
+}
+.woocommerce ul.cart_list,
+.woocommerce ul.product_list_widget {
+    margin-bottom: 15px;
+}
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li {
+    padding: 0 0 20px;
+    margin: 0;
+    list-style: none;
+}
+.widget .tagcloud {
+    display: block;
+}
+.widget .tagcloud a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 2px 6px;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 14px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #212121;
+}
+.widget .tagcloud a:hover {
+    color: #fff;
+    background-color: #ff025a;
+}
+.widget>ul {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0;
+    list-style: none;
+}
+.widget ul.children {
+    list-style: none;
+    padding-left: 10px;
+}
+#sidebar .widget ul.children li:last-child {
+    border-bottom: none;
+}
+.widget ul>li:last-child {
+    border-bottom: none;
+}
+.widget.widget_categories ul li {
+    text-transform: capitalize;
+}
+.widget_nav_menu ul {
+    padding: 0px;
+}
+.widget_nav_menu ul li {
+    list-style: none;
+}
+.widget_nav_menu ul.menu .sub-menu li:first-child {
+    border-bottom: none;
+}
+.sidebar .widget_categories ul>li>a {
+    padding-right: 82%;
+}
+.widget ul li:nth-child() a {
+    padding-top: 0;
+}
+.widget.widget_recent_comments ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+.widget ul li:last-child a {
+    border: none;
+    padding-bottom: 0;
+}
+.widget.widget_rss ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-break: break-word;
+}
+.widget.widget_recent_comments ul li a {
+    color: #38434a;
+    padding: 0;
+    border-left: 0 none;
+}
+.widget ul li a {
+    font-size: 16px;
+    line-height: 1.31;
+    color: #212121;
+    width: 100%;
+    display: inherit;
+    padding: 15px 0;
+    border-bottom: solid 1px rgba(33, 33, 33, 0.2);
+    transition: .3s;
+}
+.widget ul li:first-child a {
+    padding: 0 0 15px;
+}
+.bottom .widget {
+    color: #dedede;
+}
+.bottom .widget ul li a {
+    color: #dedede;
+    line-height: 32px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #939393;
+}
+.bottom {
+    border-top: 1px solid rgb(67, 67, 77);
+    border-bottom: 1px solid rgb(67, 67, 77);
+}
+.footer-copyright {
+    color: #dedede;
+}
+.footer-copyright span {
+    color: #dedede;
+}
+.mailchimp-inner {
+    text-align: left;
+    padding: 0 15px;
+}
+.widget.widget_nav_menu ul.sub-menu {
+    padding-left: 20px;
+}
+#sidebar .widget.widget_nav_menu ul.sub-menu li:last-child {
+    border-bottom: none;
+}
+.widget_text .textwidget {
+    padding: 0;
+}
+.widget.widget_rss .widget_title a {
+    color: #222;
+}
+.widget.widget_rss ul li a {
+    border: 0 none;
+    padding: 0;
+}
+.widget.widget_rss a:hover,
+.widget.widget_recent_comments a:hover {
+    border-left: 0px;
+    text-decoration: underline;
+}
+.widget.widget_search #searchform {
+    position: relative;
+    border: 1px solid #e7e7e7;
+    background: #fff;
+    border-radius: 4px;
+}
+.widget.widget_search #searchform input {
+    height: 46px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 300;
+    padding: 0 20px;
+    margin: 0;
+    background: none;
+}
+.widget.widget_search #searchform .btn-search {
+    height: 50px;
+    line-height: 50px;
+}
+.widget.widget_search #searchform i {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+.widget.widget_search #searchform .btn-search i {
+    font-size: 16px;
+    line-height: 50px;
+}
+.widget.widget_search .btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 23px;
+    border-radius: 0;
+    color: #fff;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+.widget.widget_search .btn-search:hover {
+    color: rgba(255, 255, 255, .7);
+}
+#sidebar #themeum_social_share_widget-2 ul>li {
+    float: left;
+    padding-right: 15px;
+}
+#sidebar #themeum_social_share_widget-2 ul>li a:hover {
+    color: #00aeef;
+}
+.common-menu-wrap .nav>li>ul li.mega-child>a {
+    font-weight: 400;
+    color: #000;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    font-size: 15px;
+}
+.bridegroom-index-post {
+    border: 1px solid #E7E7E7;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.bridegroom-single-post-author {
+    border-top: 1px solid #e7e7e7;
+    padding: 30px 0;
+    background: #fff;
+}
+.bridegroom-single-post-author strong {
+    display: block;
+    margin-bottom: 10px;
+}
+.bridegroom-single-post-author .avatar {
+    border-radius: 50%;
+    float: left;
+    border: 1px solid #CACAC8;
+}
+.bridegroom-single-post-author .bridegroom-author-meta-data {
+    margin-left: 90px;
+}
+@media (max-width: 768px) {
+    .post-navigation .blog-post-review-content .blog-post-review-pre {
+        width: 100%;
+        text-align: center;
+    }
+    .blog-post-review-content .blog-post-review-pre img,
+    .blog-post-review-content .blog-post-review-next img {
+        float: none;
+        display: inline-block;
+    }
+    .post-navigation .blog-post-review-content .blog-post-review-next {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .common-menu-wrap .nav>li.has-megasub>ul.megamenu {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .common-menu-wrap .nav>li.has-megasub>ul.megamenu {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .common-menu-wrap .nav>li.has-megasub>ul.megamenu {
+        width: 1170px;
+    }
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.get_ticket.current-menu-item>a {
+    color: #fff !important
+}
+.mfp-wrap {
+    z-index: 999999;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children > ul.wp-megamenu-sub-menu {
+    left: 100%;
+    background: #fafafa;
+}
+/* Megamenu: */
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 50%;
+    background: #4a121d;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    left: 100%;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li > a {
+    padding: 22px 25px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li > a:before {
+    content: "";
+    background-image: url(../images/hover.png);
+    position: absolute;
+    bottom: 0;
+    bottom: 10px;
+    height: 11px;
+    top: auto;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    min-width: 65px;
+    background-position: center;
+    bottom: 0px;
+    left: -1px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li.current-menu-item > a:before,
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li:hover>a:before {
+    bottom: 12px;
+    opacity: 1;
+    visibility: visible;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li:last-child:after {
+    display: none;
+}
+/* blog single page*/
+.post-navigation {
+    padding-bottom: 30px;
+}
+.post-navigation a {
+    font-size: 16px;
+}
+.bridegroom-blog-wrap .carousel-inner img {
+    width: 100%;
+}
+.bridegroom-blog-wrap-link .entry-link-post-format {
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(255, 4, 100);
+    background-image: url(../images/button-pattern.png);
+    margin: 0;
+    font-style: italic;
+    font-size: 28px;
+    padding: 54px 40px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    line-height: 34px;
+    color: #212121;
+    min-height: 290px;
+}
+.bridegroom-blog-wrap-link .entry-link-post-format h4 {
+    position: relative;
+    z-index: 3;
+    font-size: 25px;
+    color: #fff;
+    word-break: break-all;
+    margin-bottom: 0;
+}
+.bridegroom-blog-wrap-quite h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.bridegroom-blog-wrap-quite blockquote {
+    margin: 0;
+    padding: 70px 40px;
+    margin-bottom: 0;
+    min-height: 290px;
+    font-family: Tangerine;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fceeef;
+}
+.bridegroom-blog-wrap-quite blockquote .author {
+    display: block;
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fceeef;
+    margin-top: 27px;
+}
+.blog-content-wrapper h2.entry-title.blog-entry-title {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #000;
+    margin-top: 0;
+}
+.blog-content-wrapper .entry-headder li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.blog-content-wrapper .entry-headder li a {
+    color: #777;
+    padding-left: 8px;
+}
+.comments-area .comment-form input {
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    width: 30.7%;
+    margin-right: 25px;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 52px;
+    font-weight: 300;
+}
+.comments-area .comment-form input:last-child {
+    margin-right: 0;
+}
+.comments-area .comment-form input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    line-height: 1;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ff025a;
+}
+.comments-area textarea {
+    border: 2px solid #E1E1E1;
+    padding: 11px;
+    width: 100%;
+    border-radius: 4px;
+    min-height: 130px;
+}
+.comments-area .comment-form input[type=text],
+.comments-area textarea {
+    outline: none !important;
+    border-width: 1px;
+    font-weight: 300;
+}
+.comments-area .comment-form input[type=text]:focus,
+.comments-area textarea:focus {
+    border-color: #2176F7;
+}
+.bridegroom-blog-wrap .entry-content-gallery a.left.carousel-left {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 48%;
+    position: absolute;
+    padding: 20px;
+    font-size: 60px;
+    color: #777;
+}
+.bridegroom-blog-wrap .entry-content-gallery a.right i {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 48%;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: right;
+    width: 100%;
+    padding: 20px;
+    color: #777;
+}
+.bridegroom-blog-wrap img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: .3s;
+}
+.single-post-content {
+    font-size: 16px;
+    line-height: 26px;
+    color: #353535;
+    font-weight: 300;
+    line-height: 30px;
+}
+.single-post-content p {
+    margin-bottom: 26px;
+}
+.single-post-content h1,
+.single-post-content h2,
+.single-post-content h3,
+.single-post-content h4,
+.single-post-content h5,
+.single-post-content h6 {
+    font-weight: 500;
+}
+.single-post-title {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 49px;
+    margin-bottom: 8px;
+}
+.bridegroom-single-post-item .blog-details-img {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.blog-details-img {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px
+}
+.blog-details-img .thm-format-link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 25px;
+}
+.bridegroom-single-post-item .blog-details-img img {
+    border-radius: 6px;
+}
+.bridegroom-single-post-item .entry-video {
+    margin-bottom: 30px;
+}
+.comment-respond {
+    padding: 25px 0 0;
+}
+.thm-single-post-content-inner {
+    margin-bottom: 20px;
+}
+.bridegroom-single-post-author {
+    margin-top: 80px;
+}
+/* -------------------------------------- *
+*       14. Blog Pagination               *
+* --------------------------------------- */
+.themeum-pagination ul.page-numbers li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.themeum-pagination:empty {
+    display: none;
+}
+ul.page-numbers {
+    padding: 1px;
+    margin: 0;
+}
+.page-numbers li.p-2.first span {
+    padding: 8px 0;
+    position: absolute;
+    font-weight: 500;
+    color: #939393;
+}
+.themeum-pagination a.page-numbers {
+    font-size: 20px;
+    font-weight: 400;
+}
+.themeum-pagination .page-numbers>li a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 12px 15px;
+    color: #4a121d;
+}
+.themeum-pagination span.page-numbers.current {
+    background-color: #ff025a;
+    display: inline-block;
+    padding: 12px 15px;
+    color: #fff;
+}
+.themeum-pagination span,
+.themeum-pagination li .page-numbers {
+    font-size: 20px;
+    font-weight: 400;
+    color: #212121;
+}
+.themeum-pagination .page-numbers>li:first-child a.prev,
+.themeum-pagination .page-numbers>li:last-child a.next {
+    padding: 10px 17px;
+    color: #212121;
+    background: #fff;
+}
+/* -------------------------------------- *
+*           16. Menu                      *
+* --------------------------------------- */
+.thm-wide-header {
+    padding: 0 50px;
+}
+.site-header {
+    background: #fff;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-header {
+    margin-bottom: 0;
+}
+#navigation .navbar-brand {
+    height: 0;
+    padding: 0;
+    margin: 12px 0 0;
+}
+#navigation .navbar-nav {
+    float: right;
+}
+#navigation a.navbar-brand h1 {
+    margin: 0;
+    font-size: 42px;
+}
+.header-transparent {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.admin-bar #masthead.sticky {
+    top: 32px;
+}
+.site-header.sticky {
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+}
+ul.wp-megamenu-sub-menu {
+    padding: 12px 0 !important;
+}
+#navigation .navbar-header .navbar-toggle {
+    margin: 12px 0 0;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: none;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+#navigation .navbar-header .navbar-toggle:hover,
+#navigation .navbar-header .navbar-toggle:focus {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.common-menu-wrap .nav {
+    display: inline-block;
+}
+.common-menu-wrap {
+    position: inherit;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+}
+.common-menu-wrap #menu-right-menu.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    display: block;
+}
+.common-menu-wrap #menu-left-menu.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    display: block;
+    text-align: right;
+}
+.megamenu-main .register {
+    position: absolute;
+    text-align: right;
+    right: 17.5%;
+    top: 17px;
+    z-index: 99999;
+    width: 22%;
+}
+.common-menu {
+    text-align: right;
+    top: 0px;
+}
+.blog-details-img .img-fluid {
+    width: 100%;
+}
+.common-menu-wrap .nav>li {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0 25px;
+}
+.wp-megamenu .site-header {
+    padding-bottom: 5;
+}
+.wp-megamenu .site-header {
+    padding-top: 13px;
+}
+.tab-content {
+    margin-top: 64px;
+}
+.common-menu-wrap .nav>li>a {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    position: relative;
+    padding: 20px 0;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+.fa-ticket:before {
+    padding-left: 12px;
+}
+.logo-wrapper {
+    padding: 0;
+    text-align: center;
+}
+.logo-wrapper a.themeum-navbar-brand {
+    display: inline-block;
+    padding: 0;
+}
+.themeum-logo-login {
+    width: 100%;
+}
+.common-menu-wrap .nav>li.ticket-menu a {
+    background-color: #FF8A00;
+    border-radius: 3px;
+    line-height: 36px;
+    margin-left: 25px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+.common-menu-wrap .nav>li.ticket-menu a:hover,
+.common-menu-wrap .nav>li.ticket-menu a:focus {
+    background-color: #D67400;
+}
+.common-menu-wrap .nav>li.fixed-menu {
+    margin-left: 20px;
+}
+.common-menu-wrap .nav>li>a:hover,
+.common-menu-wrap .nav>li>a:focus {
+    background-color: transparent;
+}
+.common-menu-wrap .nav>li.menu-item-has-children {
+    position: relative;
+    z-index: 100;
+}
+.common-menu-wrap .nav>li.menu-item-has-children>a {
+    position: relative;
+}
+.common-menu-wrap .nav>li.menu-item-has-children>a:after {
+    content: " \f107";
+    font-family: 'FontAwesome' !important;
+    margin-left: 0;
+    color: #191919;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+.top-user-login img.avatar.photo {
+    width: 46px;
+    margin-top: -4px;
+    border-radius: 4px;
+}
+.header-solid .common-menu-wrap .nav>li.menu-item-has-children:after {
+    color: #000;
+}
+.common-menu-wrap .nav.megamenu-nav {
+    display: inline-block;
+    margin-top: -48px;
+    position: absolute;
+    width: 167px;
+}
+.page-template-homepage-transparent-php #masthead.sticky .common-menu-wrap .nav>li.fixed-menu>a {
+    color: #fff;
+}
+.megamenu-main .common-menu-wrap li.get_ticket {
+    padding: 11px 0 9px;
+}
+.common-menu-wrap .nav>li>ul {
+    padding: 0px 0 0;
+}
+.megamenu-main .wpmm_brand_logo_wrap img {
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.common-menu-wrap .nav>li ul {
+    text-align: left;
+    position: absolute;
+    display: none;
+    left: -20px;
+    list-style: none;
+    margin: 0;
+    width: 220px;
+    z-index: 999999;
+    color: #fff;
+    top: 97%;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 3px 3px;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+    -webkit-transition: all .4s ease .2s;
+    transition: all .4s ease .2s;
+}
+.common-menu-wrap .nav>li ul::after {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    content: '';
+    background-color: transparent;
+}
+.common-menu-wrap .nav>li:hover>ul {
+    padding: 10px 0;
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-bottom: 2px solid #ff0464;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.common-menu-wrap .nav>li ul.megamenu {
+    left: auto;
+    right: -15px;
+}
+.common-menu-wrap .nav>li.fixed-menu a {
+    color: #fff;
+    line-height: 36px;
+    border-radius: 4px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+.common-menu-wrap .nav>li.fixed-menu a:hover {
+    color: #fff;
+}
+.common-menu-wrap .nav>li ul {
+    background-color: #fff;
+}
+.common-menu-wrap .nav>li>ul li a {
+    display: block;
+    line-height: normal;
+    padding: 2px 20px;
+    font-size: 14px;
+    color: #000;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+.common-menu-wrap .nav>li>ul li.mega-child a {
+    border-width: 0;
+}
+.common-menu-wrap .nav>li>ul li:last-child a {
+    border-bottom-width: 0;
+    border-radius: 0 0 3px 3px;
+}
+.common-menu-wrap .nav>li>ul li>div {
+    padding: 0 20px 10px;
+    font-size: 13px;
+}
+.common-menu-wrap .sub-menu li.active.mega-child a {
+    color: #9d9d9d;
+}
+.common-menu-wrap .nav>li>ul li a:hover,
+.common-menu-wrap .sub-menu li.active.mega-child a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.common-menu-wrap .nav>li>ul {
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+.common-menu-wrap .nav>li>ul li {
+    transition: 300ms;
+    -webkit-transition: 300ms;
+}
+.common-menu-wrap .nav>li>ul li {
+    position: relative;
+    transiton: 300ms;
+    -webkit-transiton: 300ms;
+    -moz-transiton: 300ms;
+    padding: 2px;
+}
+.common-menu-wrap .nav>li>ul>li.menu-item-has-children {
+    position: relative;
+    display: block;
+}
+.common-menu-wrap .nav>li>ul>li.menu-item-has-children:after {
+    position: absolute;
+    content: "\f105";
+    right: 18px;
+    top: 50%;
+    color: #fff;
+    font-size: 17px;
+    font-family: FontAwesome;
+    margin-top: -14px;
+}
+.common-menu-wrap .nav>li>ul>li.mega-child.menu-item-has-children:after {
+    display: none;
+}
+.common-menu-wrap .nav>li>ul li>ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 220px;
+    padding: 0;
+}
+.common-menu-wrap .nav>li>ul li.mega-child>ul {
+    display: block;
+    position: static;
+    -webkit-animation: none !important;
+    animation: none !important;
+    width: 100%;
+    padding: 10px 0;
+}
+.common-menu-wrap .nav>li>ul li.mega-child:last-child {
+    border-right-width: 0;
+}
+.common-menu-wrap .nav>li>ul li:hover>ul {
+    display: block;
+    -webkit-animation: fadeIn 300ms;
+    animation: fadeIn 300ms;
+}
+#main-menu .nav>li.has-megasub>ul.megamenu {
+    padding: 10px 0px 20px;
+    width: 100%;
+}
+.common-menu-wrap .nav>li.has-megasub {
+    position: inherit;
+}
+.common-menu-wrap .nav>li.has-megasub>ul.megamenu {
+    padding: 0;
+}
+.common-menu-wrap .nav>li.has-megasub>ul.megamenu.megacol-4>li {
+    width: 25%;
+}
+.common-menu-wrap .nav>li.has-megasub>ul.megamenu.megacol-3>li {
+    width: 33%;
+    float: left;
+}
+.common-menu-wrap .nav>li.has-megasub>ul.megamenu.megacol-2>li {
+    width: 50%;
+}
+.common-menu-wrap .nav>li.has-megasub>ul.megamenu.megacol-1>li {
+    width: 100%;
+}
+#main-menu .nav>li.has-megasub>ul.megamenu>li {
+    float: left;
+    padding: 0 10px;
+}
+.common-menu-wrap .nav> li > ul li a {
+    font-weight: 400 !important;
+}
+/* -------------------------------------- *
+*           17. Mobile Menu               *
+* --------------------------------------- */
+button.navbar-toggle:hover i {
+    color: #ff0464;
+}
+#mobile-menu {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    z-index: 9;
+    right: 0;
+    background: #fff;
+    min-width: 220px;
+}
+.bridegroom-mobile-menu button:hover {
+    border: none;
+    background: inherit;
+    color: #ff0464;
+}
+.admin-bar #mobile-menu {
+    top: 100%;
+}
+.col-xs-4.visible-xs {
+    position: absolute;
+    right: 0;
+}
+.navbar-toggle .icon-bar {
+    background: #fff;
+    width: 25px;
+    height: 3px;
+}
+.navbar-toggle {
+    border: none;
+    margin: 0;
+    z-index: 3;
+    font-size: 30px;
+    text-align: right;
+    background: transparent;
+    padding-right: 0;
+    line-height: 26px;
+    padding: 11px 5px;
+    font-weight: 300;
+    color: #000;
+}
+.header-borderimage .navbar-toggle .icon-bar,
+.header-solid .navbar-toggle .icon-bar {
+    background: #000;
+}
+#navigation #mobile-menu .navbar-nav {
+    float: none;
+}
+#navigation #mobile-menu .navbar-nav {
+    margin: 0;
+    background-color: #29333f;
+}
+#mobile-menu .navbar-collapse {
+    border: 0;
+}
+#mobile-menu .navbar-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-top: 0 !important;
+}
+#mobile-menu ul {
+    list-style: none;
+}
+#mobile-menu ul li {
+    margin-bottom: 1px;
+}
+#mobile-menu ul li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    display: block;
+    font-weight: 400;
+}
+#mobile-menu ul li.active>a,
+#mobile-menu ul li a:hover {
+    background: none;
+}
+#mobile-menu ul ul {
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#mobile-menu ul li span.menu-toggler {
+    display: inline-block;
+    width: 34px;
+    cursor: pointer;
+    color: #000;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+#mobile-menu ul li:hover .menu-toggler {
+    color: #222;
+}
+#mobile-menu ul li {
+    line-height: 20px;
+    display: block;
+    position: relative;
+}
+#mobile-menu ul li span.menu-toggler i {
+    display: block;
+    line-height: 44px;
+}
+#mobile-menu ul li span.menu-toggler i.fa-angle-right:before {
+    content: "\f107";
+}
+#mobile-menu ul li span.menu-toggler.collapsed i.fa-angle-right:before {
+    content: "\f105";
+}
+#mobile-menu ul li span.menu-toggler .fa-angle-down,
+#mobile-menu ul li span.menu-toggler.collapsed .fa-angle-right {
+    display: block;
+}
+#navigation #mobile-menu .navbar-nav>li>a:focus,
+#navigation #mobile-menu .navbar-nav>li>a:hover {
+    background-color: transparent;
+}
+@media only screen and (max-width: 768px) {
+    #masthead.sticky {
+        position: absolute;
+        -webkit-animation: none;
+        animation: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+#navigation .navbar-header .navbar-toggle:hover,
+#navigation .navbar-header .navbar-toggle:focus {
+    background-color: transparent;
+}
+/* -------------------------------------- *
+*           18. Search           *
+* --------------------------------------- */
+/* search form */
+.bridegroom-search-wrap {
+    display: inline-block;
+}
+.thm-fullscreen-search {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.thm-fullscreen-search.active {
+    opacity: 1;
+    visibility: visible;
+}
+.thm-fullscreen-search .search-overlay {
+    background-color: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .85;
+    cursor: url(https://image.ibb.co/dquw2G/close_1.png), auto;
+}
+.thm-fullscreen-search form {
+    position: relative;
+    width: 50%;
+}
+.thm-fullscreen-search form input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    height: 55px;
+    background-color: transparent;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+}
+.thm-fullscreen-search form input[type="text"]::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+}
+.thm-fullscreen-search form input[type="text"]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+.thm-fullscreen-search form input[type="text"]:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+.thm-fullscreen-search form input[type="text"]:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+.thm-fullscreen-search label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 55px;
+    font-size: 18px;
+    color: #fff
+}
+/* -------------------------------------- *
+*           19. Footer                    *
+* --------------------------------------- */
+.bottom-widget {
+    padding-top: 15px;
+}
+.bottom-widget .widget h3.widget-title {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+ul.themeum-social-share {
+    list-style: none;
+    margin-top: -8px;
+}
+ul.themeum-social-share li {
+    display: inline-block;
+}
+ul.themeum-social-share li a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+}
+.textwidget .mc4wp-form-fields .send-arrow {
+    position: relative;
+}
+.textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+    width: 100%;
+    background: transparent;
+    color: #959595;
+    padding: 9px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+/* -------------------------------------- *
+*           23. Login & Registration      *
+* --------------------------------------- */
+.modal {
+    text-align: center;
+}
+.modal #login {
+    text-align: center;
+}
+.modal .modal-backdrop {
+    background-color: #16171c;
+}
+.modal .modal-backdrop.in {
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+.modal .modal-content {
+    border-radius: 4px;
+    background-color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+.modal .modal-content .modal-body input:not([type="checkbox"]) {
+    height: 45px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
+.modal .modal-content .modal-body input[type="submit"] {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+}
+.modal .modal-content .modal-body input[type="submit"]:hover {
+    background-color: #fff !important;
+}
+.modal .modal-header {
+    padding: 60px 60px 0px 60px;
+    border-bottom: none;
+    border-radius: 4px;
+    display: block;
+}
+.modal .modal-body {
+    padding: 6px 60px 60px 60px
+}
+.modal .modal-title {
+    color: #313232;
+    font-size: 22px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+}
+.modal-header .close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.modal .modal-text {
+    font-size: 16px;
+    line-height: 26px;
+    width: 70%;
+    margin: 5px auto 30px;
+}
+.modal button.close {
+    filter: alpha(opacity=60);
+    opacity: .6;
+    background: none;
+}
+.modal button.close span {
+    font-size: 20px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #B2B2B2;
+    color: #999;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    height: 30px;
+    background: #fff;
+}
+.modal input#username,
+.modal input#password,
+.modal input#usernamelogin,
+.modal input#passwordlogin,
+.modal input#email {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    height: auto;
+    margin-bottom: 14px;
+    border-color: #f1f1f1;
+    padding: 12px;
+    font-size: 14px;
+    font-size: 0.77777778rem;
+}
+.modal input#password {
+    margin-bottom: 15px;
+}
+.modal label {
+    opacity: .8;
+    filter: alpha(opacity=80);
+    padding-left: 10px;
+    top: 2px;
+    position: relative;
+}
+.modal .submit_button {
+    position: relative;
+}
+.modal .lost-pass {
+    position: relative;
+}
+.modal-footer {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.modal .google-login,
+.modal .facebook-login,
+.modal .twitter-login,
+.modal .register_button {
+    color: #ffffff;
+    border: none;
+    display: inline-block;
+}
+.modal .condition {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.modal .google-login {
+    background-color: #df4a32;
+}
+.modal .facebook-login {
+    background-color: #39579a;
+}
+.modal .twitter-login {
+    background-color: #51abf1;
+}
+.modal .haveaccount {
+    background: #cdcfd1;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.modal .haveaccount span {
+    background: #f6f8fa;
+    padding: 10px;
+    position: relative;
+    top: -16px;
+    left: 20px;
+    color: #848484;
+}
+#sidebar .widget table {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* -------------------------------------- *
+*           25. ext               *
+* --------------------------------------- */
+.ui-datepicker .ui-datepicker-calendar td span,
+.ui-datepicker .ui-datepicker-calendar td a {
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-calendar td span,
+.ui-datepicker .ui-datepicker-calendar td a.ui-state-default.ui-state-active,
+.ui-datepicker .ui-datepicker-calendar a.ui-state-default.ui-state-highlight.ui-state-active {
+    background: #747474;
+}
+.ui-datepicker .ui-datepicker-next:before,
+.ui-datepicker .ui-datepicker-prev:before {
+    display: none;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    text-indent: 999px;
+}
+.dashboard-head-date input {
+    width: auto !important;
+}
+form.woocommerce-ResetPassword.lost_reset_password {
+    text-align: center;
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 550px;
+}
+.woocommerce form.woocommerce-ResetPassword.lost_reset_password .form-row {
+    margin: 0 auto;
+    float: none;
+    width: 60%;
+}
+.woocommerce form.woocommerce-ResetPassword.lost_reset_password .form-row label {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #222;
+}
+.woocommerce form.woocommerce-ResetPassword.lost_reset_password .form-row input[type="submit"] {
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    transition: .4s;
+    margin-top: 15px;
+}
+.woocommerce-lost-password .woocommerce {
+    margin-bottom: 60px;
+}
+.thm-single-category li {
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.thm-single-category li i {
+    margin-right: 6px;
+}
+.single-product-item .thm-Price-amount.pull-center.col-sm-4 {
+    text-align: center;
+}
+.single-product-item .progressbar-content-wrapper {
+    padding: 0;
+}
+.single-product-item h2.woocommerce-Price-amount.amount {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.single-product-item .campaign-days-remain,
+.single-product-item .themeum-author-funded,
+.single-product-item .thm-Price-amount {
+    margin-bottom: 14px;
+}
+.single-product-item .product-slide-intro {
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #000000;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.wpmm_mega_menu>ul.wp-megamenu-sub-menu,
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu {
+    background: #ffffff;
+    border-bottom: 2px solid #d03e7a;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_mega_menu > ul.wp-megamenu-sub-menu > li.wpmm-row > ul.wp-megamenu-sub-menu > li,
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_mega_menu > .wpmm-strees-row-container ul.wp-megamenu-sub-menu > li.wpmm-row > ul.wp-megamenu-sub-menu > li {
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu {
+    box-shadow: none;
+}
+/* Style Slider */
+.wppb-carousel-content {
+    color: #fff;
+}
+.wppb-carousel-content strong {
+    color: #ffc730;
+}
+span.slick-arrow {
+    line-height: 80px !important;
+}
+.wppb-carousel .slick-arrow {
+    height: 80px !important;
+}
+.themeum-pagination {
+    margin-bottom: 64px;
+    ;
+}
+.wppb-testimonial-content-carousel .wppb-carousel-next,
+.wppb-testimonial-content-carousel .wppb-carousel-prev {
+    line-height: 40px !important;
+}
+span.wppb-carousel-prev.slick-arrow {
+    margin-left: 17px !important;
+}
+.woocommerce-account .woocommerce {
+    width: 500px;
+    margin: 0 auto;
+}
+.woocommerce-account .woocommerce form.login {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 0 70px;
+}
+.woocommerce-account .woocommerce form .form-row label {
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212121;
+}
+.woocommerce-account .woocommerce button.button {
+    background-color: #959595;
+    color: #fff;
+    border: 0;
+    padding: 16px 42px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: #ff025a;
+    margin-right: 15px;
+}
+.woocommerce-account .woocommerce h2 {
+    display: none;
+}
+.woocommerce-account .woocommerce form .form-row {
+    padding: 3px;
+    margin: 0 0 20px;
+}
+.single-event .event-content {
+    padding: 0;
+}
+.bridegroom-error-wrapper .container {
+    z-index: 999;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.get_ticket:hover>a {
+    color: #fff !important;
+}
+.page-template-homepage .wppb-carousel .wppb-carousel-prev {
+    left: 0;
+    right: auto;
+}
+.event-gallery .photo-gallery-item.row {
+    margin: 0;
+}
+.photo-gallery-items.col-sm-6.col-md-4 {
+    padding: 0;
+}
+.search .search-content {
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    background: inherit;
+}
+.bridegroom-login-wrapper {
+    width: 15%;
+    float: right;
+    padding-left: 15px;
+    margin-top: 3px;
+}
+.top-user-login img.avatar.photo {
+    width: 46px;
+    margin-top: -4px;
+    border-radius: 4px;
+    float: left;
+}
+.top-align.top-user-login span {
+    display: block;
+    text-align: left;
+    padding-left: 56px;
+    text-transform: capitalize;
+}
+.top-align.top-user-login a {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+.with-login #wp-megamenu-primary {
+    z-index: 9;
+    text-align: right;
+    width: 85%;
+    float: left;
+}
+.bridegroom-menu-wrap button:hover {
+    border: none;
+    background: transparent;
+    color: #ff025a;
+}
+body.page-template-event-calender-php {
+    background: #f5f5f5;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-event {
+    padding: 0px 0 100px 0;
+    background: #f5f5f5;
+}
+.inline-flex {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.flex-grow {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start;
+}
+.flex-middle {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+.flex-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end;
+}
+.flex-top {
+    -webkit-align-self: flex-start;
+    -moz-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+.flex-bottom {
+    -webkit-align-self: flex-end;
+    -moz-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+}
+.space-around {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    justify-content: space-around;
+}
+.flex-column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-cell {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.head-area .sub-title-content {
+    font-size: 20px;
+    font-weight: 300;
+    color: #222;
+    margin-bottom: 15px;
+    padding-left: 26px;
+    line-height: 30px;
+}
+.head-area p.sub-title-content:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    left: 15px;
+}
+.common-menu-wrap .nav li ul.sub-menu li a {
+    color: rgba(33, 33, 33, 0.7);
+}
+.common-menu-wrap .nav li ul.sub-menu li {
+    padding: 2px 0;
+}
+.common-menu-wrap .nav li ul.sub-menu li:hover a {
+    color: #ff0464;
+}
+.show {
+    display: block;
+    visibility: visible;
+    /*-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;*/
+}
+.popover {
+    max-width: 350px;
+}
+.popover.bs-popover-left {
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 30px;
+    position: relative;
+    font-family: poppins;
+    border-radius: 0;
+}
+.popover-header {
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #212121;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.popover-body {
+    padding: 20px;
+    color: rgba(33, 33, 33, 0.7);
+    font-size: 14px;
+}
+.event-content {
+    padding: 24px 24px 30px;
+}
+.event-content h2 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 900;
+}
+.event-intro .event-content p {
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #212121;
+    font-weight: 400;
+}
+.event-content h2 a {
+    color: #212121;
+}
+.event-content a.btn {
+    font-weight: 600;
+    border: none;
+}
+.event-content a.btn:hover {
+    border: none;
+    background: #e60352;
+    color: #fff;
+}
+/* Calendar */
+.popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    left: 24%;
+    z-index: 99;
+    width: 375px;
+    background: #fff;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.04);
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: left;
+}
+.popup-content {
+    padding: 30px;
+}
+.popup-content.active {
+    visibility: visible;
+}
+.popup-overlay h2.info {
+    line-height: 24px;
+}
+.popup-overlay h2.info a {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: 900;
+    padding: 0;
+}
+.popup-content p {
+    margin: 0;
+}
+button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+}
+button:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+}
+.mfp-iframe-scaler button:hover {
+    border: 0;
+}
+/* =====================================
+*     WooCommerce Single Page
+========================================*/
+.subtitle-cover.sub-title img {
+    width: 48px;
+}
+.lead.bridegroom-review-cont {
+    padding-bottom: 22px;
+    padding-top: 5px;
+}
+.bridegroom-review-cont .text-center {
+    display: inline-block;
+    transform: translate(50%, 0%);
+    cursor: pointer;
+}
+.progressbar-content-wrapper .thm-progress-bar .bridegroom-review-cont {
+    font-size: 16px !important;
+}
+.bridegroom-review-cont i {
+    color: #c9366f;
+}
+.bridegroom-tabs span.bridegroom-rewards {
+    padding: 28px 0;
+    display: inline-block;
+}
+.bridegroom-reward-cont {
+    padding: 25px 30px 0;
+}
+.bridegroom-estimate-date {
+    background: #EBEBF1;
+    padding: 18px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: -30px;
+    font-size: 14px;
+    color: #393C40;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+}
+.tab-rewards-wrapper h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #393C40;
+}
+.bridegroom-galler-inner img {
+    border: none !important;
+}
+.quantity_box {
+    background: #fff;
+    padding: 28px 24px 30px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    border-radius: 5px;
+}
+.quantity_box span {
+    color: #393C40;
+    line-height: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+.woocommerce #reviews #comments h2 {
+    font-size: 20px;
+    line-height: 1.1em;
+}
+.woocommerce #reviews #comments h2 + p {
+    margin-bottom: 0;
+}
+.woocommerce #review_form_wrapper .comment-reply-title {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.select_rewards_button {
+    background-color: rgba(51, 211, 192, 0) !important;
+    border-radius: 3px !important;
+    padding: 0px 20px !important;
+    border-color: rgba(51, 211, 192, 0) !important;
+}
+.select_rewards_button:hover {
+    background-color: rgba(34, 193, 174, 0) !important;
+    border-color: rgba(51, 211, 192, 0) !important;
+}
+span.bridegroom-rewards {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4C4C4C;
+    outline: none;
+    margin-bottom: 15px;
+    display: block;
+}
+.video-container.pull-left {
+    position: relative;
+}
+span.bridegroom-icons {
+    font-size: 44px;
+    color: #fff;
+}
+.wp-crowd-submenu {
+    width: 230px;
+}
+.bridegroom-bio-social .jssocials-shares .jssocials-share a {
+    display: block;
+    width: inherit;
+    line-height: inherit;
+    text-align: center;
+    color: #CBCBCB;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 300;
+    transition: .3s;
+}
+.bridegroom-bio-social .jssocials-shares a {
+    background: transparent;
+}
+.bridegroom-bio-social .jssocials-shares a:hover {
+    background: transparent;
+    color: #c9366f;
+}
+.bridegroom-location {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.bridegroom-share {
+    padding: 8px 14px;
+}
+button.btn-content-wrap {
+    background: #c9366f;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 5px;
+}
+.bridegroom-info-img a {
+    padding-left: 10px;
+}
+.bridegroom-info-img,
+.bridegroom-share {
+    float: left;
+    display: inline;
+    width: auto;
+    overflow: hidden;
+}
+.video-container i.back-play-button {
+    color: #fff;
+    background: #c9366f;
+    border-radius: 50%;
+    transition: .3s;
+}
+.video-container i.back-play-button:hover {
+    color: #fff;
+    background: #e05890;
+}
+.themeum-campaign-post .progressbar-content-wrapper {
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bridegroom-bio-social.jssocials {
+    padding: 10px 0;
+}
+.term-description {
+    display: none;
+}
+.elementor-widget-thm-team .team-content2 {
+    background-color: #6ec1e4;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.team-content4 .team-content-title a {
+    line-height: 24px;
+}
+span.round-circle {
+    height: 20px;
+    width: 20px;
+    margin-left: -47.5px;
+}
+/* search error */
+.search-content {
+    padding: 30px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+.search-content #searchform input[type="text"] {
+    height: 50px;
+    text-indent: 10px;
+    font-weight: 300;
+    border-radius: 4px;
+}
+.woocommerce ul.order_details {
+    padding: 0;
+}
+.bridegroom-reward-cont .select_rewards_button {
+    font-weight: 500;
+}
+.tab-rewards-submit-form-style1 .select_rewards_button {
+    padding: 20px 87px !important;
+    color: #000 !important;
+    text-align: center;
+    margin-left: -62px;
+    margin-right: -60px;
+    width: 120%;
+}
+.tab-rewards-submit-form-style1 .select_rewards_button:hover {
+    padding: 20px 0;
+    color: #d03e7a !important;
+    text-align: center;
+}
+/* Video Button Sonar Effect */
+.wppb-video-popup {
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.wppb-video-popup:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.wppb-video-popup:before {
+    font-family: 'ecoicon';
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+.wppb-video-popup-content .wppb-video-popup {
+    background: #ffc953;
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+.wppb-video-popup-content .wppb-video-popup:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px #ffc953;
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.wppb-video-popup-content .wppb-video-popup:hover {
+    background: #ffc953;
+    -webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    transform: scale(0.93);
+    color: #fff;
+}
+.wppb-video-popup-content .wppb-video-popup:hover:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #fff, 0 0 0 10px #ffc953;
+    }
+    100% {
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #fff, 0 0 0 10px #ffc953;
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #fff, 0 0 0 10px #ffc953;
+    }
+    100% {
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #fff, 0 0 0 10px #ffc953;
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #ffc953, 0 0 0 10px #ffc953;
+    }
+    100% {
+        box-shadow: 0 0 0 2px #ffc953, 0 0 10px 10px #ffc953, 0 0 0 10px #ffc953;
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+/*-------------------------------
+10. Preloader
+---------------------------------*/
+.preloader_inner img {
+    width: 75px;
+    text-align: center;
+}
+#preloader {
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 99999999;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.preloader_inner {
+    text-align: center;
+    width: 100%;
+}
+.preloader_dots {
+    margin-top: 15px;
+}
+.preloader_dots span.dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+    background: #d03e7a;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.preloader_dots span.dot:nth-child(2n + 1) {
+    background-color: #ffffff;
+}
+.preloader_dots span.dot:nth-child(1) {
+    -webkit-animation: preaload-drop 1.2s linear 0s infinite;
+    -o-animation: preaload-drop 1.2s linear 0s infinite;
+    animation: preaload-drop 1.2s linear 0s infinite;
+}
+.preloader_dots span.dot:nth-child(2) {
+    -webkit-animation: preaload-drop 1.2s linear 0.3s infinite;
+    -o-animation: preaload-drop 1.2s linear 0.3s infinite;
+    animation: preaload-drop 1.2s linear 0.3s infinite;
+}
+.preloader_dots span.dot:nth-child(3) {
+    -webkit-animation: preaload-drop 1.2s linear 0.6s infinite;
+    -o-animation: preaload-drop 1.2s linear 0.6s infinite;
+    animation: preaload-drop 1.2s linear 0.6s infinite;
+}
+.preloader_dots span.dot:nth-child(4) {
+    -webkit-animation: preaload-drop 1.2s linear 0.9s infinite;
+    -o-animation: preaload-drop 1.2s linear 0.9s infinite;
+    animation: preaload-drop 1.2s linear 0.9s infinite;
+}
+@keyframes preaload-drop {
+    0% {
+        transform: translateY(0px);
+    }
+    33% {
+        transform: translateY(-8px);
+    }
+    66% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* bridegroom Menu */
+.common-menu-wrap li.get_ticket {
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    color: #fff;
+    padding: 13px 0 11px;
+    transition: .3s;
+}
+.common-menu-wrap li.get_ticket:hover {
+    background: #86b93a;
+}
+.common-menu-wrap li.get_ticket a {
+    line-height: 0 !important;
+}
+.subtitle-cover h2 {
+    font-weight: 900;
+}
+/* Subheader Section */
+.subtitle-cover h2.page-leading {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+}
+/* Social Share */
+.social-share ul li {
+    display: inline-block;
+    text-align: right;
+    padding: 0 0 0px 15px;
+}
+.social-share ul li a i {
+    font-size: 20px;
+}
+.copy-wrapper .social-share {
+    text-align: right;
+}
+.footer-copyright img.enter-logo {
+    margin-right: 10px;
+    margin-top: -8px;
+}
+.footer-copyright span {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff4f5;
+}
+.footer-copyright {
+    margin-top: 0;
+}
+.footer-copyright .copy-wrapper {
+    margin-top: 40px;
+}
+.footer-copyright {
+    padding: 30px 0;
+}
+/* Blog Post */
+.thm-post-meta {
+    margin-top: 22px;
+}
+.thm-post-meta ul {
+    padding: 0;
+    margin: 0;
+}
+.thm-post-meta ul li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ec355a;
+}
+.entry-headder .date {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212121;
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+.bridegroom-post.themeum-grid-post {
+    margin-bottom: 33px;
+    transition: .3s;
+}
+.bridegroom-post .entry-headder h2 a {
+    color: #212121;
+    transition: .3s;
+}
+.bridegroom-post .entry-headder h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    color: #4a121d;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.content-wrap-section.col-sm-7 {
+    padding-left: 52px;
+    padding-top: 28px;
+    padding-right: 60px;
+}
+.wrap-btn-style a.thm-btn {
+    border: none;
+    padding: 0;
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.thm-post-meta ul li i {
+    color: #ff025a;
+}
+.thm-post-meta ul li a {
+    color: #212121;
+    transition: .3s;
+}
+.thm-post-meta ul li a:hover,
+.wrap-btn-style a.thm-btn:hover,
+.bridegroom-post .entry-headder h2 a:hover {
+    color: #ff0464;
+}
+.bridegroom-thumb {
+    color: #ff025a;
+    overflow: hidden;
+}
+.event_style2 .bridegroom-thumb {
+    border-radius: 10px;
+}
+.bridegroom-post.themeum-grid-post:hover .bridegroom-blog-wrap img {
+    transform: scale(1.1);
+}
+.blog-details-img .carousel-item.active {
+    border-radius: 10px;
+}
+.bridegroom-thumb .embed-responsive {
+    height: 450px;
+    margin-bottom: 30px;
+}
+.posted_in a {
+    font-size: 16px;
+}
+.event-title-wrap {
+    display: inline-block;
+    width: 100%;
+}
+.event-title-wrap .social-share-wrap {
+    text-align: right;
+    margin-top: -13px;
+}
+/* Single Post  */
+.single-post .bridegroom-post {
+    background: transparent;
+    padding: 0;
+}
+.single-post .bridegroom-post.themeum-grid-post:hover {
+    box-shadow: none;
+}
+.single-post .bridegroom-post.themeum-grid-post:hover .bridegroom-blog-wrap img {
+    transform: scale(1);
+}
+.single-post .blog-content-wrapper h2.entry-title.blog-entry-title {
+    margin-bottom: 15px;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.single-post .thm-post-meta {
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.single-post .bridegroom-post p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.single-post .bridegroom-post blockquote p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+/*.single-post blockquote p*/
+.single-post blockquote p {
+    padding: 0;
+    margin: 0;
+}
+.single-post blockquote {
+    background-color: #fceeef;
+    padding: 40px 68px;
+    margin-top: 15px;
+    margin-bottom: 42px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.bridegroom-single-post-author.clearfix {
+    display: none;
+}
+/* Blog Grid Post */
+.bridegroom-grid-post {
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.bridegroom-grid-post .entry-headder {
+    padding: 30px;
+}
+.bridegroom-grid-post .entry-headder h2 {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+.bridegroom-grid-post .entry-headder h2 a {
+    color: #212121;
+    transition: .3s;
+}
+.bridegroom-grid-post .entry-headder {
+    padding: 18px 20px 30px;
+}
+.date i.fa.fa-clock-o {
+    color: #ff025a;
+}
+.widget-blog-posts-section .media-body span {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #212121;
+}
+.single-post .bridegroom-thumb .embed-responsive {
+    height: auto;
+}
+.bridegroom-grid-post .bridegroom-thumb .embed-responsive,
+.bridegroom-grid-post .bridegroom-blog-wrap-link .entry-link-post-format {
+    height: 244px;
+    min-height: 244px;
+}
+/* Countdown Addons */
+.thm_countdown strong {
+    font-weight: 900;
+    color: #ffc730;
+}
+/* Contact Form */
+.page-template .wppb-text-block-content {
+    display: inline-block;
+    width: 100%;
+}
+.themeum-title {
+    font-weight: 300;
+    line-height: 32px;
+}
+/* CountDown Addons  */
+.thm_countdown .comingsoon-title,
+.thm_countdown .comingsoon-newslatter-descrip {
+    width: 100%;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.thm_countdown #particle-container {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: -150px;
+    left: 0;
+}
+/* Speaker addons CSS */
+.share-social ul {
+    margin: 0;
+    padding: 0;
+}
+.share-social ul li {
+    display: block;
+}
+.article-image-wrap:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ff025a;
+    position: absolute;
+    opacity: 0;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    background-image: linear-gradient(315deg, #3c0211, #810022);
+    z-index: 0;
+    transition: .3s;
+}
+/* Event Details */
+.page-event-details .event-banner-img .cover-img {
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    max-width: 100vw;
+    padding: 250px 0;
+}
+.event-content .event-title-wrap:before {
+    content: "";
+    background-image: url(../images/frame.png);
+    position: absolute;
+    height: 363px;
+    top: auto;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -115px;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+}
+.event-title-wrap {
+    position: absolute;
+    top: 32%;
+    width: 375px;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    left: 50%;
+}
+.event-content h2.event-title {
+    height: 60px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    color: #ec355a;
+}
+.event-title-wrap span {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #4a121d;
+    margin-bottom: 20px;
+    display: block;
+}
+.event-content p {
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #212121;
+}
+.event-information h2 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: normal;
+    color: #4a121d;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+.event-information ul {
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+}
+.event-information ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.event-information ul li span {
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    color: #4a121d;
+}
+.event-information .event-location i {
+    color: #ec355a;
+}
+.event-information ul li span.event-info {
+    width: inherit;
+    opacity: 0.7;
+}
+.event-information ul li span.event-info:after {
+    display: none;
+}
+.page-event-details .col-sm-9,
+.page-event-details .col-sm-10 {
+    margin: 0 auto;
+}
+.page-event-details .event-map {
+    margin-top: 44px;
+    margin-bottom: 100px;
+}
+.event-map .rwmb-map-canvas {
+    margin: 0 auto;
+}
+.event-contact-from input.wpcf7-form-control:focus {
+    border-radius: 30px;
+    border: 1px solid #d73950;
+}
+.event-contact-from .bg-contact select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    width: 263px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fceeef;
+    border: 1px solid #fff6f6;
+    padding: 20px;
+    background: #fceeef url(../images/select-icon.png) no-repeat 93% 52%;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: normal;
+    color: #4a121d;
+}
+.event-contact-from .contact-submit input.wpcf7-form-control {
+    background-color: #ec355a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    color: #fceeef;
+    margin-top: 70px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: .3s
+}
+.page-event-details .event-banner-img .cover-img.contact-form {
+    background: #fff4f5;
+    padding: 100px 0;
+}
+.event-contact-from {
+    text-align: center;
+}
+.contact-from-wrap span {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: #ec355a;
+}
+.contact-from-wrap h2 {
+    font-size: 65px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: #4a121d;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.event-contact-from input.wpcf7-form-control {
+    width: 263px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fceeef;
+    border: 1px solid rgba(74, 18, 29, 0.07);
+    padding: 20px 29px;
+    opacity: 0.7;
+    color: #4a121d;
+}
+.row.event-container {
+    padding: 40px 30px 25px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.event-img-wrap img.img-responsive.wp-post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+h3.event-session {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 42px;
+    letter-spacing: normal;
+    color: #212121;
+    text-transform: uppercase;
+    margin: 0;
+    cursor: pointer;
+}
+.event-container .event-time {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: #212121;
+    display: block;
+    padding-top: 14px;
+}
+.event-container .event-time span {
+    display: block;
+    opacity: 0.7;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 400;
+}
+.event-container .event-img-wrap {
+    text-align: right;
+}
+.intro-text p.locaion {
+    margin: 0;
+    color: #212121;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.photo-gallery-item.style1 {
+    margin: 0;
+}
+.style1 .photo-gallery-items {
+    padding: 0;
+}
+.style2 .photo-gallery-items {
+    margin-bottom: 30px;
+}
+.event_style2 .bridegroom-blog-wrap {
+    overflow: inherit;
+}
+section.bridegroom-event-wrapper.event_style2 {
+    padding: 0;
+}
+.gallery-items-img {
+    position: relative;
+}
+.gallery-items-img a:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    transition: all 600ms ease 0s;
+    visibility: hidden;
+    width: 100%;
+    background: rgba(74, 18, 29, 0.7);
+}
+.gallery-items-img a:hover:before {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.gallery-items-img a {
+    cursor: zoom-in;
+}
+/* Search Event */
+section.bridegroom-search-wrapper {
+    background: #f0f0f0;
+    padding: 43px 0 50px;
+}
+.single-filter h2 {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212121;
+    margin-bottom: 18px;
+}
+.single-filter {
+    width: 42.5%;
+    float: left;
+}
+.bridegroom-search button.event-search-btn {
+    width: 165px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #ff025a;
+    margin-top: 47px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.event-search-btn i.fa.fa-search {
+    padding-right: 5px;
+}
+button.event-search-btn:hover {
+    border-color: transparent;
+}
+.bridegroom-search .postform,
+.bridegroom-search select#post_status,
+.bridegroom-search input#search {
+    width: 93%;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    padding: 16px 20px;
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #212121;
+}
+.bridegroom-event-wrapper .search-error-title {
+    margin: 0px;
+}
+.bridegroom-event-wrapper .goback {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bridegroom-event-wrapper .goback a {
+    color: #212121;
+    transition: .3s;
+}
+.bridegroom-event-wrapper .goback a:hover {
+    color: #ff0464;
+}
+.error-div p.search-error-text {
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+}
+/* Upcoming Event */
+.bridegroom-upcoming-event .date {
+    display: block;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #4a121d;
+    padding-bottom: 10px;
+}
+.bridegroom-upcoming-event .date i.fa {
+    color: #ff025a;
+    margin-right: 5px;
+    font-size: 22px;
+}
+.bridegroom-upcoming-event .content-wrap-section a.event-btn {
+    padding: 18px 30px;
+    color: #fff;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ec355a;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #fceeef;
+    text-transform: uppercase;
+}
+.bridegroom-event-wrapper p {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.71;
+    color: #4a121d;
+}
+.bridegroom-upcoming-event .entry-summary {
+    padding-bottom: 16px;
+    padding-top: 10px;
+}
+.map-popup {
+    position: relative;
+    background: #FFF;
+    padding: 40px 20px 20px 20px;
+    width: 750px !important;
+    max-width: 750px;
+    margin: 20px auto;
+    transition: 1s all;
+}
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+.mfp-close-btn-in .mfp-content .mfp-close {
+    color: #fff !important;
+}
+.bridegroom-event-wrapper .map-btn {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+    background: transparent;
+    border: none;
+}
+.bridegroom-event-wrapper .map-btn:hover {
+    color: #ff025a;
+}
+#map-popup button:hover {
+    border: none;
+}
+nav.themeum-pagination {
+    margin-bottom: 100px;
+}
+/* Post Grid Addons CSS */
+.wppb-post-grid-wrap.wppb-post-grid-one {
+    background: #fff;
+    border-radius: 10px;
+}
+.wppb-post-grid-content {
+    padding: 0 20px 30px;
+}
+.past-event-gray .bridegroom-post.themeum-grid-post {
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: .6;
+}
+.past-event-gray .bridegroom-post.themeum-grid-post:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 1;
+}
+.bridegroom-upcoming-event .content-wrap-section p {
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+/* Subtitle Content Wrapper */
+.sub-title-content span {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #ffc953;
+}
+.subheader-title-wrap {
+    position: relative;
+    z-index: 9;
+    width: 30%;
+    margin: 0 auto;
+}
+.subtitle-cover .subheader-title-wrap:before {
+    content: "";
+    background-image: url(../images/frame.png);
+    position: absolute;
+    height: 363px;
+    top: 50%;
+    width: 375px;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.subtitle-cover span.intro-text {
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #4a121d;
+    display: block;
+}
+/* Lading Page */
+.wppb-pricing-content-one.style-four {
+    background: #fff;
+    border-radius: 10px;
+}
+.wppb-pricing-content-one.style-four .wppb-pricing-feature {
+    list-style: none;
+    padding: 0;
+    margin: 27px 50px 10px;
+    color: #000;
+    text-align: left;
+}
+.wppb-pricing-content-one.style-four a.wppb-btn-pricing.wppb-btninlineblock {
+    width: 70%;
+    border-radius: 10px;
+    background-color: #ff1554;
+    padding: 14px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.wppb-pricing-content-one.style-four .wppb-pricing-content {
+    padding: 15px 0 12px;
+}
+.wppb-pricing-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 22px 0 38px;
+}
+.wppb-pricing-content-one.style-four {
+    overflow: inherit;
+    transition: .3s
+}
+.wppb-pricing-content-one.style-four:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    border-radius: 10px;
+    z-index: -1;
+    transition: .3s
+}
+.wppb-pricing-content-one.style-four:after {
+    content: "";
+    background: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+    border-radius: 10px;
+    z-index: -1;
+    transition: .3s
+}
+/* Common Menu */
+.common-menu-wrap .nav>li a:before,
+.common-menu-wrap .nav>li.active a:before {
+    content: "";
+    background-image: url(../images/hover.png);
+    position: absolute;
+    bottom: 0;
+    bottom: 10px;
+    height: 11px;
+    top: auto;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    min-width: 65px;
+    background-position: center;
+    bottom: 0px;
+    left: -1px;
+}
+.common-menu-wrap .nav>li.active a:before {
+    bottom: 12px;
+    opacity: 1;
+    visibility: visible;
+}
+.common-menu-wrap .nav>li:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 50%;
+    right: -25px;
+    background: #4a121d;
+    border-radius: 50%;
+}
+.common-menu-wrap .nav>li:last-child:after {
+    display: none;
+}
+.common-menu-wrap .nav>li:hover a:before {
+    bottom: 0;
+    bottom: 12px;
+    opacity: 1;
+    visibility: visible;
+}
+.common-menu-wrap .nav li ul.sub-menu li a:before {
+    display: none;
+}
+/* Footer Section */
+.couple-photo img {
+    width: 202px;
+    border-radius: 50%;
+}
+.col-md-12.text-center.couple-photo {
+    position: relative;
+}
+.couple-photo:before {
+    content: "";
+    background-image: url(../images/footer-icon.png);
+    position: absolute;
+    height: 21%;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    min-width: 65px;
+    background-position: center;
+    top: 144px;
+    left: 0px;
+}
+.couple-photo h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff4f5;
+    margin-top: 30px;
+}
+/* Shine Effect*/
+.couple-photo .photo-wrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 202px;
+    text-align: center;
+    border-radius: 50%;
+    height: 203px;
+    overflow: hidden;
+}
+.couple-photo .photo-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+.couple-photo .photo-wrap:hover:after {
+    width: 120%;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.wppb-person-image {
+    line-height: 0;
+    margin-bottom: 80px;
+    position: relative;
+}
+.wppb-person-image:before {
+    content: "";
+    background-image: url(../images/decoration.png);
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -45px;
+    left: 0px;
+}
+.team .wppb-person-image:before {
+    display: none;
+}
+.team .wppb-person-image {
+    margin-bottom: 43px;
+}
+/* Event Slider */
+.slider-content {
+    text-align: center;
+    position: relative;
+}
+.slider-content h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+}
+.slider-content h2 a {
+    color: #4a121d;
+}
+.slider-content p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.71;
+    text-align: center;
+    color: #4a121d;
+    margin-top: 22px;
+}
+.bridegroom-slider-cont .slider-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 70px 30px;
+}
+.slider-content:before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 94%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid rgba(74, 18, 29, 0.3);
+    border-left: 1px solid rgba(74, 18, 29, 0.3);
+}
+.slider-content:after {
+    content: "";
+    position: absolute;
+    width: 72%;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+    border-right: 1px solid rgba(74, 18, 29, 0.3);
+    border-bottom: 1px solid rgba(74, 18, 29, 0.3);
+}
+/* Design */
+.slider-design {
+    position: relative;
+}
+.slider-design:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: -90px;
+    right: -30px;
+    background-image: url(../images/design3.png);
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right center;
+}
+.slider-design:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: -81px;
+    left: -30px;
+    background-image: url(../images/design4.png);
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: left bottom;
+}
+.slider-design span {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+    display: block;
+}
+.slider-design span.event-location {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    color: #4a121d;
+    margin-top: 24px;
+}
+.slider-design span.event-location i {
+    padding-right: 10px;
+}
+.bridegroom-post-slider ul.slick-dots {
+    text-align: center;
+}
+.bridegroom-post-slider ul.slick-dots li {
+    display: inline-block;
+}
+.bridegroom-post-slider .slick-dots button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(74, 18, 29, 0.2);
+    text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+    background-color: #ec355a;
+}
+.event-contact-from.attending-form input.wpcf7-form-control {
+    background-color: #3f1b22;
+    border: 1px solid #3f1b22;
+    padding: 20px;
+    opacity: 0.7;
+    color: #fff;
+}
+.event-contact-from.attending-form input.wpcf7-form-control:focus {
+    border: 1px solid #d73950 !important;
+}
+.event-contact-from.attending-form .bg-contact select {
+    background-color: #3f1b22;
+    border: 1px solid #3f1b22;
+    padding: 20px;
+    color: #fff;
+    background: #3f1b22 url(../images/select-icon.png) no-repeat 93% 52%;
+}
+.event-contact-from.attending-form input::-webkit-input-placeholder {
+    color: #fff;
+}
+.event-contact-from.attending-form input:-moz-placeholder {
+    color: #fff;
+}
+.event-contact-from.attending-form input.wpcf7-form-control.wpcf7-submit {
+    background-color: #3f1b22;
+    border: 1px solid #3f1b22;
+    padding: 20px;
+    opacity: 1;
+    color: #fff;
+    background: #ec355a;
+    margin-top: 50px;
+}
+/* ---- Misonary JS Grid ---- */
+.grid-sizer,
+.grid-item {
+    width: 33%;
+}
+.grid-item {
+    float: left;
+}
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+/* End */
+.themeum-tab-navigation li a.nav-link {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+    text-transform: uppercase;
+}
+.themeum-tab-navigation li a.active.nav-link {
+    font-size: 14px;
+    font-weight: bold !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ec355a;
+}
+.themeum-tab-navigation.shop-tab li a.active.nav-link {
+    font-weight: bold;
+}
+.wppb-image-hover-seven .wppb-image-hover-content .wppb-image-hover-intro::before {
+    background: #fff;
+}
+.wppb-image-hover-intro {
+    background: #fff4f5;
+}
+.wppb-image-hover-content:hover .wppb-image-hover-bg {
+    opacity: 1 !important;
+}
+.wppb-image-hover-content:hover .wppb-image-hover-title,
+.wppb-image-hover-content:hover .wppb-image-hover-subtitle,
+.wppb-image-hover-title {
+    -webkit-transform: inherit !important;
+    ;
+    transform: inherit !important;
+}
+.wppb-image-hover-intro-seven {
+    padding: 25px 30px !important;
+}
+/* Blog Post */
+.bridegroom-post-content time {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #ec355a;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+.bridegroom-post-content h2.content-item-title {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.bridegroom-post-content h2.content-item-title a {
+    color: #4a121d;
+    transition: .3s;
+}
+.bridegroom-post-content p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.71;
+    color: #4a121d;
+    margin-top: 14px;
+}
+.bridegroom-post-content a.read-more {
+    color: #ff025a;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+    margin-top: 33px;
+}
+.bridegroom-post-content.second-grid h2.content-item-title {
+    font-size: 32px;
+}
+.bridegroom-post-content.second-grid time {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #ec355a;
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+.bridegroom-post-content.second-grid p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.71;
+    color: #4a121d;
+    margin-top: 8px;
+}
+.bridegroom-post-content.second-grid {
+    margin-bottom: 26px;
+}
+/* Testimonial Carousel */
+.wppb-testimonial-content {
+    position: relative;
+    margin: 10px;
+}
+.wppb-testimonial-content:before {
+    content: "";
+    width: calc(100% - 195px + 5px);
+    height: calc(100% - 200px + 5px);
+    position: absolute;
+    left: 0;
+    border-left: 2px solid rgba(74, 18, 29, 0.2);
+    border-top: 2px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.wppb-testimonial-content:after {
+    content: "";
+    width: calc(100% - 195px + 5px);
+    height: calc(100% - 200px + 5px);
+    position: absolute;
+    right: 12px;
+    border-right: 2px solid rgba(74, 18, 29, 0.2);
+    border-bottom: 2px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+    bottom: 20px;
+}
+.wppb-testimonial-content-in {
+    padding: 100px 80px;
+    position: relative;
+}
+.wppb-testimonial-content-in:before {
+    content: "";
+    position: absolute;
+    height: 153px;
+    width: 153px;
+    right: 0;
+    top: auto;
+    background-image: url(../images/design1.png);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+    background-size: 100%;
+}
+.wppb-testimonial-content-in:after {
+    height: 153px;
+    width: 153px;
+    position: absolute;
+    left: 0;
+    top: auto;
+    content: "";
+    background-image: url(../images/design2.png);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 0;
+    background-size: 100%;
+}
+.wppb-testimonial-content-carousel .slick-dots {
+    bottom: 70px !important;
+}
+.rsvp .event-contact-from.attending-form input.wpcf7-form-control {
+    background-color: #fceeef;
+    border: 1px solid rgba(74, 18, 29, 0.05);
+    color: #4a121d;
+}
+.mfp-close-btn-in .mfp-content .map-popup .mfp-close {
+    color: #4a121d !important;
+    background: none;
+}
+.rsvp .event-contact-from.attending-form .bg-contact select {
+    background-color: #fcf1f2;
+    border: 1px solid rgba(74, 18, 29, 0.05);
+    padding: 20px;
+    color: #4a121d;
+    background: #fcf1f2 url(../images/select-icon.png) no-repeat 93% 52%;
+}
+.rsvp .event-contact-from.attending-form input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #4a121d;
+}
+.rsvp .event-contact-from.attending-form input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #4a121d;
+}
+.rsvp .event-contact-from.attending-form input.wpcf7-form-control.wpcf7-submit {
+    color: #fff;
+    background: #ec355a;
+}
+/* Guestbook */
+.event-contact-from.contact-from input.wpcf7-form-control {
+    width: 100%;
+}
+.event-contact-from.contact-from .bg-contact textarea {
+    overflow: auto;
+    resize: vertical;
+    border-radius: 30px;
+    background-color: #fceeef;
+    border: 1px solid rgba(74, 18, 29, 0.05);
+    padding: 30px;
+    margin-top: 22px;
+    width: 100%;
+}
+.event-contact-from.contact-from .contact-submit input.wpcf7-form-control {
+    margin-top: 45px;
+    width: 263px !important;
+}
+/* WIsh Addons */
+.BrideGroom_Wish_addons .wppb-testimonial-introtext {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+    font-family: 'Tangerine', cursive;
+}
+.BrideGroom_Wish_addons .wppb-testimonial-content-in:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: 97px;
+    right: 0;
+    top: auto;
+    background-image: url(../images/design3.png);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+    background-size: 100%;
+}
+.BrideGroom_Wish_addons .wppb-testimonial-content-in:after {
+    height: 36px;
+    width: 97px;
+    position: absolute;
+    left: 0;
+    top: auto;
+    content: "";
+    background-image: url(../images/design4.png);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 0;
+    background-size: 100%;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons:before {
+    content: "";
+    width: calc(100% - 140px + 5px);
+    height: calc(100% - 75px + 5px);
+    position: absolute;
+    left: 0;
+    border-left: 1px solid rgba(74, 18, 29, 0.2);
+    border-top: 1px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons:after {
+    content: "";
+    width: calc(100% - 140px + 5px);
+    height: calc(100% - 65px + 5px);
+    position: absolute;
+    right: 12px;
+    border-right: 1px solid rgba(74, 18, 29, 0.2);
+    border-bottom: 1px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+    bottom: 10px;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons .wppb-testimonial-name {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+    font-family: Raleway;
+    margin-bottom: 10px;
+}
+.BrideGroom_Wish_addons span.wppb-testimonial-date {
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons {
+    margin: 0;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons .wppb-testimonial-content-in {
+    padding: 122px 35px 90px;
+    position: relative;
+}
+.quotes {
+    position: relative;
+    width: 30px;
+    margin: 0 auto;
+}
+.quotes:before {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: auto;
+    content: "";
+    background-image: url(../images/quotes.png);
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 26px;
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.wppb-testimonial-content.BrideGroom_Wish_addons .wppb-testimonial-title {
+    text-align: center;
+}
+.tab-content>.active {
+    display: block;
+    min-height: 400px;
+}
+.gallery-items-img img {
+    max-width: 100%;
+    width: 100%;
+}
+.info-wrapper {
+    position: relative;
+    text-align: center;
+}
+.info-wrapper:before {
+    content: "";
+    background-image: url(../images/frame.png);
+    position: absolute;
+    top: 50%;
+    height: 560px;
+    width: 592px;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.comingsoon-wrap .comingsoon {
+    margin-bottom: 100px;
+    margin-top: 130px;
+}
+.comingsoon-wrap .comingsoon-bg {
+    position: relative;
+    text-align: center;
+    z-index: 9;
+    height: 478px;
+}
+.comingsoon-wrap .comingsoon-bg:before {
+    content: "";
+    background-image: url(../images/frame.png);
+    position: absolute;
+    top: 50%;
+    height: 490px;
+    width: 508px;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.comingsoon-wrap {
+    position: relative;
+}
+.comingsoon-wrap:before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-color: #4a121d;
+    content: "";
+    position: absolute;
+}
+.content-wrap {
+    margin-top: 136px;
+}
+.comingsoon-section {
+    transform: translate(50%, -50%);
+    top: 50%;
+    position: absolute;
+    left: -50%;
+    text-align: center;
+    width: 100%;
+}
+.blog-post-item .content-wrap {
+    margin-top: inherit;
+}
+/*--------------------------------------
+* ------- Star rating for products -----
+---------------------------------------- */
+.rating-custom div.product .woocommerce-product-rating {
+    margin-bottom: 1.618em;
+}
+.rating-custom .woocommerce-product-rating::after,
+.rating-custom .woocommerce-product-rating::before {
+    content: ' ';
+    display: table;
+}
+.rating-custom .woocommerce-product-rating {
+    line-height: 2;
+}
+.rating-custom .star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.6em;
+    font-family: star;
+    margin: 0 auto;
+}
+.rating-custom .star-rating::before {
+    content: '\73\73\73\73\73';
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.rating-custom .star-rating {
+    line-height: 1;
+    font-size: 1em;
+    font-family: star;
+}
+.rating-custom .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+    margin: 0 auto;
+}
+.rating-custom .star-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.rating-custom .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+    color: #f5a623;
+}
+.rating-custom a.woocommerce-review-link {
+    opacity: 0;
+}
+.product-content {
+    padding: 22px;
+}
+.product-content .price-box {
+    padding-bottom: 12px;
+    text-align: center;
+}
+section.product-container {
+    text-align: center;
+}
+.product-container h4 {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff4f5;
+}
+.product-container h4 a {
+    color: #fff4f5;
+}
+.product-container span.product-price {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+}
+.themeum-tab-navigation.shop-tab li a.nav-link {
+    color: rgba(255, 244, 245, 0.5);
+}
+.themeum-tab-navigation.shop-tab li a.active.nav-link {
+    color: #ec355a;
+}
+.product-container a.tab-button {
+    width: 240px;
+    height: 61px;
+    border-radius: 30px;
+    background-color: #ec355a;
+    padding: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    color: #fceeef;
+    text-transform: uppercase;
+    margin: 2px auto;
+    display: block;
+}
+.product-container a.tab-button:hover {
+    color: #fff;
+}
+.tab-content.shop {
+    margin-top: 70px;
+}
+.content-wrap-section.col-sm-10 {
+    margin: 0 auto;
+    text-align: center;
+}
+.bridegroom-thumb a {
+    display: block;
+    margin-bottom: 30px;
+}
+.content-wrap-section .entry-headder .date {
+    opacity: 1;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ec355a;
+}
+.content-wrap-section .thm-post-meta ul li a {
+    transition: .3s;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+}
+.content-wrap-section .thm-post-meta {
+    margin-top: 0;
+}
+.content-wrap-section .thm-post-meta ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.wrap-btn-style a.thm-btn i.fa {
+    font-weight: 700;
+    margin-left: 5px;
+}
+.bridegroom-blog-wrap-quite blockquote .date {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec355a;
+    margin-bottom: 18px;
+}
+.bridegroom-pagination {
+    margin-left: 108px;
+}
+/* Gutenwp Support, Single blog */
+.single-post .blog-content-wrapper .entry-summary .alignfull {
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    max-width: 100vw;
+}
+.single-post .blog-content-wrapper .entry-summary .alignwide {
+    margin-left: -100px;
+    margin-right: -100px;
+    max-width: 1024px;
+}
+.single-post .blog-content-wrapper > *:not(.alignwide):not(.alignfull) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 740px;
+}
+.single-post .blog-content-wrapper > *:not(.alignwide):not(.alignfull) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+}
+.single .wp-block-image img {
+    max-width: 100%;
+    width: 100%;
+}
+.thm-post-meta li.author-by img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.thm-post-meta span.author {
+    position: relative;
+    color: #212121;
+}
+.thm-post-meta span.author:before {
+    content: ".";
+    right: -8px;
+    position: absolute;
+    color: #4a121d;
+    top: 0;
+}
+/*------------------------------------
+* ---------- Star Rating ------------- 
+-------------------------------------- */
+#reviews .comment .star-rating {
+    float: none;
+    font-size: 1em;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+}
+.star-rating {
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    width: 5.1em;
+    font-family: "fontawesome";
+}
+.star-rating:before {
+    content: "\f006\f006\f006\f006\f006";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    letter-spacing: 0.1em;
+    letter-spacing: 0\9;
+    color: #fbfeff;
+}
+.woocommerce .products .rating-custom .star-rating {
+    display: inline-block;
+    text-align: center;
+}
+.woocommerce .products .rating-custom {
+    text-align: center;
+}
+.woocommerce ul.products li.product .rating-custom .star-rating {
+    font-size: 16px;
+}
+.star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.star-rating span:before {
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+    letter-spacing: 0.1em;
+    letter-spacing: 0\9;
+    color: #f5a623;
+    ;
+}
+.star-rating {
+    line-height: 1em;
+    font-size: 1em;
+    font-family: "fontawesome";
+}
+.woocommerce .products ul,
+.woocommerce ul.products {
+    margin: 0 0 50px;
+}
+.shop-tab li.nav-item {
+    margin: 0 10px;
+    padding: 0 !important;
+}
+.subtitle-cover {
+    position: relative;
+    z-index: 0;
+}
+.subtitle-cover.subheader2:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #4a121d;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.footer-copyright .copy-wrapper.style2 {
+    margin-top: 0;
+}
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 23px;
+}
+.footer-nav ul li a {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff4f5;
+}
+.footer-copyright .style2 span {
+    opacity: 1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff4f5;
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 23px;
+}
+.footer-nav ul li a:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    bottom: 5px;
+    left: -14px;
+    font-size: 13px;
+    background: #ef3d64;
+    border-radius: 50%;
+}
+.footer-nav ul li a {
+    position: relative;
+}
+.footer-copyright .social-share a {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 244, 245, 0.5);
+}
+.bridegroom-post-content {
+    margin-bottom: 35px;
+}
+.blog-post-item.col-md-3.column {
+    height: 100%;
+}
+.bridegroom-service-event.container {
+    text-align: center;
+}
+.bridegroom-service-event .content-wrap-section.col-sm-6 {
+    padding: 45px 64px 18px;
+}
+.bridegroom-upcoming-event .content-wrap-section.col-sm-6 {
+    padding: 25px 15px;
+}
+.bridegroom-service-event .content-wrap-section p {
+    opacity: 0.7;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+}
+.bridegroom-service-event .content-wrap-section a.service-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ec355a;
+    display: block;
+    padding: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fceeef;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px auto;
+}
+.bridegroom-service-event .bridegroom-post.themeum-grid-post,
+.bridegroom-service-event .bridegroom-blog-wrap {
+    margin-bottom: 0;
+}
+.bridegroom-service-event .bridegroom-blog-wrap.col-sm-6 {
+    padding: 0;
+}
+.bridegroom-service-event .bridegroom-post .entry-headder h2 a {
+    position: relative;
+}
+.bridegroom-service-event .bridegroom-post .entry-headder h2 a:before {
+    content: "";
+    background-image: url(../images/service-decoration.png);
+    position: absolute;
+    height: 50px;
+    top: auto;
+    width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-repeat: no-repeat;
+    min-width: 65px;
+    background-position: center;
+    bottom: -47px;
+    background-size: 50%;
+}
+.bridegroom-service-event .entry-summary {
+    line-height: 28px;
+    margin-bottom: 10px;
+    margin-top: 66px;
+}
+.bridegroom-service-event .bridegroom-post .entry-headder h2 {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a121d;
+}
+.subheader2 .subheader-title-wrap {
+    width: 100%;
+}
+/* Pricing Table */
+.wppb-pricing-text-wrapper sup {
+    top: 2px;
+}
+.wppb-pricing-addon {
+    position: relative;
+}
+.wppb-pricing-addon-content {
+    position: relative;
+    padding: 50px 40px 70px;
+}
+.wppb-pricing-addon:before {
+    content: "";
+    width: calc(100% - 112px + 5px);
+    height: calc(100% - 28px + 5px);
+    position: absolute;
+    left: 0;
+    border-left: 1px solid rgba(74, 18, 29, 0.2);
+    border-top: 1px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+}
+.wppb-pricing-addon:after {
+    content: "";
+    width: calc(100% - 112px + 5px);
+    height: calc(100% - 28px + 5px);
+    position: absolute;
+    right: 0px;
+    border-right: 1px solid rgba(74, 18, 29, 0.2);
+    border-bottom: 1px solid rgba(74, 18, 29, 0.2);
+    z-index: 99999;
+    bottom: 0;
+}
+.wppb-pricing-addon-content:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: -46px;
+    right: 0;
+    background-image: url(../images/design3.png);
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: right center;
+}
+.wppb-pricing-addon-content:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    bottom: -14px;
+    left: 0px;
+    background-image: url(../images/design4.png);
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: left bottom;
+}
+.themeum-tab-navigation li.nav-item {
+    padding: 0 11px;
+}
+.blog-full-width .content-wrap-section .entry-headder .date {
+    text-align: center;
+}
+.single .bridegroom-blog-wrap, .wp-block-gallery {
+    width: calc(100% + 196px);
+    margin-left: -98px;
+}
+.single .bridegroom-blog-wrap img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: .3s;
+}
+
+.bridegroom-intro-cat {
+    border-top: 1px solid #e9ebed;
+    border-bottom: 1px solid #e9ebed;
+    padding-top: 7px;
+    height: 46px;
+    margin: 40px 0 50px;
+}
+.social-share-wrap ul li {
+    padding: 4px;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-share-wrap {
+    text-align: right;
+}
+.social-share-wrap ul li a {
+    opacity: 0.23;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a121d;
+}
+.social-share-wrap ul li a:hover {
+    color: #4a121d;
+    opacity: 1;
+}
+.woocommerce .cart_totals h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family: Raleway;
+    margin-top: 20px;
+}
+.page-event-details {
+    background: #fceeef;
+}
+.bridegroom-post-content h2.content-item-title a:hover, .bridegroom-post-content .read-more {
+    color: #ec355a;
+}
+.event-contact-from .bg-contact {
+    margin-bottom: 7px;
+}
+iframe, svg {
+    max-width: 100%;
+    width: 100%;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    color: #FFF;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 100%;
+    border: none;
+    color: #fff;
+}
+.event-contact-from .contact-submit input.wpcf7-form-control:hover {
+    background-color: #da3355;
+}

@@ -1,0 +1,1196 @@
+
+.testiminial-home3 .client-wrapper {
+    border: 1px solid #50a2ff;
+}
+.portfolio-content-wrapper, .portfolio-title-content-wrapper, .portfolio-content-gallery {
+    display: inline-block;
+    margin: 0 auto;
+}
+.portfolio-casestudy-container img {
+    width: 100%;
+}
+.blog-grid-two {
+    margin: 0;
+}
+.portfolio-title-content-wrapper {
+    padding: 0;
+}
+.portfolio-content-details-wrapper {
+    padding: 50px 30px 30px 30px;
+}
+.portfolio-items {
+    margin-left: -2px;
+}
+.portfolio-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D7784;
+}
+.portfolio-info ul li {
+    list-style: none;
+    float: left;
+}
+.portfolioContainer {
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+.portfolio-info .blog-post-meta.clearfix {
+    margin: 0;
+    padding: 0;
+}
+.portfolio-info .meta-author {
+    margin-right: 20px;
+    line-height: 31px;
+}
+.portfolio-info h2{
+	font-size: 24px;
+    font-weight: bold;
+    color: #293340;
+    margin: 0px 0 8px 0;
+}
+.portfolio-info p {
+    color: #6D7784;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+.portfolio-content-wrapper {
+    width: 65%;
+    float: left;
+}
+.portfolio-social-icons {
+    width: 35%;
+    float: right;
+    margin-top: 8px;
+}
+.portfolio-info span {
+    margin-right: 6px;
+    line-height: 32px;
+}
+.portfolio-social-icons ul li {
+    margin: 0px 5px 0px 0px;
+    padding: 0;
+}
+.portfolio-social-icons ul li a {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    display: inline-block;
+    padding-top: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: #6D7784;
+    background: #E4E4E4;
+}
+.portfolio-social-icons ul {
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+    float: right;
+    margin: 0;
+        transition: .3s;
+}
+.portfolio-social-icons ul li a:hover, .portfolio-tag-cont li:hover a{
+    color: #fff;
+}
+.portfolio-full-content-wrapper {
+    margin: 0 auto;
+    display: inline-block;
+    background: #fff;
+    padding: 20px 30px 30px;
+}
+.calypso-wrapper {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.calypso-align {
+    margin-top: 40px;
+}
+.single-gallery{
+    margin-top: 4px;
+}
+.single-gallery .plus-icon img {
+    padding-top: 16px;
+}
+.calypso-portfolio-button {
+    margin-top: 30px;
+    overflow: hidden;
+    display: inline-block;
+    background: #0065e0;
+    padding: 8px 24px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 35px rgba(0,0,0,0.05);
+}
+.calypso-portfolio-button:hover {
+    color: #fff;
+}
+.portfolio-tag-cont {
+    padding: 0;
+    overflow: hidden;
+}
+
+.portfolio-info .portfolio-tag-cont  li {
+    list-style: none;
+    float: left;
+    margin-right: 12px;
+    padding: 5px 22px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.calypso-content-flex li.flex-active-slide:before {
+    background: rgba(0, 101, 224, 0.71);
+    height: 65px;
+    width: 84px;
+    z-index: 99999;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: -42px;
+    right: auto;
+    border-radius: 3px;
+}
+.featured-wrap .flexslider {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.featured-wrap img {
+    margin: 0;
+}
+.featured-wrap img:hover{
+    cursor: pointer;
+}
+.portfolio-tag-cont li a {
+    color: #6D7784;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px; 
+    text-transform: capitalize;
+}
+.portfolio-tag-cont li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Portfolio Shortcode Items */
+.filterable-portfolio .portfolioFilter {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.filterable-portfolio .portfolioFilter a{
+    border-bottom: 1px solid transparent;
+}
+.filterable-portfolio .portfolioFilter a.current {
+    border-bottom: 1px solid #fff;
+}
+.portfolioContainer img {
+    padding: 0;
+    margin: 0;
+}
+.portfolio-single-items {
+    background-color: #fff;
+    position: relative;
+
+}
+.portfolioContainer .portfolio-item-content {
+    padding: 20px 0;
+}
+.portfolio-single-items .portfolio-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    transition: all 400ms;
+}
+.portfolio-single-items .portfolio-title a{
+    transition: all 400ms;
+    color: #293340;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.layout_1 .portfolio-single-items .overlay-cont .portfolio-title a:hover {
+    color: #fff;
+}
+.portfolio-items:hover .portfolio-title a, .portfolio-items:hover .portfolio-category{
+    color: #fff;
+}
+
+.portfolio-single-items .portfolio-category {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    transition: all 300ms;
+    color: #6D7784;
+    font-weight: 400;
+}
+.portfolioFilter a {
+    text-transform: capitalize;
+    line-height: 36px;
+}
+.caption-full-width {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.portfolio-items .caption-full-width2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .5s;
+    height: 100%;
+    opacity: 0;
+}
+.portfolio-items .caption-full-width2 .overlay-cont a.plus-icon{
+    font-size: 60px;
+    color: #fff;
+}
+
+.portfolio-items .caption-full-width2 {
+    opacity: 0;
+    transition: all 300ms;
+   /* -webkit-transform: scale(.70);
+    transform: scale(.70);*/
+}
+.portfolio-items:hover .caption-full-width2 {
+    opacity: .9;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.portfolio-items img{
+    transition: all .5s;
+}
+.portfolio-items:hover img{
+    transform: scale(1.2);
+}
+
+.portfolio-single-items .caption-full-width .portfolio-category {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    margin: 2px 0 5px;
+    transition: all 300ms;
+}
+.overlay-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+.caption-inner{
+    margin-top: 15px;
+}
+.caption-inner .portfolio-title a{
+    color: #fff;
+}
+.overlay-btn {
+    background: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: all 400ms;
+    margin-top: 12px;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 500;
+}
+.overlay-btn:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+/* Portfolio Layout2 */
+.portfolio-layout2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.overlay-cont2 {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 20px 30px;
+}
+.overlay-cont2 h3{
+    line-height: 14px;
+}
+.portfolio-items:hover .portfolio-layout2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: .9;
+    transition: all 0.4s;
+}
+
+.portfolio-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-layout2 i {
+    top: 40%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: #fff;
+    opacity: 0;
+    transition: all .5s;
+}
+.portfolio-item-content-in i{
+    color: #d7dbdd;
+    margin: 20px;
+    display: block;
+}
+.portfolio-items .overlay-cont a i{
+    transform: scale(.8);
+}
+.portfolio-items:hover .overlay-cont i{
+    transform: scale(1.2);
+}
+.portfolio-items:hover .portfolio-item-content-in .floox-icon{
+    color: #23d0ec;
+}
+a.btn-view {
+    font-size: 30px;
+}
+
+/* left image */
+
+.portfolio-single-items.left-image{
+    background: #F7F9FA;
+    margin-bottom: 30px;
+}
+.portfolio-single-items.left-image .portfolio-thumb{
+    background: #f1f1f1;
+}
+.portfolio-single-items.left-image .portfolio-content{
+    padding: 15px 15px 15px 25px;
+}
+.portfolio-single-items.left-image .portfolio-content .port-icon{
+    font-size: 19px;
+    display: block;
+    margin-top: 15px;
+    transition: 400ms;
+}
+
+.portfolio-single-items.left-image .portfolio-content .portfolio-cat{
+    display: block;
+    margin-bottom: 20px;
+}
+/* 
+.portfolio-single-items.left-image .portfolio-content a i{
+    color: #23d0ec;
+} */
+
+
+
+/* portfolio slider */
+
+.thm-portfolio-slider .owl-arrow{
+    display: inline-block;
+    color: #000000;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #F7F9FA;
+    border-radius: 50%;
+    transition: .4s;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.thm-portfolio-slider .owl-arrow.owlNext{
+    left: auto;
+    right: -100px;
+}
+
+
+/* accordion */
+.elementor-accordion-item {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.elementor-accordion-title {
+    border-radius: 4px;
+}
+.elementor-accordion-title .elementor-accordion-icon {
+    width: 2.2em !important;
+}
+.elementor-accordion-title .elementor-accordion-icon i {
+    border: 0;
+    font-size: 16px;
+    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #222538;
+    color: #fff;
+}
+.elementor-accordion-title.active .elementor-accordion-icon i {
+    background: #fff;
+}
+.elementor-accordion-title.active {
+    border-radius: 4px 4px 0 0;
+}
+.elementor-accordion-content {
+    border-radius: 0 0 4px 4px;
+    padding: 0 60px 5px !important;
+}
+
+
+/* Magnifitpopup */
+.product-img-zoomin .mfp-container,
+.product-img-zoomin.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.product-img-zoomin.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.product-img-zoomin.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+.product-img-zoomin.mfp-removing .mfp-container,
+.product-img-zoomin.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+img.mfp-img {
+    margin: inherit !important; 
+}
+
+/* Search */
+.course-search {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.course-search input[type=search] {
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    padding: 10px 16px 12px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    width: 300px;
+    font-weight: 400;
+}
+.course-search input[type=submit]{
+    border-radius: 0;
+}
+
+
+/* Hire Me form css */
+.calypso-hire-me-form {
+  padding: 60px 0 0px;
+  border-radius: 5px;
+  max-width: 815px;
+  margin: 0 auto;
+  text-align: left;
+}
+.wpcf7-form .calypso-hire-me-form input[type=text], .wpcf7-form .calypso-hire-me-form input[type=email], .wpcf7-form .calypso-hire-me-form textarea {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+#estimated-budget {
+  font-weight: 400;
+}
+.hire-datetime {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #e5e5e5;
+  font-weight: 400 !important;
+  color: rgba(51, 51, 51, 0.73);
+  border-radius: 3px;
+}
+.calypso-hire-me-form p{
+  margin: 0;
+  padding: 15px 0 0 0;
+}
+.hire-btn {
+  padding: 12px 32px;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #fff;
+}
+.contactform_hire_button .modal-dialog {
+  max-width: 820px;
+}
+
+.contactform_hire_button .modal .modal-title {
+  color: #191919;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: 400;
+}
+.contactform_hire_button .modal label {
+  padding-left: 0;
+  font-size: 16px;
+}
+.calypso-hire-me-form .wpcf7-not-valid-tip {
+  position: relative;
+  top: 5px;
+}
+.contactform_hire_button .hire-btn{
+  background-image: inherit !important;
+}
+
+/* Service box Custom Class */
+.calypso-service-content .elementor-icon-box-wrapper {
+    padding: 34px 20px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.01);  
+}
+.calypso-service-content:hover a, .calypso-service-content:hover p{
+    color: #fff !important;
+}
+
+.calypso-progress-bar .elementor-progress-bar, .calypso-progress-bar .progress-success {
+    height: 7px;
+}
+
+
+/* Portfolio Related Post */
+.portfolio-single-related-post {
+    text-align: center;
+}
+.portfolio-single-related-post .single_related img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-single-related-post {
+    text-align: center;
+    padding: 120px 0 100px;
+    background: #EBF0F7;
+}
+.portfolio-single-related-post .related-post-title {
+    font-size: 40px;
+    margin-bottom: 52px;
+    font-weight: 400;
+}
+.portfolio-single-related-post .portfolio-cat a{
+    color: #222538;
+    transition: all 300ms;
+}
+.portfolio-single-related-post .portfolio-cat {
+    font-size: 24px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.related-post-img {
+    position: relative;
+}
+.single_related .overlay-content { 
+    transition: all 300ms;
+    -webkit-transform: scale(.70);
+    transform: scale(.70);
+}
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay-content .overlay-btn {
+    position: absolute;
+    top: 46%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    opacity: 0;
+    transition: all 300ms;
+}
+.single_related:hover .overlay-content {
+    background: #50a2ff;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.single_related:hover .overlay-content .overlay-btn {
+    opacity: 1;
+}
+
+/* IO css code */ 
+.entry-summary input[type="password"] {
+    height: 42px;
+    border-radius: 4px;
+    border: 2px solid #ddd;
+    width: 245px;
+}
+table#wp-calendar {
+    width: 100%;
+}
+.portfolio-thumb .overlay-cont a{
+    /* line-height: 30px; */
+    display: inline-block;
+}
+
+
+
+/*******SLIDER CSS*********/
+
+.slider-single-wrapper{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.slider_content_wrapper .owl-nav > div{
+    position: absolute;
+    left: -12.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background: #50a2ff;
+    height: 40px;
+    width: 25px;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.slider_content_wrapper .owl-nav > div.owl-next{
+    left: auto;
+    right: -12.5px;
+}
+
+.thm-slider-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+.thm-slide-inner.relative{
+    position: relative;
+}
+.slider_inner_control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    clear: both;
+}
+.slider_inner_control span{
+    height: 50px;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+    background: #00A7F1;
+    float: left;
+    transition: .4s;
+    font-size: 17px;
+}
+
+.slider_inner_control span:hover{
+    background-color: #008CDE;
+}
+
+/*********FEATURE BOX********/
+
+
+.elementor-icon-box-wrapper .left{
+	position: absolute;
+	height: 100%;
+	left: -25px;
+	width: 1px;
+	top: 20px;
+	background: #E1E8EE;
+
+}
+.elementor-icon-box-wrapper .bottom{
+	position: absolute;
+	height: 1px;
+	right: 15px;
+	width: 100%;
+	bottom: -30px;
+	background: #E1E8EE;
+
+}
+
+.feature-box-line{
+	display: inline-block;
+	height: 5px;
+	width: 30px;
+	background: #e1e8ee;
+}
+
+.widget.widget_themeum_about_widget .themeum-about-info{
+	margin-top: 20px;
+}
+.widget.widget_themeum_about_widget .themeum-about-info li{
+	position: relative;
+	padding-left: 30px;
+}
+.widget.widget_themeum_about_widget .themeum-about-info li span.themeum-widget-address{
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*color: #23d0ec;*/
+	font-weight: 600;
+}
+.bottom-widget .widget .about-widget-image{
+    margin-bottom: 30px;
+}
+.bottom-widget .widget h3.widget-title{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+}
+.widget .about-desc, .widget .themeum-about-info li, .widget_nav_menu ul li a,
+ .widget .textwidget, .themeum-social-share li a, .footer-copyright{
+	font-size: 14px;
+}
+.widget.widget_themeum_social_share_widget .themeum-social-share{
+	padding-left: 0 !important;
+	margin-left: 0px !important;
+	text-align: left;
+}
+.widget.widget_themeum_social_share_widget .themeum-social-share li a{
+	height: auto;
+	width: auto;
+	border: 0;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+.widget.widget_themeum_social_share_widget .themeum-social-share li a:hover{
+	background: none;
+}
+.widget.widget_themeum_social_share_widget .themeum-social-share li a{
+
+}
+
+.elementor-icon-box-wrapper .elementor-icon, .elementor-icon-box-wrapper .feature-box-line{
+    transition: all .7s;
+}
+/*.elementor-icon-box-wrapper:hover .feature-box-line{
+    background: #23d0ec;
+}*/
+.elementor-icon-box-wrapper:hover .elementor-icon{
+    transform: scale(1.2);
+}
+
+.template-credit p{
+    margin-bottom: 0;
+}
+
+/*******SLIDER CSS**********/
+.elementor-widget-thm-testimonial .client-wrapper{
+	background: none;
+}
+.testimonial_logo_wrapper{
+	margin-bottom: 70px;
+}
+.justify-content-center.slick-slide{
+	padding: 0 150px;
+}
+.testimonial_content_wrapper .slick-prev.slick-arrow{
+	background-color: none !important;
+}
+.testimonial_content_wrapper .slick-prev, .testimonial_content_wrapper .slick-next{
+	background-color: #fff !important;
+	color: #E7EAEC;
+	top: 30%;
+	font-size: 40px;
+}
+.testimonial_logo_wrapper .single-testmonial-logo.slick-slide img{
+	margin: 0 auto;
+	opacity: .4;
+	transition: all .5s;
+	cursor: pointer;
+}
+.testimonial_logo_wrapper .single-testmonial-logo.slick-slide.slick-current img{
+	opacity: 1;
+}
+.testimonial_logo_wrapper .single-testmonial-logo.slick-slide img:hover{
+	opacity: 1;
+}
+
+/*********PORTFOLIO FILTER*********/
+
+/* -------------------------------------- *
+*           16. Isotope CSS3 transition   *
+* --------------------------------------- */
+
+.portfolioFilter a {
+    margin: 0px 15px;
+    color:#6D7784;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+/* .calypso-progress-bar,
+.calypso-progress-bar .elementor-progress-wrapper {
+    height: 7px;
+    border-radius: 5px;
+}
+.calypso-progress-bar .elementor-progress-percentage{
+    margin-top: -32px;
+    position: absolute;
+    right: 0;
+    padding-right: 0;
+}
+
+
+ */
+
+.elementor-widget-container .elementor-progress-wrapper{
+    height: 16px;
+    line-height: 16px;
+    font-size: 10px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.elementor-widget-container .elementor-progress-wrapper .elementor-progress-bar{
+    border-radius: 15px;
+}
+
+.filterable-portfolio .container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.portfolio-layout2{
+	width: auto;
+	background-image: linear-gradient(-180deg,#23d0ec 0%,#239cec 100%) !important;
+}
+.overlay-cont2{
+	display: none;
+}
+.portfolio-layout2 i{
+	font-size: 60px;
+	top: 50%;
+	margin-top: -30px;
+}
+
+/**********Subcribe form**********/
+.bottom-widget .mc4wp-form input[type="submit"]{
+	position: static;
+	float: right;
+	width: auto;
+	text-transform: uppercase;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 4px 15px;
+    height: auto;
+    color: #fff !important;
+}
+.bottom-widget .mc4wp-form input[type="submit"]:hover{
+    background: #222 !important;
+    border-color: #222 !important;
+}
+.bottom-widget .mc4wp-form input[type="email"]{
+	background: #fff;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+/**********MAIN SLIDE********/
+.slider-title .heading-font{
+	font-weight: 600;
+}
+.thm-slide-control li button{
+	height: 4px;
+	width: 15px;
+	display: inline-block;
+    cursor: pointer;
+    padding: 3px 0;
+}
+.thm-slide-control li.slick-active button{
+	width: 34px;
+	/*background: #23d0ec;*/
+}
+
+
+
+/* -------------------------------------- *
+*           15. Team Shortcode            *
+* --------------------------------------- */
+
+/**********PLAY BUTTON WRAPPER********/
+.play-button-wrapper{
+	width: 60px;
+	height: 60px;
+	background-image: linear-gradient(-180deg,#23d0ec 0%,#239cec 100%);
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 99;
+    top: -50px;
+    left: 30px;
+}
+.play-button-wrapper a{
+    color: #fff;
+}
+.play-button-wrapper a i{
+	padding-left: 3px;
+}
+.play-button-wrapper:hover a{
+    color: #fff;
+}
+
+/*******PORTFOLIO SINGLE PAGE******/
+
+.portfolio-single-top{
+    padding: 20px 0 50px;
+}
+.portfolio-single-top h1{
+    font-size: 36px;
+    font-family: montserrat;
+    line-height: 40px;
+    color: #43484d;
+    font-weight: 400;
+    margin-top: 0;
+}
+.portfolio-single-top .portfolio-category{
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #001e00;
+    font-weight: 400;
+}
+
+/*******PRICING TABLE CSS*********/
+
+.thm-pricing-table .pricing-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.thm-pricing-table *{
+    transition: .4s;
+}
+
+/********MEGAMENU CUSTOM CSS*********/
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.wpmm_mega_menu>ul.wp-megamenu-sub-menu, .wp-megamenu-wrap .wpmm-nav-wrap > ul.wp-megamenu > li.wpmm_dropdown_menu:hover > ul.wp-megamenu-sub-menu{
+    top: 103%;
+    border-radius: 3px !important;
+    background: #fff;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li a{
+    color: #141414;
+    font-weight: 300;
+    font-size: 14px;
+}
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li a:hover {
+    color: #04c3ff;
+}
+ #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li ul.wp-megamenu-sub-menu li ul.wp-megamenu-sub-menu li ul.wp-megamenu-sub-menu li{
+    padding-bottom: 4px;
+ }
+ #wp-megamenu-primary>.wpmm-nav-wrap .wp-megamenu>li>ul.wp-megamenu-sub-menu li.wpmm-type-widget>a{
+    font-weight: 600;
+    color: #141414;
+    margin-bottom: 15px;
+ }
+ .wpmm-grid-post-content .grid-post-title a{
+    font-weight: 400 !important;
+ }
+
+.wpmm-vertical-tabs-nav{
+    background: none;
+}
+
+.elementor-accordion .elementor-accordion-item .elementor-tab-title.elementor-active{
+    /*background: #23d0ec !important;*/
+    color: #fff !important;
+    border-radius: 4px;
+}
+
+
+/* comment css */
+
+.comments-area .comment-respond{
+    margin-top: 70px;
+}
+
+.comments-area a{
+    color: #23d0ec;
+}
+
+.comments-area .comment-respond .logged-in-as a{
+    color: #293340;
+    font-size: 15px;
+}
+.comments-area .comment-respond .comment-reply-title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.logged-in-as{
+    margin-bottom: 20px;
+}
+.comments-area .comment-respond .comment-reply-title a{
+    font-size: 13px;
+    background-color: red;
+    color: #fff;
+    margin-left: 15px;
+    text-transform: capitalize;
+    padding: 2px 5px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.comments-area .comment-respond #comment{
+    width: 100%;
+    height: 150px;
+    background-color: #F9FAFB;
+    border: none;
+    resize: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+.comments-area .comment-respond .form-submit{
+    text-align: right;
+}
+
+.comments-area .comments-title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.comments-area ul{
+    list-style: none;
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+.comments-area .comment-body{
+    padding: 30px 0;
+    border-bottom: 1px solid #E7E7E7;
+    color: #949494;
+    font-size: 14px;
+    line-height: 24px;
+}
+.comments-area .comment-form input:not([type="submit"]){
+    background-color: #F9FAFB;
+    width: calc(50% - 4px);
+    border: none;
+    margin-top: 20px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-indent: 20px;
+}
+.comments-area .comment-form .col6-input input:last-child{
+    width: 100%;
+}
+.comments-area .comment-body p{
+    margin-bottom: 0;
+}
+
+.comments-area .comment-body .comment-avartar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.comments-area .comment-body .comment-avartar img{
+    height: auto;
+    width: 100%;
+}
+.comments-area .comment-body .comment-context{
+    display: block;
+    padding-left: 70px;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 80px;
+}
+.comments-area .comment-body .comment-context .comment-head span{
+    margin-right: 7px;
+    display: inline-block;
+}
+.comments-area .comment-body .comment-context .comment-reply{
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+.comments-area .comment-body .comment-context .comment-author{
+    color: #3C3D41;
+    font-size: 14px;
+    margin-right: 7px;
+}
+.comments-area .comment-body .comment-content{
+    clear: both;
+    padding-left: 70px;
+}

@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Calypso';
+    src:
+        url('../fonts/Calypso.ttf?7yj69h') format('truetype'),
+        url('../fonts/Calypso.woff?7yj69h') format('woff'),
+        url('../fonts/Calypso.svg?7yj69h#Calypso') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.calypso-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Calypso' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.calypso-arrows-2:before {
+  content: "\e900";
+}
+.calypso-arrows:before {
+  content: "\e901";
+}
+.calypso-arrows-1:before {
+  content: "\e902";
+}
+.calypso-down-arrow:before {
+  content: "\e903";
+}
+.calypso-search:before {
+  content: "\e904";
+}
+.calypso-technical-support-1:before {
+  content: "\e905";
+}
+.calypso-server-1:before {
+  content: "\e906";
+}
+.calypso-server:before {
+  content: "\e907";
+}
+.calypso-settings-3:before {
+  content: "\e908";
+}
+.calypso-settings-2:before {
+  content: "\e909";
+}
+.calypso-headphones:before {
+  content: "\e90a";
+}
+.calypso-calendar:before {
+  content: "\e90b";
+}
+.calypso-technical-support:before {
+  content: "\e90c";
+}
+.calypso-browser-7:before {
+  content: "\e90d";
+}
+.calypso-email:before {
+  content: "\e90e";
+}
+.calypso-help:before {
+  content: "\e90f";
+}
+.calypso-browser-6:before {
+  content: "\e910";
+}
+.calypso-network:before {
+  content: "\e911";
+}
+.calypso-toolbox:before {
+  content: "\e912";
+}
+.calypso-browsers:before {
+  content: "\e913";
+}
+.calypso-cloud-computing:before {
+  content: "\e914";
+}
+.calypso-browser-5:before {
+  content: "\e915";
+}
+.calypso-browser-4:before {
+  content: "\e916";
+}
+.calypso-browser-3:before {
+  content: "\e917";
+}
+.calypso-browser-2:before {
+  content: "\e918";
+}
+.calypso-conversation:before {
+  content: "\e919";
+}
+.calypso-laptop-7:before {
+  content: "\e91a";
+}
+.calypso-laptop-6:before {
+  content: "\e91b";
+}
+.calypso-repair:before {
+  content: "\e91c";
+}
+.calypso-browser-1:before {
+  content: "\e91d";
+}
+.calypso-browser:before {
+  content: "\e91e";
+}
+.calypso-bug-2:before {
+  content: "\e91f";
+}
+.calypso-settings-1:before {
+  content: "\e920";
+}
+.calypso-online-support-1:before {
+  content: "\e921";
+}
+.calypso-online-support:before {
+  content: "\e922";
+}
+.calypso-laptop-5:before {
+  content: "\e923";
+}
+.calypso-rating-2:before {
+  content: "\e924";
+}
+.calypso-hardware:before {
+  content: "\e925";
+}
+.calypso-customer-support-1:before {
+  content: "\e926";
+}
+.calypso-laptop-4:before {
+  content: "\e927";
+}
+.calypso-bug-1:before {
+  content: "\e928";
+}
+.calypso-bug:before {
+  content: "\e929";
+}
+.calypso-24-hours:before {
+  content: "\e92a";
+}
+.calypso-rating-1:before {
+  content: "\e92b";
+}
+.calypso-rating:before {
+  content: "\e92c";
+}
+.calypso-settings:before {
+  content: "\e92d";
+}
+.calypso-chat-1:before {
+  content: "\e92e";
+}
+.calypso-customer-support:before {
+  content: "\e92f";
+}
+.calypso-laptop-3:before {
+  content: "\e930";
+}
+.calypso-laptop-2:before {
+  content: "\e931";
+}
+.calypso-laptop-1:before {
+  content: "\e932";
+}
+.calypso-laptop:before {
+  content: "\e933";
+}
+.calypso-chat:before {
+  content: "\e934";
+}
+.calypso-megaphone-1:before {
+  content: "\e935";
+}
+.calypso-birthday-cake:before {
+  content: "\e936";
+}
+.calypso-megaphone:before {
+  content: "\e937";
+}
+.calypso-avatar:before {
+  content: "\e938";
+}
+.calypso-shopping-cart:before {
+  content: "\e939";
+}
+.calypso-up-arrow:before {
+  content: "\e93a";
+}
+.calypso-download-arrow:before {
+  content: "\e93b";
+}
+.calypso-left-arrow:before {
+  content: "\e93c";
+}
+.calypso-right-arrow:before {
+  content: "\e93d";
+}
+.calypso-technology:before {
+  content: "\e93e";
+}
+.calypso-death:before {
+  content: "\e93f";
+}
+.calypso-trophy:before {
+  content: "\e940";
+}
+.calypso-contract:before {
+  content: "\e941";
+}
+.calypso-game-console:before {
+  content: "\e942";
+}
+.calypso-boot:before {
+  content: "\e943";
+}
+.calypso-treasure:before {
+  content: "\e944";
+}
+.calypso-gem:before {
+  content: "\e945";
+}
+.calypso-excalibur:before {
+  content: "\e946";
+}
+.calypso-potion:before {
+  content: "\e947";
+}
+.calypso-ghost:before {
+  content: "\e948";
+}
+.calypso-medal:before {
+  content: "\e949";
+}
+.calypso-precious-stone:before {
+  content: "\e94a";
+}
+.calypso-heart:before {
+  content: "\e94b";
+}
+.calypso-diamonds:before {
+  content: "\e94c";
+}
+.calypso-castle:before {
+  content: "\e94d";
+}
+.calypso-puzzle:before {
+  content: "\e94e";
+}
+.calypso-swords:before {
+  content: "\e94f";
+}
+.calypso-king:before {
+  content: "\e950";
+}
+.calypso-bus:before {
+  content: "\e951";
+}
+.calypso-ship:before {
+  content: "\e952";
+}
+.calypso-cocktail:before {
+  content: "\e953";
+}
+.calypso-expand:before {
+  content: "\e954";
+}
+.calypso-chat2:before {
+  content: "\e955";
+}
+.calypso-price-tag:before {
+  content: "\e956";
+}
+.calypso-mail-box:before {
+  content: "\e957";
+}
+.calypso-airplane:before {
+  content: "\e958";
+}
+.calypso-bank:before {
+  content: "\e959";
+}
+.calypso-bell:before {
+  content: "\e95a";
+}
+.calypso-breakfast:before {
+  content: "\e95b";
+}
+.calypso-castle2:before {
+  content: "\e95c";
+}
+.calypso-cocktail2:before {
+  content: "\e95d";
+}
+.calypso-man-user:before {
+  content: "\e95e";
+}
+.calypso-play-button:before {
+  content: "\e95f";
+}
+.calypso-shopping-store-cart:before {
+  content: "\e960";
+}
+.calypso-weekly-calendar:before {
+  content: "\e961";
+}
+.calypso-black-envelope:before {
+  content: "\e962";
+}
+.calypso-tool:before {
+  content: "\e963";
+}
+.calypso-sign-in:before {
+  content: "\e964";
+}
